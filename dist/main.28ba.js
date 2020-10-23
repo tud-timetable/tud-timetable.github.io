@@ -32888,6 +32888,10 @@ function App() {
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
+  console.log({
+    status: status,
+    value: value
+  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32961,4 +32965,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.52cf.js.map
+//# sourceMappingURL=main.28ba.js.map

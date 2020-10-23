@@ -76,6 +76,8 @@ const useDegreePrograms = create((set, get) => ({
 function App() {
   const { status, value } = useDegreePrograms().read();
 
+  console.log({ status, value });
+
   return (
     <Layout>
       <div className="row">
