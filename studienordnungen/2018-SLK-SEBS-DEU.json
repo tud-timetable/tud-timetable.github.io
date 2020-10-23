@@ -1,117 +1,122 @@
-[
-  {
-    "Modulnummer": [
-      "SLK-SEBS-DEU-B1",
-      "SLK-SEMS-DEU-B1",
-      "SLK-SEGY-DEU-B1",
-      "SLK-SEGS-DEU-B1"
-    ],
-    "Modulname": "Basismodul 1: Literatur und Kultur / Neuere deutsche Literatur",
-    "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
-    "Beteiligte Professuren": [
-      "Professur   für   Medienwissenschaft   und   Neuere  deutsche   Literatur",
-      "Professur für Neuere deutsche Literatur und Kulturgeschichte"
-    ],
-    "Inhalte und Qualifikationsziele": "Das Modul umfasst die Grundbegriffe und basalen inhaltlichen Kategorien  der germanistischen Literatur- und Kulturwissenschaft. Mit Abschluss des Moduls verfügen die Studierenden  über Grundkenntnisse der deutschen Literaturwissenschaft, der Analyse kultureller  Artefakte sowie der wichtigsten kulturwissenschaftlichen Arbeitstechniken. Qualifikationsziel des Moduls ist der Erwerb von  Fähigkeiten zum selbstständigen Umgang mit literarischen Texten, mit grundlegenden Inhalten, Begriffen und Methoden der Kulturwissenschaft sowie der Auseinandersetzung mit der einschlägigen Forschungsliteratur des Faches.",
-    "Lehr- und Lernformen": [
-      {
-        "Name": "Vorlesung (V) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Einführungskurs (EK) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Tutorium (T) ",
-        "Umfang": "2SWS"
-      },
-      {
-        "Name": "Selbststudium"
-      }
-    ],
-    "Voraussetzungen für die Teilnahme": null,
-    "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  Studiengängen Lehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und  Höheres  Lehramt  an berufsbildenden  Schulen  im  Fach Deutsch. Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V1LIT.",
-    "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
-    "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
-    "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
-    "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
-    "Dauer des Moduls": "Das Modul umfasst ein Semester."
-  },
-  {
-    "Modulnummer": [
-      "SLK-SEBS-DEU-B2",
-      "SLK-SEMS-DEU-B2",
-      "SLK-SEGY-DEU-B2",
-      "SLK-SEGS-DEU-B2"
-    ],
-    "Modulname": "Basismodul 2: Literatur und Kultur / Ältere deutsche Literatur",
-    "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
-    "Beteiligte Professuren": [
-      "Professur  für  Ältere  und  frühneuzeitliche  deutsche  Literatur  und  Kultur"
-    ],
-    "Inhalte und Qualifikationsziele": "Das  Modul  beinhaltet  einen  Überblick  über  die  Gattungen  und  Textsorten der  mittelalterlichen  deutschen  Literatur  sowie  spezifischer Aspekte  der  mittelalterlichen  Kultur. Die  Studierenden  können  mit Abschluss  des  Moduls  die  Grundbegriffe  und  basalen  methodisch-theoretischen  Kategorien  der  germanistischen  Mediävistik  und  Frühneuzeitforschung  anwenden.  Sie  verfügen  über  Kompetenzen  beim Übersetzen  und  Verstehen  mittelhochdeutscher  und  frühneuhochdeutscher   Literatur   und   damit   über   eine   erweiterte   Muttersprachenkompetenz  in  der  Dimensionierung  auf  historische  Sprachstufen des  Deutschen.  Die  Studierenden  kennen  des  Weiteren  literaturwissenschaftliche Arbeitsmethoden.",
-    "Lehr- und Lernformen": [
-      {
-        "Name": "Vorlesung (V) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Einführungskurs (EK) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Tutorium (T) ",
-        "Umfang": "2SWS"
-      },
-      {
-        "Name": "Selbststudium"
-      }
-    ],
-    "Voraussetzungen für die Teilnahme": null,
-    "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  StudiengängenLehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und  Höheres  Lehramt  an  berufsbildenden  Schulen  im  Fach Deutsch.Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V1LIT.",
-    "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
-    "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
-    "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
-    "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
-    "Dauer des Moduls": "Das Modul umfasst ein Semester."
-  },
-  {
-    "Modulnummer": [
-      "SLK-SEBS-DEU-B3",
-      "SLK-SEMS-DEU-B3",
-      "SLK-SEGY-DEU-B3",
-      "SLK-SEGS-DEU-B3"
-    ],
-    "Modulname": "Basismodul 3: Sprache und Kultur / Sprachsystem und Sprachgeschichte",
-    "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
-    "Beteiligte Professuren": [
-      "Professur für Germanistische Linguistik und Sprachgeschichte"
-    ],
-    "Inhalte und Qualifikationsziele": "Das Modul umfasst einen Überblick über die Gegenstände der germanistischen  Sprachwissenschaft. Qualifikationsziel  des  Moduls  ist,  dass die  Studierenden Methodenkompetenz  für  die  sprachwissenschaftliche  Analyse  von  Texten  anwenden  können.  Die  Studierenden  kennen die  grundlegenden  Begriffe  und  Verfahren  zur  Analyse  von  historischen und gegenwartsbezogenen Sprachdaten.",
-    "Lehr- und Lernformen": [
-      {
-        "Name": "Vorlesung (V) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Einführungskurs (EK) ",
-        "Umfang": "2 SWS"
-      },
-      {
-        "Name": "Tutorium (T) ",
-        "Umfang": "2SWS"
-      },
-      {
-        "Name": "Selbststudium"
-      }
-    ],
-    "Voraussetzungen für die Teilnahme": null,
-    "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  Studiengängen Lehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und Höheres  Lehramt  an  berufsbildenden  Schulen  im  Fach Deutsch. Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V2SPR.",
-    "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
-    "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
-    "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
-    "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
-    "Dauer des Moduls": "Das Modul umfasst ein Semester."
-  }
-]
+{
+  "name": "Studienordnung für das FachDeutschim StudiengangHöheres Lehramt an berufsbildenden Schulen",
+  "date_of_issue": "2018-05-05",
+  "file": "http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2018-11/07_07soLAB05.05.2018.pdf",
+  "modules": [
+    {
+      "Modulnummer": [
+        "SLK-SEBS-DEU-B1",
+        "SLK-SEMS-DEU-B1",
+        "SLK-SEGY-DEU-B1",
+        "SLK-SEGS-DEU-B1"
+      ],
+      "Modulname": "Basismodul 1: Literatur und Kultur / Neuere deutsche Literatur",
+      "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren": [
+        "Professur   für   Medienwissenschaft   und   Neuere  deutsche   Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele": "Das Modul umfasst die Grundbegriffe und basalen inhaltlichen Kategorien  der germanistischen Literatur- und Kulturwissenschaft. Mit Abschluss des Moduls verfügen die Studierenden  über Grundkenntnisse der deutschen Literaturwissenschaft, der Analyse kultureller  Artefakte sowie der wichtigsten kulturwissenschaftlichen Arbeitstechniken. Qualifikationsziel des Moduls ist der Erwerb von  Fähigkeiten zum selbstständigen Umgang mit literarischen Texten, mit grundlegenden Inhalten, Begriffen und Methoden der Kulturwissenschaft sowie der Auseinandersetzung mit der einschlägigen Forschungsliteratur des Faches.",
+      "Lehr- und Lernformen": [
+        {
+          "Name": "Vorlesung (V)",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Einführungskurs (EK)",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Tutorium (T)",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme": null,
+      "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  Studiengängen Lehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und  Höheres  Lehramt  an berufsbildenden  Schulen  im  Fach Deutsch. Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V1LIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
+      "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
+      "Dauer des Moduls": "Das Modul umfasst ein Semester."
+    },
+    {
+      "Modulnummer": [
+        "SLK-SEBS-DEU-B2",
+        "SLK-SEMS-DEU-B2",
+        "SLK-SEGY-DEU-B2",
+        "SLK-SEGS-DEU-B2"
+      ],
+      "Modulname": "Basismodul 2: Literatur und Kultur / Ältere deutsche Literatur",
+      "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren": [
+        "Professur  für  Ältere  und  frühneuzeitliche  deutsche  Literatur  und  Kultur"
+      ],
+      "Inhalte und Qualifikationsziele": "Das  Modul  beinhaltet  einen  Überblick  über  die  Gattungen  und  Textsorten der  mittelalterlichen  deutschen  Literatur  sowie  spezifischer Aspekte  der  mittelalterlichen  Kultur. Die  Studierenden  können  mit Abschluss  des  Moduls  die  Grundbegriffe  und  basalen  methodisch-theoretischen  Kategorien  der  germanistischen  Mediävistik  und  Frühneuzeitforschung  anwenden.  Sie  verfügen  über  Kompetenzen  beim Übersetzen  und  Verstehen  mittelhochdeutscher  und  frühneuhochdeutscher   Literatur   und   damit   über   eine   erweiterte   Muttersprachenkompetenz  in  der  Dimensionierung  auf  historische  Sprachstufen des  Deutschen.  Die  Studierenden  kennen  des  Weiteren  literaturwissenschaftliche Arbeitsmethoden.",
+      "Lehr- und Lernformen": [
+        {
+          "Name": "Vorlesung (V) ",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Einführungskurs (EK) ",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Tutorium (T) ",
+          "Umfang": "2SWS"
+        },
+        {
+          "Name": "Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme": null,
+      "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  StudiengängenLehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und  Höheres  Lehramt  an  berufsbildenden  Schulen  im  Fach Deutsch.Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V1LIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
+      "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
+      "Dauer des Moduls": "Das Modul umfasst ein Semester."
+    },
+    {
+      "Modulnummer": [
+        "SLK-SEBS-DEU-B3",
+        "SLK-SEMS-DEU-B3",
+        "SLK-SEGY-DEU-B3",
+        "SLK-SEGS-DEU-B3"
+      ],
+      "Modulname": "Basismodul 3: Sprache und Kultur / Sprachsystem und Sprachgeschichte",
+      "Modulverantwortlicher": "Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren": [
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele": "Das Modul umfasst einen Überblick über die Gegenstände der germanistischen  Sprachwissenschaft. Qualifikationsziel  des  Moduls  ist,  dass die  Studierenden Methodenkompetenz  für  die  sprachwissenschaftliche  Analyse  von  Texten  anwenden  können.  Die  Studierenden  kennen die  grundlegenden  Begriffe  und  Verfahren  zur  Analyse  von  historischen und gegenwartsbezogenen Sprachdaten.",
+      "Lehr- und Lernformen": [
+        {
+          "Name": "Vorlesung (V) ",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Einführungskurs (EK) ",
+          "Umfang": "2 SWS"
+        },
+        {
+          "Name": "Tutorium (T) ",
+          "Umfang": "2SWS"
+        },
+        {
+          "Name": "Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme": null,
+      "Verwendbarkeit": "Das  Modul  ist  ein  Pflichtmodul in  den  Studiengängen Lehramt  an Grundschulen,  Lehramt  an  Mittelschulen,  Höheres  Lehramt  an  Gymnasien  und Höheres  Lehramt  an  berufsbildenden  Schulen  im  Fach Deutsch. Das  Modul  schafft  die  Voraussetzungen  für  das  Modul  SLK-SEBS-DEU-V2SPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten": "Die  Leistungspunkte  werden  erworben,  wenn  die  Modulprüfung  bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
+      "Leistungspunkte und Noten": "Durch  das  Modul  können  6  Leistungspunkte  erworben  werden.  Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls": "Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand": "Der  Arbeitsaufwand  beträgt  insgesamt  180  Stunden.  Davon  entfallen 90  Stunden  auf  die  Präsenz  sowie 90Stunden  auf  das  Selbststudium inklusive  der  Prüfungsvorbereitung  und dem Erbringender  Prüfungsleistung.",
+      "Dauer des Moduls": "Das Modul umfasst ein Semester."
+    }
+  ]
+}
