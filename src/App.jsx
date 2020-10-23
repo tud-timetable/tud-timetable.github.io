@@ -76,7 +76,9 @@ const useDegreePrograms = create((set, get) => ({
 function App() {
   const { status, value } = useDegreePrograms().read();
 
-  console.log({ status, value });
+  function selectProgram() {
+
+  }
 
   return (
     <Layout>
@@ -88,16 +90,21 @@ function App() {
       <div className="row">
         <div className="col">
           <div className="form-group">
-            <select className="form-control">
+            <select className="form-control" onChange={selectProgram}>
               {
                 (status === "resolved") && (
                   Object.values(value).map((program) => (
-                    <option>{program.name}</option>
+                    <option key={program.name}>{program.name}</option>
                   ))
                 )
               }
             </select>
           </div>
+        </div>
+      </div>
+      <div className="row">
+        <div className="col">
+
         </div>
       </div>
     </Layout>

@@ -32888,10 +32888,8 @@ function App() {
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
-  console.log({
-    status: status,
-    value: value
-  });
+  function selectProgram() {}
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32903,10 +32901,17 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
-    className: "form-control"
+    className: "form-control",
+    onChange: selectProgram
   }, status === "resolved" && Object.values(value).map(function (program) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, program.name);
-  }))))));
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      key: program.name
+    }, program.name);
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col"
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -32964,4 +32969,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.aab7.js.map
+//# sourceMappingURL=main.d719.js.map
