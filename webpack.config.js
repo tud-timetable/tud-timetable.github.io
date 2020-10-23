@@ -1,5 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   "mode": "development",
@@ -8,7 +9,8 @@ module.exports = {
   "output": {
     "path": __dirname + "/dist",
     "publicPath": "/",
-    "filename": "app.js",
+    "filename": "[name].[chunkhash:4].js",
+    "chunkFilename": "[name].[chunkhash:4].js",
   },
   "module": {
     "rules": [
@@ -56,7 +58,12 @@ module.exports = {
   },
   "plugins": [
     new MiniCssExtractPlugin({
-      "filename": "./dist/[name].css",
+      "filename": "./dist/[name].[chunkhash:4].css",
+    }),
+    new HtmlWebpackPlugin({
+      "title": "Stundenplan | TU Dresden",
+      "filename": "../index.html",
+      "template": path.resolve(__dirname, "template.html"),
     }),
   ],
 };
