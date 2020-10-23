@@ -32807,12 +32807,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
 /* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
 var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_2__["default"])(function (set, get) {
   return {
-    "items": [],
+    "items": {},
     "value": null,
     "status": "idle",
     "read": function read() {
@@ -32844,15 +32850,18 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_2__["default"])(
             return res.json();
           }).then(function (data) {
             return {
-              "name": program,
+              "name": program.substr(0, program.length - 5 // drop json extensions
+              ),
               "data": data
             };
           });
         }));
       }).then(function (programs) {
-        console.log(programs);
+        var items = programs.reduce(function (accu, program) {
+          return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.name, program.data));
+        }, {});
         set({
-          "items": programs,
+          "items": items,
           "status": "resolved",
           "value": null
         });
@@ -32891,7 +32900,7 @@ function App() {
     className: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control"
-  }, status === "resolved" && value.map(function (program) {
+  }, status === "resolved" && Object.values(value).map(function (program) {
     /*#__PURE__*/
     react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", null, program.name);
   }))))));
@@ -32952,4 +32961,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.c297.js.map
+//# sourceMappingURL=main.52cf.js.map

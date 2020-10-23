@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 import create from "zustand";
 
 const useDegreePrograms = create((set, get) => ({
-  "items": [],
+  "items": {},
   "value": null,
   "status": "idle",
 
@@ -33,17 +33,23 @@ const useDegreePrograms = create((set, get) => ({
             fetch(`/studienordnungen/${program}`)
               .then((res) => res.json())
               .then((data) => ({
-                "name": program,
+                "name": program.substr(
+                  0,
+                  program.length - 5 // drop json extensions
+                ),
                 "data": data,
               }))
           ))
         );
       })
       .then((programs) => {
-        console.log(programs);
+        const items = programs.reduce((accu, program) => ({
+          ...accu,
+          [program.name]: program.data,
+        }), {});
 
         set({
-          "items": programs,
+          "items": items,
           "status": "resolved",
           "value": null,
         });
@@ -83,7 +89,7 @@ function App() {
             <select className="form-control">
               {
                 (status === "resolved") && (
-                  value.map((program) => {
+                  Object.values(value).map((program) => {
                     <option>{program.name}</option>
                   })
                 )
