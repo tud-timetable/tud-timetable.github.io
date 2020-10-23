@@ -1,5 +1,6 @@
 const path = require("path");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
@@ -8,7 +9,7 @@ module.exports = {
   "entry": "./src/index.js",
   "output": {
     "path": __dirname + "/dist",
-    "publicPath": "/",
+    "publicPath": "/dist/",
     "filename": "[name].[chunkhash:4].js",
     "chunkFilename": "[name].[chunkhash:4].js",
   },
@@ -57,6 +58,9 @@ module.exports = {
     },
   },
   "plugins": [
+    new CleanWebpackPlugin({
+      "verbose": false,
+    }),
     new MiniCssExtractPlugin({
       "filename": "./dist/[name].[chunkhash:4].css",
     }),

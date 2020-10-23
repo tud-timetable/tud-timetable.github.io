@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/dist/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -32685,4 +32685,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b582.js.map
+//# sourceMappingURL=main.0cc0.js.map
