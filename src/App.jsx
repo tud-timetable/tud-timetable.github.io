@@ -91,9 +91,9 @@ function App() {
             <select className="form-control">
               {
                 (status === "resolved") && (
-                  Object.values(value).map((program) => {
+                  Object.values(value).map((program) => (
                     <option>{program.name}</option>
-                  })
+                  ))
                 )
               }
             </select>
