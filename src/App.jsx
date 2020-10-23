@@ -3,7 +3,7 @@ import Layout from "components/Layout";
 import create from "zustand";
 
 const useDegreePrograms = create((set, get) => ({
-  "items": {},
+  "items": [],
   "value": null,
   "status": "idle",
 
@@ -32,10 +32,16 @@ const useDegreePrograms = create((set, get) => ({
           programs.map((program) => (
             fetch(`/studienordnungen/${program}`)
               .then((res) => res.json())
+              .then((data) => ({
+                "name": program,
+                "data": data,
+              }))
           ))
         );
       })
       .then((programs) => {
+        console.log(programs);
+
         set({
           "items": programs,
           "status": "resolved",

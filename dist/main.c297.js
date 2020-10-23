@@ -32812,7 +32812,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_2__["default"])(function (set, get) {
   return {
-    "items": {},
+    "items": [],
     "value": null,
     "status": "idle",
     "read": function read() {
@@ -32842,9 +32842,15 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_2__["default"])(
         return Promise.all(programs.map(function (program) {
           return fetch("/studienordnungen/".concat(program)).then(function (res) {
             return res.json();
+          }).then(function (data) {
+            return {
+              "name": program,
+              "data": data
+            };
           });
         }));
       }).then(function (programs) {
+        console.log(programs);
         set({
           "items": programs,
           "status": "resolved",
@@ -32946,4 +32952,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.02b8.js.map
+//# sourceMappingURL=main.c297.js.map
