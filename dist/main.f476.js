@@ -32940,7 +32940,7 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control",
     disabled: status !== "resolved"
-  }, status === "resolved" && items[degreeProgram].modules.map(function (m) {
+  }, status === "resolved" && value[degreeProgram].modules.map(function (m) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
       value: m["Modulnummer"][0],
       key: m["Modulnummer"][0]
@@ -33007,4 +33007,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.f8f5.js.map
+//# sourceMappingURL=main.f476.js.map

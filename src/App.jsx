@@ -127,7 +127,7 @@ function App() {
             >
               {
                 (status === "resolved") && (
-                  items[degreeProgram].modules.map((m) => (
+                  value[degreeProgram].modules.map((m) => (
                     <option
                       value={m["Modulnummer"][0]}
                       key={m["Modulnummer"][0]}
