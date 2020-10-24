@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Professur für Angewandte Linguistik",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/al"
+  },
+  {
+    "name": "Professur für Deutsch als Fremdsprache",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/daf"
+  },
+  {
+    "name": "Professur für Germanistische Linguistik und Sprachgeschichte",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/gls"
+  },
+  {
+    "name": "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/altgerm"
+  },
+  {
+    "name": "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/mwndl"
+  },
+  {
+    "name": "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+    "url": null
+  },
+  {
+    "name": "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur",
+    "url": "https://tu-dresden.de/gsw/slk/germanistik/ndl_didaktik"
+  }
+]

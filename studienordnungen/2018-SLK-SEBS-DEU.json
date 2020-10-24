@@ -2,7 +2,7 @@
   "name":"Studienordnung für das Fach Deutsch im Studiengang Höheres Lehramt an berufsbildenden Schulen",
   "date_of_issue":"2018-05-05",
   "file":"http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2018-11/07_07soLAB05.05.2018.pdf",
-  "modules": [
+  "modules":[
     {
       "Modulnummer":[
         "SLK-SEBS-DEU-B1",
@@ -19,19 +19,19 @@
       "Inhalte und Qualifikationsziele":"Das Modul umfasst die Grundbegriffe und basalen inhaltlichen Kategorien der germanistischen Literatur- und Kulturwissenschaft. Mit Abschluss des Moduls verfügen die Studierenden über Grundkenntnisse der deutschen Literaturwissenschaft, der Analyse kultureller Artefakte sowie der wichtigsten kulturwissenschaftlichen Arbeitstechniken. Qualifikationsziel des Moduls ist der Erwerb von Fähigkeiten zum selbstständigen Umgang mit literarischen Texten, mit grundlegenden Inhalten, Begriffen und Methoden der Kulturwissenschaft sowie der Auseinandersetzung mit der einschlägigen Forschungsliteratur des Faches.",
       "Lehr- und Lernformen":[
         {
-          "Name":"Vorlesung (V)",
-          "Umfang":"2 SWS"
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Einführungskurs (EK)",
-          "Umfang":"2 SWS"
+          "name":"Einführungskurs (EK)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Tutorium (T)",
-          "Umfang":"2 SWS"
+          "name":"Tutorium (T)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Selbststudium"
+          "name":"Selbststudium"
         }
       ],
       "Voraussetzungen für die Teilnahme":null,
@@ -40,7 +40,12 @@
       "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
       "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
-      "Dauer des Moduls":"Das Modul umfasst ein Semester."
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":2,
+      "credit_points":6,
+      "required_modules":[
+
+      ]
     },
     {
       "Modulnummer":[
@@ -57,19 +62,19 @@
       "Inhalte und Qualifikationsziele":"Das Modul beinhaltet einen Überblick über die Gattungen und Textsorten der mittelalterlichen deutschen Literatur sowie spezifischer Aspekte der mittelalterlichen Kultur. Die Studierenden können mit Abschluss des Moduls die Grundbegriffe und basalen methodisch-theoretischen Kategorien der germanistischen Mediävistik und Frühneuzeitforschung anwenden. Sie verfügen über Kompetenzen beim Übersetzen und Verstehen mittelhochdeutscher und frühneuhochdeutscher Literatur und damit über eine erweiterte Muttersprachenkompetenz in der Dimensionierung auf historische Sprachstufen des Deutschen. Die Studierenden kennen des Weiteren literaturwissenschaftliche Arbeitsmethoden.",
       "Lehr- und Lernformen":[
         {
-          "Name":"Vorlesung (V)",
-          "Umfang":"2 SWS"
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Einführungskurs (EK)",
-          "Umfang":"2 SWS"
+          "name":"Einführungskurs (EK)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Tutorium (T)",
-          "Umfang":"2 SWS"
+          "name":"Tutorium (T)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Selbststudium"
+          "name":"Selbststudium"
         }
       ],
       "Voraussetzungen für die Teilnahme":null,
@@ -78,14 +83,20 @@
       "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
       "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
-      "Dauer des Moduls":"Das Modul umfasst ein Semester."
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":1,
+      "credit_points":6,
+      "required_modules":[
+
+      ]
     },
     {
       "Modulnummer":[
         "SLK-SEBS-DEU-B3",
         "SLK-SEMS-DEU-B3",
         "SLK-SEGY-DEU-B3",
-        "SLK-SEGS-DEU-B3"],
+        "SLK-SEGS-DEU-B3"
+      ],
       "Modulname":"Basismodul 3: Sprache und Kultur / Sprachsystem und Sprachgeschichte",
       "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
       "Beteiligte Professuren":[
@@ -94,19 +105,19 @@
       "Inhalte und Qualifikationsziele":"Das Modul umfasst einen Überblick über die Gegenstände der germanistischen Sprachwissenschaft. Qualifikationsziel des Moduls ist, dass die Studierenden Methodenkompetenz für die sprachwissenschaftliche Analyse von Texten anwenden können. Die Studierenden kennen die grundlegenden Begriffe und Verfahren zur Analyse von historischen und gegenwartsbezogenen Sprachdaten.",
       "Lehr- und Lernformen":[
         {
-          "Name":"Vorlesung (V)",
-          "Umfang":"2 SWS"
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Einführungskurs (EK)",
-          "Umfang":"2 SWS"
+          "name":"Einführungskurs (EK)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Tutorium (T)",
-          "Umfang":"2 SWS"
+          "name":"Tutorium (T)",
+          "extent":"2 SWS"
         },
         {
-          "Name":"Selbststudium"
+          "name":"Selbststudium"
         }
       ],
       "Voraussetzungen für die Teilnahme":null,
@@ -115,7 +126,757 @@
       "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
       "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
-      "Dauer des Moduls":"Das Modul umfasst ein Semester."
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":1,
+      "credit_points":6,
+      "required_modules":[
+
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-B4",
+        "SLK-SEMS-DEU-B4",
+        "SLK-SEGY-DEU-B4",
+        "SLK-SEGS-DEU-B4"
+      ],
+      "Modulname":"Basismodul 4: Sprache und Kultur / Kommunikation und Praxis",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst einen Überblick über die Gegenstände der Angewandten Linguistik. Qualifikationsziel des Moduls ist, dass die Studierenden die grundlegenden Begriffe und Methoden der Angewandten Linguistik kennen und auf Texte anwenden können. Die Studierenden verfügen über objektsprachliche Analyse- und metasprachliche Methodenkompetenz.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Einführungskurs (EK)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Tutorium (T)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":null,
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Grundschulen, Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für das Modul SLK-SEBS-DEU-V2SPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
+      "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Sommersemester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davonentfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":2,
+      "credit_points":6,
+      "required_modules":[
+
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-V1LIT",
+        "SLK-SEGY-DEU-V1LIT",
+        "SLK-SEMS-DEU-V1LIT"
+      ],
+      "Modulname":"Vertiefungsmodul 1: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul beinhaltet literarhistorische und systematische Themenkomplexe der älteren, der neueren und neuesten deutschen Literatur unter Einschluss kulturwissenschaftlicher und mediengeschichtlicher Aspekte. Die Studierendenbesitzen mit Abschluss des Moduls die Fähigkeiten zum analytischen Zugriff auf mittelalterliche, frühneuzeitliche und gegenwartssprachliche Texte des Deutschen und seiner älteren Sprachstufen. Sie verfügen über Kompetenzen im Umgang mit literaturgeschichtlichen und -theoretischen sowie kulturgeschichtlichen Problemstellungen und sind zur wissenschaftlich fundierten Auseinandersetzung mit der Forschungsliteratur in angemessener wissenschaftlicher Sprach- und Darstellungskompetenz befähigt. Die Studierenden können Themen strukturiert und argumentativ stringent nach wissenschaftlichen Prinzipien bearbeiten.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-B1 und SLK-SEBS-DEU-B2.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-EWLIT und SLK-SEBS-DEU-ERLIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Kurzüberprüfung im Umfang von 30 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Kurzüberprüfung zweifach gewichtet.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":3,
+      "credit_points":8,
+      "required_modules":[
+        "SLK-SEBS-DEU-B1",
+        "SLK-SEBS-DEU-B2"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-V2SPR",
+        "SLK-SEGY-DEU-V2SPR",
+        "SLK-SEMS-DEU-V2SPR"
+      ],
+      "Modulname":"Vertiefungsmodul 2: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul beinhaltet ausgewählte Studiengebiete der Germanistischen Sprachwissenschaft, der Angewandten Linguistik bzw. des Deutschen als Fremdsprache. Mit Abschluss des Moduls beherrschen die Studierenden die wichtigsten Theorien und Methoden. Qualifikationsziel des Moduls ist die objektsprachliche Analyse- und die metasprachliche Methodenkompetenz auf fortgeschrittenem Niveau. Die Studierenden besitzen die Kompetenz für schriftlich-wissenschaftliche Textsorten und kennen Analyseverfahren und Interpretationsmethoden, die auf der Grundlage exemplarischer Sprachformen, Texte, Epochen sowie Kommunikationsarten dargestellt werden. Die Studierenden kennen weiterführende Methoden der Germanistischen Sprachwissenschaft, der Angewandten Linguistik und der Sprach- und Kulturvermittlung Deutsch als Fremdsprache.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-B3 und SLK-SEBS-DEU-B4.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-EWSPR und SLK-SEBS-DEU-ERSPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Kurzüberprüfungim Umfang von 30 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Kurzüberprüfung zweifach gewichtet.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":3,
+      "credit_points":8,
+      "required_modules":[
+        "SLK-SEBS-DEU-B3",
+        "SLK-SEBS-DEU-B4"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-EWLIT",
+        "SLK-SEGY-DEU-EWLIT",
+        "SLK-SEMS-DEU-EWLIT"
+      ],
+      "Modulname":"Erweiterungsmodul: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul beinhaltet die Auseinandersetzung mit verschiedenen Themenbereichen der älteren und neueren Literaturwissenschaft bzw. der Kulturwissenschaft. Die Studierenden verfügen mit Abschluss des Moduls über die Kompetenz, eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, darzustellen und auf hohem wissenschaftlichem Niveau zu diskutieren. Sie sind fähig zur Umsetzung und Anwendung des erworbenen methodisch-theoretischen Wissens an exemplarischen Textfeldern bzw. kulturellen Artefakten und besitzen Kompetenzen im Umgang mit literarischen Kontinuitäten und Diskontinuitäten.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-V1LIT.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Erweiterung Literatur und Kultur in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-S1LIT und SLK-SEBS-DEU-KLIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Klausurarbeit im Umfang von 90 Minuten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Klausurarbeit zweifach gewichtet.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und auf das Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":5,
+      "credit_points":10,
+      "required_modules":[
+        "SLK-SEBS-DEU-V1LIT"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-EWSPR",
+        "SLK-SEGY-DEU-EWSPR",
+        "SLK-SEMS-DEU-EWSPR"
+      ],
+      "Modulname":"Erweiterungsmodul: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul beinhaltet die Auseinandersetzung mit verschiedenen Themenbereichen der germanistischen Sprachwissenschaft, der Angewandten Linguistik bzw. des Deutschen als Fremdsprache. Die Studierenden verfügen mit Abschluss des Moduls über die Kompetenz, eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, darzustellen und auf hohem wissenschaftlichem Niveau zu diskutieren. Die Studierenden kennen alle Formen der Informationsbeschaffung (Recherche u. a.) und alle mündlichen und schriftlichen Formen der wissenschaftlichen Kommunikation. Sie verfügen über objektsprachliche Analysekompetenz und die Kompetenz für schriftlich-wissenschaftliche Berichtstextsorten sowie die mündlich-wissenschaftliche Diskurskompetenz.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-V2SPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Erweiterung Sprache und Kultur in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-S1SPR und SLK-SEBS-DEU-KSPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Klausurarbeit von 90 Minuten Dauer.",
+      "Leistungspunkte und Noten":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Klausurarbeit zweifach gewichtet.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und auf das Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":5,
+      "credit_points":10,
+      "required_modules":[
+        "SLK-SEBS-DEU-V2SPR"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-ERLIT",
+        "SLK-SEGY-DEU-ERLIT"
+      ],
+      "Modulname":"Ergänzungsmodul: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Inhalte des Moduls sind repräsentative, exemplarisch vertiefte Themenkomplexe der älteren und neueren Literaturwissenschaft bzw. der Kulturwissenschaft. Die Studierenden verfügen mit Abschluss des Moduls in diesen Fachbereichen über erweiterte und spezialisierte fachlich-methodische Kenntnisse und Kompetenzen, können interdisziplinäre Sachverhalte durchdringen und darstellen, haben Kompetenzen im Umgang mit kulturellen Kontinuitäten und Diskontinuitäten und sind befähigt, sich eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten sowie diese plausibel darzustellen und zu diskutieren.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-V1LIT.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Erweiterung Sprache und Kultur in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-S1LIT und SLK-SEBS-DEU-KLIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 7 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":5,
+      "credit_points":7,
+      "required_modules":[
+        "SLK-SEBS-DEU-V1LIT"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-ERSPR",
+        "SLK-SEGY-DEU-ERSPR"
+      ],
+      "Modulname":"Ergänzungsmodul: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Inhalt des Moduls ist die selbstständige wissenschaftliche Erarbeitung von ausgewählten Themen der Studiengebiete Germanistische Sprachwissenschaft, Angewandte Linguistik bzw. Deutsch als Fremdsprache. Die Studierenden kennen mit Abschluss des Moduls alle Formen der Informationsbeschaffung (Recherche u. a.) und alle mündlichen und schriftlichen Formen der wissenschaftlichen Kommunikation. Sie verfügen über objektsprachliche Analysekompetenz und die Kompetenz für schriftwissenschaftliche Berichtstextsorten sowie die mündlich-wissenschaftliche Diskurskompetenz. Die Studierenden kennen weiterführende Methoden der Germanistischen Sprachwissenschaft, der Angewandten Linguistik und der Sprach- und Kulturvermittlung Deutsch als Fremdsprache.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-V2SPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Erweiterung Literatur und Kultur in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-S1SPR und SLK-SEBS-DEU-KSPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 7 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":5,
+      "credit_points":7,
+      "required_modules":[
+        "SLK-SEBS-DEU-V2SPR"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-S1LIT"
+      ],
+      "Modulname":"Spezialisierungsmodul 1: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik derdeutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul beinhaltet ausgewählte literatur-, kultur- und medienhistorische Themenkomplexe der älteren und neueren deutschen Literatur -und Kulturgeschichte. Die Studierenden besitzen mit Abschluss des Moduls exemplarisch vertiefte literatur-, kultur-und medienwissenschaftliche Überblickskenntnisse zur Epochengliederung und sindin der Lage, fachliche Kenntnisse anhand konkreter Fragestellungen umzusetzen sowie die Analyse von Texten und anderen Artefakten vor dem Hintergrund literatur-, kultur- und medienwissenschaftlicher Theorien zu kontextualisieren.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EWLIT bzw. SLK-SEBS-DEU-ERLIT.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Literatur und Kultur im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für das Modul SLK-SEBS-DEU-S2LIT.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit im Umfang von 3 Wochen.",
+      "Leistungspunkte und Noten":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":7,
+      "credit_points":5,
+      "required_modules":[
+        "SLK-SEBS-DEU-EWLIT",
+        "SLK-SEBS-DEU-ERLIT"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-S1SPR"
+      ],
+      "Modulname":"Spezialisierungsmodul 1: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst ausgewählte sprach- und kulturwissenschaftliche Themenkomplexe der Germanistischen Sprachwissenschaft, der Angewandten Linguistik bzw. des Deutschen als Fremdsprache. Nach Abschluss des Moduls verfügen die Studierenden über vertiefte Kenntnisse in der germanistischen Sprach- und Kulturwissenschaft und besitzen die Kompetenz, eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, darzustellen und auf hohem wissenschaftlichen Niveau zu diskutieren.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EWSPR und SLK-SEBS-DEU-ERSPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Sprache und Kultur im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für das Modul SLK-SEBS-DEU-S2SPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung be-standen ist. Die Modulprüfung besteht aus einer Projektarbeit im Umfang von 3 Wochen.",
+      "Leistungspunkte und Noten":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":7,
+      "credit_points":5,
+      "required_modules":[
+        "SLK-SEBS-DEU-EWSPR",
+        "SLK-SEBS-DEU-ERSPR"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-S2LIT",
+        "SLK-SEGY-DEU-S2LIT"
+      ],
+      "Modulname":"Spezialisierungsmodul 2: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Inhalte des Moduls sind thematisch eingegrenzte Komplexe der älteren und neueren deutschen Literatur-, Kultur- und Mediengeschichte, die anhand exemplarischer Beispiele unter verschiedenen Aspekten und Fragestellungen (inhaltlich, methodisch, systematisch) untersucht und analysiert werden. Mit Abschluss des Moduls verfügen die Studierenden über spezifische Kenntnisse literarischer, kultureller sowie medienhistorischer Abläufe und können diese anhand ausgewählter Einzelfälle auf Grundlage einer angemessenen wissenschaftlichen Sprach- und Darstellungskompetenz analytisch erörtern und bewerten.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-S1LIT.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Literatur und Kultur in den Studiengängen Höheres Lehramt an berufsbildenden Schulen und Höheres Lehramt an Gymnasien im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Exposé im Umfang von 120 Stunden bzw. 10 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 100 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":9,
+      "credit_points":6,
+      "required_modules":[
+        "SLK-SEBS-DEU-S1LIT"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-S2SPR",
+        "SLK-SEGY-DEU-S2SPR"
+      ],
+      "Modulname":"Spezialisierungsmodul 2: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modulumfasst ausgewählte sprach- und kulturwissenschaftliche Theorien und Methoden der Germanistischen Sprachwissenschaft, der Angewandten Linguistik bzw. des Deutschen als Fremdsprache, die anhand exemplarischer Beispiele unter synchroner und diachroner Perspektive untersucht und analysiert werden. Mit Abschluss des Moduls verfügen die Studierenden über vertiefte theorieorientierte Kenntnisse und methodische Kompetenzen der Sprach- und Kulturwissenschaft und können diese anhand ausgewählter Einzelfälle auf Grundlage einer angemessenen wissenschaftlichen Sprach- und Darstellungskompetenz analytisch erörtern und bewerten.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-S1SPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Sprache und Kultur in den Studiengängen Höheres Lehramt an berufsbildenden Schulen und Höheres Lehramt an Gymnasien im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Exposé im Umfang von 120 Stunden bzw. 10 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 100 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":9,
+      "credit_points":6,
+      "required_modules":[
+        "SLK-SEBS-DEU-S1SPR"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-KLIT"
+      ],
+      "Modulname":"Komplementärmodul: Literatur und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Ältere und frühneuzeitliche deutsche Literatur und Kultur",
+        "Professur für Medienwissenschaft und Neuere deutsche Literatur",
+        "Professur für Neuere deutsche Literatur und Kulturgeschichte",
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst transdisziplinär und exemplarisch literarische und kulturhistorische Themenkomplexe ausgewählter Epochen der älteren und neueren deutschen Literatur- und Kulturgeschichte.Mit Abschluss des Moduls besitzen die Studierenden die Fähigkeit, sich selbstständig, methoden- und theoriegestützt wissenschaftliche Fragestellungen zu erarbeiten und dabei auch Fachgrenzen zu überschreiten.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EWLIT und SLK-SEBS-DEU-ERLIT.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Sprache und Kultur im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 170 Stunden bzw. 20 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 7 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":8,
+      "credit_points":7,
+      "required_modules":[
+        "SLK-SEBS-DEU-EWLIT",
+        "SLK-SEBS-DEU-ERLIT"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-KSPR"
+      ],
+      "Modulname":"Komplementärmodul: Sprache und Kultur",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Angewandte Linguistik",
+        "Professur für Deutsch als Fremdsprache",
+        "Professur für Germanistische Linguistik und Sprachgeschichte"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst transdisziplinär und exemplarisch ausgewählte sprach- und kulturwissenschaftliche Spezialthemen der Germanistischen Sprachwissenschaft, der Angewandten Linguistik bzw. des Deutschen als Fremdsprache. Mit Abschluss des Moduls verfügen die Studierenden über Kompetenzen im Umgang mit Verfahren der qualitativen und quantitativen Sprachanalyse.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EWSPR und SLK-SEBS-DEU-ERSPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Spezialisierung Literatur und Kultur im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 170 Stunden bzw. 20 Seiten.",
+      "Leistungspunkte und Noten":"Durch das Modul können 7 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":8,
+      "credit_points":7,
+      "required_modules":[
+        "SLK-SEBS-DEU-EWSPR",
+        "SLK-SEBS-DEU-ERSPR"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-EFD",
+        "SLK-SEGY-DEU-EFD",
+        "SLK-SEMS-DEU-EFD"
+      ],
+      "Modulname":"Einführung Fachdidaktik",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst Überblickswissen über die Didaktik des Literatur- und des Sprachunterrichts und über relevante Konzeptionen der Planung, Gestaltung und Evaluierung des Deutschunterrichts. Nach Abschluss des Moduls verfügen die Studierenden über grundlegende Kenntnisse der relevanten Bereiche des Deutschunterrichts und sind in der Lage, fachwissenschaftliche, allgemein- und fachdidaktische Kenntnisse und Verfahren zu verknüpfen.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Einführungskurs (EK)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":null,
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-SPÜ, SEBS-DEU-BPB, SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT sowie SLK-SEBS-DEU-VFD2SPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei Klausurarbeiten von jeweils 90 Minuten Dauer. Beide Prüfungsleistungen sind bestehensrelevant.",
+      "Leistungspunkte und Noten":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Studienjahr, beginnend im Sommersemester, angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
+      "angedachtes Semester":4,
+      "credit_points":8,
+      "required_modules":[
+
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-VFD1LIT",
+        "SLK-SEGY-DEU-VFD1LIT",
+        "SLK-SEMS-DEU-VFD1LIT"
+      ],
+      "Modulname":"Vertiefung Fachdidaktik 1: Literaturdidaktik",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst ausgewählte Aspekte der Literaturdidaktik, v. a. des Umgangs mit Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EFD und SLK-SEBS-DEU-SPÜ.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Vertiefung Muttersprachdidaktik in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzung für das Modul SLK-SEBS-DEU-BPB.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 30 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 3 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":7,
+      "credit_points":3,
+      "required_modules":[
+        "SLK-SEBS-DEU-EFD",
+        "SLK-SEBS-DEU-SPÜ"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-VFD1SPR",
+        "SLK-SEGY-DEU-VFD1SPR",
+        "SLK-SEMS-DEU-VFD1SPR"
+      ],
+      "Modulname":"Vertiefung Fachdidaktik 1: Muttersprachdidaktik",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EFD und SLK-SEBS-DEU-SPÜ.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Vertiefung Literaturdidaktik in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzung für das Modul SLK-SEBS-DEU-BPB.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 30 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 3 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":7,
+      "credit_points":3,
+      "required_modules":[
+        "SLK-SEBS-DEU-EFD",
+        "SLK-SEBS-DEU-SPÜ"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-VFD2LIT",
+        "SLK-SEGY-DEU-VFD2LIT",
+        "SLK-SEMS-DEU-VFD2LIT"
+      ],
+      "Modulname":"Vertiefung Fachdidaktik 2: Literaturdidaktik",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst spezifische Aspekte der Literaturdidaktik unter besonderer Berücksichtigung ihrer Relevanz für die Planung und Gestaltung von Lehr- und Lernprozessen mit Literatur bzw. Medien. Die Studierenden besitzen nach Abschluss des Moduls die Kompetenz, spezifische Aspekte des Umgangs mit Literatur und Medien – als Mittel und Gegenstand – zu erkennen und zu erörtern. Sie besitzen vertieftes Wissen zur Arbeit mit literarischen Texten und Medien in lernbereichs- und fächerübergreifenden Zusammenhängen und sind in der Lage, dieses Wissen anzuwenden, zu vertiefen und zu erweitern.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EFD, SLK-SEBS-DEU-SPÜ sowie SLK-SEBS-DEU-BPB.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Vertiefung Literaturdidaktik in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit im Umfang von zwei Wochen.",
+      "Leistungspunkte und Noten":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":9,
+      "credit_points":4,
+      "required_modules":[
+        "SLK-SEBS-DEU-EFD",
+        "SLK-SEBS-DEU-SPÜ",
+        "SLK-SEBS-DEU-BPB"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-VFD2SPR",
+        "SLK-SEGY-DEU-VFD2SPR",
+        "SLK-SEMS-DEU-VFD2SPR"
+      ],
+      "Modulname":"Vertiefung Fachdidaktik 2: Muttersprachdidaktik",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache, Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskus-sion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EFD, SLK-SEBS-DEU-SPÜ sowie SLK-SEBS-DEU-BPB.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in der Vertiefung Muttersprachdidaktik in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit im Umfang von zwei Wochen.",
+      "Leistungspunkte und Noten":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon ent-fallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":9,
+      "credit_points":4,
+      "required_modules":[
+        "SLK-SEBS-DEU-EFD",
+        "SLK-SEBS-DEU-SPÜ",
+        "SLK-SEBS-DEU-BPB"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-SPÜ",
+        "SLK-SEGY-DEU-SPÜ",
+        "SLK-SEMS-DEU-SPÜ"
+      ],
+      "Modulname":"Schulpraktische Übungen im Fach Deutsch",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst das anwendungsorientierte Wissen zur Planung, Gestaltung und Auswertung von Unterricht im Fach Deutsch unter besonderer Berücksichtigung fachdidaktischer Aspekte. Es dient folglich dem Aufbau grundlegender Kompetenzen zur Organisation und Reflexion von Lehr- und Lernprozessen im Fach Deutsch. Nach schulpraktischen Übungen sind die Studierenden in der Lage, Planungs-, Gestaltungs-und Reflexionskompetenz zu entfalten und auf der Grundlage der fachdidaktischen Kenntnisse anzuwenden. Die Studierenden beherrschen und benutzen souverän die grundlegenden Konzeptionen, Begriffe und Methoden des Deutschunterrichts.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Schulpraktikum (SP)",
+          "extent":"semesterbegleitend, 30 Stunden"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-EFD.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Vo-raussetzungen für die Module SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT, SLK-SEBS-DEU-VFD2SPR sowie SLK-SEBS-DEU-BPB.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung be-standen ist. Die Modulprüfung besteht aus einem unbenoteten Unterrichtsversuch von 45 Minuten Dauer und einem Unterrichtsentwurf im Umfang von 50 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote ergibt sich unter Berücksichtigung von § 13Absatz 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Lehramt an berufsbildenden Schulen aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":6,
+      "credit_points":4,
+      "required_modules":[
+        "SLK-SEBS-DEU-EFD"
+      ]
+    },
+    {
+      "Modulnummer":[
+        "SLK-SEBS-DEU-BPB",
+        "SLK-SEGY-DEU-BPB",
+        "SLK-SEMS-DEU-BPB"
+      ],
+      "Modulname":"Blockpraktikum B im Fach Deutsch",
+      "Modulverantwortlicher":"Geschäftsführung des Instituts für Germanistik (studienberatung.germanistik@mailbox.tu-dresden.de)",
+      "Beteiligte Professuren":[
+        "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
+      ],
+      "Inhalte und Qualifikationsziele":"Das Modul umfasst die selbstständige Planung, Gestaltung und Evaluierung von Unterrichtseinheiten und die theoriegeleitete Reflexion der schulpraktischen Erfahrungen sowohl im eigenen Unterricht als auch in Hospitationen. Die Studierenden sind in der Lage fachwissenschaftliche, allgemein- und fachdidaktische Kenntnisse mit der praktischen Planung und Gestaltung des Unterrichtsprozesses zu verknüpfen. Sie vertiefen die Fähigkeit zur Beobachtung und Bewertung fachlicher Lehr- und Lernprozesse und zur Erprobung unterrichtlicher Handlungsmöglichkeiten und erkennen den eigenen Lernzuwachs und -bedarf.",
+      "Lehr- und Lernformen":[
+        {
+          "name":"Schulpraktikum (SP)",
+          "extent":"Blockform, 4 Wochen"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-EFD, SLK-SEBS-DEU-SPÜ, SLK-SEBS-DEU-VFD1LIT sowie SLK-SEBS-DEU-VFD1SPR.",
+      "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Es schafft die Voraussetzungen für die Module SLK-SEBS-DEU-VFD2LIT und SLK-SEBS-DEU-VFD2SPR.",
+      "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem unbenoteten Bericht im Umfang von 50 Stunden.",
+      "Leistungspunkte und Noten":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulprüfung wird mit „bestanden“ oder „nicht bestanden“ bewertet.",
+      "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 80 Stunden auf die Präsenz sowie 70 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "Dauer des Moduls":"Das Modul umfasst ein Semester.",
+      "angedachtes Semester":8,
+      "credit_points":5,
+      "required_modules":[
+        "SLK-SEBS-DEU-VFD1LIT",
+        "SLK-SEBS-DEU-VFD1SPR",
+        "SLK-SEBS-DEU-SPÜ"
+      ]
     }
   ]
 }
