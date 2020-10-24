@@ -127,7 +127,7 @@ function App() {
               disabled={status !== "resolved"}
             >
               {
-                (status === "resolved") && (
+                (status === "resolved" && value[degreeProgram]) && (
                   value[degreeProgram].modules.map((m) => (
                     <option
                       value={m["Modulnummer"][0]}
