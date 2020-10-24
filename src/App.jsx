@@ -1,4 +1,6 @@
-import React from "react";
+import React, {
+  useState
+} from "react";
 import Layout from "components/Layout";
 import create from "zustand";
 
@@ -74,10 +76,11 @@ const useDegreePrograms = create((set, get) => ({
 }));
 
 function App() {
+  const [ degreeProgram, setDegreeProgram ] = useState(null);
   const { status, value } = useDegreePrograms().read();
 
-  function selectProgram() {
-
+  function selectProgram(evt) {
+    console.log(evt);
   }
 
   return (
@@ -90,7 +93,11 @@ function App() {
       <div className="row">
         <div className="col">
           <div className="form-group">
-            <select className="form-control" onChange={selectProgram}>
+            <select
+              className="form-control"
+              onChange={selectProgram}
+              disabled={status !== "resolved"}
+            >
               {
                 (status === "resolved") && (
                   Object.values(value).map((program) => (
@@ -98,6 +105,18 @@ function App() {
                   ))
                 )
               }
+            </select>
+          </div>
+          <div className="form-group">
+            <select
+              className="form-control"
+              disabled={status !== "resolved"}
+            >
+              {/*
+                (status === "resolved") && (
+
+                )
+              */}
             </select>
           </div>
         </div>
