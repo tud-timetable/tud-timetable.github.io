@@ -1,5 +1,6 @@
 import React, {
-  useState
+  useState,
+  useEffect
 } from "react";
 import Layout from "components/Layout";
 import create from "zustand";
@@ -79,6 +80,14 @@ function App() {
   const [ degreeProgram, setDegreeProgram ] = useState(null);
   const { status, value } = useDegreePrograms().read();
 
+  useEffect(() => {
+    if ( status === "resolved" ) {
+      setDegreeProgram(
+        Object.keys(value)[0]
+      )
+    }
+  }, [ status ]);
+
   function selectProgram(evt) {
     setDegreeProgram( evt.target.value );
   }
@@ -100,9 +109,13 @@ function App() {
             >
               {
                 (status === "resolved") && (
-                  Object.values(value).map((program) => (
-                    <option value={program.name} key={program.name}>{program.name}</option>
-                  ))
+                  Object.keys(value).map((id) => {
+                    const program = value[id];
+
+                    return (
+                      <option value={id} key={id}>{program.name}</option>
+                    );
+                  })
                 )
               }
             </select>

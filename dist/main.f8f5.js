@@ -32905,6 +32905,12 @@ function App() {
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    if (status === "resolved") {
+      setDegreeProgram(Object.keys(value)[0]);
+    }
+  }, [status]);
+
   function selectProgram(evt) {
     setDegreeProgram(evt.target.value);
   }
@@ -32923,10 +32929,11 @@ function App() {
     className: "form-control",
     onChange: selectProgram,
     disabled: status !== "resolved"
-  }, status === "resolved" && Object.values(value).map(function (program) {
+  }, status === "resolved" && Object.keys(value).map(function (id) {
+    var program = value[id];
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-      value: program.name,
-      key: program.name
+      value: id,
+      key: id
     }, program.name);
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "form-group"
@@ -33000,4 +33007,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.1f06.js.map
+//# sourceMappingURL=main.f8f5.js.map
