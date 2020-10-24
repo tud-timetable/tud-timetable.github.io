@@ -82,6 +82,7 @@ function App() {
 
   useEffect(() => {
     if ( status === "resolved" ) {
+      console.log(value);
       setDegreeProgram(
         Object.keys(value)[0]
       )
