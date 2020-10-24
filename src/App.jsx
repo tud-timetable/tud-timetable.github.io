@@ -80,7 +80,7 @@ function App() {
   const { status, value } = useDegreePrograms().read();
 
   function selectProgram(evt) {
-    console.log(evt);
+    setDegreeProgram( evt.target.value );
   }
 
   return (
@@ -101,7 +101,7 @@ function App() {
               {
                 (status === "resolved") && (
                   Object.values(value).map((program) => (
-                    <option key={program.name}>{program.name}</option>
+                    <option value={program.name} key={program.name}>{program.name}</option>
                   ))
                 )
               }
@@ -112,11 +112,18 @@ function App() {
               className="form-control"
               disabled={status !== "resolved"}
             >
-              {/*
+              {
                 (status === "resolved") && (
-
+                  items[degreeProgram].modules.map((m) => (
+                    <option
+                      value={m["Modulnummer"][0]}
+                      key={m["Modulnummer"][0]}
+                    >
+                      {m["Modulname"]}
+                    </option>
+                  ))
                 )
-              */}
+              }
             </select>
           </div>
         </div>

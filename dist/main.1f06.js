@@ -32906,7 +32906,7 @@ function App() {
       value = _useDegreePrograms$re.value;
 
   function selectProgram(evt) {
-    console.log(evt);
+    setDegreeProgram(evt.target.value);
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32925,6 +32925,7 @@ function App() {
     disabled: status !== "resolved"
   }, status === "resolved" && Object.values(value).map(function (program) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      value: program.name,
       key: program.name
     }, program.name);
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32932,7 +32933,12 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control",
     disabled: status !== "resolved"
-  })))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, status === "resolved" && items[degreeProgram].modules.map(function (m) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      value: m["Modulnummer"][0],
+      key: m["Modulnummer"][0]
+    }, m["Modulname"]);
+  }))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
@@ -32994,4 +33000,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.2424.js.map
+//# sourceMappingURL=main.1f06.js.map
