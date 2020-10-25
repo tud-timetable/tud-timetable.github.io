@@ -49,7 +49,7 @@ function App() {
     <Layout>
       <div className="row">
         <div className="col">
-          <h1>Test</h1>
+          <h1>Modulübersicht</h1>
         </div>
       </div>
       <div className="row">
