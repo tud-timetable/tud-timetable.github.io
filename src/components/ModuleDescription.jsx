@@ -1,24 +1,22 @@
 import React from "react";
-import {
-  Link
-} from "react-router-dom";
-import InvolvedProfessorships from "./ModuleDescription/InvolvedProfessorships";
-import TeachingAndLearningMethods from "./ModuleDescription/TeachingAndLearningMethods";
-import RequiredModules from "./ModuleDescription/RequiredModules";
-import ModuleNumbers from "./ModuleDescription/ModuleNumbers";
-import ModuleName from "./ModuleDescription/ModuleName";
-import ModuleCoordinator from "./ModuleDescription/ModuleCoordinator";
+import Applicability from "./ModuleDescription/Applicability";
+import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
 import CreditPointsAndGrades from "./ModuleDescription/CreditPointsAndGrades";
 import Duration from "./ModuleDescription/Duration";
-import Workload from "./ModuleDescription/Workload";
 import Frequency from "./ModuleDescription/Frequency";
-import Applicability from "./ModuleDescription/Applicability";
-import RequirementsForParticipation from "./ModuleDescription/RequirementsForParticipation";
+import InvolvedProfessorships from "./ModuleDescription/InvolvedProfessorships";
+import ModuleCoordinator from "./ModuleDescription/ModuleCoordinator";
+import ModuleName from "./ModuleDescription/ModuleName";
+import ModuleNumbers from "./ModuleDescription/ModuleNumbers";
+import RequiredModules from "./ModuleDescription/RequiredModules";
 import RequirementsForAssignmentOfCreditPoints from "./ModuleDescription/RequirementsForAssignmentOfCreditPoints";
-import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
+import RequirementsForParticipation from "./ModuleDescription/RequirementsForParticipation";
+import TeachingAndLearningMethods from "./ModuleDescription/TeachingAndLearningMethods";
+import Workload from "./ModuleDescription/Workload";
 
 function ModuleDescription({
-  data
+  data,
+  degreeProgramId
 }) {
   if ( data == null ) {
     return null;
@@ -49,6 +47,7 @@ function ModuleDescription({
       />
       <RequiredModules
         items={ data.required_modules }
+        degreeProgramId={ degreeProgramId }
       />
       <Applicability
         text={ data.applicability }

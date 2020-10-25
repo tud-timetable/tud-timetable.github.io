@@ -1,9 +1,13 @@
 import React, {
   Fragment
 } from "react";
+import {
+  Link
+} from "react-router-dom";
 
 function RequiredModules({
-  items = []
+  items = [],
+  degreeProgramId
 }) {
   if ( items.length === 0 ) {
     return (
@@ -21,7 +25,9 @@ function RequiredModules({
         <ul className="mb-0">
         {
           items.map(( item ) => (
-            <li key={ item }>{ item }</li>
+            <li key={ item }>
+              <Link to={ `/${degreeProgramId}/${item}` }>{ item }</Link>
+            </li>
           ))
         }
         </ul>

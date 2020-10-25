@@ -7,7 +7,7 @@ import ModuleDescription from "components/ModuleDescription";
 import useDegreePrograms from "hooks/useDegreePrograms";
 
 function App() {
-  const [ degreeProgram, setDegreeProgram ] = useState(null);
+  const [ degreeProgramId, setDegreeProgramId ] = useState(null);
   const [ module, setModule ] = useState(null);
   const { status, value } = useDegreePrograms().read();
 
@@ -15,7 +15,7 @@ function App() {
     if ( status === "resolved" ) {
       const program = Object.keys( value )[0];
 
-      setDegreeProgram(
+      setDegreeProgramId(
         program
       );
 
@@ -26,7 +26,7 @@ function App() {
   }, [ status ]);
 
   function selectProgram(evt) {
-    setDegreeProgram( evt.target.value );
+    setDegreeProgramId( evt.target.value );
   }
 
   function selectModule(evt) {
@@ -34,11 +34,11 @@ function App() {
   }
 
   function findModule(number) {
-    if ( !value[ degreeProgram ] ) {
+    if ( !value[ degreeProgramId ] ) {
       return null;
     }
 
-    const { modules } = value[ degreeProgram ];
+    const { modules } = value[ degreeProgramId ];
 
     return modules.find((mod) => (
       mod.module_numbers[0] === number
@@ -60,13 +60,17 @@ function App() {
               onChange={selectProgram}
               disabled={status !== "resolved"}
             >
+              <option disabled value="">Studiengang auswählen</option>
               {
                 (status === "resolved") && (
                   Object.keys( value ).map((id) => {
                     const program = value[ id ];
 
                     return (
-                      <option value={id} key={id}>{program.name}</option>
+                      <option
+                        value={ program.id }
+                        key={ program.id }
+                      >{ program.name }</option>
                     );
                   })
                 )
@@ -79,9 +83,10 @@ function App() {
               disabled={status !== "resolved"}
               onChange={selectModule}
             >
+              <option disabled value="">Modul auswählen</option>
               {
-                (status === "resolved" && value[ degreeProgram ]) && (
-                  value[ degreeProgram ].modules.map((m) => (
+                (status === "resolved" && value[ degreeProgramId ]) && (
+                  value[ degreeProgramId ].modules.map((m) => (
                     <option
                       value={m.module_numbers[0]}
                       key={m.module_numbers[0]}
@@ -97,9 +102,12 @@ function App() {
       </div>
       {
         (status === "resolved") && (
-          <ModuleDescription data={
-            findModule( module )
-          } />
+          <ModuleDescription
+            data={
+              findModule( module )
+            }
+            degreeProgramId={ degreeProgramId }
+          />
         )
       }
     </Layout>
