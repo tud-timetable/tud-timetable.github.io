@@ -14,19 +14,21 @@ function ModuleDescription({
     <dl className="row">
       <dt className="col-12">Modulnummer</dt>
       <dd className="col-12">
-      {
-        data["Modulnummer"].map((number, i) => {
-          if ( i === 0 ) {
-            return (
-              <p>{number}</p>
-            );
-          }
+        <ul className="pl-0 mb-0" style={{ "listStyle": "none" }}>
+        {
+          data["Modulnummer"].map((number, i) => {
+            if ( i === 0 ) {
+              return (
+                <li>{number}</li>
+              );
+            }
 
-          return (
-            <p>{number}</p>
-          );
-        })
-      }
+            return (
+              <li>{number}</li>
+            );
+          })
+        }
+        </ul>
       </dd>
       <dt className="col-12">Modulname</dt>
       <dd className="col-12">{data["Modulname"]}</dd>
@@ -34,23 +36,25 @@ function ModuleDescription({
       <dd className="col-12">{data["Modulverantwortlicher"]}</dd>
       <dt className="col-12">Beteiligte Professuren</dt>
       <dd className="col-12">
-      {
-        data["Beteiligte Professuren"].map((item) => (
-          <p>{item}</p>
-        ))
-      }
+        <ul className="mb-0">
+        {
+          data["Beteiligte Professuren"].map((item) => (
+            <li>{item}</li>
+          ))
+        }
+        </ul>
       </dd>
       <dt className="col-12">Inhalte und Qualifikationsziele</dt>
       <dd className="col-12">{data["Inhalte und Qualifikationsziele"]}</dd>
       <dt className="col-12">Lehr- und Lernformen</dt>
       <dd className="col-12">
-        <ul>
+        <ul className="mb-0">
         {
           data["Lehr- und Lernformen"].map((item) => {
             if ( item.extent ) {
               return (
                 <li>
-                  <span>{item.name}</span> <span>{item.extent}</span>
+                  <span>{item.name}</span> (<span>{item.extent}</span>)
                 </li>
               );
             }
