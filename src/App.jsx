@@ -2,11 +2,15 @@ import React, {
   useState,
   useEffect
 } from "react";
+import {
+  useHistory
+} from "react-router-dom";
 import Layout from "components/Layout";
 import ModuleDescription from "components/ModuleDescription";
 import useDegreePrograms from "hooks/useDegreePrograms";
 
 function App() {
+  const history = useHistory();
   const [ degreeProgramId, setDegreeProgramId ] = useState(null);
   const [ module, setModule ] = useState(null);
   const { status, value } = useDegreePrograms().read();
@@ -27,10 +31,16 @@ function App() {
 
   function selectProgram(evt) {
     setDegreeProgramId( evt.target.value );
+    history.push(
+      `/${ evt.target.value }`
+    );
   }
 
   function selectModule(evt) {
     setModule( evt.target.value );
+    history.push(
+      `/${ degreeProgramId }/${ evt.target.value }`
+    );
   }
 
   function findModule(number) {

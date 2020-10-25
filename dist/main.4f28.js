@@ -32805,9 +32805,10 @@ function create$1(createState) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
-/* harmony import */ var components_ModuleDescription__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/ModuleDescription */ "./src/components/ModuleDescription.jsx");
-/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
+/* harmony import */ var components_ModuleDescription__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/ModuleDescription */ "./src/components/ModuleDescription.jsx");
+/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -32825,7 +32826,10 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+
 function App() {
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
       degreeProgramId = _useState2[0],
@@ -32836,7 +32840,7 @@ function App() {
       module = _useState4[0],
       setModule = _useState4[1];
 
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__["default"])().read(),
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().read(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
@@ -32850,10 +32854,12 @@ function App() {
 
   function selectProgram(evt) {
     setDegreeProgramId(evt.target.value);
+    history.push("/".concat(evt.target.value));
   }
 
   function selectModule(evt) {
     setModule(evt.target.value);
+    history.push("/".concat(degreeProgramId, "/").concat(evt.target.value));
   }
 
   function findModule(number) {
@@ -32867,7 +32873,7 @@ function App() {
     });
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
@@ -32904,7 +32910,7 @@ function App() {
       value: m.module_numbers[0],
       key: m.module_numbers[0]
     }, m.module_name);
-  }))))), status === "resolved" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleDescription__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  }))))), status === "resolved" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleDescription__WEBPACK_IMPORTED_MODULE_3__["default"], {
     data: findModule(module),
     degreeProgramId: degreeProgramId
   }));
@@ -33724,4 +33730,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5d92.js.map
+//# sourceMappingURL=main.4f28.js.map
