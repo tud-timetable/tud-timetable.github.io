@@ -32943,7 +32943,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hooks/useProfessorships */ "./src/hooks/useProfessorships.js");
+/* harmony import */ var _ModuleDescription_InvolvedProfessorships__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ModuleDescription/InvolvedProfessorships */ "./src/components/ModuleDescription/InvolvedProfessorships.jsx");
+/* harmony import */ var _ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModuleDescription/TeachingAndLearningMethods */ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx");
+/* harmony import */ var _ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ModuleDescription/RequiredModules */ "./src/components/ModuleDescription/RequiredModules.jsx");
+/* harmony import */ var _ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ModuleDescription/ModuleNumbers */ "./src/components/ModuleDescription/ModuleNumbers.jsx");
+/* harmony import */ var _ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ModuleDescription/ModuleCoordinator */ "./src/components/ModuleDescription/ModuleCoordinator.jsx");
+
+
+
+
 
 
 
@@ -32951,97 +32959,35 @@ __webpack_require__.r(__webpack_exports__);
 function ModuleDescription(_ref) {
   var data = _ref.data;
 
-  var _useProfessorships$re = Object(hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"])().read(),
-      status = _useProfessorships$re.status,
-      value = _useProfessorships$re.value;
-
-  if (data == null || status !== "resolved") {
+  if (data == null) {
     return null;
-  }
-
-  function findProfessorship(name) {
-    return value.find(function (prof) {
-      return prof.name === name;
-    });
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dl", {
     className: "row"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Modulnummer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "pl-0 mb-0",
-    style: {
-      "listStyle": "none"
-    }
-  }, data["Modulnummer"].map(function (number, i) {
-    if (i === 0) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, number);
-    }
-
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, number);
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    items: data["Modulnummer"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
   }, "Modulname"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, data["Modulname"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Modulverantwortlicher"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Modulverantwortlicher"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Beteiligte Professuren"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "mb-0"
-  }, data["Beteiligte Professuren"].map(function (item) {
-    var profs = findProfessorship(item);
-
-    if (profs) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
-        href: profs.url,
-        target: "_blank"
-      }, item));
-    }
-
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item);
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+  }, data["Modulname"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    data: data["Modulverantwortlicher"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_InvolvedProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    items: data["Beteiligte Professuren"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
   }, "Inhalte und Qualifikationsziele"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, data["Inhalte und Qualifikationsziele"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Lehr- und Lernformen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-    className: "mb-0"
-  }, data["Lehr- und Lernformen"].map(function (item) {
-    if (item.extent) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.name), " (", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.extent), ")");
-    }
-
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.name));
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+  }, data["Inhalte und Qualifikationsziele"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    items: data["Lehr- und Lernformen"]
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
   }, "Voraussetzungen f\xFCr die Teilnahme"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, data["Voraussetzungen für die Teilnahme"] || "–"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Vorausgesetze Module"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, function () {
-    if (!data.required_modules.length) {
-      return "–";
-    }
-
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
-      className: "mb-0"
-    }, data.required_modules.map(function (mod) {
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, mod);
-    }));
-  }()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+  }, data["Voraussetzungen für die Teilnahme"] || "–"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    items: data.required_modules
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
   }, "Verwendbarkeit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
@@ -33069,6 +33015,214 @@ function ModuleDescription(_ref) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleDescription);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/InvolvedProfessorships.jsx":
+/*!*********************************************************************!*\
+  !*** ./src/components/ModuleDescription/InvolvedProfessorships.jsx ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooks/useProfessorships */ "./src/hooks/useProfessorships.js");
+
+
+
+function InvolvedProfessorships(_ref) {
+  var _ref$items = _ref.items,
+      items = _ref$items === void 0 ? [] : _ref$items;
+
+  var _useProfessorships$re = Object(hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_1__["default"])().read(),
+      status = _useProfessorships$re.status,
+      value = _useProfessorships$re.value;
+
+  function findProfessorship(name) {
+    return value.find(function (prof) {
+      return prof.name === name;
+    });
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Beteiligte Professuren"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "mb-0"
+  }, items.map(function (item) {
+    var profs = findProfessorship(item);
+
+    if (!profs || status !== "resolved") {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item);
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+      href: profs.url,
+      target: "_blank"
+    }, item));
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (InvolvedProfessorships);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/ModuleCoordinator.jsx":
+/*!****************************************************************!*\
+  !*** ./src/components/ModuleDescription/ModuleCoordinator.jsx ***!
+  \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModuleCoordinator(_ref) {
+  var data = _ref.data;
+  var elements = [];
+  data.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
+    var lastIndex = elements.length - 1;
+    var lastElement = elements[lastIndex];
+
+    if (mail !== undefined) {
+      elements.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: "mailto:" + mail
+      }, mail));
+      return;
+    }
+
+    if (typeof lastElement === "string") {
+      elements[lastIndex] += other;
+    }
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Modulverantwortlicher"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, elements));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleCoordinator);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/ModuleNumbers.jsx":
+/*!************************************************************!*\
+  !*** ./src/components/ModuleDescription/ModuleNumbers.jsx ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModuleNumbers(_ref) {
+  var _ref$items = _ref.items,
+      items = _ref$items === void 0 ? [] : _ref$items;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Modulnummer"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "pl-0 mb-0",
+    style: {
+      "listStyle": "none"
+    }
+  }, items.map(function (number, i) {
+    if (i === 0) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", null, number));
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, number);
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleNumbers);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/RequiredModules.jsx":
+/*!**************************************************************!*\
+  !*** ./src/components/ModuleDescription/RequiredModules.jsx ***!
+  \**************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function RequiredModules(_ref) {
+  var _ref$items = _ref.items,
+      items = _ref$items === void 0 ? [] : _ref$items;
+
+  if (items.length === 0) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+      className: "col-12"
+    }, "Vorausgesetzte Module"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+      className: "col-12"
+    }, "\u2013"));
+  }
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Vorausgesetzte Module"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "mb-0"
+  }, items.map(function (item) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item);
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (RequiredModules);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx":
+/*!*************************************************************************!*\
+  !*** ./src/components/ModuleDescription/TeachingAndLearningMethods.jsx ***!
+  \*************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function TeachingAndLearningMethods(_ref) {
+  var _ref$items = _ref.items,
+      items = _ref$items === void 0 ? [] : _ref$items;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Lehr- und Lernformen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+    className: "mb-0"
+  }, items.map(function (item) {
+    if (item.extent) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.name), " (", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.extent), ")");
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.name));
+  }))));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TeachingAndLearningMethods);
 
 /***/ }),
 
@@ -33252,4 +33406,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.0e3b.js.map
+//# sourceMappingURL=main.4bad.js.map
