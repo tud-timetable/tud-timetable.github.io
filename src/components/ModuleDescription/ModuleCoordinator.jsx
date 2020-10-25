@@ -22,6 +22,8 @@ function ModuleCoordinator({
 
       if ( typeof lastElement === "string" ) {
         elements[ lastIndex ] += other;
+      } else {
+        elements.push( other );
       }
     }
   );

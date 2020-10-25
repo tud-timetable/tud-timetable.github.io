@@ -39,7 +39,9 @@ function InvolvedProfessorships({
             }
 
             return (
-              <li><a href={profs.url} target="_blank">{item}</a></li>
+              <li key={ index }>
+                <a href={profs.url} target="_blank">{item}</a>
+              </li>
             );
           })
         }

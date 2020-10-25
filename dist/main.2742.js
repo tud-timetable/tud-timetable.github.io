@@ -33068,7 +33068,9 @@ function InvolvedProfessorships(_ref) {
       }, item);
     }
 
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
+      key: index
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
       href: profs.url,
       target: "_blank"
     }, item));
@@ -33108,6 +33110,8 @@ function ModuleCoordinator(_ref) {
 
     if (typeof lastElement === "string") {
       elements[lastIndex] += other;
+    } else {
+      elements.push(other);
     }
   });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
@@ -33424,4 +33428,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.06fe.js.map
+//# sourceMappingURL=main.2742.js.map
