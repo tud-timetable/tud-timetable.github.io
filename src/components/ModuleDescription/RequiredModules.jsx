@@ -21,7 +21,7 @@ function RequiredModules({
         <ul className="mb-0">
         {
           items.map(( item ) => (
-            <li>{ item }</li>
+            <li key={ item }>{ item }</li>
           ))
         }
         </ul>

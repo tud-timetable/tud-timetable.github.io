@@ -11,17 +11,17 @@ function TeachingAndLearningMethods({
       <dd className="col-12">
         <ul className="mb-0">
         {
-          items.map((item) => {
+          items.map((item, i) => {
             if ( item.extent ) {
               return (
-                <li>
+                <li key={ i }>
                   <span>{item.name}</span> (<span>{item.extent}</span>)
                 </li>
               );
             }
 
             return (
-              <li>
+              <li key={ i }>
                 <span>{item.name}</span>
               </li>
             );

@@ -23,12 +23,18 @@ function InvolvedProfessorships({
       <dd className="col-12">
         <ul className="mb-0">
         {
-          items.map((item) => {
+          items.map((item, index) => {
+            if ( status !== "resolved" ) {
+              return (
+                <li key={ index }>{item}</li>
+              );
+            }
+
             const profs = findProfessorship( item );
 
-            if ( !profs || status !== "resolved" ) {
+            if ( !profs ) {
               return (
-                <li>{item}</li>
+                <li key={ index }>{item}</li>
               );
             }
 

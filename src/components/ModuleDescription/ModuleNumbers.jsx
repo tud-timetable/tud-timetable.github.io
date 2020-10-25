@@ -14,12 +14,12 @@ function ModuleNumbers({
           items.map((number, i) => {
             if ( i === 0 ) {
               return (
-                <li><b>{number}</b></li>
+                <li key={ i }><b>{number}</b></li>
               );
             }
 
             return (
-              <li>{number}</li>
+              <li key={ i }>{number}</li>
             );
           })
         }
