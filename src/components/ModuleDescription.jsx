@@ -6,7 +6,16 @@ import InvolvedProfessorships from "./ModuleDescription/InvolvedProfessorships";
 import TeachingAndLearningMethods from "./ModuleDescription/TeachingAndLearningMethods";
 import RequiredModules from "./ModuleDescription/RequiredModules";
 import ModuleNumbers from "./ModuleDescription/ModuleNumbers";
+import ModuleName from "./ModuleDescription/ModuleName";
 import ModuleCoordinator from "./ModuleDescription/ModuleCoordinator";
+import CreditPointsAndGrades from "./ModuleDescription/CreditPointsAndGrades";
+import Duration from "./ModuleDescription/Duration";
+import Workload from "./ModuleDescription/Workload";
+import Frequency from "./ModuleDescription/Frequency";
+import Applicability from "./ModuleDescription/Applicability";
+import RequirementsForParticipation from "./ModuleDescription/RequirementsForParticipation";
+import RequirementsForAssignmentOfCreditPoints from "./ModuleDescription/RequirementsForAssignmentOfCreditPoints";
+import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
 
 function ModuleDescription({
   data
@@ -18,38 +27,47 @@ function ModuleDescription({
   return (
     <dl className="row">
       <ModuleNumbers
-        items={ data["Modulnummer"] }
+        items={ data.module_numbers }
       />
-      <dt className="col-12">Modulname</dt>
-      <dd className="col-12">{data["Modulname"]}</dd>
+      <ModuleName
+        text={ data.module_name }
+      />
       <ModuleCoordinator
-        data={ data["Modulverantwortlicher"] }
+        text={ data.module_coordinator }
       />
       <InvolvedProfessorships
-        items={ data["Beteiligte Professuren"] }
+        items={ data.involved_professorships }
       />
-      <dt className="col-12">Inhalte und Qualifikationsziele</dt>
-      <dd className="col-12">{data["Inhalte und Qualifikationsziele"]}</dd>
+      <ContentsAndQualificationTargets
+        text={ data.contents_and_qualification_targets }
+      />
       <TeachingAndLearningMethods
-        items={ data["Lehr- und Lernformen"] }
+        items={ data.teaching_and_learning_methods }
       />
-      <dt className="col-12">Voraussetzungen für die Teilnahme</dt>
-      <dd className="col-12">{data["Voraussetzungen für die Teilnahme"] || "–"}</dd>
+      <RequirementsForParticipation
+        text={ data.requirements_for_participation }
+      />
       <RequiredModules
         items={ data.required_modules }
       />
-      <dt className="col-12">Verwendbarkeit</dt>
-      <dd className="col-12">{data["Verwendbarkeit"]}</dd>
-      <dt className="col-12">Voraussetzungen für die Vergabe von Leistungspunkten</dt>
-      <dd className="col-12">{data["Voraussetzungen für die Vergabe von Leistungspunkten"]}</dd>
-      <dt className="col-12">Leistungspunkte und Noten</dt>
-      <dd className="col-12">{data["Leistungspunkte und Noten"]}</dd>
-      <dt className="col-12">Häufigkeit des Moduls</dt>
-      <dd className="col-12">{data["Häufigkeit des Moduls"]}</dd>
-      <dt className="col-12">Arbeitsaufwand</dt>
-      <dd className="col-12">{data["Arbeitsaufwand"]}</dd>
-      <dt className="col-12">Dauer des Moduls</dt>
-      <dd className="col-12">{data["Dauer des Moduls"]}</dd>
+      <Applicability
+        text={ data.applicability }
+      />
+      <RequirementsForAssignmentOfCreditPoints
+        text={ data.requirements_for_assignment_of_credit_points}
+      />
+      <CreditPointsAndGrades
+        text={ data.credit_points_and_grades }
+      />
+      <Frequency
+        text={ data.Frequency }
+      />
+      <Workload
+        text={ data.workload }
+      />
+      <Duration
+        text={ data.duration }
+      />
     </dl>
   );
 }

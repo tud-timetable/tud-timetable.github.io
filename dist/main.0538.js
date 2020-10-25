@@ -32947,7 +32947,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModuleDescription/TeachingAndLearningMethods */ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx");
 /* harmony import */ var _ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ModuleDescription/RequiredModules */ "./src/components/ModuleDescription/RequiredModules.jsx");
 /* harmony import */ var _ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ModuleDescription/ModuleNumbers */ "./src/components/ModuleDescription/ModuleNumbers.jsx");
-/* harmony import */ var _ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ModuleDescription/ModuleCoordinator */ "./src/components/ModuleDescription/ModuleCoordinator.jsx");
+/* harmony import */ var _ModuleDescription_ModuleName__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ModuleDescription/ModuleName */ "./src/components/ModuleDescription/ModuleName.jsx");
+/* harmony import */ var _ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ModuleDescription/ModuleCoordinator */ "./src/components/ModuleDescription/ModuleCoordinator.jsx");
+/* harmony import */ var _ModuleDescription_CreditPointsAndGrades__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./ModuleDescription/CreditPointsAndGrades */ "./src/components/ModuleDescription/CreditPointsAndGrades.jsx");
+/* harmony import */ var _ModuleDescription_Duration__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./ModuleDescription/Duration */ "./src/components/ModuleDescription/Duration.jsx");
+/* harmony import */ var _ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ModuleDescription/Workload */ "./src/components/ModuleDescription/Workload.jsx");
+/* harmony import */ var _ModuleDescription_Frequency__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ModuleDescription/Frequency */ "./src/components/ModuleDescription/Frequency.jsx");
+/* harmony import */ var _ModuleDescription_Applicability__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ModuleDescription/Applicability */ "./src/components/ModuleDescription/Applicability.jsx");
+/* harmony import */ var _ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForParticipation */ "./src/components/ModuleDescription/RequirementsForParticipation.jsx");
+/* harmony import */ var _ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForAssignmentOfCreditPoints */ "./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx");
+/* harmony import */ var _ModuleDescription_ContentsAndQualificationTargets__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ModuleDescription/ContentsAndQualificationTargets */ "./src/components/ModuleDescription/ContentsAndQualificationTargets.jsx");
+
+
+
+
+
+
+
+
+
 
 
 
@@ -32966,55 +32984,167 @@ function ModuleDescription(_ref) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dl", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    items: data["Modulnummer"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Modulname"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Modulname"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    data: data["Modulverantwortlicher"]
+    items: data.module_numbers
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleName__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    text: data.module_name
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    text: data.module_coordinator
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_InvolvedProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    items: data["Beteiligte Professuren"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Inhalte und Qualifikationsziele"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Inhalte und Qualifikationsziele"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    items: data["Lehr- und Lernformen"]
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Voraussetzungen f\xFCr die Teilnahme"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Voraussetzungen für die Teilnahme"] || "–"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    items: data.involved_professorships
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_ContentsAndQualificationTargets__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    text: data.contents_and_qualification_targets
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    items: data.teaching_and_learning_methods
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_13__["default"], {
+    text: data.requirements_for_participation
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_4__["default"], {
     items: data.required_modules
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Verwendbarkeit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Verwendbarkeit"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Voraussetzungen f\xFCr die Vergabe von Leistungspunkten"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Voraussetzungen für die Vergabe von Leistungspunkten"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Leistungspunkte und Noten"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Leistungspunkte und Noten"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "H\xE4ufigkeit des Moduls"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Häufigkeit des Moduls"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Arbeitsaufwand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Arbeitsaufwand"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
-    className: "col-12"
-  }, "Dauer des Moduls"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
-    className: "col-12"
-  }, data["Dauer des Moduls"]));
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Applicability__WEBPACK_IMPORTED_MODULE_12__["default"], {
+    text: data.applicability
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    text: data.requirements_for_assignment_of_credit_points
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_CreditPointsAndGrades__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    text: data.credit_points_and_grades
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Frequency__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    text: data.Frequency
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_10__["default"], {
+    text: data.workload
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Duration__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    text: data.duration
+  }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleDescription);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/Applicability.jsx":
+/*!************************************************************!*\
+  !*** ./src/components/ModuleDescription/Applicability.jsx ***!
+  \************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Applicability(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Verwendbarkeit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Applicability);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/ContentsAndQualificationTargets.jsx":
+/*!******************************************************************************!*\
+  !*** ./src/components/ModuleDescription/ContentsAndQualificationTargets.jsx ***!
+  \******************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ContentsAndQualificationTargets(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Inhalte und Qualifikationsziele"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ContentsAndQualificationTargets);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/CreditPointsAndGrades.jsx":
+/*!********************************************************************!*\
+  !*** ./src/components/ModuleDescription/CreditPointsAndGrades.jsx ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function CreditPointsAndGrades(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Leistungspunkte und Noten"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (CreditPointsAndGrades);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/Duration.jsx":
+/*!*******************************************************!*\
+  !*** ./src/components/ModuleDescription/Duration.jsx ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Duration(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Dauer des Moduls"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Duration);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/Frequency.jsx":
+/*!********************************************************!*\
+  !*** ./src/components/ModuleDescription/Frequency.jsx ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Frequency(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "H\xE4ufigkeit des Moduls"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Frequency);
 
 /***/ }),
 
@@ -33095,9 +33225,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ModuleCoordinator(_ref) {
-  var data = _ref.data;
+  var text = _ref.text;
   var elements = [];
-  data.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
+  text.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
     var lastIndex = elements.length - 1;
     var lastElement = elements[lastIndex];
 
@@ -33122,6 +33252,32 @@ function ModuleCoordinator(_ref) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleCoordinator);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/ModuleName.jsx":
+/*!*********************************************************!*\
+  !*** ./src/components/ModuleDescription/ModuleName.jsx ***!
+  \*********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModuleName(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Modulname"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleName);
 
 /***/ }),
 
@@ -33209,6 +33365,58 @@ function RequiredModules(_ref) {
 
 /***/ }),
 
+/***/ "./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx":
+/*!**************************************************************************************!*\
+  !*** ./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx ***!
+  \**************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function RequirementsForAssignmentOfCreditPoints(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Voraussetzungen f\xFCr die Vergabe von Leistungspunkten"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (RequirementsForAssignmentOfCreditPoints);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/RequirementsForParticipation.jsx":
+/*!***************************************************************************!*\
+  !*** ./src/components/ModuleDescription/RequirementsForParticipation.jsx ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function RequirementsForParticipation(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Voraussetzungen f\xFCr die Teilnahme"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text || "–"));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (RequirementsForParticipation);
+
+/***/ }),
+
 /***/ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx":
 /*!*************************************************************************!*\
   !*** ./src/components/ModuleDescription/TeachingAndLearningMethods.jsx ***!
@@ -33245,6 +33453,32 @@ function TeachingAndLearningMethods(_ref) {
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (TeachingAndLearningMethods);
+
+/***/ }),
+
+/***/ "./src/components/ModuleDescription/Workload.jsx":
+/*!*******************************************************!*\
+  !*** ./src/components/ModuleDescription/Workload.jsx ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Workload(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
+  }, "Arbeitsaufwand"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, text));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Workload);
 
 /***/ }),
 
@@ -33428,4 +33662,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.2742.js.map
+//# sourceMappingURL=main.0538.js.map

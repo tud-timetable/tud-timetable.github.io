@@ -3,11 +3,11 @@ import React, {
 } from "react";
 
 function ModuleCoordinator({
-  data
+  text
 }) {
   const elements = [];
 
-  data.replace(
+  text.replace(
     /([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g,
     (_1, mail, other) => {
       const lastIndex = elements.length - 1;
