@@ -32865,6 +32865,10 @@ function App() {
     });
   }
 
+  console.log({
+    module: module,
+    data: findModule(module)
+  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32946,6 +32950,11 @@ __webpack_require__.r(__webpack_exports__);
 
 function ModuleDescription(_ref) {
   var data = _ref.data;
+
+  if (data == null) {
+    return null;
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dl", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
@@ -33135,4 +33144,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.a22b.js.map
+//# sourceMappingURL=main.0bab.js.map

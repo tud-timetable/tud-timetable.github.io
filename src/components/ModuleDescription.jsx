@@ -6,6 +6,10 @@ import {
 function ModuleDescription({
   data
 }) {
+  if ( data == null ) {
+    return null;
+  }
+
   return (
     <dl className="row">
       <dt className="col-12">Modulnummer</dt>
