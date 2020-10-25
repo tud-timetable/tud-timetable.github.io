@@ -32938,6 +32938,53 @@ function Layout(_ref) {
 
 /***/ }),
 
+/***/ "./src/components/LinkedModuleNumbers.jsx":
+/*!************************************************!*\
+  !*** ./src/components/LinkedModuleNumbers.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+
+
+
+function LinkedModuleNumbers(_ref) {
+  var children = _ref.children,
+      modules = _ref.modules;
+  var elements = [];
+  children.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, number, _2, other) {
+    var lastIndex = elements.length - 1;
+    var lastElement = elements[lastIndex];
+
+    if (number !== undefined) {
+      elements.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+        to: number
+      }, number));
+      return;
+    }
+
+    if (typeof lastElement === "string") {
+      elements[lastIndex] += other;
+    } else {
+      elements.push(other);
+    }
+  });
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fragment, null, elements.map(function (element, index) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Fragment, {
+      key: index
+    }, element);
+  }));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (LinkedModuleNumbers);
+
+/***/ }),
+
 /***/ "./src/components/ModuleDescription.jsx":
 /*!**********************************************!*\
   !*** ./src/components/ModuleDescription.jsx ***!
@@ -33036,6 +33083,8 @@ function ModuleDescription(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var components_LinkedModuleNumbers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! components/LinkedModuleNumbers */ "./src/components/LinkedModuleNumbers.jsx");
+
 
 
 function Applicability(_ref) {
@@ -33044,7 +33093,7 @@ function Applicability(_ref) {
     className: "col-12"
   }, "Verwendbarkeit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, text));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_LinkedModuleNumbers__WEBPACK_IMPORTED_MODULE_1__["default"], null, text)));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Applicability);
@@ -33414,6 +33463,8 @@ function RequirementsForAssignmentOfCreditPoints(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var components_LinkedModuleNumbers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! components/LinkedModuleNumbers */ "./src/components/LinkedModuleNumbers.jsx");
+
 
 
 function RequirementsForParticipation(_ref) {
@@ -33422,7 +33473,7 @@ function RequirementsForParticipation(_ref) {
     className: "col-12"
   }, "Voraussetzungen f\xFCr die Teilnahme"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, text || "–"));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_LinkedModuleNumbers__WEBPACK_IMPORTED_MODULE_1__["default"], null, text || "–")));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (RequirementsForParticipation);
@@ -33674,4 +33725,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.8703.js.map
+//# sourceMappingURL=main.e959.js.map

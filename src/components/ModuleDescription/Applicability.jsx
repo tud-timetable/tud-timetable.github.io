@@ -1,6 +1,7 @@
 import React, {
   Fragment
 } from "react";
+import LinkedModuleNumbers from "components/LinkedModuleNumbers";
 
 function Applicability({
   text
@@ -8,7 +9,9 @@ function Applicability({
   return (
     <Fragment>
       <dt className="col-12">Verwendbarkeit</dt>
-      <dd className="col-12">{ text }</dd>
+      <dd className="col-12">
+        <LinkedModuleNumbers>{ text }</LinkedModuleNumbers>
+      </dd>
     </Fragment>
   );
 }
