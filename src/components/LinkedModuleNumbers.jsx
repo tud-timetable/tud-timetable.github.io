@@ -12,7 +12,7 @@ function LinkedModuleNumbers({
   const elements = [];
 
   children.replace(
-    /([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g,
+    /([A-ZÄÖÜ0-9]+-[A-ZÄÖÜ0-9]+(-[A-ZÄÖÜ0-9]+)+)|(.)/g,
     (_1, number, _2, other) => {
       const lastIndex = elements.length - 1;
       const lastElement = elements[ lastIndex ];

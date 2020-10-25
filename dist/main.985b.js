@@ -32957,7 +32957,7 @@ function LinkedModuleNumbers(_ref) {
   var children = _ref.children,
       modules = _ref.modules;
   var elements = [];
-  children.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, number, _2, other) {
+  children.replace(/([A-ZÄÖÜ0-9]+-[A-ZÄÖÜ0-9]+(-[A-ZÄÖÜ0-9]+)+)|(.)/g, function (_1, number, _2, other) {
     var lastIndex = elements.length - 1;
     var lastElement = elements[lastIndex];
 
@@ -33725,4 +33725,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.8f24.js.map
+//# sourceMappingURL=main.985b.js.map
