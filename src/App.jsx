@@ -20,7 +20,7 @@ function App() {
       );
 
       setModule(
-        value[ program ].modules[0]["Modulnummer"][0]
+        value[ program ].modules[0].module_numbers[0]
       );
     }
   }, [ status ]);
@@ -41,7 +41,7 @@ function App() {
     const { modules } = value[ degreeProgram ];
 
     return modules.find((mod) => (
-      mod["Modulnummer"][0] === number
+      mod.module_numbers[0] === number
     ));
   }
 
@@ -83,10 +83,10 @@ function App() {
                 (status === "resolved" && value[ degreeProgram ]) && (
                   value[ degreeProgram ].modules.map((m) => (
                     <option
-                      value={m["Modulnummer"][0]}
-                      key={m["Modulnummer"][0]}
+                      value={m.module_numbers[0]}
+                      key={m.module_numbers[0]}
                     >
-                      {m["Modulname"]}
+                      {m.module_name}
                     </option>
                   ))
                 )

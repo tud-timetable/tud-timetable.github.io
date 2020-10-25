@@ -32844,7 +32844,7 @@ function App() {
     if (status === "resolved") {
       var program = Object.keys(value)[0];
       setDegreeProgram(program);
-      setModule(value[program].modules[0]["Modulnummer"][0]);
+      setModule(value[program].modules[0].module_numbers[0]);
     }
   }, [status]);
 
@@ -32863,7 +32863,7 @@ function App() {
 
     var modules = value[degreeProgram].modules;
     return modules.find(function (mod) {
-      return mod["Modulnummer"][0] === number;
+      return mod.module_numbers[0] === number;
     });
   }
 
@@ -32895,9 +32895,9 @@ function App() {
     onChange: selectModule
   }, status === "resolved" && value[degreeProgram] && value[degreeProgram].modules.map(function (m) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
-      value: m["Modulnummer"][0],
-      key: m["Modulnummer"][0]
-    }, m["Modulname"]);
+      value: m.module_numbers[0],
+      key: m.module_numbers[0]
+    }, m.module_name);
   }))))), status === "resolved" && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleDescription__WEBPACK_IMPORTED_MODULE_2__["default"], {
     data: findModule(module)
   }));
@@ -33662,4 +33662,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.0538.js.map
+//# sourceMappingURL=main.382a.js.map
