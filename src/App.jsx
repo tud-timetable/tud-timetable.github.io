@@ -13,9 +13,15 @@ function App() {
 
   useEffect(() => {
     if ( status === "resolved" ) {
+      const program = Object.keys( value )[0];
+
       setDegreeProgram(
-        Object.keys( value )[0]
-      )
+        program
+      );
+
+      setModule(
+        value[ program ].modules[0]["Modulnummer"][0]
+      );
     }
   }, [ status ]);
 
@@ -28,11 +34,11 @@ function App() {
   }
 
   function findModule(number) {
-    if ( !value[degreeProgram] ) {
+    if ( !value[ degreeProgram ] ) {
       return null;
     }
 
-    const { modules } = value[degreeProgram];
+    const { modules } = value[ degreeProgram ];
 
     return modules.find((mod) => (
       mod["Modulnummer"][0] === number
@@ -58,8 +64,8 @@ function App() {
             >
               {
                 (status === "resolved") && (
-                  Object.keys(value).map((id) => {
-                    const program = value[id];
+                  Object.keys( value ).map((id) => {
+                    const program = value[ id ];
 
                     return (
                       <option value={id} key={id}>{program.name}</option>
@@ -76,8 +82,8 @@ function App() {
               onChange={selectModule}
             >
               {
-                (status === "resolved" && value[degreeProgram]) && (
-                  value[degreeProgram].modules.map((m) => (
+                (status === "resolved" && value[ degreeProgram ]) && (
+                  value[ degreeProgram ].modules.map((m) => (
                     <option
                       value={m["Modulnummer"][0]}
                       key={m["Modulnummer"][0]}

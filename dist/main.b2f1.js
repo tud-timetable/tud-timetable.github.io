@@ -32842,7 +32842,9 @@ function App() {
 
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     if (status === "resolved") {
-      setDegreeProgram(Object.keys(value)[0]);
+      var program = Object.keys(value)[0];
+      setDegreeProgram(program);
+      setModule(value[program].modules[0]["Modulnummer"][0]);
     }
   }, [status]);
 
@@ -33144,4 +33146,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5e7b.js.map
+//# sourceMappingURL=main.b2f1.js.map
