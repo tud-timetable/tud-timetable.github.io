@@ -59,7 +59,7 @@ function ModuleDescription({
         text={ data.credit_points_and_grades }
       />
       <Frequency
-        text={ data.Frequency }
+        text={ data.frequency }
       />
       <Workload
         text={ data.workload }

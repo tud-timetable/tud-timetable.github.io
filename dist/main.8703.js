@@ -33013,7 +33013,7 @@ function ModuleDescription(_ref) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_CreditPointsAndGrades__WEBPACK_IMPORTED_MODULE_3__["default"], {
     text: data.credit_points_and_grades
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Frequency__WEBPACK_IMPORTED_MODULE_5__["default"], {
-    text: data.Frequency
+    text: data.frequency
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_14__["default"], {
     text: data.workload
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_ModuleDescription_Duration__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -33674,4 +33674,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.32a7.js.map
+//# sourceMappingURL=main.8703.js.map
