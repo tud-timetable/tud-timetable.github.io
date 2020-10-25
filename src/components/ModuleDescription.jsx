@@ -89,6 +89,26 @@ function ModuleDescription({
       </dd>
       <dt className="col-12">Voraussetzungen für die Teilnahme</dt>
       <dd className="col-12">{data["Voraussetzungen für die Teilnahme"] || "–"}</dd>
+      <dt className="col-12">Vorausgesetze Module</dt>
+      <dd className="col-12">
+      {
+        (() => {
+          if ( !data.required_modules.length ) {
+            return "–";
+          }
+
+          return (
+            <ul className="mb-0">
+            {
+              data.required_modules.map((mod) => (
+                <li>{mod}</li>
+              ))
+            }
+            </ul>
+          );
+        })()
+      }
+      </dd>
       <dt className="col-12">Verwendbarkeit</dt>
       <dd className="col-12">{data["Verwendbarkeit"]}</dd>
       <dt className="col-12">Voraussetzungen für die Vergabe von Leistungspunkten</dt>

@@ -33029,6 +33029,20 @@ function ModuleDescription(_ref) {
     className: "col-12"
   }, data["Voraussetzungen für die Teilnahme"] || "–"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
+  }, "Vorausgesetze Module"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+    className: "col-12"
+  }, function () {
+    if (!data.required_modules.length) {
+      return "–";
+    }
+
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+      className: "mb-0"
+    }, data.required_modules.map(function (mod) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, mod);
+    }));
+  }()), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
+    className: "col-12"
   }, "Verwendbarkeit"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
   }, data["Verwendbarkeit"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
@@ -33238,4 +33252,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b377.js.map
+//# sourceMappingURL=main.67e8.js.map
