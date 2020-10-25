@@ -33592,19 +33592,18 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
         return res.json();
       }).then(function (programs) {
         return Promise.all(programs.map(function (program) {
-          return fetch("/studienordnungen/".concat(program)).then(function (res) {
+          return fetch("/studienordnungen/".concat(program.file)).then(function (res) {
             return res.json();
           }).then(function (data) {
             return {
-              "name": program.substr(0, program.length - 5 // drop json extensions
-              ),
+              "id": program.id,
               "data": data
             };
           });
         }));
       }).then(function (programs) {
         var items = programs.reduce(function (accu, program) {
-          return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.name, program.data));
+          return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.id, program.data));
         }, {});
         set({
           "items": items,
@@ -33725,4 +33724,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.985b.js.map
+//# sourceMappingURL=main.5d92.js.map

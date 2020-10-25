@@ -28,13 +28,10 @@ const useDegreePrograms = create((set, get) => ({
       .then((programs) => {
         return Promise.all(
           programs.map((program) => (
-            fetch(`/studienordnungen/${program}`)
+            fetch(`/studienordnungen/${program.file}`)
               .then((res) => res.json())
               .then((data) => ({
-                "name": program.substr(
-                  0,
-                  program.length - 5 // drop json extensions
-                ),
+                "id": program.id,
                 "data": data,
               }))
           ))
@@ -43,7 +40,7 @@ const useDegreePrograms = create((set, get) => ({
       .then((programs) => {
         const items = programs.reduce((accu, program) => ({
           ...accu,
-          [program.name]: program.data,
+          [program.id]: program.data,
         }), {});
 
         set({
