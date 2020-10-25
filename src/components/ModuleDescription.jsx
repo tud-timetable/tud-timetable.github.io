@@ -53,7 +53,7 @@ function ModuleDescription({
         text={ data.applicability }
       />
       <RequirementsForAssignmentOfCreditPoints
-        text={ data.requirements_for_assignment_of_credit_points}
+        text={ data.requirements_for_assignment_of_credit_points }
       />
       <CreditPointsAndGrades
         text={ data.credit_points_and_grades }
