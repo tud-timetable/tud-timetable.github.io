@@ -43,6 +43,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":2,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        }
+      ],
       "required_modules":[
 
       ]
@@ -86,6 +92,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":1,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        }
+      ],
       "required_modules":[
 
       ]
@@ -125,10 +137,16 @@
       "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
       "Leistungspunkte und Noten":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
-      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
+      "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":1,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        }
+      ],
       "required_modules":[
 
       ]
@@ -172,6 +190,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":2,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        }
+      ],
       "required_modules":[
 
       ]
@@ -209,6 +233,18 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":3,
       "credit_points":8,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten",
+          "weight": 3
+        },
+        {
+          "name": "Kurzüberprüfung",
+          "extent": "30 Stunden",
+          "weight": 2
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-B1",
         "SLK-SEBS-DEU-B2"
@@ -246,6 +282,18 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":3,
       "credit_points":8,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten",
+          "weight": 3
+        },
+        {
+          "name": "Kurzüberprüfung",
+          "extent": "30 Stunden",
+          "weight": 2
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-B3",
         "SLK-SEBS-DEU-B4"
@@ -288,6 +336,18 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":5,
       "credit_points":10,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten",
+          "weight": 3
+        },
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 2
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-V1LIT"
       ]
@@ -328,6 +388,18 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":5,
       "credit_points":10,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten",
+          "weight": 3
+        },
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 2
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-V2SPR"
       ]
@@ -368,6 +440,12 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":5,
       "credit_points":7,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-V1LIT"
       ]
@@ -407,6 +485,12 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":5,
       "credit_points":7,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "140 Stunden bzw. 15 Seiten"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-V2SPR"
       ]
@@ -442,6 +526,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":7,
       "credit_points":5,
+      "assessments": [
+        {
+          "name": "Projektarbeit",
+          "extent": "3 Wochen"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EWLIT",
         "SLK-SEBS-DEU-ERLIT"
@@ -477,6 +567,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":7,
       "credit_points":5,
+      "assessments": [
+        {
+          "name": "Projektarbeit",
+          "extent": "3 Wochen"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EWSPR",
         "SLK-SEBS-DEU-ERSPR"
@@ -518,6 +614,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":9,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Exposé",
+          "extent": "120 Stunden bzw. 10 Seiten"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-S1LIT"
       ]
@@ -557,6 +659,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":9,
       "credit_points":6,
+      "assessments": [
+        {
+          "name": "Exposé",
+          "extent": "120 Stunden bzw. 10 Seiten"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-S1SPR"
       ]
@@ -592,6 +700,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":8,
       "credit_points":7,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "170 Stunden bzw. 20 Seiten"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EWLIT",
         "SLK-SEBS-DEU-ERLIT"
@@ -627,6 +741,13 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":8,
       "credit_points":7,
+      "assessments": [
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "170 Stunden bzw. 20 Seiten"
+        }
+      ],
+
       "required_modules":[
         "SLK-SEBS-DEU-EWSPR",
         "SLK-SEBS-DEU-ERSPR"
@@ -662,6 +783,16 @@
       "Dauer des Moduls":"Das Modul umfasst zwei Semester.",
       "angedachtes Semester":4,
       "credit_points":8,
+      "assessments": [
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        },
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten"
+        }
+      ],
       "required_modules":[
 
       ]
@@ -696,6 +827,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":7,
       "credit_points":3,
+      "assessments": [
+        {
+          "name": "Lektürebezogene Aufgabe",
+          "extent": "30 Stunden"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EFD",
         "SLK-SEBS-DEU-SPÜ"
@@ -731,6 +868,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":7,
       "credit_points":3,
+      "assessments": [
+        {
+          "name": "Lektürebezogene Aufgabe",
+          "extent": "30 Stunden"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EFD",
         "SLK-SEBS-DEU-SPÜ"
@@ -766,6 +909,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":9,
       "credit_points":4,
+      "assessments": [
+        {
+          "name": "Projektarbeit",
+          "extent": "2 Wochen"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EFD",
         "SLK-SEBS-DEU-SPÜ",
@@ -802,6 +951,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":9,
       "credit_points":4,
+      "assessments": [
+        {
+          "name": "Projektarbeit",
+          "extent": "2 Wochen"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EFD",
         "SLK-SEBS-DEU-SPÜ",
@@ -832,12 +987,22 @@
       "Voraussetzungen für die Teilnahme":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-EFD.",
       "Verwendbarkeit":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Vo-raussetzungen für die Module SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT, SLK-SEBS-DEU-VFD2SPR sowie SLK-SEBS-DEU-BPB.",
       "Voraussetzungen für die Vergabe von Leistungspunkten":"Die Leistungspunkte werden erworben, wenn die Modulprüfung be-standen ist. Die Modulprüfung besteht aus einem unbenoteten Unterrichtsversuch von 45 Minuten Dauer und einem Unterrichtsentwurf im Umfang von 50 Stunden.",
-      "Leistungspunkte und Noten":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote ergibt sich unter Berücksichtigung von § 13Absatz 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Lehramt an berufsbildenden Schulen aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "Leistungspunkte und Noten":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote ergibt sich unter Berücksichtigung von § 13 Absatz 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Lehramt an berufsbildenden Schulen aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
       "Häufigkeit des Moduls":"Das Modul wird jedes Semester angeboten.",
       "Arbeitsaufwand":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":6,
       "credit_points":4,
+      "assessments": [
+        {
+          "name": "Unbenoteter Unterrichtsversuch",
+          "extent": "45 Minuten"
+        },
+        {
+          "name": "Unterrichtsentwurf",
+          "extent": "50 Stunden"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-EFD"
       ]
@@ -872,6 +1037,12 @@
       "Dauer des Moduls":"Das Modul umfasst ein Semester.",
       "angedachtes Semester":8,
       "credit_points":5,
+      "assessments": [
+        {
+          "name": "Unbenoteter Bericht",
+          "extent": "50 Stunden"
+        }
+      ],
       "required_modules":[
         "SLK-SEBS-DEU-VFD1LIT",
         "SLK-SEBS-DEU-VFD1SPR",
