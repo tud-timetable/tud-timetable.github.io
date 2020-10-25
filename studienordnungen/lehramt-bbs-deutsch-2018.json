@@ -40,7 +40,7 @@
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
-      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
       "study_semester":2,
       "credit_points":6,
@@ -85,11 +85,11 @@
         }
       ],
       "requirements_for_participation":null,
-      "applicability":"Das Modul ist ein Pflichtmodul in den StudiengängenLehramt an Grundschulen, Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.Das Modul schafft die Voraussetzungen für das Modul SLK-SEBS-DEU-V1LIT.",
+      "applicability":"Das Modul ist ein Pflichtmodul in den StudiengängenLehramt an Grundschulen, Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für das Modul SLK-SEBS-DEU-V1LIT.",
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
-      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
       "study_semester":1,
       "credit_points":6,
@@ -138,7 +138,7 @@
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
-      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringender Prüfungsleistung.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
       "study_semester":1,
       "credit_points":6,
@@ -187,7 +187,7 @@
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Sommersemester angeboten.",
-      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davonentfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
       "study_semester":2,
       "credit_points":6,
@@ -226,7 +226,7 @@
         }
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEBS-DEU-B1 und SLK-SEBS-DEU-B2.",
-      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-EWLIT und SLK-SEBS-DEU-ERLIT.",
+      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-EWLIT und SLK-SEBS-DEU-ERLIT.",
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Kurzüberprüfung im Umfang von 30 Stunden.",
       "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Kurzüberprüfung zweifach gewichtet.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
@@ -508,7 +508,7 @@
         "Professur für Neuere deutsche Literatur und Kulturgeschichte",
         "Professur für Neueste deutsche Literatur und Didaktik derdeutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul beinhaltet ausgewählte literatur-, kultur- und medienhistorische Themenkomplexe der älteren und neueren deutschen Literatur -und Kulturgeschichte. Die Studierenden besitzen mit Abschluss des Moduls exemplarisch vertiefte literatur-, kultur-und medienwissenschaftliche Überblickskenntnisse zur Epochengliederung und sindin der Lage, fachliche Kenntnisse anhand konkreter Fragestellungen umzusetzen sowie die Analyse von Texten und anderen Artefakten vor dem Hintergrund literatur-, kultur- und medienwissenschaftlicher Theorien zu kontextualisieren.",
+      "contents_and_qualification_targets":"Das Modul beinhaltet ausgewählte literatur-, kultur- und medienhistorische Themenkomplexe der älteren und neueren deutschen Literatur- und Kulturgeschichte. Die Studierenden besitzen mit Abschluss des Moduls exemplarisch vertiefte literatur-, kultur- und medienwissenschaftliche Überblickskenntnisse zur Epochengliederung und sindin der Lage, fachliche Kenntnisse anhand konkreter Fragestellungen umzusetzen sowie die Analyse von Texten und anderen Artefakten vor dem Hintergrund literatur-, kultur- und medienwissenschaftlicher Theorien zu kontextualisieren.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -682,7 +682,7 @@
         "Professur für Neuere deutsche Literatur und Kulturgeschichte",
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst transdisziplinär und exemplarisch literarische und kulturhistorische Themenkomplexe ausgewählter Epochen der älteren und neueren deutschen Literatur- und Kulturgeschichte.Mit Abschluss des Moduls besitzen die Studierenden die Fähigkeit, sich selbstständig, methoden- und theoriegestützt wissenschaftliche Fragestellungen zu erarbeiten und dabei auch Fachgrenzen zu überschreiten.",
+      "contents_and_qualification_targets":"Das Modul umfasst transdisziplinär und exemplarisch literarische und kulturhistorische Themenkomplexe ausgewählter Epochen der älteren und neueren deutschen Literatur- und Kulturgeschichte. Mit Abschluss des Moduls besitzen die Studierenden die Fähigkeit, sich selbstständig, methoden- und theoriegestützt wissenschaftliche Fragestellungen zu erarbeiten und dabei auch Fachgrenzen zu überschreiten.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -776,7 +776,7 @@
         }
       ],
       "requirements_for_participation":null,
-      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-SPÜ, SEBS-DEU-BPB, SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT sowie SLK-SEBS-DEU-VFD2SPR.",
+      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-SPÜ, SLK-SEBS-DEU-BPB, SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT sowie SLK-SEBS-DEU-VFD2SPR.",
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei Klausurarbeiten von jeweils 90 Minuten Dauer. Beide Prüfungsleistungen sind bestehensrelevant.",
       "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Sommersemester, angeboten.",
@@ -933,7 +933,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache, Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskus-sion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache, Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -948,7 +948,7 @@
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit im Umfang von zwei Wochen.",
       "credit_points_and_grades":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
-      "workload":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon ent-fallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
       "study_semester":9,
       "credit_points":4,
@@ -975,7 +975,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst das anwendungsorientierte Wissen zur Planung, Gestaltung und Auswertung von Unterricht im Fach Deutsch unter besonderer Berücksichtigung fachdidaktischer Aspekte. Es dient folglich dem Aufbau grundlegender Kompetenzen zur Organisation und Reflexion von Lehr- und Lernprozessen im Fach Deutsch. Nach schulpraktischen Übungen sind die Studierenden in der Lage, Planungs-, Gestaltungs-und Reflexionskompetenz zu entfalten und auf der Grundlage der fachdidaktischen Kenntnisse anzuwenden. Die Studierenden beherrschen und benutzen souverän die grundlegenden Konzeptionen, Begriffe und Methoden des Deutschunterrichts.",
+      "contents_and_qualification_targets":"Das Modul umfasst das anwendungsorientierte Wissen zur Planung, Gestaltung und Auswertung von Unterricht im Fach Deutsch unter besonderer Berücksichtigung fachdidaktischer Aspekte. Es dient folglich dem Aufbau grundlegender Kompetenzen zur Organisation und Reflexion von Lehr- und Lernprozessen im Fach Deutsch. Nach schulpraktischen Übungen sind die Studierenden in der Lage, Planungs-, Gestaltungs- und Reflexionskompetenz zu entfalten und auf der Grundlage der fachdidaktischen Kenntnisse anzuwenden. Die Studierenden beherrschen und benutzen souverän die grundlegenden Konzeptionen, Begriffe und Methoden des Deutschunterrichts.",
       "teaching_and_learning_methods":[
         {
           "name":"Schulpraktikum (SP)",
@@ -986,7 +986,7 @@
         }
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEBS-DEU-EFD.",
-      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Vo-raussetzungen für die Module SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT, SLK-SEBS-DEU-VFD2SPR sowie SLK-SEBS-DEU-BPB.",
+      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEBS-DEU-VFD1LIT, SLK-SEBS-DEU-VFD1SPR, SLK-SEBS-DEU-VFD2LIT, SLK-SEBS-DEU-VFD2SPR sowie SLK-SEBS-DEU-BPB.",
       "requirements_for_assigment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung be-standen ist. Die Modulprüfung besteht aus einem unbenoteten Unterrichtsversuch von 45 Minuten Dauer und einem Unterrichtsentwurf im Umfang von 50 Stunden.",
       "credit_points_and_grades":"Durch das Modul können 4 Leistungspunkte erworben werden. Die Modulnote ergibt sich unter Berücksichtigung von § 13 Absatz 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Lehramt an berufsbildenden Schulen aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
