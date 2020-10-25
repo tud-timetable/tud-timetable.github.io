@@ -2,12 +2,21 @@ import React from "react";
 import {
   Link
 } from "react-router-dom";
+import useProfessorships from "hooks/useProfessorships";
 
 function ModuleDescription({
   data
 }) {
-  if ( data == null ) {
+  const { status, value } = useProfessorships().read();
+
+  if ( data == null || status !== "resolved" ) {
     return null;
+  }
+
+  function findProfessorship( name ) {
+    return value.find(( prof ) => (
+      prof.name === name
+    ));
   }
 
   return (
@@ -38,9 +47,19 @@ function ModuleDescription({
       <dd className="col-12">
         <ul className="mb-0">
         {
-          data["Beteiligte Professuren"].map((item) => (
-            <li>{item}</li>
-          ))
+          data["Beteiligte Professuren"].map((item) => {
+            const profs = findProfessorship( item );
+
+            if ( profs ) {
+              return (
+                <li><a href={profs.url} target="_blank">{item}</a></li>
+              );
+            }
+
+            return (
+              <li>{item}</li>
+            );
+          })
         }
         </ul>
       </dd>

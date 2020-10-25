@@ -45,8 +45,6 @@ function App() {
     ));
   }
 
-  console.log( { module, data: findModule( module ) } );
-
   return (
     <Layout>
       <div className="row">

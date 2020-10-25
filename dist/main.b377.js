@@ -32867,10 +32867,6 @@ function App() {
     });
   }
 
-  console.log({
-    module: module,
-    data: findModule(module)
-  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32947,14 +32943,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hooks/useProfessorships */ "./src/hooks/useProfessorships.js");
+
 
 
 
 function ModuleDescription(_ref) {
   var data = _ref.data;
 
-  if (data == null) {
+  var _useProfessorships$re = Object(hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"])().read(),
+      status = _useProfessorships$re.status,
+      value = _useProfessorships$re.value;
+
+  if (data == null || status !== "resolved") {
     return null;
+  }
+
+  function findProfessorship(name) {
+    return value.find(function (prof) {
+      return prof.name === name;
+    });
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dl", {
@@ -32989,6 +32997,15 @@ function ModuleDescription(_ref) {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
     className: "mb-0"
   }, data["Beteiligte Professuren"].map(function (item) {
+    var profs = findProfessorship(item);
+
+    if (profs) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+        href: profs.url,
+        target: "_blank"
+      }, item));
+    }
+
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, item);
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
@@ -33128,6 +33145,72 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
 
 /***/ }),
 
+/***/ "./src/hooks/useProfessorships.js":
+/*!****************************************!*\
+  !*** ./src/hooks/useProfessorships.js ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
+
+var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(function (set, get) {
+  return {
+    "items": {},
+    "value": null,
+    "status": "idle",
+    "read": function read() {
+      var _get = get(),
+          value = _get.value,
+          status = _get.status,
+          items = _get.items;
+
+      switch (status) {
+        case "pending":
+        case "rejected":
+          return {
+            status: status,
+            value: value
+          };
+
+        case "resolved":
+          return {
+            status: status,
+            "value": items
+          };
+      }
+
+      var promise = fetch("/professorships.json").then(function (res) {
+        return res.json();
+      }).then(function (professorships) {
+        set({
+          "items": professorships,
+          "status": "resolved",
+          "value": null
+        });
+      })["catch"](function (error) {
+        set({
+          "status": "rejected",
+          "value": error
+        });
+      });
+      set({
+        "status": "pending",
+        "value": promise
+      });
+      return {
+        "status": "pending",
+        "value": promise
+      };
+    }
+  };
+});
+/* harmony default export */ __webpack_exports__["default"] = (useProfessorships);
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -33155,4 +33238,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.3a1c.js.map
+//# sourceMappingURL=main.b377.js.map
