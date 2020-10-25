@@ -32987,9 +32987,9 @@ function ModuleDescription(_ref) {
     className: "col-12"
   }, data["Inhalte und Qualifikationsziele"]), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
-  }, "Lern- und Lehrformen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
+  }, "Lehr- und Lernformen"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, data["Lern- und Lehrformen"].map(function (item) {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", null, data["Lehr- und Lernformen"].map(function (item) {
     if (item.extent) {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.name), " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", null, item.extent));
     }
@@ -33144,4 +33144,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.0bab.js.map
+//# sourceMappingURL=main.5e7b.js.map

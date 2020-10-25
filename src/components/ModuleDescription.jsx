@@ -42,11 +42,11 @@ function ModuleDescription({
       </dd>
       <dt className="col-12">Inhalte und Qualifikationsziele</dt>
       <dd className="col-12">{data["Inhalte und Qualifikationsziele"]}</dd>
-      <dt className="col-12">Lern- und Lehrformen</dt>
+      <dt className="col-12">Lehr- und Lernformen</dt>
       <dd className="col-12">
         <ul>
         {
-          data["Lern- und Lehrformen"].map((item) => {
+          data["Lehr- und Lernformen"].map((item) => {
             if ( item.extent ) {
               return (
                 <li>
