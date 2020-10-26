@@ -33608,6 +33608,7 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     }
   };
 });
+useDegreePrograms.subscribe(console.log);
 /* harmony default export */ __webpack_exports__["default"] = (useDegreePrograms);
 
 /***/ }),
@@ -33758,4 +33759,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4f60.js.map
+//# sourceMappingURL=main.02ab.js.map

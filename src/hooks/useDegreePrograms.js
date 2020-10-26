@@ -68,4 +68,6 @@ const useDegreePrograms = create((set, get) => ({
   },
 }));
 
+useDegreePrograms.subscribe(console.log);
+
 export default useDegreePrograms;
