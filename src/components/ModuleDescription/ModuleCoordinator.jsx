@@ -31,7 +31,13 @@ function ModuleCoordinator({
   return (
     <Fragment>
       <dt className="col-12">Modulverantwortlicher</dt>
-      <dd className="col-12">{ elements }</dd>
+      <dd className="col-12">
+      {
+        elements.map((element, index) => (
+          <Fragment key={ index }>{ element }</Fragment>
+        ))
+      }
+      </dd>
     </Fragment>
   );
 }

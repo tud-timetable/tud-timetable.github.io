@@ -33310,7 +33310,11 @@ function ModuleCoordinator(_ref) {
     className: "col-12"
   }, "Modulverantwortlicher"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
     className: "col-12"
-  }, elements));
+  }, elements.map(function (element, index) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], {
+      key: index
+    }, element);
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleCoordinator);
@@ -33730,4 +33734,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4f28.js.map
+//# sourceMappingURL=main.68db.js.map
