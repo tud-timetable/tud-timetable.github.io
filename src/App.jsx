@@ -3,11 +3,12 @@ import React, {
   useEffect
 } from "react";
 import {
+  Route,
   useHistory
 } from "react-router-dom";
 import Layout from "components/Layout";
-import ModuleDescription from "components/ModuleDescription";
 import useDegreePrograms from "hooks/useDegreePrograms";
+import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
 function App() {
   const history = useHistory();
@@ -41,18 +42,6 @@ function App() {
     history.push(
       `/${ degreeProgramId }/${ evt.target.value }`
     );
-  }
-
-  function findModule(number) {
-    if ( !value[ degreeProgramId ] ) {
-      return null;
-    }
-
-    const { modules } = value[ degreeProgramId ];
-
-    return modules.find((mod) => (
-      mod.module_numbers[0] === number
-    ));
   }
 
   return (
@@ -110,16 +99,9 @@ function App() {
           </div>
         </div>
       </div>
-      {
-        (status === "resolved") && (
-          <ModuleDescription
-            data={
-              findModule( module )
-            }
-            degreeProgramId={ degreeProgramId }
-          />
-        )
-      }
+      <Route path="/:degreeProgramId/:moduleId">
+        <ModuleDescriptionPage />
+      </Route>
     </Layout>
   );
 }
