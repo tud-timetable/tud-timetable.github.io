@@ -59,7 +59,7 @@ function ModuleSelect() {
         <div className="form-group">
           <select
             className="form-control"
-            disabled={ !isReady }
+            disabled={ !isReady || !degreeProgramId }
             onChange={ selectModule }
             value={ moduleId }
           >

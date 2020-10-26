@@ -32859,7 +32859,7 @@ function ModuleSelect() {
     className: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control",
-    disabled: !isReady,
+    disabled: !isReady || !degreeProgramId,
     onChange: selectModule,
     value: moduleId
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
@@ -33791,4 +33791,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.559c.js.map
+//# sourceMappingURL=main.8e35.js.map
