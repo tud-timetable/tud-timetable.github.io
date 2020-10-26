@@ -33583,15 +33583,9 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           });
         }));
       }).then(function (programs) {
-        console.log({
-          programs: programs
-        });
         var items = programs.reduce(function (accu, program) {
           return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.id, program.data));
         }, {});
-        console.log({
-          items: items
-        });
 
         var _get2 = get(),
             prevItems = _get2["items"];
@@ -33618,7 +33612,6 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     }
   };
 });
-useDegreePrograms.subscribe(console.log);
 /* harmony default export */ __webpack_exports__["default"] = (useDegreePrograms);
 
 /***/ }),
@@ -33769,4 +33762,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.fd0b.js.map
+//# sourceMappingURL=main.a218.js.map

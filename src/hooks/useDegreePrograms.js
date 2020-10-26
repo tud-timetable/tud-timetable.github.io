@@ -38,14 +38,10 @@ const useDegreePrograms = create((set, get) => ({
         );
       })
       .then((programs) => {
-        console.log({ programs });
-
         const items = programs.reduce((accu, program) => ({
           ...accu,
           [program.id]: program.data,
         }), {});
-
-        console.log({ items });
 
         const { "items": prevItems } = get();
 
@@ -73,7 +69,5 @@ const useDegreePrograms = create((set, get) => ({
     };
   },
 }));
-
-useDegreePrograms.subscribe(console.log);
 
 export default useDegreePrograms;
