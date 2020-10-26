@@ -33586,8 +33586,12 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
         var items = programs.reduce(function (accu, program) {
           return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.id, program.data));
         }, {});
+
+        var _get2 = get(),
+            prevItems = _get2["items"];
+
         set({
-          "items": items,
+          "items": _objectSpread(_objectSpread({}, prevItems), items),
           "status": "resolved",
           "value": null
         });
@@ -33759,4 +33763,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.02ab.js.map
+//# sourceMappingURL=main.a78f.js.map

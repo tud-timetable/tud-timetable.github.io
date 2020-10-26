@@ -43,8 +43,10 @@ const useDegreePrograms = create((set, get) => ({
           [program.id]: program.data,
         }), {});
 
+        const { "items": prevItems } = get();
+
         set({
-          "items": items,
+          "items": { ...prevItems, ...items },
           "status": "resolved",
           "value": null,
         });
