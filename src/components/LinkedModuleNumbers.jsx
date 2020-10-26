@@ -4,6 +4,7 @@ import React, {
 import {
   Link
 } from "react-router-dom";
+import ModuleNumber from "components/ModuleNumber";
 
 function LinkedModuleNumbers({
   children,
@@ -19,7 +20,9 @@ function LinkedModuleNumbers({
 
       if ( number !== undefined ) {
         elements.push(
-          <Link to={ number }>{ number }</Link>
+          <Link to={ number }>
+            <ModuleNumber>{ number }</ModuleNumber>
+          </Link>
         );
         return;
       }

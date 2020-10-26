@@ -32927,6 +32927,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_ModuleNumber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/ModuleNumber */ "./src/components/ModuleNumber.jsx");
+
 
 
 
@@ -32941,7 +32943,7 @@ function LinkedModuleNumbers(_ref) {
     if (number !== undefined) {
       elements.push( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
         to: number
-      }, number));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleNumber__WEBPACK_IMPORTED_MODULE_2__["default"], null, number)));
       return;
     }
 
@@ -33526,6 +33528,33 @@ function Workload(_ref) {
 
 /***/ }),
 
+/***/ "./src/components/ModuleNumber.jsx":
+/*!*****************************************!*\
+  !*** ./src/components/ModuleNumber.jsx ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+var style = {
+  "whiteSpace": "nowrap"
+};
+
+function ModuleNumber(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
+    style: style
+  }, children);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleNumber);
+
+/***/ }),
+
 /***/ "./src/hooks/useDegreePrograms.js":
 /*!****************************************!*\
   !*** ./src/hooks/useDegreePrograms.js ***!
@@ -33762,4 +33791,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.a218.js.map
+//# sourceMappingURL=main.537f.js.map
