@@ -32879,7 +32879,7 @@ function App() {
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Modul\xFCbersicht"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId"]
+    path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId", "/"]
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ModuleSelect, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/:degreeProgramId/:moduleId"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
@@ -33756,4 +33756,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.6ff8.js.map
+//# sourceMappingURL=main.9b50.js.map

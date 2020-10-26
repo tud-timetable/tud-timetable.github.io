@@ -93,7 +93,8 @@ function App() {
       </div>
       <Route path={[
         "/:degreeProgramId/:moduleId",
-        "/:degreeProgramId"
+        "/:degreeProgramId",
+        "/"
       ]}>
         <ModuleSelect />
       </Route>
