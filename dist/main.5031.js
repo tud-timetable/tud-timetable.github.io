@@ -32830,38 +32830,31 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 function App() {
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
 
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
       _useState2 = _slicedToArray(_useState, 2),
       degreeProgramId = _useState2[0],
       setDegreeProgramId = _useState2[1];
 
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(null),
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
       _useState4 = _slicedToArray(_useState3, 2),
-      module = _useState4[0],
-      setModule = _useState4[1];
+      moduleId = _useState4[0],
+      setModuleId = _useState4[1];
 
   var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__["default"])().read(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    if (status === "resolved") {
-      var program = Object.keys(value)[0];
-      setDegreeProgramId(program);
-      setModule(value[program].modules[0].module_numbers[0]);
-    }
-  }, [status]);
-
-  function selectProgram(evt) {
+  function selectDegreeProgram(evt) {
     setDegreeProgramId(evt.target.value);
     history.push("/".concat(evt.target.value));
   }
 
   function selectModule(evt) {
-    setModule(evt.target.value);
+    setModuleId(evt.target.value);
     history.push("/".concat(degreeProgramId, "/").concat(evt.target.value));
   }
 
+  var isReady = status === "resolved";
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -32874,12 +32867,13 @@ function App() {
     className: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control",
-    onChange: selectProgram,
-    disabled: status !== "resolved"
+    onChange: selectDegreeProgram,
+    disabled: !isReady,
+    value: degreeProgramId
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     disabled: true,
     value: ""
-  }, "Studiengang ausw\xE4hlen"), status === "resolved" && Object.keys(value).map(function (id) {
+  }, "Studiengang ausw\xE4hlen"), isReady && Object.keys(value).map(function (id) {
     var program = value[id];
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
       value: program.id,
@@ -32889,12 +32883,13 @@ function App() {
     className: "form-group"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
     className: "form-control",
-    disabled: status !== "resolved",
-    onChange: selectModule
+    disabled: !isReady,
+    onChange: selectModule,
+    value: moduleId
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
     disabled: true,
     value: ""
-  }, "Modul ausw\xE4hlen"), status === "resolved" && value[degreeProgramId] && value[degreeProgramId].modules.map(function (m) {
+  }, "Modul ausw\xE4hlen"), isReady && value[degreeProgramId] && value[degreeProgramId].modules.map(function (m) {
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
       value: m.module_numbers[0],
       key: m.module_numbers[0]
@@ -33775,4 +33770,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.a098.js.map
+//# sourceMappingURL=main.5031.js.map

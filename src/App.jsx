@@ -1,6 +1,5 @@
 import React, {
-  useState,
-  useEffect
+  useState
 } from "react";
 import {
   Route,
@@ -12,25 +11,11 @@ import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
 function App() {
   const history = useHistory();
-  const [ degreeProgramId, setDegreeProgramId ] = useState(null);
-  const [ module, setModule ] = useState(null);
+  const [ degreeProgramId, setDegreeProgramId ] = useState( "" );
+  const [ moduleId, setModuleId ] = useState( "" );
   const { status, value } = useDegreePrograms().read();
 
-  useEffect(() => {
-    if ( status === "resolved" ) {
-      const program = Object.keys( value )[0];
-
-      setDegreeProgramId(
-        program
-      );
-
-      setModule(
-        value[ program ].modules[0].module_numbers[0]
-      );
-    }
-  }, [ status ]);
-
-  function selectProgram(evt) {
+  function selectDegreeProgram(evt) {
     setDegreeProgramId( evt.target.value );
     history.push(
       `/${ evt.target.value }`
@@ -38,11 +23,15 @@ function App() {
   }
 
   function selectModule(evt) {
-    setModule( evt.target.value );
+    setModuleId( evt.target.value );
     history.push(
       `/${ degreeProgramId }/${ evt.target.value }`
     );
   }
+
+  const isReady = (
+    status === "resolved"
+  );
 
   return (
     <Layout>
@@ -56,12 +45,13 @@ function App() {
           <div className="form-group">
             <select
               className="form-control"
-              onChange={selectProgram}
-              disabled={status !== "resolved"}
+              onChange={ selectDegreeProgram }
+              disabled={ !isReady }
+              value={ degreeProgramId }
             >
               <option disabled value="">Studiengang auswählen</option>
               {
-                (status === "resolved") && (
+                isReady && (
                   Object.keys( value ).map((id) => {
                     const program = value[ id ];
 
@@ -79,12 +69,13 @@ function App() {
           <div className="form-group">
             <select
               className="form-control"
-              disabled={status !== "resolved"}
-              onChange={selectModule}
+              disabled={ !isReady }
+              onChange={ selectModule }
+              value={ moduleId }
             >
               <option disabled value="">Modul auswählen</option>
               {
-                (status === "resolved" && value[ degreeProgramId ]) && (
+                (isReady && value[ degreeProgramId ]) && (
                   value[ degreeProgramId ].modules.map((m) => (
                     <option
                       value={m.module_numbers[0]}
