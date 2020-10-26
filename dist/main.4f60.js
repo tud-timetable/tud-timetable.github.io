@@ -32817,8 +32817,10 @@ __webpack_require__.r(__webpack_exports__);
 
 function ModuleSelect() {
   var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
-      degreeProgramId = _useParams.degreeProgramId,
-      moduleId = _useParams.moduleId;
+      _useParams$degreeProg = _useParams.degreeProgramId,
+      degreeProgramId = _useParams$degreeProg === void 0 ? "" : _useParams$degreeProg,
+      _useParams$moduleId = _useParams.moduleId,
+      moduleId = _useParams$moduleId === void 0 ? "" : _useParams$moduleId;
 
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
 
@@ -33756,4 +33758,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.9b50.js.map
+//# sourceMappingURL=main.4f60.js.map

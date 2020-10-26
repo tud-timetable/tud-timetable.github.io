@@ -9,7 +9,7 @@ import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
 function ModuleSelect() {
-  const { degreeProgramId, moduleId } = useParams();
+  const { degreeProgramId = "", moduleId = "" } = useParams();
   const history = useHistory();
   const { status, value } = useDegreePrograms().read();
 
