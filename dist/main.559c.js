@@ -32809,57 +32809,78 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
 /* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
 /* harmony import */ var scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scenes/ModuleDescriptionPage */ "./src/scenes/ModuleDescriptionPage.jsx");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
 
 
 
+function ModuleSelect() {
+  var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+      degreeProgramId = _useParams.degreeProgramId,
+      moduleId = _useParams.moduleId;
 
-function App() {
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
-
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
-      _useState2 = _slicedToArray(_useState, 2),
-      degreeProgramId = _useState2[0],
-      setDegreeProgramId = _useState2[1];
-
-  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_0__["useState"])(""),
-      _useState4 = _slicedToArray(_useState3, 2),
-      moduleId = _useState4[0],
-      setModuleId = _useState4[1];
 
   var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__["default"])().read(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
   function selectDegreeProgram(evt) {
-    setDegreeProgramId(evt.target.value);
     history.push("/".concat(evt.target.value));
   }
 
   function selectModule(evt) {
-    setModuleId(evt.target.value);
     history.push("/".concat(degreeProgramId, "/").concat(evt.target.value));
   }
 
   var isReady = status === "resolved";
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "row"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "col"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "form-control",
+    onChange: selectDegreeProgram,
+    disabled: !isReady,
+    value: degreeProgramId
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    disabled: true,
+    value: ""
+  }, "Studiengang ausw\xE4hlen"), isReady && Object.keys(value).map(function (id) {
+    var program = value[id];
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      value: program.id,
+      key: program.id
+    }, program.name);
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "form-group"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+    className: "form-control",
+    disabled: !isReady,
+    onChange: selectModule,
+    value: moduleId
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+    disabled: true,
+    value: ""
+  }, "Modul ausw\xE4hlen"), isReady && value[degreeProgramId] && value[degreeProgramId].modules.map(function (m) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("option", {
+      value: m.module_numbers[0],
+      key: m.module_numbers[0]
+    }, m.module_name);
+  })))));
+}
+
+function App() {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Modul\xFCbersicht"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Modul\xFCbersicht"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId"]
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ModuleSelect, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "row"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "col"
@@ -33770,4 +33791,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5031.js.map
+//# sourceMappingURL=main.559c.js.map
