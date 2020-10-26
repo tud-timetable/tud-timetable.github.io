@@ -170,7 +170,7 @@
       "involved_professorships":[
         "Professur für Angewandte Linguistik"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst einen Überblick über die Gegenstände der Angewandten Linguistik. Qualifikationsziel des Moduls ist, dass die Studie-renden die grundlegenden Begriffe und Methoden der Angewandten Linguistik kennen und auf Texte anwendenkönnen. Die Studierenden verfügen über objektsprachliche Analyse- und metasprachliche Methodenkompetenz.",
+      "contents_and_qualification_targets":"Das Modul umfasst einen Überblick über die Gegenstände der Angewandten Linguistik. Qualifikationsziel des Moduls ist, dass die Studierenden die grundlegenden Begriffe und Methoden der Angewandten Linguistik kennen und auf Texte anwenden können. Die Studierenden verfügen über objektsprachliche Analyse- und metasprachliche Methodenkompetenz.",
       "teaching_and_learning_methods":[
         {
           "name":"Vorlesung (V)",
@@ -191,7 +191,7 @@
       "requirements_for_participation":null,
       "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Lehramt an Grundschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für das Modul SLK-SEMS-DEU-V2SPR.",
       "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
-      "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note derPrüfungsleistung.",
+      "credit_points_and_grades":"Durch das Modul können 6 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Sommersemester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
@@ -223,7 +223,7 @@
         "Professur für Neuere deutsche Literatur und Kulturgeschichte",
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul beinhaltet literarhistorische und systematische Themenkomplexe der älteren, der neueren und neuesten deutschen Literatur unter Einschluss kulturwissenschaftlicher und mediengeschichtlicher Aspekte. Die Studierende nbesitzen mit Abschluss des Moduls die Fähigkeiten zum analytischen Zugriff auf mittelalterliche, frühneuzeitliche und gegenwartssprachliche Texte des Deutschen und seiner älteren Sprachstufen. Sie verfügen über Kompetenzen im Umgang mit literaturgeschichtlichen und -theoretischen sowie kulturgeschichtlichen Problemstellungen und sind zur wissenschaftlich fundierten Auseinandersetzung mit der Forschungsliteratur in angemessener wissenschaftlicher Sprach- und Darstellungskompetenz befähigt. Die Studierenden können Themen strukturiert und argumentativ stringent nach wissenschaftlichen Prinzipien bearbeiten.",
+      "contents_and_qualification_targets":"Das Modul beinhaltet literarhistorische und systematische Themenkomplexe der älteren, der neueren und neuesten deutschen Literatur unter Einschluss kulturwissenschaftlicher und mediengeschichtlicher Aspekte. Die Studierenden besitzen mit Abschluss des Moduls die Fähigkeiten zum analytischen Zugriff auf mittelalterliche, frühneuzeitliche und gegenwartssprachliche Texte des Deutschen und seiner älteren Sprachstufen. Sie verfügen über Kompetenzen im Umgang mit literaturgeschichtlichen und -theoretischen sowie kulturgeschichtlichen Problemstellungen und sind zur wissenschaftlich fundierten Auseinandersetzung mit der Forschungsliteratur in angemessener wissenschaftlicher Sprach- und Darstellungskompetenz befähigt. Die Studierenden können Themen strukturiert und argumentativ stringent nach wissenschaftlichen Prinzipien bearbeiten.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -244,8 +244,8 @@
         3
       ],
       "required_modules":[
-        "SEMS-DEU-B1",
-        "SEMS-DEU-B2"
+        "SLK-SEMS-DEU-B1",
+        "SLK-SEMS-DEU-B2"
       ],
       "assessments":[
         {
@@ -293,8 +293,8 @@
         3
       ],
       "required_modules":[
-        "SEMS-DEU-B3",
-        "SEMS-DEU-B4"
+        "SLK-SEMS-DEU-B3",
+        "SLK-SEMS-DEU-B4"
       ],
       "assessments":[
         {
@@ -347,7 +347,7 @@
         5
       ],
       "required_modules":[
-        "SEMS-DEU-V1LIT"
+        "SLK-SEMS-DEU-V1LIT"
       ],
       "assessments":[
         {
@@ -390,7 +390,7 @@
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEMS-DEU-V2SPR.",
       "applicability":"Das Modul ist ein Pflichtmodul in der Erweiterung Sprache und Kultur in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEMS-DEU-SSPR und SLK-SEMS-DEU-KSPR.",
-      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Klausurarbeit von 90 MinutenDauer.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 140 Stunden bzw. 15 Seiten und einer Klausurarbeit von 90 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der Prüfungsleistungen. Die Kombinierte Arbeit wird dreifach und die Klausurarbeit zweifach gewichtet.",
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
@@ -399,7 +399,7 @@
         5
       ],
       "required_modules":[
-        "SEMS-DEU-V2SPR"
+        "SLK-SEMS-DEU-V2SPR"
       ],
       "assessments":[
         {
@@ -450,7 +450,7 @@
         5
       ],
       "required_modules":[
-        "SEMS-DEU-V1LIT"
+        "SLK-SEMS-DEU-V1LIT"
       ],
       "assessments":[
         {
@@ -471,7 +471,7 @@
         "Professur für Deutsch als Fremdsprache",
         "Professur für Germanistische Linguistik und Sprachgeschichte"
       ],
-      "contents_and_qualification_targets":"Inhalt des Moduls ist die selbstständige wissenschaftliche Erarbeitung von ausgewählten Themen der Studiengebiete Germanistische Sprachwissenschaft, Angewandte Linguistik bzw. Deutsch als Fremdsprache. Die Studierenden kennen mit Abschluss des Moduls alle Formen der Informationsbeschaffung (Recherche u. a.) und alle mündlichen und schriftlichen Formen der wissenschaftlichen Kommunikation. Sieverfügenüber objektsprachliche Analysekompetenz und die Kompetenz für schriftlich-wissenschaftliche Berichtstextsorten sowie die mündlich-wissenschaftliche Diskurskompetenz. Die Studierenden kennen weiterführende Methoden der Germanistischen Sprachwissenschaft, der Angewandten Linguistik und der Sprach- und Kulturvermittlung Deutsch als Fremdsprache.",
+      "contents_and_qualification_targets":"Inhalt des Moduls ist die selbstständige wissenschaftliche Erarbeitung von ausgewählten Themen der Studiengebiete Germanistische Sprachwissenschaft, Angewandte Linguistik bzw. Deutsch als Fremdsprache. Die Studierenden kennen mit Abschluss des Moduls alle Formen der Informationsbeschaffung (Recherche u. a.) und alle mündlichen und schriftlichen Formen der wissenschaftlichen Kommunikation. Sie verfügen über objektsprachliche Analysekompetenz und die Kompetenz für schriftlich-wissenschaftliche Berichtstextsorten sowie die mündlich-wissenschaftliche Diskurskompetenz. Die Studierenden kennen weiterführende Methoden der Germanistischen Sprachwissenschaft, der Angewandten Linguistik und der Sprach- und Kulturvermittlung Deutsch als Fremdsprache.",
       "teaching_and_learning_methods":[
         {
           "name":"Vorlesung (V)",
@@ -486,7 +486,7 @@
         }
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls SLK-SEMS-DEU-V2SPR.",
-      "applicability":"Das Modul ist ein Pflichtmodul in der Erweiterung Literatur und Kultur im Studiengang Lehramt an Mittelschulenim Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEMS-DEU-SSPR und SLK-SEMS-DEU-KSPR.",
+      "applicability":"Das Modul ist ein Pflichtmodul in der Erweiterung Literatur und Kultur im Studiengang Lehramt an Mittelschulen im Fach Deutsch. Das Modul schafft die Voraussetzungen für die Module SLK-SEMS-DEU-SSPR und SLK-SEMS-DEU-KSPR.",
       "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 60 Stunden.",
       "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
@@ -496,7 +496,7 @@
         5
       ],
       "required_modules":[
-        "SEMS-DEU-V2SPR"
+        "SLK-SEMS-DEU-V2SPR"
       ],
       "assessments":[
         {
@@ -543,8 +543,8 @@
         8
       ],
       "required_modules":[
-        "SEMS-DEU-EWLIT",
-        "SEMS-DEU-ERLIT"
+        "SLK-SEMS-DEU-EWLIT",
+        "SLK-SEMS-DEU-ERLIT"
       ],
       "assessments":[
         {
@@ -590,8 +590,8 @@
         8
       ],
       "required_modules":[
-        "SEMS-DEU-EWSPR",
-        "SEMS-DEU-ERSPR"
+        "SLK-SEMS-DEU-EWSPR",
+        "SLK-SEMS-DEU-ERSPR"
       ],
       "assessments":[
         {
@@ -634,8 +634,8 @@
         8
       ],
       "required_modules":[
-        "SEMS-DEU-EWLIT",
-        "SEMS-DEU-ERLIT"
+        "SLK-SEMS-DEU-EWLIT",
+        "SLK-SEMS-DEU-ERLIT"
       ],
       "assessments":[
         {
@@ -677,8 +677,8 @@
         8
       ],
       "required_modules":[
-        "SEMS-DEU-EWSPR",
-        "SEMS-DEU-ERSPR"
+        "SLK-SEMS-DEU-EWSPR",
+        "SLK-SEMS-DEU-ERSPR"
       ],
       "assessments":[
         {
@@ -699,7 +699,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst Überblickswissen über die Didaktik des Literatur-und des Sprachunterrichts und über relevante Konzeptionen der Planung, Gestaltung und Evaluierung des Deutschunterrichts. Nach Abschluss des Moduls verfügen die Studierenden über grundlegende Kenntnisse der relevanten Bereiche des Deutschunterrichts und sind in der Lage, fachwissenschaftliche, allgemein- und fachdidaktische Kenntnisse und Verfahren zu verknüpfen.",
+      "contents_and_qualification_targets":"Das Modul umfasst Überblickswissen über die Didaktik des Literatur- und des Sprachunterrichts und über relevante Konzeptionen der Planung, Gestaltung und Evaluierung des Deutschunterrichts. Nach Abschluss des Moduls verfügen die Studierenden über grundlegende Kenntnisse der relevanten Bereiche des Deutschunterrichts und sind in der Lage, fachwissenschaftliche, allgemein- und fachdidaktische Kenntnisse und Verfahren zu verknüpfen.",
       "teaching_and_learning_methods":[
         {
           "name":"Einführungskurs (EK)",
@@ -745,7 +745,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Literaturdidaktik, v. a. des Umgangs mit Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzensich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Literaturdidaktik, v. a. des Umgangs mit Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -766,8 +766,8 @@
         6
       ],
       "required_modules":[
-        "SEMS-DEU-EFD",
-        "SEMS-DEU-SPÜ"
+        "SLK-SEMS-DEU-EFD",
+        "SLK-SEMS-DEU-SPÜ"
       ],
       "assessments":[
         {
@@ -809,8 +809,8 @@
         6
       ],
       "required_modules":[
-        "SEMS-DEU-EFD",
-        "SEMS-DEU-SPÜ"
+        "SLK-SEMS-DEU-EFD",
+        "SLK-SEMS-DEU-SPÜ"
       ],
       "assessments":[
         {
@@ -831,7 +831,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst spezifische Aspekte der Literaturdidaktik unter besonderer Berücksichtigung ihrer Relevanz für die Planung und Gestaltung von Lehr- und Lernprozessen mit Literatur bzw. Medien. Die Studierenden besitzen nach Abschluss des Moduls die Kompetenz, spezifische Aspekte des Umgangs mit Literatur und Medien – als Mittel und Gegenstand – zu erkennen und zu erörtern. Sie besitzen vertieftes Wissen zur Arbeit mit literarischen Texten und Medien in lernbereichs -und fächerübergreifenden Zusammenhängen und sind in der Lage, dieses Wissen anzuwenden, zu vertiefen und zu erweitern.",
+      "contents_and_qualification_targets":"Das Modul umfasst spezifische Aspekte der Literaturdidaktik unter besonderer Berücksichtigung ihrer Relevanz für die Planung und Gestaltung von Lehr- und Lernprozessen mit Literatur bzw. Medien. Die Studierenden besitzen nach Abschluss des Moduls die Kompetenz, spezifische Aspekte des Umgangs mit Literatur und Medien – als Mittel und Gegenstand – zu erkennen und zu erörtern. Sie besitzen vertieftes Wissen zur Arbeit mit literarischen Texten und Medien in lernbereichs- und fächerübergreifenden Zusammenhängen und sind in der Lage, dieses Wissen anzuwenden, zu vertiefen und zu erweitern.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -852,8 +852,8 @@
         7
       ],
       "required_modules":[
-        "SEMS-DEU-EFD",
-        "SEMS-DEU-SPÜ"
+        "SLK-SEMS-DEU-EFD",
+        "SLK-SEMS-DEU-SPÜ"
       ],
       "assessments":[
         {
@@ -874,7 +874,7 @@
       "involved_professorships":[
         "Professur für Neueste deutsche Literatur und Didaktik der deutschen Sprache und Literatur"
       ],
-      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache, Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzensich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
+      "contents_and_qualification_targets":"Das Modul umfasst ausgewählte Aspekte der Sprachdidaktik, v. a. des Umgangs mit Sprache, Literatur und Medien als Mittel und Gegenstand des Deutschunterrichts. Die Studierenden verfügen mit Abschluss des Moduls über die grundlegenden Begriffe, Modelle und Methoden der Fachdidaktik Deutsch und setzen sich vertiefend mit Problemen der aktuellen fachdidaktischen Diskussion auseinander. Sie besitzen die Kompetenz, selbstständig fachwissenschaftliche und fachdidaktische Inhalte mit praktischer Planung, Gestaltung und Reflexion des Unterrichts zu verbinden.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -895,8 +895,8 @@
         7
       ],
       "required_modules":[
-        "SEMS-DEU-EFD",
-        "SEMS-DEU-SPÜ"
+        "SLK-SEMS-DEU-EFD",
+        "SLK-SEMS-DEU-SPÜ"
       ],
       "assessments":[
         {
@@ -974,7 +974,7 @@
         }
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module SLK-SEMS-DEU-EFD, SLK-SEMS-DEU-SPÜ, SLK-SEMS-DEU-VFD1LIT sowie SLK-SEMS-DEU-VFD1SPR.",
-      "applicability":"Das Modul ist ein Pflichtmodul in den StudiengängenLehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
+      "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Lehramt an Mittelschulen, Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Deutsch.",
       "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem unbenoteten Bericht im Umfang von 50 Stunden.",
       "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulprüfung wird mit „bestanden“ oder „nicht bestanden“ bewertet.",
       "frequency":"Das Modul wird jedes Semester angeboten.",
@@ -984,10 +984,10 @@
         7
       ],
       "required_modules":[
-        "SEMS-DEU-EFD",
-        "SEMS-DEU-SPÜ",
-        "SEMS-DEU-VFD1LIT",
-        "SEMS-DEU-VFD1SPR"
+        "SLK-SEMS-DEU-EFD",
+        "SLK-SEMS-DEU-SPÜ",
+        "SLK-SEMS-DEU-VFD1LIT",
+        "SLK-SEMS-DEU-VFD1SPR"
       ],
       "assessments":[
         {
