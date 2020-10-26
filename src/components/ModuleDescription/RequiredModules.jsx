@@ -4,6 +4,7 @@ import React, {
 import {
   Link
 } from "react-router-dom";
+import ModuleNumber from "components/ModuleNumber";
 
 function RequiredModules({
   items = [],
@@ -26,7 +27,9 @@ function RequiredModules({
         {
           items.map(( item ) => (
             <li key={ item }>
-              <Link to={ `/${degreeProgramId}/${item}` }>{ item }</Link>
+              <Link to={ `/${degreeProgramId}/${item}` }>
+                <ModuleNumber>{ item }</ModuleNumber>
+              </Link>
             </li>
           ))
         }

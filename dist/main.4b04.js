@@ -33374,6 +33374,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_ModuleNumber__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/ModuleNumber */ "./src/components/ModuleNumber.jsx");
+
 
 
 
@@ -33401,7 +33403,7 @@ function RequiredModules(_ref) {
       key: item
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
       to: "/".concat(degreeProgramId, "/").concat(item)
-    }, item));
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleNumber__WEBPACK_IMPORTED_MODULE_2__["default"], null, item)));
   }))));
 }
 
@@ -33791,4 +33793,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.537f.js.map
+//# sourceMappingURL=main.4b04.js.map
