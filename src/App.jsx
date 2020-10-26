@@ -97,56 +97,6 @@ function App() {
       ]}>
         <ModuleSelect />
       </Route>
-      <div className="row">
-        <div className="col">
-          <div className="form-group">
-            <select
-              className="form-control"
-              onChange={ selectDegreeProgram }
-              disabled={ !isReady }
-              value={ degreeProgramId }
-            >
-              <option disabled value="">Studiengang auswählen</option>
-              {
-                isReady && (
-                  Object.keys( value ).map((id) => {
-                    const program = value[ id ];
-
-                    return (
-                      <option
-                        value={ program.id }
-                        key={ program.id }
-                      >{ program.name }</option>
-                    );
-                  })
-                )
-              }
-            </select>
-          </div>
-          <div className="form-group">
-            <select
-              className="form-control"
-              disabled={ !isReady }
-              onChange={ selectModule }
-              value={ moduleId }
-            >
-              <option disabled value="">Modul auswählen</option>
-              {
-                (isReady && value[ degreeProgramId ]) && (
-                  value[ degreeProgramId ].modules.map((m) => (
-                    <option
-                      value={m.module_numbers[0]}
-                      key={m.module_numbers[0]}
-                    >
-                      {m.module_name}
-                    </option>
-                  ))
-                )
-              }
-            </select>
-          </div>
-        </div>
-      </div>
       <Route path="/:degreeProgramId/:moduleId">
         <ModuleDescriptionPage />
       </Route>
