@@ -17,8 +17,8 @@ function toNodes(modules) {
 function toEdges(modules) {
   return new DataSet(
     modules.reduce((accu, m_to) => {
-      const newEdges = m_to.required_modules.map((m_from) => ({
-        "from": m_from.module_numbers[0],
+      const newEdges = m_to.required_modules.map((m_number_from) => ({
+        "from": m_number_from,
         "to": m_to.module_numbers[0],
       }));
 

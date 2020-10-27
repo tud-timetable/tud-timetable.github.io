@@ -80561,9 +80561,9 @@ function toNodes(modules) {
 
 function toEdges(modules) {
   return new vis_data_peer__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.reduce(function (accu, m_to) {
-    var newEdges = m_to.required_modules.map(function (m_from) {
+    var newEdges = m_to.required_modules.map(function (m_number_from) {
       return {
-        "from": m_from.module_numbers[0],
+        "from": m_number_from,
         "to": m_to.module_numbers[0]
       };
     });
@@ -81422,4 +81422,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b333.js.map
+//# sourceMappingURL=main.4463.js.map
