@@ -2,7 +2,7 @@ import React, {
   useRef,
   useMemo
 } from "react";
-import vis from "vis-network";
+import "vis-network";
 
 console.log({vis});
 

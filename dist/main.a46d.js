@@ -41236,7 +41236,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 console.log({
-  vis: vis_network__WEBPACK_IMPORTED_MODULE_1___default.a
+  vis: vis
 });
 
 function toNodes(modules) {
@@ -42111,4 +42111,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.db54.js.map
+//# sourceMappingURL=main.a46d.js.map
