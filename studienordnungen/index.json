@@ -16,5 +16,11 @@
     "file":"lehramt-gym-deutsch-2018.json",
     "name":"Studienordnung für das Fach Deutsch im Studiengang Höheres Lehramt an Gymnasien",
     "date_of_issue":"2018-05-05"
+  },
+  {
+    "id":"lehramt-gs-deutsch-2016",
+    "file":"lehramt-gs-deutsch-2016.json",
+    "name":"Studienordnung für das Fach Deutsch im Studiengang Lehramt an Grundschulen",
+    "date_of_issue":"2016-07-30"
   }
 ]
