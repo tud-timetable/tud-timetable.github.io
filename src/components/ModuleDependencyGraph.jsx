@@ -35,7 +35,7 @@ function ModuleDependencyGraph({
 }) {
   const container = useRef();
 
-  console.log({ container: container.current });
+  console.log({ container: container });
 
   const network = useMemo(() => {
     const nodes = toNodes( modules );

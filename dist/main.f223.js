@@ -80575,7 +80575,7 @@ function ModuleDependencyGraph(_ref) {
   var modules = _ref.modules;
   var container = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
   console.log({
-    container: container.current
+    container: container
   });
   var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     var nodes = toNodes(modules);
@@ -81431,4 +81431,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.3ed4.js.map
+//# sourceMappingURL=main.f223.js.map
