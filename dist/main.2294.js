@@ -80586,6 +80586,9 @@ function ModuleDependencyGraph(_ref) {
       nodes: nodes,
       edges: edges
     };
+    console.log({
+      data: data
+    });
     network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, {});
     return function () {
       if (!network.current) {
@@ -81439,4 +81442,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.59ac.js.map
+//# sourceMappingURL=main.2294.js.map

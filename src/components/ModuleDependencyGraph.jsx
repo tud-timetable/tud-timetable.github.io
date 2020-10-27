@@ -50,6 +50,8 @@ function ModuleDependencyGraph({
       edges
     };
 
+    console.log({ data });
+
     network.current = new Network(
       container.current,
       data,
