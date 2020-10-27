@@ -5,6 +5,7 @@ import {
   useParams
 } from "react-router-dom";
 import Layout from "components/Layout";
+import ModuleDependencyGraph from "components/ModuleDependencyGraph";
 import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
@@ -83,6 +84,21 @@ function ModuleSelect() {
   );
 }
 
+function ModuleDependencies() {
+  const { degreeProgramId } = useParams();
+  const { status, value } = useDegreePrograms().read();
+
+  if ( !degreeProgramId || status !== "resolved" ) {
+    return null;
+  }
+
+  return (
+    <ModuleDependencyGraph
+      modules={ value[ degreeProgramId ].modules }
+    />
+  );
+}
+
 function App() {
   return (
     <Layout>
@@ -97,6 +113,9 @@ function App() {
         "/"
       ]}>
         <ModuleSelect />
+      </Route>
+      <Route path="/:degreeProgramId">
+        <ModuleDependencies />
       </Route>
       <Route path="/:degreeProgramId/:moduleId">
         <ModuleDescriptionPage />
