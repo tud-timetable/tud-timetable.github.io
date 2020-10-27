@@ -80574,24 +80574,32 @@ function toEdges(modules) {
 function ModuleDependencyGraph(_ref) {
   var modules = _ref.modules;
   var container = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
-  console.log({
-    container: container
-  });
-  var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
+  var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    if (!container.current) {
+      return;
+    }
+
     var nodes = toNodes(modules);
     var edges = toEdges(modules);
     var data = {
       nodes: nodes,
       edges: edges
     };
-    console.log("memo");
+    network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, {});
+    return function () {
+      if (!network.current) {
+        return;
+      }
 
-    if (!container.current) {
-      return null;
-    }
-
-    return new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, {});
+      network.current.destroy();
+      network.current = null;
+    };
   }, [modules, container.current]);
+  console.log({
+    container: container,
+    network: network
+  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("canvas", {
     ref: container
   }, "Graph wird geladen");
@@ -81431,4 +81439,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.f223.js.map
+//# sourceMappingURL=main.59ac.js.map

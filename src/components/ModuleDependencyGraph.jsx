@@ -1,6 +1,7 @@
 import React, {
   useRef,
-  useMemo
+  useMemo,
+  useEffect
 } from "react";
 import { DataSet } from "vis-data/peer";
 import { Network } from "vis-network/peer";
@@ -34,10 +35,13 @@ function ModuleDependencyGraph({
   modules
 }) {
   const container = useRef();
+  const network = useRef(null);
 
-  console.log({ container: container });
+  useEffect(() => {
+    if ( !container.current ) {
+      return;
+    }
 
-  const network = useMemo(() => {
     const nodes = toNodes( modules );
     const edges = toEdges( modules );
 
@@ -46,18 +50,26 @@ function ModuleDependencyGraph({
       edges
     };
 
-    console.log( "memo" );
-
-    if ( !container.current ) {
-      return null;
-    }
-
-    return new Network(
+    network.current = new Network(
       container.current,
       data,
       {}
     );
+
+    return () => {
+      if ( !network.current ) {
+        return;
+      }
+
+      network.current.destroy();
+      network.current = null;
+    };
   }, [ modules, container.current ]);
+
+  console.log({
+    container: container,
+    network: network,
+  });
 
   return (
     <canvas ref={ container }>Graph wird geladen</canvas>
