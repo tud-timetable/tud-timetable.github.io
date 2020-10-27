@@ -114,7 +114,7 @@ function App() {
       ]}>
         <ModuleSelect />
       </Route>
-      <Route path="/:degreeProgramId">
+      <Route path="/:degreeProgramId" exact>
         <ModuleDependencies />
       </Route>
       <Route path="/:degreeProgramId/:moduleId">
