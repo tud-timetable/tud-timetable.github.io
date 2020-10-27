@@ -80554,7 +80554,9 @@ function toNodes(modules) {
   return new vis_data_peer__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.map(function (m) {
     return {
       "id": m.module_numbers[0],
-      "label": m.module_name
+      "label": m.module_name,
+      "shape": "box",
+      "level": m.study_semester
     };
   }));
 }
@@ -80586,10 +80588,14 @@ function ModuleDependencyGraph(_ref) {
       nodes: nodes,
       edges: edges
     };
-    console.log({
-      data: data
-    });
-    network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, {});
+    var options = {
+      "arrows": "to",
+      "hierarchical": {
+        "enabled": true,
+        "sortMethod": "directed"
+      }
+    };
+    network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, options);
     return function () {
       if (!network.current) {
         return;
@@ -80599,10 +80605,6 @@ function ModuleDependencyGraph(_ref) {
       network.current = null;
     };
   }, [modules, container.current]);
-  console.log({
-    container: container,
-    network: network
-  });
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     ref: container
   });
@@ -81442,4 +81444,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.2bb0.js.map
+//# sourceMappingURL=main.5aec.js.map

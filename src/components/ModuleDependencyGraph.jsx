@@ -11,6 +11,8 @@ function toNodes(modules) {
     modules.map((m) => ({
       "id": m.module_numbers[0],
       "label": m.module_name,
+      "shape": "box",
+      "level": m.study_semester,
     }))
   );
 }
@@ -50,12 +52,18 @@ function ModuleDependencyGraph({
       edges
     };
 
-    console.log({ data });
+    const options = {
+      "arrows": "to",
+      "hierarchical": {
+        "enabled": true,
+        "sortMethod": "directed",
+      },
+    };
 
     network.current = new Network(
       container.current,
       data,
-      {}
+      options
     );
 
     return () => {
@@ -67,11 +75,6 @@ function ModuleDependencyGraph({
       network.current = null;
     };
   }, [ modules, container.current ]);
-
-  console.log({
-    container: container,
-    network: network,
-  });
 
   return (
     <div ref={ container }></div>
