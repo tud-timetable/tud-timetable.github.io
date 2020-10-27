@@ -80581,8 +80581,13 @@ function ModuleDependencyGraph(_ref) {
       nodes: nodes,
       edges: edges
     };
+
+    if (!container.current) {
+      return null;
+    }
+
     return new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, {});
-  }, [modules]);
+  }, [modules, container.current]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("canvas", {
     ref: container
   }, "Graph wird geladen");
@@ -81422,4 +81427,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4463.js.map
+//# sourceMappingURL=main.268e.js.map

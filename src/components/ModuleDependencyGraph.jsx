@@ -44,12 +44,16 @@ function ModuleDependencyGraph({
       edges
     };
 
+    if ( !container.current ) {
+      return null;
+    }
+
     return new Network(
       container.current,
       data,
       {}
     );
-  }, [ modules ]);
+  }, [ modules, container.current ]);
 
   return (
     <canvas ref={ container }>Graph wird geladen</canvas>
