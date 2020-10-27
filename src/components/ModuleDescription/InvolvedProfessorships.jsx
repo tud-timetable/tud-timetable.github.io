@@ -17,6 +17,10 @@ function InvolvedProfessorships({
     ));
   }
 
+  if ( !items || items.length === 0 ) {
+    return null;
+  }
+
   return (
     <Fragment>
       <dt className="col-12">Beteiligte Professuren</dt>

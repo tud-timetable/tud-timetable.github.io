@@ -1,0 +1,361 @@
+{
+  "name":"Studienordnung für das Fach Französisch im Studiengang Lehramt an Mittelschulen",
+  "id":"lehramt-ms-franzoesisch-2018",
+  "date_of_issue":"2018-08-24",
+  "file":"http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2018-17/07_07soLAM24.08.2018.pdf",
+  "modules":[
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-B",
+        "SLK-SEGY-FRA-B",
+        "SLK-SEBS-FRA-B"
+      ],
+      "module_name":"Basismodul",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte sind die Methoden und Gegenstände der französischen Sprach-, Kultur- und Literaturwissenschaft, die Grundlagen der Literaturtheorie und Textanalyse sowie die wichtigsten Institutionen und kulturellen Charakteristika der frankophonen Gesellschaften sowie deren historische Entwicklung, unter Berücksichtigung transnationaler und bilateraler Beziehungen. Mit Abschluss des Moduls kennen die Studierenden die grundlegenden Begriffe und Methoden der linguistischen Analyse und können diese auf Texte anwenden. Sie haben einen fundierten Überblick über das System der französischen Standardsprache in seinen verschiedenen Ausprägungen sowie über die regionalen Varianten und kennen spezielle Themenkomplexe der französischen Sprachwissenschaft aus gegenwartsbezogener und historischer Sicht. Sie besitzen einen Überblick über die Geschichte der französischen Literatur anhand ausgewählter Beispiele. Sie verfügen über die nötigen begrifflichen und methodischen Kenntnisse zur selbstständigen Analyse der verschiedenen literarischen Textsorten und sind in der Lage, literaturgeschichtliche Zusammenhänge an Hand wichtiger Autoren, Werke und Strömungen einzuordnen. Die Studierenden kennen die wichtigsten theoretischen Konzepte und Methoden der Kulturwissenschaft und verfügen über solide Grundkenntnisse charakteristischer Züge der frankophonen Gesellschaften sowie deren Entwicklung.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Einführungskurs (EK)",
+          "extent":"6 SWS"
+        },
+        {
+          "name":"Vorlesung (V)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":null,
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für die Module Aufbaumodul und Fachdidaktik 2.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Klausurarbeiten von jeweils 90 Minuten Dauer und einem Testat von 45 Minuten Dauer in den Bereichen Sprach-, Literatur- und Kulturwissenschaft.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Noten der Klausurarbeiten jeweils zweifach und die Note des Testats einfach gewichtet werden.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 150 Stunden auf die Präsenz und 300 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        1
+      ],
+      "credit_points":15,
+      "required_modules":[
+
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-A",
+        "SLK-SEGY-FRA-A",
+        "SLK-SEBS-FRA-A"
+      ],
+      "module_name":"Aufbaumodul",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte sind exemplarische kanonische Bereiche französischer Sprach-, Literatur- und Kulturwissenschaft: einschlägige Themen der diachronen oder synchronen französischen Sprachwissenschaft sowie literarische Gattungen und repräsentative französischsprachige Autoren und methodische, historische Gegenstände der französischen Kulturwissenschaft. Mit Abschluss des Moduls besitzen die Studierenden aufgrund eigener Textarbeit bzw. eigenständigem Umgang mit Medien eine erhöhte Kompetenz, exemplarische Texte bzw. Untersuchungsgegenstände der Bereiche französischer Sprach-, Literatur- und Kulturwissenschaft zu analysieren.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar (S)",
+          "extent":"6 SWS"
+        },
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Basismodul.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für das Modul Wissenschaftliche Vertiefung.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus je einem Kurzbeitrag in den Berei-chen Sprach-, Literatur- und Kulturwissenschaft im Umfang von jeweils 20 Stunden und einem Testat von 45 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 9 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 270 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        3
+      ],
+      "credit_points":9,
+      "required_modules":[
+        "SLK-SEMS-FRA-B"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-W"
+      ],
+      "module_name":"Wissenschaftliche Vertiefung",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalt des Moduls ist die Auseinandersetzung mit einem repräsentativen Forschungsgegenstand der Französistik in Theorie und Praxis. Die Inhalte tangieren synchrone und diachrone Fragestellungen. Mit Abschluss des Moduls kennen die Studierenden weitere repräsentative Spezialthemenund Überblicks-Themen der Französistik und sind in der Lage, deren Methoden und theoretische Konzepte auf ein exemplarisches Thema anzuwenden. Darüber hinaus sind sie in der Lage, ein wissenschaftliches Thema wohlstrukturiert und argumentativ stringent vorzustellen sowie sich eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, plausibel darzustellen und zu diskutieren.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar (S)",
+          "extent":"6 SWS"
+        },
+        {
+          "name":"Vorlesung (V)",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Aufbaumodul.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen im Fach Französisch.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 60 Stunden, einer Kombinierten Arbeit im Umfang von 120 Stunden, ei-ner Kurzüberprüfung im Umfang von 20 Stunden und einem Testat von 30 Minuten Dauer.",
+      "credit_points_and_grades":"Durch dasModul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit sechsfach, die Note des Referats vierfach sowie die Noten der Kurzüberprüfung und des Testats jeweils dreifach gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 330 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst drei Semester.",
+      "study_semester":[
+        5
+      ],
+      "credit_points":15,
+      "required_modules":[
+        "SLK-SEMS-FRA-A"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-Spra1",
+        "SLK-SEGY-FRA-Spra1",
+        "SLK-SEBS-FRA-Spra1"
+      ],
+      "module_name":"Sprachausbildung 1",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Gegenstand des Moduls sind die vier Grundfertigkeiten Hörverstehen, Sprechen, Leseverstehen und Schreiben zur Anwendung in allgemeinsprachlichen und studienbezogenen Kontexten. Mit Abschluss des Moduls sind die Studierenden in der Lage, die Hauptinhalte komplexer Texte zu konkreten und abstrakten Themen zu verstehen und sich zu bekannten Themen zusammenhängend mündlich und schriftlich zu äußern. Sie verfügen über die fremdsprachlichen Kompetenzen des Französischen auf Niveau B2.1 des Gemeinsamen Europäischen Referenzrahmens.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Sprachlernseminar (SLS)",
+          "extent":"8 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":null,
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für die Module Sprachausbildung 2 und Fachdidaktik 1.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei kombinierten Sprachprüfungen von jeweils 90 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        1
+      ],
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-Spra2",
+        "SLK-SEGY-FRA-Spra2",
+        "SLK-SEBS-FRA-Spra2"
+      ],
+      "module_name":"Sprachausbildung 2",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Hörverstehen, Leseverstehen, Sprechen, Schreiben und Übersetzen im Kontext unterschiedlicher Lebensbereiche der französischsprachigen Gesellschaft. Mit Abschluss des Moduls sind die Studierenden in der Lage, komplexere literarische Texte und Sachtexte zu verstehen, Stilunterschiede wahrzunehmen und Inhalte adäquat vom Französischen ins Deutsche und vom Deutschen ins Französische zu übertragen sowie sich zu einem breiten Themenspektrum spontan und fließend zu äußern. Sie verfügen über die fremdsprachlichen Kompetenzen des Französischen auf Niveau B2.2 des Gemeinsamen Europäischen Referenzrahmens.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Sprachlernseminar (SLS)",
+          "extent":"8 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 1.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für die Module Sprachausbildung 3 und Fachdidaktik 2.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer kombinierten Sprachprüfung von 90 Minuten Dauer und zwei Sprachtests von jeweils 45 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        3
+      ],
+      "credit_points":8,
+      "required_modules":[
+        "SLK-SEMS-FRA-Spra1"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-Spra3",
+        "SLK-SEGY-FRA-Spra3",
+        "SLK-SEBS-FRA-Spra3"
+      ],
+      "module_name":"Sprachausbildung 3",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Hörverstehen, Leseverstehen, Sprechen und Schreiben im thematischen Kontext der Frankophonie. Mit Abschluss des Moduls sind die Studierenden in der Lage, komplexe Sachverhalte ausführlich und kommunikativ angemessen in mündlicher und schriftlicher Form darzustellen. Im Ergebnis verfügen die Studierenden über fremdsprachliche Kompetenzen des Französischen auf Niveau C1 des Gemeinsamen Europäischen Referenzrahmens.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Sprachlernseminar (SLS)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 2.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für das Modul Sprachausbildung 4.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem mündlichen Sprachtest 30 Minuten und einer Sprachklausur von 90 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        5
+      ],
+      "credit_points":5,
+      "required_modules":[
+        "SLK-SEMS-FRA-Spra2"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-Spra4",
+        "SLK-SEBS-FRA-Spra4"
+      ],
+      "module_name":"Sprachausbildung 4",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Hörverstehen, Leseverstehen, Sprechen, Schreiben und Übersetzen anhand spezieller Gegenstände im Kontext der sozialen, kulturellen und sprachgeschichtlichen Entwicklung frankophoner Länder. Mit Abschluss des Moduls sind die Studierenden in der Lage, komplexe Sachverhalte ausführlich und kommunikativ angemessen in mündlicher und schriftlicher Form darzustellen, sich zu einem breiten Themenspektrum zu allgemeinsprachlichen und studienbezogenen Kontexten spontan und fließend zu äußern, anspruchsvolle Texte verschiedener Textsorten zu verstehen sowie Stilunterschiede wahrzunehmen und Inhalte adäquat aus dem Französischen ins Deutsche und aus dem Deutschen ins Französische zu übertragen. Sie verfügen über die fremdsprachlichen Kompetenzen des Französischen auf Niveau C2.1 des Gemeinsamen Europäischen Referenzrahmens.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Sprachlernseminar (SLS)",
+          "extent":"4 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 3.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen und im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Französisch.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem mündlichen Sprachtest 30 Minuten und einer Sprachklausur von 90 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        7
+      ],
+      "credit_points":5,
+      "required_modules":[
+        "SLK-SEMS-FRA-Spra3"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-FD1",
+        "SLK-SEGY-FRA-FD1",
+        "SLK-SEBS-FRA-FD1"
+      ],
+      "module_name":"Fachdidaktik 1",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte des Moduls sind grundlegende fremdsprachendidaktische Themenstellungen zur Theorie und Praxis eines kommunikativen interkulturellen Französischunterrichts sowie erste Unterrichtserfahrungen im Fach Französisch. Mit Abschluss des Moduls besitzen die Studierenden Grundkenntnisse über zentrale fremdsprachendidaktische Konzepte/Theorien/Modelle und über Beispiele der praktischen Umsetzung eines kommunikativen interkulturellen Französischunterrichts. Sie können auf der Grundlage der Fachliteratur ausgewählte fremdsprachendidaktische Themenkomplexe in Theorie und Praxis selbstständig erarbeiten und in wissenschaftlich angemessener Form darstellen. Sie sind in der Lage, ihre Kenntnisse zur Unterrichtsplanung in eigenen Unterrichtsversuchen in der Schule anzuwenden sowie zu beobachteten und den eigenen Französischunterricht zu reflektieren.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Einführungskurs (EK)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Schulpraktische Übung (SPÜ)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 1.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Es schafft die Voraussetzung für das Modul Fachdidaktik 2.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer, einer lektürebezogenen Aufgabe im Umfang von 60 Stunden, einem Portfolio im Umfang von 30 Stunden sowie zwei unbenoteten Unterrichtsversuchen von jeweils 45 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich unter Berücksichtigung von § 14 Abs. 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Lehramt an Mittelschulen aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Klausurarbeit und die Note der lektürebezogenen Aufgabe jeweils dreifach und die Note des Portfolios sowie der Unterrichtsversuche einfach gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst drei Semester.",
+      "study_semester":[
+        3
+      ],
+      "credit_points":12,
+      "required_modules":[
+        "SLK-SEMS-FRA-Spra1"
+      ],
+      "assessments":[
+
+      ]
+    },
+    {
+      "module_numbers":[
+        "SLK-SEMS-FRA-FD2",
+        "SLK-SEGY-FRA-FD2",
+        "SLK-SEBS-FRA-FD2"
+      ],
+      "module_name":"Fachdidaktik 2",
+      "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte des Moduls sind die Vertiefung ausgewählter fremdsprachendidaktischer Themenkomplexe sowie das Sammeln vertiefter Erfahrung im Französischunterricht. Mit Abschluss des Moduls können die Studierenden auf der Grundlage der Fachliteratur fremdsprachendidaktische Fragestellungen in Theorie, Empirie und Praxis selbstständig erarbeiten und in wissenschaftlich angemessener Form darstellen. Sie können Theorie und Praxis des Französischunterrichts aufeinander beziehen. Sie sind in der Lage, theoriegeleitet Französischunterricht unter einem fachdidaktischen Fokus zu analysieren, eigenen Unterricht in der Schule zu planen und durchzuführen sowie zu dokumentieren und zu reflektieren.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar (S)",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Schulpraktikum (SP)",
+          "extent":"in Blockform, 4 Wochen"
+        },
+        {
+          "name":"Selbststudium"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module Basismodul, Sprachausbildung 2 sowie Fachdidaktik 1.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Um-fang von 120 Stunden sowie einem Bericht im Umfang von 30 Stunden. Weitere Bestehensvoraussetzung ist die Absolvierung von begleitetem Unterricht im Umfang von 18 Stunden und Hospitationen im Umfang von 30 Stunden.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkteerworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit dreifach und die Note des Berichts zweifach gewichtet wird.",
+      "frequency":"Das Modul wird jedes Semesterangeboten.",
+      "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":[
+        7
+      ],
+      "credit_points":12,
+      "required_modules":[
+        "SLK-SEMS-FRA-B",
+        "SLK-SEMS-FRA-Spra2",
+        "SLK-SEMS-FRA-FD1"
+      ],
+      "assessments":[
+
+      ]
+    }
+  ]
+}

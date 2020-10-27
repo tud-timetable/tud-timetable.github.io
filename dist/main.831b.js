@@ -33212,6 +33212,10 @@ function InvolvedProfessorships(_ref) {
     });
   }
 
+  if (!items || items.length === 0) {
+    return null;
+  }
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0__["Fragment"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dt", {
     className: "col-12"
   }, "Beteiligte Professuren"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("dd", {
@@ -33790,4 +33794,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.d570.js.map
+//# sourceMappingURL=main.831b.js.map

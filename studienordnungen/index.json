@@ -22,5 +22,11 @@
     "file":"lehramt-gs-deutsch-2016.json",
     "name":"Studienordnung für das Fach Deutsch im Studiengang Lehramt an Grundschulen",
     "date_of_issue":"2016-07-30"
+  },
+  {
+    "id":"lehramt-ms-franzoesisch-2018",
+    "file":"lehramt-ms-franzoesisch-2018.json",
+    "name":"Studienordnung für das Fach Französisch im Studiengang Lehramt an Mittelschulen",
+    "date_of_issue":"2018-08-24"
   }
 ]
