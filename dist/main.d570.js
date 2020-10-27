@@ -33542,14 +33542,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-var style = {
-  "whiteSpace": "nowrap"
-};
 
 function ModuleNumber(_ref) {
   var children = _ref.children;
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-    style: style
+    className: "text-nowrap"
   }, children);
 }
 
@@ -33793,4 +33790,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4b04.js.map
+//# sourceMappingURL=main.d570.js.map
