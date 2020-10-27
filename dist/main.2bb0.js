@@ -80603,9 +80603,9 @@ function ModuleDependencyGraph(_ref) {
     container: container,
     network: network
   });
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("canvas", {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     ref: container
-  }, "Graph wird geladen");
+  });
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleDependencyGraph);
@@ -81442,4 +81442,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.2294.js.map
+//# sourceMappingURL=main.2bb0.js.map

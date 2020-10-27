@@ -74,7 +74,7 @@ function ModuleDependencyGraph({
   });
 
   return (
-    <canvas ref={ container }>Graph wird geladen</canvas>
+    <div ref={ container }></div>
   );
 }
 
