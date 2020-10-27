@@ -80574,6 +80574,9 @@ function toEdges(modules) {
 function ModuleDependencyGraph(_ref) {
   var modules = _ref.modules;
   var container = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
+  console.log({
+    container: container.current
+  });
   var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     var nodes = toNodes(modules);
     var edges = toEdges(modules);
@@ -80581,6 +80584,7 @@ function ModuleDependencyGraph(_ref) {
       nodes: nodes,
       edges: edges
     };
+    console.log("memo");
 
     if (!container.current) {
       return null;
@@ -81427,4 +81431,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.268e.js.map
+//# sourceMappingURL=main.3ed4.js.map

@@ -35,6 +35,8 @@ function ModuleDependencyGraph({
 }) {
   const container = useRef();
 
+  console.log({ container: container.current });
+
   const network = useMemo(() => {
     const nodes = toNodes( modules );
     const edges = toEdges( modules );
@@ -43,6 +45,8 @@ function ModuleDependencyGraph({
       nodes,
       edges
     };
+
+    console.log( "memo" );
 
     if ( !container.current ) {
       return null;
