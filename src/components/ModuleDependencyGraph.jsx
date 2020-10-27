@@ -2,9 +2,8 @@ import React, {
   useRef,
   useMemo
 } from "react";
-import "vis-network";
-
-console.log({vis});
+import { DataSet } from "vis-data/peer";
+import { Network } from "vis-network/peer";
 
 function toNodes(modules) {
   return new DataSet(
