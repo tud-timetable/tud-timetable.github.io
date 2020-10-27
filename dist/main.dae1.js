@@ -80566,7 +80566,8 @@ function toEdges(modules) {
     var newEdges = m_to.required_modules.map(function (m_number_from) {
       return {
         "from": m_number_from,
-        "to": m_to.module_numbers[0]
+        "to": m_to.module_numbers[0],
+        "arrows": "to"
       };
     });
     return [].concat(_toConsumableArray(accu), _toConsumableArray(newEdges));
@@ -80589,10 +80590,11 @@ function ModuleDependencyGraph(_ref) {
       edges: edges
     };
     var options = {
-      "arrows": "to",
-      "hierarchical": {
-        "enabled": true,
-        "sortMethod": "directed"
+      "layout": {
+        "hierarchical": {
+          "enabled": true,
+          "sortMethod": "directed"
+        }
       }
     };
     network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, options);
@@ -81444,4 +81446,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5aec.js.map
+//# sourceMappingURL=main.dae1.js.map

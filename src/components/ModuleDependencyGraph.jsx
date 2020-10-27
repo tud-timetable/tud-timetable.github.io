@@ -23,6 +23,7 @@ function toEdges(modules) {
       const newEdges = m_to.required_modules.map((m_number_from) => ({
         "from": m_number_from,
         "to": m_to.module_numbers[0],
+        "arrows": "to",
       }));
 
       return [
@@ -53,10 +54,11 @@ function ModuleDependencyGraph({
     };
 
     const options = {
-      "arrows": "to",
-      "hierarchical": {
-        "enabled": true,
-        "sortMethod": "directed",
+      "layout": {
+        "hierarchical": {
+          "enabled": true,
+          "sortMethod": "directed",
+        },
       },
     };
 
