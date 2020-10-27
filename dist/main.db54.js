@@ -41235,9 +41235,12 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+console.log({
+  vis: vis_network__WEBPACK_IMPORTED_MODULE_1___default.a
+});
 
 function toNodes(modules) {
-  return new vis_network__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.map(function (m) {
+  return new DataSet(modules.map(function (m) {
     return {
       "id": m.module_numbers[0],
       "label": m.module_name
@@ -41246,7 +41249,7 @@ function toNodes(modules) {
 }
 
 function toEdges(modules) {
-  return new vis_network__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.reduce(function (accu, m_to) {
+  return new DataSet(modules.reduce(function (accu, m_to) {
     var newEdges = m_to.required_modules.map(function (m_from) {
       return {
         "from": m_from.module_numbers[0],
@@ -41267,7 +41270,7 @@ function ModuleDependencyGraph(_ref) {
       nodes: nodes,
       edges: edges
     };
-    return new vis_network__WEBPACK_IMPORTED_MODULE_1__["Network"](container.current, data, {});
+    return new Network(container.current, data, {});
   }, [modules]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("canvas", {
     ref: container
@@ -42108,4 +42111,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.e204.js.map
+//# sourceMappingURL=main.db54.js.map
