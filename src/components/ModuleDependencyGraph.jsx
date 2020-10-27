@@ -60,6 +60,7 @@ function ModuleDependencyGraph({
           "sortMethod": "directed",
         },
       },
+      "physics": false,
     };
 
     network.current = new Network(

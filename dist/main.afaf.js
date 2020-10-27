@@ -80595,7 +80595,8 @@ function ModuleDependencyGraph(_ref) {
           "enabled": true,
           "sortMethod": "directed"
         }
-      }
+      },
+      "physics": false
     };
     network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, options);
     return function () {
@@ -81446,4 +81447,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.dae1.js.map
+//# sourceMappingURL=main.afaf.js.map
