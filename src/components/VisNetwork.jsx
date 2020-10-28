@@ -13,6 +13,26 @@ function VisNetwork({
   const network = useRef(null);
 
   useEffect(() => {
+    if ( !network.current ) {
+      return;
+    }
+
+    network.current.setOptions(
+      options
+    );
+  }, [ network.current, options ]);
+
+  useEffect(() => {
+    if ( !network.current ) {
+      return;
+    }
+
+    network.current.setData(
+      data
+    );
+  }, [ network.current, data ]);
+
+  useEffect(() => {
     if ( !container.current ) {
       return;
     }
@@ -31,7 +51,7 @@ function VisNetwork({
       network.current.destroy();
       network.current = null;
     };
-  }, [ data, options, container.current ]);
+  }, [ container.current ]);
 
   return (
     <div ref={ container }>{ children }</div>

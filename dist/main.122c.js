@@ -81239,6 +81239,20 @@ function VisNetwork(_ref) {
   var container = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
   var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])(null);
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    if (!network.current) {
+      return;
+    }
+
+    network.current.setOptions(options);
+  }, [network.current, options]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    if (!network.current) {
+      return;
+    }
+
+    network.current.setData(data);
+  }, [network.current, data]);
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     if (!container.current) {
       return;
     }
@@ -81252,7 +81266,7 @@ function VisNetwork(_ref) {
       network.current.destroy();
       network.current = null;
     };
-  }, [data, options, container.current]);
+  }, [container.current]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     ref: container
   }, children);
@@ -81498,4 +81512,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.89af.js.map
+//# sourceMappingURL=main.122c.js.map
