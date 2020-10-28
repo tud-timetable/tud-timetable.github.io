@@ -42,7 +42,26 @@
 
       ],
       "assessments":[
-
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 2
+        },
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 2
+        },
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 2
+        },
+        {
+          "name": "Testat",
+          "extent": "45 Minuten",
+          "weight": 1
+        }
       ]
     },
     {
@@ -70,7 +89,7 @@
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Basismodul.",
       "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch. Das Modul schafft die Voraussetzungen für das Modul Wissenschaftliche Vertiefung.",
-      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus je einem Kurzbeitrag in den Berei-chen Sprach-, Literatur- und Kulturwissenschaft im Umfang von jeweils 20 Stunden und einem Testat von 45 Minuten Dauer.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus je einem Kurzbeitrag in den Bereichen Sprach-, Literatur- und Kulturwissenschaft im Umfang von jeweils 20 Stunden und einem Testat von 45 Minuten Dauer.",
       "credit_points_and_grades":"Durch das Modul können 9 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 270 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
@@ -83,7 +102,22 @@
         "SLK-SEMS-FRA-B"
       ],
       "assessments":[
-
+        {
+          "name": "Kurzbeitrag",
+          "extent": "20 Stunden"
+        },
+        {
+          "name": "Kurzbeitrag",
+          "extent": "20 Stunden"
+        },
+        {
+          "name": "Kurzbeitrag",
+          "extent": "20 Stunden"
+        },
+        {
+          "name": "Testat",
+          "extent": "45 Minuten"
+        }
       ]
     },
     {
@@ -93,7 +127,7 @@
       "module_name":"Wissenschaftliche Vertiefung",
       "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
       "involved_professorships":null,
-      "contents_and_qualification_targets":"Inhalt des Moduls ist die Auseinandersetzung mit einem repräsentativen Forschungsgegenstand der Französistik in Theorie und Praxis. Die Inhalte tangieren synchrone und diachrone Fragestellungen. Mit Abschluss des Moduls kennen die Studierenden weitere repräsentative Spezialthemenund Überblicks-Themen der Französistik und sind in der Lage, deren Methoden und theoretische Konzepte auf ein exemplarisches Thema anzuwenden. Darüber hinaus sind sie in der Lage, ein wissenschaftliches Thema wohlstrukturiert und argumentativ stringent vorzustellen sowie sich eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, plausibel darzustellen und zu diskutieren.",
+      "contents_and_qualification_targets":"Inhalt des Moduls ist die Auseinandersetzung mit einem repräsentativen Forschungsgegenstand der Französistik in Theorie und Praxis. Die Inhalte tangieren synchrone und diachrone Fragestellungen. Mit Abschluss des Moduls kennen die Studierenden weitere repräsentative Spezialthemen und Überblicks-Themen der Französistik und sind in der Lage, deren Methoden und theoretische Konzepte auf ein exemplarisches Thema anzuwenden. Darüber hinaus sind sie in der Lage, ein wissenschaftliches Thema wohlstrukturiert und argumentativ stringent vorzustellen sowie sich eigenverantwortlich wissenschaftliche Fragestellungen zu erarbeiten, plausibel darzustellen und zu diskutieren.",
       "teaching_and_learning_methods":[
         {
           "name":"Seminar (S)",
@@ -106,8 +140,8 @@
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Aufbaumodul.",
       "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen im Fach Französisch.",
-      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 60 Stunden, einer Kombinierten Arbeit im Umfang von 120 Stunden, ei-ner Kurzüberprüfung im Umfang von 20 Stunden und einem Testat von 30 Minuten Dauer.",
-      "credit_points_and_grades":"Durch dasModul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit sechsfach, die Note des Referats vierfach sowie die Noten der Kurzüberprüfung und des Testats jeweils dreifach gewichtet wird.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 60 Stunden, einer Kombinierten Arbeit im Umfang von 120 Stunden, einer Kurzüberprüfung im Umfang von 20 Stunden und einem Testat von 30 Minuten Dauer.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit sechsfach, die Note des Referats vierfach sowie die Noten der Kurzüberprüfung und des Testats jeweils dreifach gewichtet wird.",
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 330 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst drei Semester.",
@@ -119,7 +153,26 @@
         "SLK-SEMS-FRA-A"
       ],
       "assessments":[
-
+        {
+          "name": "Referat",
+          "extent": "60 Stunden",
+          "weight": 4
+        },
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "120 Stunden",
+          "weight": 6
+        },
+        {
+          "name": "Kurzüberprüfung",
+          "extent": "20 Stunden",
+          "weight": 3
+        },
+        {
+          "name": "Testat",
+          "extent": "30 Minuten",
+          "weight": 3
+        }
       ]
     },
     {
@@ -156,7 +209,14 @@
 
       ],
       "assessments":[
-
+        {
+          "name": "Kombinierte Sprachprüfung",
+          "extent": "90 Minuten"
+        },
+        {
+          "name": "Kombinierte Sprachprüfung",
+          "extent": "90 Minuten"
+        }
       ]
     },
     {
@@ -193,7 +253,18 @@
         "SLK-SEMS-FRA-Spra1"
       ],
       "assessments":[
-
+        {
+          "name": "Kombinierte Sprachprüfung",
+          "extent": "90 Minuten"
+        },
+        {
+          "name": "Sprachtest",
+          "extent": "45 Minuten"
+        },
+        {
+          "name": "Sprachtest",
+          "extent": "45 Minuten"
+        }
       ]
     },
     {
@@ -230,7 +301,14 @@
         "SLK-SEMS-FRA-Spra2"
       ],
       "assessments":[
-
+        {
+          "name": "Mündlicher Sprachtest",
+          "extent": "30 Minuten"
+        },
+        {
+          "name": "Sprachklausur",
+          "extent": "90 Minuten"
+        }
       ]
     },
     {
@@ -266,7 +344,14 @@
         "SLK-SEMS-FRA-Spra3"
       ],
       "assessments":[
-
+        {
+          "name": "Mündlicher Sprachtest",
+          "extent": "30 Minuten"
+        },
+        {
+          "name": "Sprachklausur",
+          "extent": "90 Minuten"
+        }
       ]
     },
     {
@@ -311,7 +396,31 @@
         "SLK-SEMS-FRA-Spra1"
       ],
       "assessments":[
-
+        {
+          "name": "Klausurarbeit",
+          "extent": "90 Minuten",
+          "weight": 3
+        },
+        {
+          "name": "Lektürebezogene Aufgabe",
+          "extent": "60 Stunden",
+          "weight": 3
+        },
+        {
+          "name": "Portfolio",
+          "extent": "30 Stunden",
+          "weight": 1
+        },
+        {
+          "name": "Unbenoteter Unterrichtsversuch",
+          "extent": "45 Minuten",
+          "weight": 1
+        },
+        {
+          "name": "Unbenoteter Unterrichtsversuch",
+          "extent": "45 Minuten",
+          "weight": 1
+        }
       ]
     },
     {
@@ -339,7 +448,7 @@
       ],
       "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module Basismodul, Sprachausbildung 2 sowie Fachdidaktik 1.",
       "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Lehramt an Mittelschulen sowie in Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Französisch.",
-      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Um-fang von 120 Stunden sowie einem Bericht im Umfang von 30 Stunden. Weitere Bestehensvoraussetzung ist die Absolvierung von begleitetem Unterricht im Umfang von 18 Stunden und Hospitationen im Umfang von 30 Stunden.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 120 Stunden sowie einem Bericht im Umfang von 30 Stunden. Weitere Bestehensvoraussetzung ist die Absolvierung von begleitetem Unterricht im Umfang von 18 Stunden und Hospitationen im Umfang von 30 Stunden.",
       "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkteerworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit dreifach und die Note des Berichts zweifach gewichtet wird.",
       "frequency":"Das Modul wird jedes Semesterangeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
@@ -354,7 +463,16 @@
         "SLK-SEMS-FRA-FD1"
       ],
       "assessments":[
-
+        {
+          "name": "Kombinierte Arbeit",
+          "extent": "120 Stunden",
+          "weight": 3
+        },
+        {
+          "name": "Bericht",
+          "extent": "30 Stunden",
+          "weight": 2
+        }
       ]
     }
   ]
