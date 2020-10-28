@@ -4,6 +4,7 @@ import React, {
   useEffect
 } from "react";
 import { DataSet } from "vis-data/peer";
+import VisNetwork from "components/VisNetwork";
 
 function toNodes(modules) {
   return new DataSet(
