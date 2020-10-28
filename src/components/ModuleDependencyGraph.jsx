@@ -11,8 +11,8 @@ function toNodes(modules) {
     modules.map((m) => ({
       "id": m.module_numbers[0],
       "label": m.module_name,
-      "shape": "box",
       "level": m.study_semester,
+      "title": m.module_numbers[0],
     }))
   );
 }
@@ -23,7 +23,6 @@ function toEdges(modules) {
       const newEdges = m_to.required_modules.map((m_number_from) => ({
         "from": m_number_from,
         "to": m_to.module_numbers[0],
-        "arrows": "to",
       }));
 
       return [
@@ -58,7 +57,19 @@ function ModuleDependencyGraph({
         "hierarchical": {
           "enabled": true,
           "sortMethod": "directed",
+          "edgeMinimization": false,
+          "levelSeparation": 100,
+          "nodeSpacing": 150,
         },
+      },
+      "nodes": {
+        "shape": "box",
+        "widthConstraint": {
+          "maximum": 100,
+        },
+      },
+      "edges": {
+        "arrows": "to",
       },
       "physics": false,
     };

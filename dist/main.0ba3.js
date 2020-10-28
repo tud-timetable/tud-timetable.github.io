@@ -80556,8 +80556,8 @@ function toNodes(modules) {
     return {
       "id": m.module_numbers[0],
       "label": m.module_name,
-      "shape": "box",
-      "level": m.study_semester
+      "level": m.study_semester,
+      "title": m.module_numbers[0]
     };
   }));
 }
@@ -80567,8 +80567,7 @@ function toEdges(modules) {
     var newEdges = m_to.required_modules.map(function (m_number_from) {
       return {
         "from": m_number_from,
-        "to": m_to.module_numbers[0],
-        "arrows": "to"
+        "to": m_to.module_numbers[0]
       };
     });
     return [].concat(_toConsumableArray(accu), _toConsumableArray(newEdges));
@@ -80594,8 +80593,20 @@ function ModuleDependencyGraph(_ref) {
       "layout": {
         "hierarchical": {
           "enabled": true,
-          "sortMethod": "directed"
+          "sortMethod": "directed",
+          "edgeMinimization": false,
+          "levelSeparation": 100,
+          "nodeSpacing": 150
         }
+      },
+      "nodes": {
+        "shape": "box",
+        "widthConstraint": {
+          "maximum": 100
+        }
+      },
+      "edges": {
+        "arrows": "to"
       },
       "physics": false
     };
@@ -81448,4 +81459,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4dd2.js.map
+//# sourceMappingURL=main.0ba3.js.map
