@@ -65,11 +65,15 @@ function ModuleDependencyGraph({
       "nodes": {
         "shape": "box",
         "widthConstraint": {
-          "maximum": 100,
+          "maximum": 150,
         },
+        "margin": 10,
       },
       "edges": {
         "arrows": "to",
+      },
+      "interaction": {
+        "dragView": false,
       },
       "physics": false,
     };

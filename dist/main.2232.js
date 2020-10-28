@@ -80602,11 +80602,15 @@ function ModuleDependencyGraph(_ref) {
       "nodes": {
         "shape": "box",
         "widthConstraint": {
-          "maximum": 100
-        }
+          "maximum": 150
+        },
+        "margin": 10
       },
       "edges": {
         "arrows": "to"
+      },
+      "interaction": {
+        "dragView": false
       },
       "physics": false
     };
@@ -81459,4 +81463,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.0ba3.js.map
+//# sourceMappingURL=main.2232.js.map
