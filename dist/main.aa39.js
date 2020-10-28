@@ -80608,7 +80608,7 @@ function ModuleDependencyGraph(_ref) {
       network: network.current
     });
   }, [network.current]);
-  var data = useMemo(function () {
+  var data = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     var nodes = toNodes(modules);
     var edges = toEdges(modules);
     return {
@@ -81519,4 +81519,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.612c.js.map
+//# sourceMappingURL=main.aa39.js.map

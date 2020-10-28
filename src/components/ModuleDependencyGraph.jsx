@@ -1,5 +1,6 @@
 import React, {
   useRef,
+  useMemo,
   useEffect
 } from "react";
 import { DataSet } from "vis-data/peer";
