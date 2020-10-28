@@ -95,6 +95,7 @@ function ModuleDependencies() {
   return (
     <ModuleDependencyGraph
       modules={ value[ degreeProgramId ].modules }
+      degreeProgramId={ degreeProgramId }
     />
   );
 }

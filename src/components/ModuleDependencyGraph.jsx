@@ -3,6 +3,9 @@ import React, {
   useMemo,
   useEffect
 } from "react";
+import {
+  useHistory
+} from "react-router-dom";
 import { DataSet } from "vis-data/peer";
 import VisNetwork from "components/VisNetwork";
 
@@ -61,16 +64,24 @@ const options = {
 
 
 function ModuleDependencyGraph({
-  modules
+  modules,
+  degreeProgramId
 }) {
   const network = useRef();
+  const history = useHistory();
 
   useEffect(() => {
     if ( !network.current ) {
       return;
     }
 
-    network.current.on("doubleClick", console.log);
+    network.current.on("doubleClick", (evt) => {
+      const node = evt.nodes[0];
+
+      if ( node ) {
+        history.push( `/${ degreeProgramId }/${ node }` );
+      }
+    });
   }, [ network.current ]);
 
   const data = useMemo(() => {

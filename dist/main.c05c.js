@@ -80406,7 +80406,8 @@ function ModuleDependencies() {
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    modules: value[degreeProgramId].modules
+    modules: value[degreeProgramId].modules,
+    degreeProgramId: degreeProgramId
   });
 }
 
@@ -80533,8 +80534,9 @@ function LinkedModuleNumbers(_ref3) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vis_data_peer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vis-data/peer */ "./node_modules/vis-data/peer/index.js");
-/* harmony import */ var components_VisNetwork__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/VisNetwork */ "./src/components/VisNetwork.jsx");
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var vis_data_peer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vis-data/peer */ "./node_modules/vis-data/peer/index.js");
+/* harmony import */ var components_VisNetwork__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/VisNetwork */ "./src/components/VisNetwork.jsx");
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -80551,8 +80553,9 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+
 function toNodes(modules) {
-  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.map(function (m) {
+  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_2__["DataSet"](modules.map(function (m) {
     return {
       "id": m.module_numbers[0],
       "label": m.module_name,
@@ -80563,7 +80566,7 @@ function toNodes(modules) {
 }
 
 function toEdges(modules) {
-  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_1__["DataSet"](modules.reduce(function (accu, m_to) {
+  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_2__["DataSet"](modules.reduce(function (accu, m_to) {
     var newEdges = m_to.required_modules.map(function (m_number_from) {
       return {
         "from": m_number_from,
@@ -80601,14 +80604,22 @@ var options = {
 };
 
 function ModuleDependencyGraph(_ref) {
-  var modules = _ref.modules;
+  var modules = _ref.modules,
+      degreeProgramId = _ref.degreeProgramId;
   var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
     if (!network.current) {
       return;
     }
 
-    network.current.on("doubleClick", console.log);
+    network.current.on("doubleClick", function (evt) {
+      var node = evt.nodes[0];
+
+      if (node) {
+        history.push("/".concat(degreeProgramId, "/").concat(node));
+      }
+    });
   }, [network.current]);
   var data = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     var nodes = toNodes(modules);
@@ -80618,7 +80629,7 @@ function ModuleDependencyGraph(_ref) {
       edges: edges
     };
   }, [modules]);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_VisNetwork__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_VisNetwork__WEBPACK_IMPORTED_MODULE_3__["default"], {
     data: data,
     options: options,
     ref: network
@@ -81521,4 +81532,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b640.js.map
+//# sourceMappingURL=main.c05c.js.map
