@@ -80602,7 +80602,13 @@ var options = {
 
 function ModuleDependencyGraph(_ref) {
   var modules = _ref.modules;
-  var data = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
+  var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
+  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
+    console.log({
+      network: network.current
+    });
+  }, [network.current]);
+  var data = useMemo(function () {
     var nodes = toNodes(modules);
     var edges = toEdges(modules);
     return {
@@ -80612,7 +80618,8 @@ function ModuleDependencyGraph(_ref) {
   }, [modules]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(components_VisNetwork__WEBPACK_IMPORTED_MODULE_2__["default"], {
     data: data,
-    options: options
+    options: options,
+    ref: network
   });
 }
 
@@ -81228,8 +81235,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vis_network_peer__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vis-network/peer */ "./node_modules/vis-network/peer/index.js");
 
 
-
-function VisNetwork(_ref) {
+var VisNetwork = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["forwardRef"])(function VisNetwork(_ref, ref) {
   var _ref$children = _ref.children,
       children = _ref$children === void 0 ? null : _ref$children,
       _ref$data = _ref.data,
@@ -81258,6 +81264,7 @@ function VisNetwork(_ref) {
     }
 
     network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_1__["Network"](container.current, data, options);
+    ref.current = network.current;
     return function () {
       if (!network.current) {
         return;
@@ -81265,13 +81272,13 @@ function VisNetwork(_ref) {
 
       network.current.destroy();
       network.current = null;
+      ref.current = null;
     };
   }, [container.current]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     ref: container
   }, children);
-}
-
+});
 /* harmony default export */ __webpack_exports__["default"] = (VisNetwork);
 
 /***/ }),
@@ -81512,4 +81519,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.122c.js.map
+//# sourceMappingURL=main.612c.js.map

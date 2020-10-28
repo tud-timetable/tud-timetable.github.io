@@ -1,14 +1,15 @@
 import React, {
   useRef,
-  useEffect
+  useEffect,
+  forwardRef
 } from "react";
 import { Network } from "vis-network/peer";
 
-function VisNetwork({
+const VisNetwork = forwardRef(function VisNetwork({
   children = null,
   data = {},
   options = {}
-}) {
+}, ref) {
   const container = useRef();
   const network = useRef(null);
 
@@ -43,6 +44,8 @@ function VisNetwork({
       options
     );
 
+    ref.current = network.current;
+
     return () => {
       if ( !network.current ) {
         return;
@@ -50,12 +53,13 @@ function VisNetwork({
 
       network.current.destroy();
       network.current = null;
+      ref.current = null;
     };
   }, [ container.current ]);
 
   return (
     <div ref={ container }>{ children }</div>
   );
-}
+});
 
 export default VisNetwork;

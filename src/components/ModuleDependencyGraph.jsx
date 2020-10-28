@@ -1,6 +1,5 @@
 import React, {
   useRef,
-  useMemo,
   useEffect
 } from "react";
 import { DataSet } from "vis-data/peer";
@@ -63,6 +62,12 @@ const options = {
 function ModuleDependencyGraph({
   modules
 }) {
+  const network = useRef();
+
+  useEffect(() => {
+    console.log({ network: network.current });
+  }, [ network.current ]);
+
   const data = useMemo(() => {
     const nodes = toNodes( modules );
     const edges = toEdges( modules );
@@ -77,6 +82,7 @@ function ModuleDependencyGraph({
     <VisNetwork
       data={ data }
       options={ options }
+      ref={ network }
     />
   );
 }
