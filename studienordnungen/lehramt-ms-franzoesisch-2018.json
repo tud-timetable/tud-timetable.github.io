@@ -34,9 +34,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 150 Stunden auf die Präsenz und 300 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        1
-      ],
+      "study_semester":1,
       "credit_points":15,
       "required_modules":[
 
@@ -94,9 +92,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 270 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        3
-      ],
+      "study_semester":3,
       "credit_points":9,
       "required_modules":[
         "SLK-SEMS-FRA-B"
@@ -145,9 +141,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 330 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst drei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "credit_points":15,
       "required_modules":[
         "SLK-SEMS-FRA-A"
@@ -201,9 +195,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        1
-      ],
+      "study_semester":1,
       "credit_points":8,
       "required_modules":[
 
@@ -245,9 +237,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        3
-      ],
+      "study_semester":3,
       "credit_points":8,
       "required_modules":[
         "SLK-SEMS-FRA-Spra1"
@@ -293,9 +283,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "credit_points":5,
       "required_modules":[
         "SLK-SEMS-FRA-Spra2"
@@ -336,9 +324,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        7
-      ],
+      "study_semester":7,
       "credit_points":5,
       "required_modules":[
         "SLK-SEMS-FRA-Spra3"
@@ -388,9 +374,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst drei Semester.",
-      "study_semester":[
-        3
-      ],
+      "study_semester":3,
       "credit_points":12,
       "required_modules":[
         "SLK-SEMS-FRA-Spra1"
@@ -453,9 +437,7 @@
       "frequency":"Das Modul wird jedes Semesterangeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        7
-      ],
+      "study_semester":7,
       "credit_points":12,
       "required_modules":[
         "SLK-SEMS-FRA-B",

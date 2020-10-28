@@ -42,9 +42,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        2
-      ],
+      "study_semester":2,
       "required_modules":[
 
       ],
@@ -93,9 +91,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        1
-      ],
+      "study_semester":1,
       "required_modules":[
 
       ],
@@ -144,9 +140,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        1
-      ],
+      "study_semester":1,
       "required_modules":[
 
       ],
@@ -195,9 +189,7 @@
       "frequency":"Das Modul wird jedes Sommersemester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 180 Stunden. Davon entfallen 90 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        2
-      ],
+      "study_semester":2,
       "required_modules":[
 
       ],
@@ -240,9 +232,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        3
-      ],
+      "study_semester":3,
       "required_modules":[
         "SLK-SEMS-DEU-B1",
         "SLK-SEMS-DEU-B2"
@@ -291,9 +281,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        3
-      ],
+      "study_semester":3,
       "required_modules":[
         "SLK-SEMS-DEU-B3",
         "SLK-SEMS-DEU-B4"
@@ -347,9 +335,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "required_modules":[
         "SLK-SEMS-DEU-V1LIT"
       ],
@@ -401,9 +387,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "required_modules":[
         "SLK-SEMS-DEU-V2SPR"
       ],
@@ -454,9 +438,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "required_modules":[
         "SLK-SEMS-DEU-V1LIT"
       ],
@@ -500,9 +482,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        5
-      ],
+      "study_semester":5,
       "required_modules":[
         "SLK-SEMS-DEU-V2SPR"
       ],
@@ -547,9 +527,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        8
-      ],
+      "study_semester":8,
       "required_modules":[
         "SLK-SEMS-DEU-EWLIT",
         "SLK-SEMS-DEU-ERLIT"
@@ -594,9 +572,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        8
-      ],
+      "study_semester":8,
       "required_modules":[
         "SLK-SEMS-DEU-EWSPR",
         "SLK-SEMS-DEU-ERSPR"
@@ -638,9 +614,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        8
-      ],
+      "study_semester":8,
       "required_modules":[
         "SLK-SEMS-DEU-EWLIT",
         "SLK-SEMS-DEU-ERLIT"
@@ -681,9 +655,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        8
-      ],
+      "study_semester":8,
       "required_modules":[
         "SLK-SEMS-DEU-EWSPR",
         "SLK-SEMS-DEU-ERSPR"
@@ -724,9 +696,7 @@
       "frequency":"Das Modul wird jedes Studienjahr, beginnend im Sommersemester, angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz sowie 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst zwei Semester.",
-      "study_semester":[
-        4
-      ],
+      "study_semester":4,
       "required_modules":[
 
       ],
@@ -770,9 +740,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        6
-      ],
+      "study_semester":6,
       "required_modules":[
         "SLK-SEMS-DEU-EFD",
         "SLK-SEMS-DEU-SPÜ"
@@ -813,9 +781,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 90 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 60 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        6
-      ],
+      "study_semester":6,
       "required_modules":[
         "SLK-SEMS-DEU-EFD",
         "SLK-SEMS-DEU-SPÜ"
@@ -856,9 +822,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        7
-      ],
+      "study_semester":7,
       "required_modules":[
         "SLK-SEMS-DEU-EFD",
         "SLK-SEMS-DEU-SPÜ"
@@ -899,9 +863,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        7
-      ],
+      "study_semester":7,
       "required_modules":[
         "SLK-SEMS-DEU-EFD",
         "SLK-SEMS-DEU-SPÜ"
@@ -942,9 +904,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 120 Stunden. Davon entfallen 30 Stunden auf die Präsenz sowie 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        4
-      ],
+      "study_semester":4,
       "required_modules":[
 
       ],
@@ -988,9 +948,7 @@
       "frequency":"Das Modul wird jedes Semester angeboten.",
       "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 80 Stunden auf die Präsenz sowie 70 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
       "duration":"Das Modul umfasst ein Semester.",
-      "study_semester":[
-        7
-      ],
+      "study_semester":7,
       "required_modules":[
         "SLK-SEMS-DEU-EFD",
         "SLK-SEMS-DEU-SPÜ",
