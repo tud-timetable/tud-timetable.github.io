@@ -80584,10 +80584,10 @@ function withoutRedundantEdges(edges) {
     var start = edge["to"],
         end = edge["from"];
     var es1 = edges.filter(function (e) {
-      return e.from === start;
+      return e.from === end;
     });
     var es2 = edges.filter(function (e) {
-      return e.to === end;
+      return e.to === start;
     });
 
     if (!es1.length || !es2.length) {
@@ -81563,4 +81563,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.1ee3.js.map
+//# sourceMappingURL=main.6028.js.map

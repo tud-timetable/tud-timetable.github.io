@@ -45,8 +45,8 @@ function withoutRedundantEdges(edges) {
       "from": end
     } = edge;
 
-    const es1 = edges.filter((e) => e.from === start );
-    const es2 = edges.filter((e) => e.to === end );
+    const es1 = edges.filter((e) => e.from === end );
+    const es2 = edges.filter((e) => e.to === start );
 
     if ( !es1.length || !es2.length ) {
       return [ ...accu, edge ];
