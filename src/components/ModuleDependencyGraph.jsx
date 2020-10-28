@@ -4,7 +4,6 @@ import React, {
   useEffect
 } from "react";
 import { DataSet } from "vis-data/peer";
-import { Network } from "vis-network/peer";
 
 function toNodes(modules) {
   return new DataSet(
@@ -33,69 +32,51 @@ function toEdges(modules) {
   );
 }
 
+const options = {
+  "layout": {
+    "hierarchical": {
+      "enabled": true,
+      "sortMethod": "directed",
+      "edgeMinimization": false,
+      "levelSeparation": 100,
+      "nodeSpacing": 150,
+    },
+  },
+  "nodes": {
+    "shape": "box",
+    "widthConstraint": {
+      "maximum": 150,
+    },
+    "margin": 10,
+  },
+  "edges": {
+    "arrows": "to",
+  },
+  "interaction": {
+    "dragView": false,
+  },
+  "physics": false,
+};
+
+
 function ModuleDependencyGraph({
   modules
 }) {
-  const container = useRef();
-  const network = useRef(null);
-
-  useEffect(() => {
-    if ( !container.current ) {
-      return;
-    }
-
+  const data = useMemo(() => {
     const nodes = toNodes( modules );
     const edges = toEdges( modules );
 
-    const data = {
+    return {
       nodes,
       edges
     };
-
-    const options = {
-      "layout": {
-        "hierarchical": {
-          "enabled": true,
-          "sortMethod": "directed",
-          "edgeMinimization": false,
-          "levelSeparation": 100,
-          "nodeSpacing": 150,
-        },
-      },
-      "nodes": {
-        "shape": "box",
-        "widthConstraint": {
-          "maximum": 150,
-        },
-        "margin": 10,
-      },
-      "edges": {
-        "arrows": "to",
-      },
-      "interaction": {
-        "dragView": false,
-      },
-      "physics": false,
-    };
-
-    network.current = new Network(
-      container.current,
-      data,
-      options
-    );
-
-    return () => {
-      if ( !network.current ) {
-        return;
-      }
-
-      network.current.destroy();
-      network.current = null;
-    };
-  }, [ modules, container.current ]);
+  }, [ modules ]);
 
   return (
-    <div ref={ container }></div>
+    <VisNetwork
+      data={ data }
+      options={ options }
+    />
   );
 }
 
