@@ -21,19 +21,47 @@ function toNodes(modules) {
 }
 
 function toEdges(modules) {
-  return new DataSet(
-    modules.reduce((accu, m_to) => {
-      const newEdges = m_to.required_modules.map((m_number_from) => ({
-        "from": m_number_from,
-        "to": m_to.module_numbers[0],
-      }));
+  let edges = modules.reduce((accu, m_to) => {
+    const newEdges = m_to.required_modules.map((m_number_from) => ({
+      "from": m_number_from,
+      "to": m_to.module_numbers[0],
+    }));
 
-      return [
-        ...accu,
-        ...newEdges,
-      ];
-    }, [])
-  );
+    return [
+      ...accu,
+      ...newEdges,
+    ];
+  }, []);
+
+  edges = withoutRedundantEdges( edges );
+
+  return new DataSet( edges );
+}
+
+function withoutRedundantEdges(edges) {
+  return edges.reduce((accu, edge, index) => {
+    const {
+      "to": start,
+      "from": end
+    } = edge;
+
+    const es1 = edges.filter((e) => e.from === start );
+    const es2 = edges.filter((e) => e.to === end );
+
+    if ( !es1.length || !es2.length ) {
+      return [ ...accu, edge ];
+    }
+
+    const hasCommonNode = es1.some((e1) => (
+      es2.findIndex((e2) => e1.to === e2.from ) !== -1
+    ));
+
+    if ( hasCommonNode ) {
+      return accu;
+    }
+
+    return [ ...accu, edge ];
+  }, []);
 }
 
 const options = {
