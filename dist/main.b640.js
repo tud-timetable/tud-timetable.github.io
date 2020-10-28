@@ -80604,9 +80604,11 @@ function ModuleDependencyGraph(_ref) {
   var modules = _ref.modules;
   var network = Object(react__WEBPACK_IMPORTED_MODULE_0__["useRef"])();
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    console.log({
-      network: network.current
-    });
+    if (!network.current) {
+      return;
+    }
+
+    network.current.on("doubleClick", console.log);
   }, [network.current]);
   var data = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(function () {
     var nodes = toNodes(modules);
@@ -81519,4 +81521,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.aa39.js.map
+//# sourceMappingURL=main.b640.js.map

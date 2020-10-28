@@ -66,7 +66,11 @@ function ModuleDependencyGraph({
   const network = useRef();
 
   useEffect(() => {
-    console.log({ network: network.current });
+    if ( !network.current ) {
+      return;
+    }
+
+    network.current.on("doubleClick", console.log);
   }, [ network.current ]);
 
   const data = useMemo(() => {
