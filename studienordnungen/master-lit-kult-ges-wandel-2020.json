@@ -1,0 +1,641 @@
+{
+  "name":"Studienordnung für den konsekutiven Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel",
+  "id": "master-lit-kult-ges-wandel-2020",
+  "date_of_issue":"2020-07-27",
+  "file":"http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2020-10/03_07soM27.07.2020.pdf",
+  "modules":[
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-FliK"
+    ],
+    "module_name":"FLiK Basis",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit dem Abschluss des Moduls haben die Studierenden einen Überblick über die unterschiedlichen Herangehensweisen der beteiligten Disziplinen gewonnen und können deren Methodenrepertoires einordnen und exemplarisch anwenden. Die Studierenden verfügen über Einsichten in die einzelnen Fachkulturen und sind in der Lage, zentrale Theorien des Studiengangs in ihren unterschiedlichen Perspektiven und Leistungsprofilen zu überblicken und deren Passgenauigkeit für die Fragestellungen einzelner Philologien einzuschätzen. Die Studierenden verfügen damit über die Fähigkeiten interdisziplinärer Zusammenarbeit und können theoriebasiert auch komparatistische Fragestellungen bearbeiten.",
+    "contents":"Inhalt des Moduls ist die exemplarische Erprobung der Leistungsfähigkeit literatur- und kulturwissenschaftlicher Perspektiven für die Reflexion gegenwartsrelevanter Themen (z. B. Identität/Identifikation). Inhaltlich umfasst es die Einführung in zentrale Fragestellungen des Studiengangs sowie – gegenstands- und problembezogen – die beson-dere Qualität und Anforderungen interdisziplinärer Zusammenarbeit.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Vorlesung",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel. Es schafft die Voraussetzungen für das Modul FliK Aufbau und für das Modul Wissenschaftliche Praxis und Kritik.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 100 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Wintersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Lektürebezogene Aufgabe",
+        "extent":"100 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-FliKA"
+    ],
+    "module_name":"FLiK Aufbau",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Die Studierenden kennen gegenstands- und problembezogen verschiedene Arbeitsformate der Literatur- und Kulturwissenschaften. Sie haben Erfahrungen in der interdisziplinären Zusammenarbeit und besitzen die Fähigkeit zur Aushandlung fachlicher Differenzen. Die Studierenden können Themenkomplexe auf der Grundlage von Selbstorganisation wissenschaftlich fundiert erschließen und sind in der Lage, Arbeitsergebnisse adäquat zu präsentieren. Sie sind in der Lage, Forschungsfragen präzise zu formulieren und forschungsorientiert zu arbeiten.",
+    "contents":"Inhalt des Moduls ist die projektbezogene Vertiefung der Reflexion gegenwartsrelevanter Themen (z. B. Identität/Identifikation). Es umfasst die Arbeit mit unterschiedlichen Methoden und Theorieressourcen, deren Produktivität an konkreten Materialien erprobt werden.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Arbeitskreis",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf Niveau des Moduls FliK Basis.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Komplexen Leistung im Umfang von 200 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Sommersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 240 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":10,
+    "required_modules":[
+      "SLK-MA-LiK-FliK"
+    ],
+    "assessments":[
+      {
+        "name":"Komplexe Leistung",
+        "extent":"200 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-GuG"
+    ],
+    "module_name":"Gegenwart und Gegenwärtigkeit",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit Abschluss des Moduls verfügen die Studierenden über exemplarisch vertiefte Kenntnisse theoretischer Konzepte von Zeit und Zeitlichkeit und deren kultureller Reichweite. Sie besitzen die Fähigkeit, narrative Modellierungen von Gegenwart und Gegenwärtigkeit in ästhetischen, epistemischen und gesellschaftlichen Kontexten zu problematisieren. Die Studierenden besitzen vertiefte Kenntnisse bei der Analyse kultureller Artefakte aus kultur-, literatur- und medienwissenschaftlicher Perspektive und erweitertes kulturhistorisches Kontextwissen. Qualifikationsziel des Moduls ist die eigenständige und kritische Reflexion der Zusammenhänge zwischen Konzepten von Gegenwart, Vergangenheit und Zukunft.",
+    "contents":"Das Modul umfasst ausgewählte Konzepte und Theorien von Zeit und Zeitlichkeit. Es beinhaltet einerseits technische und mediale Entwicklungen, die die Wahrnehmung von Zeitlichkeit verändern, anderer-seits ausgewählte kulturelle Modellierungen von Gegenwartsphänomenen. Des Weiteren beinhaltet es literatur-, kultur- und medienwissenschaftliche Grundlagen und Methoden zur kritischen Analyse zeitbezogener kultureller Artefakte, von Phänomenen von Zeit und Zeitlichkeit und temporalen Ordnungen sowie ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Hausarbeit im Umfang von 200 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Wintersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":10,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Kombinierte Hausarbeit",
+        "extent":"200 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-WuW"
+    ],
+    "module_name":"Wandel und Welterzeugung",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Die Studierenden besitzen vertiefte theoretische und konzeptionelle Kenntnisse über die Relationierung von Kultur und Gesellschaft. Sie beherrschen die Fähigkeit, literatur-, kultur- und medientheoretische Perspektiven auf unterschiedliche Praktiken der symbolischen Welterzeugung zu formulieren und diese mit Prozessen gesellschaftlichen Wandels in Beziehung zu setzen. Mit Abschluss des Moduls verfügen sie über vertiefte, theoriebezogene literatur-, kultur- und medienwissenschaftliche Grundlagen und entsprechend profilierte Kompetenzen der historisch und medienspezifisch kontextualisierten Analyse von Literatur und anderen kulturellen Artefakten.",
+    "contents":"Die Studierenden besitzen vertiefte theoretische und konzeptionelle Kenntnisse über die Relationierung von Kultur und Gesellschaft. Sie beherrschen die Fähigkeit, literatur-, kultur- und medientheoretische Perspektiven auf unterschiedliche Praktiken der symbolischen Welterzeugung zu formulieren und diese mit Prozessen gesellschaftlichen Wandels in Beziehung zu setzen. Mit Abschluss des Moduls verfügen sie über vertiefte, theoriebezogene literatur-, kultur- und medienwissenschaftliche Grundlagen und entsprechend profilierte Kompetenzen der historisch und medienspezifisch kontextualisierten Analyse von Literatur und anderen kulturellen Artefakten.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Hausarbeit im Umfang von 200 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Wintersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":10,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Kombinierte Hausarbeit",
+        "extent":"200 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-GeuGe"
+    ],
+    "module_name":"Geschichte und Geschichtlichkeit",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Die Studierenden besitzen nach Abschluss des Moduls die Fähigkeit, aus literatur-, kultur- und medienwissenschaftlicher Perspektive Geschichte und Geschichtlichkeit erzeugende Praktiken als diskursiv und sinnstiftend zu untersuchen und mit gegenwärtigen Prozessen kultu-rellen Wandels ebenso in Beziehung zu setzen wie mit Konzepten von Gedächtnis, Museum oder Archiv. Des Weiteren verfügen sie über vertiefte, theoriebezogene literatur-, kultur- und medienwissenschaftliche Grundlagen und entsprechend profilierte Kompetenzen der historisch und medienspezifisch kontextualisierten Analyse von Literatur und anderen kulturellen Artefakten.",
+    "contents":"Das Modul beinhaltet die zentralen Theorien des Verständnisses und der Erzeugung von Geschichtlichkeit und die Analyse exemplarischer Verhältnisse unterschiedlicher Konzeptionen von Geschichte (und Gegen-Geschichte/counterhistory), Konstruktions- und Selektionsbedingungen von Geschichte, Modi der Diskursivierung von Vergangenheit sowie deren technische und ästhetische Übertragungs- und Speichermedien. Das Modul umfasst die Auseinandersetzung mit Konzeptionen von Geschichtlichkeit, die Modi der Geschichtsschreibung und deren sprachlichentwerfender Konstruktion. Inhalt des Moduls ist weiterhin ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Hausarbeit im Umfang von 200 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Sommersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":10,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Kombinierte Hausarbeit",
+        "extent":"200 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-WPuK"
+    ],
+    "module_name":"Wissenschaftliche Praxis und Kritik",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit Abschluss des Moduls kennen die Studierenden repräsentative Ge-genstände und Überblicksthemen der Literatur-, Kultur- und Medienwissenschaft entweder in philologienübergreifender Perspektive oder – bei entsprechender Schwerpunktsetzung – bezogen auf die gewählte Philologie. Darüber hinaus können sie fachwissenschaftliche Problemstellungen der gewählten Literatur-, Kultur- und Medienwissenschaft nach kritischer Rezeption der Forschungsliteratur wohlstrukturiert und argumentativ stringent in deutscher und/oder in der jeweiligen studierten Sprache vorstellen sowie sich eigenverantwortlich wissenschaftliche Fragestellungen erarbeiten, plausibel darstellen und diskutieren.",
+    "contents":"Inhalt des Moduls sind repräsentative Forschungsgegenstände der Literatur-, Kultur- und Medienwissenschaft entweder in philologienübergreifender Perspektive oder – bei entsprechender Schwerpunktsetzung – bezogen auf die gewählte Philologie in Theorie und Praxis. Inhalt des Moduls ist weiterhin ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf Niveau des Moduls FliK Basis.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel. Es schafft die Voraussetzungen für das Modul Forschungslaboratorium.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 100 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Sommersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-MA-LiK-FliK"
+    ],
+    "assessments":[
+      {
+        "name":"Lektürebezogene Aufgabe",
+        "extent":"100 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-FL"
+    ],
+    "module_name":"Forschungslaboratorium",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit Abschluss des Moduls verfügen die Studierenden über vertiefte methodische und fachbezogene Kompetenzen zur Konzeption eines eigenen Forschungsvorhabens. Sie sind zur kritischen Evaluation von theoretischen Ansätzen und Untersuchungsdesigns befähigt. Darüber hinaus besitzen die Studierenden praktische Kenntnisse zur Anwendung eines Forschungsdesigns in unterschiedlichen literatur-, kultur- und medienwissenschaftlich relevanten wissenschaftlichen Formaten wie Vorträgen, wissenschaftlichen Schriftbeiträgen oder Videoproduktionen, sowie in der Organisation und Durchführung von Workshops, Netzwerktreffen oder Tagungen, Ausstellungen, Podiumsdiskussionen, Lesungen.",
+    "contents":"Das Modul umfasst die eigenständige Verknüpfung der theoretischen, methodischen und fachlichen Inhalte zur Konstitution, Aushandlung und Reflexion gesellschaftlicher Wirklichkeit, die kritischreflektierte Anwendung auf den eigenen Forschungsgegenstand und die Überführung in ein wissenschaftliches Format, insbesondere die eigenständige Auseinandersetzung mit der Praxis der Forschung (z. B. Ermitteln einer Fragestellung, Erarbeiten des Stands der Forschung, kritische Theorie- und Methodenreflexion, Erproben grundständiger sowie innovativer Präsentationsformen, Diskussion der eigenen Forschungsfrage im interdisziplinären Plenum, Zusammenführung eigenständiger Forschungsfragen mit denen anderer auf entsprechenden Diskussionsplattformen sowie Vermittlung von Forschungsfragen- und Ergebnissen in die Öffentlichkeit). Inhalt des Moduls ist weiterhin ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf Niveau des Moduls Wissenschaftliche Praxis und Kritik.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Portfolio im Umfang von 200 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Sommersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 300 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":4,
+    "credit_points":10,
+    "required_modules":[
+      "SLK-MA-LiK-WPuK"
+    ],
+    "assessments":[
+      {
+        "name":"Portfolio",
+        "extent":"200 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-TuK"
+    ],
+    "module_name":"Theorien und Konzepte",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit Abschluss des Moduls besitzen die Studierenden ein differenziertes Wissen über die wichtigsten theoretischen Konzepte sowie über ausgewählte Forschungsperspektiven und methodische Zugänge in den Fachgebieten Literatur-, Kultur- und Medienwissenschaft. Sie sind in der Lage, diese Kompetenzen aktiv auf Texte und andere kulturelle Artefakte anzuwenden und unter Darlegung der genutzten Perspektivierungen sowie den methodischen Zugängen theoretisch geleitete Analyseergebnisse zu erzielen und konzeptionell einzuordnen.",
+    "contents":"Inhalt des Moduls ist ein historischer Überblick sowohl über die wichtigsten konzeptionellen und theoretischen Entwicklungen in den Bereichen Literatur-, Kultur- und Medienwissenschaft als auch über die verschiedenen Zugangsweisen dieser Bereiche. Es beinhaltet ebenso die exemplarische Erprobung eigener Analysen und theoretischer Reflektion anhand ausgewählter Theorien und Konzepte sowie die methodisch fundierte Arbeit dies in größere wissenschaftliche Zusammenhänge einzuordnen. Weiterhin ist die wissenschaftliche Auseinandersetzung mit den wichtigsten Forschungsparadigmen wie auch Paradigmenwechseln in den Literatur-, Kultur- und Medienwissenschaften Inhalt des Moduls. Inhalt des Moduls ist weiterhin ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Lektürebezogenen Aufgabe im Umfang von 100 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Wintersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Lektürebezogene Aufgabe",
+        "extent":"100 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-LiK-MuA"
+    ],
+    "module_name":"Methodendiskussion und Anwendung",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Mit Abschluss des Moduls verfügen die Studierenden über exemplarisch vertiefte methodische Fachkenntnisse für die Herstellung wissenschaftlicher Textsorten, deren Redaktion, Edition, kritische Analyse und Vermittlung. Qualifikationsziel ist die Fähigkeit, Fachwissen und methodisch-theoretische Fachkompetenz in einem fachspezifischen, interdisziplinären oder interkulturellen Rahmen zu diskutieren und anzuwenden.",
+    "contents":"Das Modul beinhaltet forschungs- und praxisnah systematische Spezialkenntnisse der Gegenstandsbereiche von Literatur, Kultur und Medien. Es umfasst interdisziplinäre Bezüge sowie die exemplarische praxisnahe Anwendung der fachwissenschaftlichen Methoden. Inhalt des Moduls ist weiterhin ggf. nach Wahl der bzw. des Studierenden die deutsche, englische, eine slavische oder eine romanische Fachsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Lektürebezogenen Aufgabe im Umfang von 100 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Sommersemester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 30 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Lektürebezogene Aufgabe",
+        "extent":"100 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FA1"
+    ],
+    "module_name":"Fremdsprachen A1",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel sind fremdsprachliche Kompetenzen auf dem Niveau A1 des Gemeinsamen Europäischen Referenzrahmens. Die Studierenden verfügen über gesicherte Grundkenntnisse in den Bereichen Phonetik, grammatische Grundstrukturen sowie Sprechfertigkeit und Alltagskommunikation in der Sprache ihrer Wahl aus dem Sprachlehrangebot der Technischen Universität Dresden.",
+    "contents":"Das Modul umfasst die sprachlichen Grundlagen der gewählten Fremdsprache unter besonderer Berücksichtigung von phonetischen und grammatischen Grundstrukturen in der Sprache nach Wahl der bzw. des Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft jeweils die Voraussetzungen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften für das Modul Fremdsprachen A2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FA2"
+    ],
+    "module_name":"Fremdsprachen A2",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel sind fremdsprachliche Kompetenzen auf dem Niveau A2 des Gemeinsamen Europäischen Referenzrahmens. Mit Abschluss des Moduls haben die Studierenden erweiterte Kenntnisse in den Bereichen Grammatik, kommunikative Kompetenz im monologischen und dialogischen Sprechen sowie Hör- und Leseverstehen in der Sprache ihrer Wahl aus dem Sprachlehrangebot der Technischen Universität Dresden.",
+    "contents":"Das Modul umfasst erweiterte sprachliche Grundlagen der gewählten Fremdsprache unter besonderer Berücksichtigung der vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie jeweils im Modul Fremdsprachen A1 im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft jeweils die Voraussetzun-gen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften für das Modul Fremdsprachen B1.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-BA-Aqua-FA1"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FB1"
+    ],
+    "module_name":"Fremdsprachen B1",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel sind fremdsprachliche Kompetenzen in der Sprache der Wahl der Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden auf dem Niveau B1 des Gemeinsamen Europäischen Referenzrahmens. Mit Abschluss des Moduls sind die Studierenden im produktiven Bereich in der Lage, zusammenhängende Texte auch zu abstrakten Themen abzufassen und den eigenen Standpunkt klar zu machen. Sie können im eigenen Interessen- bzw. Fachgebiet Präsentationen vorstellen und in klar strukturierten Vor-trägen genauere Notizen machen bzw. Stichwörter notieren. Im rezeptiven Bereich haben sie die Fähigkeit, auch in längeren, authentischen Lese- bzw. Hörtexten die wesentlichen Informationen zu verstehen. In Texten mit einem explizit formulierten Autorenstandpunkt können sie Argumentation und Schlussfolgerung ansatzweise erfassen.",
+    "contents":"Das Modul umfasst fortgeschrittene sprachliche Grundlagen der gewählten Fremdsprache unter besonderer Berücksichtigung der vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie jeweils im Modul Fremdsprachen A2 im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft jeweils die Voraussetzungen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften für das Modul Fremdsprachen B2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-BA-Aqua-FA2"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FB2"
+    ],
+    "module_name":"Fremdsprachen B2",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel sind fremdsprachliche Kompetenzen auf dem Niveau B2 des Gemeinsamen Europäischen Referenzrahmens in einer Sprache nach Wahl der Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden. Mit Abschluss des Moduls sind die Studierenden im produktiven Bereich in der Lage, zusammenhängende Sachverhalte aus einem breiten Themenspektrum systematisch und klar strukturiert darzustellen. Sie können Zusammenhänge deutlich machen und wichtige Details hervorheben; dabei können sie die entsprechenden Konventionen beachten. Die Studierenden sind in der Lage, klare und systematisch angelegte Präsentationen vorzustellen und spontan Fragen aufzugreifen. Im rezeptiven Bereich haben sie die Fähigkeit, in längeren, authentischen Lese- bzw. Hörtexten aus einem breiten Themenspektrum die wesentlichen Informationen und die meisten Details zu verstehen. Aus Texten können sie Meinungen und Standpunkte ohne Schwierigkeiten erfassen. Auch in gesprochener Sprache gelingt es ihnen, komplexeren Argumentationen zu folgen und hervorgehobene Details zu verstehen.",
+    "contents":"Das Modul umfasst die selbstständige Anwendung der gewählten Fremdsprache unter besonderer Berücksichtigung der vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie jeweils im Modul Fremdsprachen B1 im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudien-gang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft jeweils die Voraussetzungen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften für das Modul Fremdsprachen C1.1.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-BA-Aqua-FB1"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FC11"
+    ],
+    "module_name":"Fremdsprachen C1.1",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel sind fremdsprachliche Kompetenzen auf dem Niveau C1.1 des Gemeinsamen Europäischen Referenzrahmens in einer Sprache nach Wahl der Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden. Mit Abschluss des Moduls sind die Studierenden im produktiven Bereich in der Lage, komplexere Sachverhalte aus einem breiten Themenspektrum systematisch und klar strukturiert darzustellen. Sie können zentrale Punkte hervorheben und eigene Standpunkte relativ ausführlich darstellen. Sie sind in der Lage, in ihren Interessen- bzw. Fachgebieten klar strukturierte Referate zu halten und können dabei den eigenen Standpunkt relativ ausführlich darstellen, sie können relativ detaillierte Notizen machen. Im rezeptiven Bereich haben sie die Fähigkeit, in längeren, authentischen Lese- bzw. Hörtexten aus einem breiten Themenspektrum die Hauptaussagen und fast alle Detailinformationen zu verstehen. Aus Texten können sie Meinungen und Standpunkte ohne Schwierigkeiten erfassen. Auch in gesprochener Sprache gelingt es ihnen, komplexeren Argumentationen aus fremden Fachgebieten im Detail zu folgen, auch wenn sie nicht ganz klar strukturiert sind. Sie können Wörterbücher zielgerichtet benutzen und unter deren Zuhilfenahme komplexe Texte fast vollständig verstehen.",
+    "contents":"Das Modul umfasst die fachkundige Anwendung der gewählten Fremdsprache unter besonderer Berücksichtigung der vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie jeweils im Modul Fremdsprachen B2 im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft jeweils die Voraussetzungen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften für das Modul Fremdsprachen C1.2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-BA-Aqua-FB2"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-FC12"
+    ],
+    "module_name":"Fremdsprachen C1.2",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziele sind fremdsprachliche Kompetenzen auf dem Niveau C1.2 des Gemeinsamen Europäischen Referenzrahmens in einer Sprache nach Wahl der Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden. Mit Abschluss des Moduls sind die Studierenden im produktiven Bereich in der Lage, komplexe Sachverhalte klar und strukturiert darzustellen. Dabei können sie Standpunkte ausführlich und überzeugend darlegen und adressatenbezogen formulieren. Sie sind außerdem dazu in der Lage, in ihrem Interessen- bzw. Fachgebiet klar strukturierte Referate zu halten und können dabei den eigenen Standpunkt ausführlich darstellen, sie können Notizen so detailliert und übersichtlich anfertigen, dass sie auch anderen nützlich sind. Im rezeptiven Bereich haben sie die Fähigkeit, in längeren, authentischen auch wissenschaftlichen Lese- bzw. Hörtexten die Hauptaussagen und fast alle Detailinformationen zu verstehen. Sie können auch implizit ausgedrückte Meinungen und Standpunkte verstehen. Sie können Wörterbücher zielgerichtet benutzen und unter deren Zuhilfenahme sehr komplexe Texte fast vollständig verstehen.",
+    "contents":"Das Modul umfasst die annähernd erstsprachliche Anwendung der gewählten Fremdsprache unter besonderer Berücksichtigung der vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminare",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie jeweils im Modul Fremdsprachen C1.1 im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel und im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden. Das Modul schafft die Voraussetzungen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel für das Modul Fremdsprachen C2.1.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-BA-Aqua-FC12"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-MA-FC21"
+    ],
+    "module_name":"Fremdsprachen C2.1",
+    "module_coordinator":"Studiendekanin bzw. Studiendekan (https://tu-dresden.de/gsw/slk/die-fakultaet/dekanat)",
+    "involved_professorships":null,
+    "qualification_targets":"Qualifikationsziel ist die Herausbildung fremdsprachlicher Kompetenzen auf Niveau C2 des Gemeinsamen Europäischen Referenzrahmens in der Sprache nach Wahl der Studierenden aus dem Sprachlehrangebot der Technischen Universität Dresden. Die bzw. der Studierende ist in der Lage, komplexe Sachverhalte klar und strukturiert darzustellen. Dabei kann die bzw. der Studierende Standpunkte ausführlich und überzeugend darlegen und adressatenbezogen formulieren. Sie bzw. er ist außerdem dazu in der Lage, in allen Interessen- bzw. Fachgebieten klar strukturierte Referate zu halten und kann dabei den eigenen Standpunkt ausführlich darstellen. Sie bzw. er hat die Fähigkeit, in Lehrveranstaltungen der Zielsprache sowie in längeren, authentischen und wissenschaftlichen Lese- bzw. Hörtexten die Hauptaussagen und alle Detailinformationen sowie implizit ausgedrückte Meinungen und Standpunkte zu verstehen.",
+    "contents":"Inhalte des Moduls sind die vier Grundfertigkeiten Hören, Sprechen, Lesen und Schreiben zur Anwendung in allen allgemeinsprachlichen und studienbezogenen Kontexten auf nahezu muttersprachlichem Niveau der gewählten Fremdsprache.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen, wie sie im Modul Fremdsprachen C1.2 zu erwerben sind.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Sprachprüfung von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":1,
+    "credit_points":5,
+    "required_modules":[
+      "Fremdsprachen C1.2"
+    ],
+    "assessments":[
+      {
+        "name":"Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-BA-Aqua-GR"
+    ],
+    "module_name":"Fremdsprachen - Griechisch III",
+    "module_coordinator":"Ute Meyer (Ute.Meyer@tu-dresden.de)",
+    "involved_professorships":null,
+    "qualification_targets":"Die Studierenden besitzen auf der Stufe B2 des Gemeinsamen Europäischen Referenzrahmens sichere Kenntnisse der griechischen Grammatik und können diese bei der Texterschließung aktiv anwenden und reflektieren. Sie beherrschen die Methoden der De- und Rekodierung von griechischen Originaltexten auf mittlerem bis anspruchsvollen Niveau bei einem Tempo von mindestens zwei Wörtern/Minute und können dabei Systemgrammatik und Wörterbuch als Hilfsmittel einsetzen. Die Studierenden sind in der Lage, diese Texte in ihren historischkulturellen Kontext einzuordnen, und verfügen über ausgewählte Kenntnisse zu einzelnen Epochen, Gattungen, Autoren der griechischen Literaturgeschichte bis zur Kaiserzeit.",
+    "contents":"Inhalt des Moduls sind die De- und Rekodierung griechischer Original-texte (Prosa) mittleren bis anspruchsvollen Schwierigkeitsgrads auf der Basis eines Grundwortschatzes von ca. 1200 Wörtern sowie der entsprechende kultur- und literaturgeschichtliche Hintergrund.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Vorausgesetzt werden sichere Kenntnisse der griechischen Basisgrammatik. Die Teilnehmerinnen und Teilnehmer sollen unter Zuhilfenahme einschlägiger Hilfsmittel (u. a. Systemgrammatik und Wörterbuch) in der Lage sein, griechische Originaltexte einfacheren Schwierigkeitsgrades zu de- und rekodieren und die Texte in ihren historischkulturellen Kontext einzuordnen.",
+    "applicability":"Das Modul ist eines von zehn Wahlpflichtmodulen im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel, von denen zwei zu wählen sind. Es ist weiterhin eines von sieben Wahlpflichtmodulen des Teilbereichs Fremdsprachen des Bereichs Allgemeine Qualifikationen (AQua) im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften. Das Modul kann nicht sowohl im Bachelorstudiengang Sprach-, Literatur- und Kulturwissenschaften als auch im Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel in der gleichen Sprache gewählt werden.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und des Erbringens der Prüfungsleistung.",
+    "duration":"Das Modul umfasst ein Semester.",
+    "study_semester":2,
+    "credit_points":5,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name":"Klausurarbeit",
+        "extent":"90 Minuten"
+      }
+    ]
+  }
+]
+}

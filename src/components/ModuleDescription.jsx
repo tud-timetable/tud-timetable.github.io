@@ -1,6 +1,8 @@
 import React from "react";
 import Applicability from "./ModuleDescription/Applicability";
 import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
+import Contents from "./ModuleDescription/Contents";
+import QualificationTargets from "./ModuleDescription/QualificationTargets";
 import CreditPointsAndGrades from "./ModuleDescription/CreditPointsAndGrades";
 import Duration from "./ModuleDescription/Duration";
 import Frequency from "./ModuleDescription/Frequency";
@@ -38,6 +40,12 @@ function ModuleDescription({
       />
       <ContentsAndQualificationTargets
         text={ data.contents_and_qualification_targets }
+      />
+      <QualificationTargets
+        text={ data.qualification_targets }
+      />
+      <Contents
+        text={ data.contents }
       />
       <TeachingAndLearningMethods
         items={ data.teaching_and_learning_methods }

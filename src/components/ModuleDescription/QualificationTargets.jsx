@@ -2,7 +2,7 @@ import React, {
   Fragment
 } from "react";
 
-function ContentsAndQualificationTargets({
+function QualificationTargets({
   text
 }) {
   if ( !text ) {
@@ -11,10 +11,10 @@ function ContentsAndQualificationTargets({
 
   return (
     <Fragment>
-      <dt className="col-12">Inhalte und Qualifikationsziele</dt>
+      <dt className="col-12">Qualifikationsziele</dt>
       <dd className="col-12">{ text }</dd>
     </Fragment>
   );
 }
 
-export default ContentsAndQualificationTargets;
+export default QualificationTargets;
