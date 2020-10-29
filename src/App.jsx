@@ -9,6 +9,10 @@ import ModuleDependencyGraph from "components/ModuleDependencyGraph";
 import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
+function sortDegreeProgrames(a, b) {
+  return a.localeCompare( b );
+}
+
 function ModuleSelect() {
   const { degreeProgramId = "", moduleId = "" } = useParams();
   const history = useHistory();
@@ -43,16 +47,19 @@ function ModuleSelect() {
             <option disabled value="">Studiengang auswählen</option>
             {
               isReady && (
-                Object.keys( value ).map((id) => {
-                  const program = value[ id ];
+                Object
+                  .keys( value )
+                  .sort( sortDegreeProgrames )
+                  .map((id) => {
+                    const program = value[ id ];
 
-                  return (
-                    <option
-                      value={ program.id }
-                      key={ program.id }
-                    >{ program.name }</option>
-                  );
-                })
+                    return (
+                      <option
+                        value={ program.id }
+                        key={ program.id }
+                      >{ program.name }</option>
+                    );
+                  })
               )
             }
           </select>
