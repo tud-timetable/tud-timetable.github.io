@@ -10,6 +10,11 @@ function linkEmailAddresses( parts ) {
   const elements = [];
 
   parts.forEach((part) => {
+    if ( typeof part !== "string" ) {
+      elements.push( part );
+      return;
+    }
+
     part.replace(
       /([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g,
       (_1, mail, other) => {
@@ -42,6 +47,11 @@ function linkWebsites( parts ) {
   const elements = [];
 
   parts.forEach((part) => {
+    if ( typeof part !== "string" ) {
+      elements.push( part );
+      return;
+    }
+
     part.replace(
       /(https?:\/\/[^ \)\]]+)|(.)/g,
       (_1, url, other) => {

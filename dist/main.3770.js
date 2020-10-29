@@ -84037,6 +84037,11 @@ function linkEmailAddresses(parts) {
 
   var elements = [];
   parts.forEach(function (part) {
+    if (typeof part !== "string") {
+      elements.push(part);
+      return;
+    }
+
     part.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
       var lastIndex = elements.length - 1;
       var lastElement = elements[lastIndex];
@@ -84066,6 +84071,11 @@ function linkWebsites(parts) {
 
   var elements = [];
   parts.forEach(function (part) {
+    if (typeof part !== "string") {
+      elements.push(part);
+      return;
+    }
+
     part.replace(/(https?:\/\/[^ \)\]]+)|(.)/g, function (_1, url, other) {
       var lastIndex = elements.length - 1;
       var lastElement = elements[lastIndex];
@@ -84802,4 +84812,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5cfb.js.map
+//# sourceMappingURL=main.3770.js.map
