@@ -60,7 +60,7 @@ function linkWebsites( parts ) {
 
         if ( url !== undefined ) {
           elements.push(
-            <a href={ url }>{ url }</a>
+            <a href={ url } target="_blank">{ url }</a>
           );
           return;
         }

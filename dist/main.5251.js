@@ -84083,6 +84083,7 @@ function linkWebsites(parts) {
       if (url !== undefined) {
         elements.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
           href: url,
+          target: "_blank",
           children: url
         }));
         return;
@@ -84812,4 +84813,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.3770.js.map
+//# sourceMappingURL=main.5251.js.map
