@@ -9,8 +9,13 @@ import ModuleDependencyGraph from "components/ModuleDependencyGraph";
 import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
-function sortDegreeProgrames(a, b) {
-  return a.localeCompare( b );
+function sortDegreeProgrames( degreeProgrames ) {
+  return (a, b) => {
+    const nameA = degreeProgrames[ a ].name;
+    const nameB = degreeProgrames[ b ].name;
+
+    return nameA.localeCompare( nameB );
+  };
 }
 
 function ModuleSelect() {
@@ -49,7 +54,7 @@ function ModuleSelect() {
               isReady && (
                 Object
                   .keys( value )
-                  .sort( sortDegreeProgrames )
+                  .sort( sortDegreeProgrames( value ) )
                   .map((id) => {
                     const program = value[ id ];
 

@@ -83237,8 +83237,12 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function sortDegreeProgrames(a, b) {
-  return a.localeCompare(b);
+function sortDegreeProgrames(degreeProgrames) {
+  return function (a, b) {
+    var nameA = degreeProgrames[a].name;
+    var nameB = degreeProgrames[b].name;
+    return nameA.localeCompare(nameB);
+  };
 }
 
 function ModuleSelect() {
@@ -83278,7 +83282,7 @@ function ModuleSelect() {
             disabled: true,
             value: "",
             children: "Studiengang ausw\xE4hlen"
-          }), isReady && Object.keys(value).sort(sortDegreeProgrames).map(function (id) {
+          }), isReady && Object.keys(value).sort(sortDegreeProgrames(value)).map(function (id) {
             var program = value[id];
             return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
               value: program.id,
@@ -84667,4 +84671,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.d94b.js.map
+//# sourceMappingURL=main.b120.js.map
