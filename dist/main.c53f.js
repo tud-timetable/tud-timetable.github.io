@@ -83238,6 +83238,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function sortDegreeProgrames(degreeProgrames) {
+  console.log({
+    degreeProgrames: degreeProgrames
+  });
   return function (a, b) {
     var nameA = degreeProgrames[a].name;
     var nameB = degreeProgrames[b].name;
@@ -84675,4 +84678,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.975e.js.map
+//# sourceMappingURL=main.c53f.js.map
