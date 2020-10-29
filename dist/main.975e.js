@@ -83241,6 +83241,10 @@ function sortDegreeProgrames(degreeProgrames) {
   return function (a, b) {
     var nameA = degreeProgrames[a].name;
     var nameB = degreeProgrames[b].name;
+    console.log({
+      nameA: nameA,
+      nameB: nameB
+    });
     return nameA.localeCompare(nameB);
   };
 }
@@ -84671,4 +84675,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b120.js.map
+//# sourceMappingURL=main.975e.js.map

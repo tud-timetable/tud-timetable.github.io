@@ -14,6 +14,8 @@ function sortDegreeProgrames( degreeProgrames ) {
     const nameA = degreeProgrames[ a ].name;
     const nameB = degreeProgrames[ b ].name;
 
+    console.log({ nameA, nameB });
+
     return nameA.localeCompare( nameB );
   };
 }
