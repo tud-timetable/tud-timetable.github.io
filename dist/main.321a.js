@@ -83978,27 +83978,67 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+function linkEmailAddresses(parts) {
+  if (typeof parts === "string") {
+    return linkEmailAddresses([parts]);
+  }
+
+  var elements = [];
+  parts.forEach(function (part) {
+    part.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
+      var lastIndex = elements.length - 1;
+      var lastElement = elements[lastIndex];
+
+      if (mail !== undefined) {
+        elements.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+          href: "mailto:" + mail,
+          children: mail
+        }));
+        return;
+      }
+
+      if (typeof lastElement === "string") {
+        elements[lastIndex] += other;
+      } else {
+        elements.push(other);
+      }
+    });
+  });
+  return elements;
+}
+
+function linkWebsites(parts) {
+  if (typeof parts === "string") {
+    return linkWebsites([parts]);
+  }
+
+  var elements = [];
+  parts.forEach(function (part) {
+    part.replace(/(https?:\/\/[^ \)\]]+)|(.)/g, function (_1, url, other) {
+      var lastIndex = elements.length - 1;
+      var lastElement = elements[lastIndex];
+
+      if (url !== undefined) {
+        elements.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
+          href: url,
+          children: url
+        }));
+        return;
+      }
+
+      if (typeof lastElement === "string") {
+        elements[lastIndex] += other;
+      } else {
+        elements.push(other);
+      }
+    });
+  });
+  return elements;
+}
+
 function ModuleCoordinator(_ref) {
   var text = _ref.text;
-  var elements = [];
-  text.replace(/([a-zA-Z0-9.-_]+@[a-z0-9-_.]+)|(.)/g, function (_1, mail, other) {
-    var lastIndex = elements.length - 1;
-    var lastElement = elements[lastIndex];
-
-    if (mail !== undefined) {
-      elements.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
-        href: "mailto:" + mail,
-        children: mail
-      }));
-      return;
-    }
-
-    if (typeof lastElement === "string") {
-      elements[lastIndex] += other;
-    } else {
-      elements.push(other);
-    }
-  });
+  var elements = linkEmailAddresses(linkWebsites(text));
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
       className: "col-12",
@@ -84671,4 +84711,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b120.js.map
+//# sourceMappingURL=main.321a.js.map
