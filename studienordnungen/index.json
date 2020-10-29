@@ -34,5 +34,11 @@
     "file":"lehramt-gym-franzoesisch-2018.json",
     "name":"Studienordnung für das Fach Französisch im Studiengang Höheres Lehramt an Gymnasien",
     "date_of_issue":"2018-08-24"
+  },
+  {
+    "id":"lehramt-bbs-deutsch-2018",
+    "file":"lehramt-bbs-deutsch-2018.json",
+    "name":"Studienordnung für das Fach Französisch im Studiengang Höheres Lehramt an berufsbildenden Schulen",
+    "date_of_issue":"2018-08-24"
   }
 ]

@@ -38,6 +38,8 @@ function toEdges(modules) {
   return new DataSet( edges );
 }
 
+// @todo add support for relations with a distance
+// greater than 2
 function withoutRedundantEdges(edges) {
   return edges.reduce((accu, edge, index) => {
     const {
