@@ -32,7 +32,10 @@ const useDegreePrograms = create((set, get) => ({
               .then((res) => res.json())
               .then((data) => ({
                 "id": program.id,
-                "data": data,
+                "data": {
+                  ...data,
+                  "name": program.name,
+                },
               }))
           ))
         );

@@ -83514,7 +83514,9 @@ function toEdges(modules) {
   }, []);
   edges = withoutRedundantEdges(edges);
   return new vis_data_peer__WEBPACK_IMPORTED_MODULE_3__["DataSet"](edges);
-}
+} // @todo add support for relations with a distance
+// greater than 2
+
 
 function withoutRedundantEdges(edges) {
   return edges.reduce(function (accu, edge, index) {
@@ -84466,7 +84468,9 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           }).then(function (data) {
             return {
               "id": program.id,
-              "data": data
+              "data": _objectSpread(_objectSpread({}, data), {}, {
+                "name": program.name
+              })
             };
           });
         }));
@@ -84659,4 +84663,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.f4e3.js.map
+//# sourceMappingURL=main.f4d6.js.map
