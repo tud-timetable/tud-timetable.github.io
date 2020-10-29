@@ -10,13 +10,9 @@ import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
 function sortDegreeProgrames( degreeProgrames ) {
-  console.log({ degreeProgrames });
-
   return (a, b) => {
     const nameA = degreeProgrames[ a ].name;
     const nameB = degreeProgrames[ b ].name;
-
-    console.log({ nameA, nameB });
 
     return nameA.localeCompare( nameB );
   };
