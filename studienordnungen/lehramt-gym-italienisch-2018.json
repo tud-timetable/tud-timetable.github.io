@@ -1,0 +1,546 @@
+{
+  "name":"Studienordnung für das Fach Italienisch im Studiengang Höheres Lehramt an Gymnasien",
+  "id":"lehramt-gym-italienisch-2018",
+  "date_of_issue":"2018-08-23",
+  "file":"http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2018-17/01_07soLAG23.08.2018.pdf",
+  "modules":[
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-B",
+      "SLK-SEBS-ITA-B"
+    ],
+    "module_name":"Basismodul",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalte sind die Methoden und Gegenstände der italienischen Sprach-, Literatur- und Kulturwissenschaft, die Grundlagen der Literaturtheorie und der Textanalyse sowie die wichtigsten Entwicklungen, institutionellen Veränderungen, Ideen und Ereignisse der italienischen Kulturgeschichte und der italienischen Gesellschaft unter Berücksichtigung interkultureller Kontexte. Mit Abschluss des Moduls kennen die Studierenden die grundlegenden Begriffe und Methoden der linguistischen Analyse und können diese auf Texte anwenden. Sie habeneinen fundierten Überblick über das System der italienischen Standardsprache in den verschiedenen Ausprägungen sowie über die regionalen Varianten und kennen spezielle Themenkomplexe der italienischen Sprachwissenschaft aus gegenwartsbezogener und historischer Sicht. Die Studierenden besitzen einen Überblick über die Geschichte der italienischen Literatur anhand ausgewählter Beispiele. Sie verfügen über die nötigen begrifflichen und methodischen Kenntnisse zur selbstständigen Analyse der verschiedenen literarischen Textsorten und sind in der Lage, literaturgeschichtliche Zusammenhänge an Hand wichtiger Autoren, Werke und Strömungen einzuordnen. Sie haben einen Überblick über Theorien und Methoden der Kulturwissenschaften und verfügt über solide Grundkenntnisse der italienischen Kulturgeschichte und der italienischen Gesellschaft.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Einführungskurs (EK)",
+        "extent":"6 SWS"
+      },
+      {
+        "name":"Vorlesung (V)",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":null,
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Das Modul schafft die Voraussetzungen für die Module Aufbaumodul und Fachdidaktik 2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Klausurarbeiten von jeweils 90 Minuten Dauer und einem Testat von 45 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Noten der Klausurarbeiten jeweils zweifach und die Note des Testats einfach gewichtet werden.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 450 Stunden. Davon entfallen 150 Stunden auf die Präsenz und 300 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":1,
+    "credit_points":15,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name": "Klausurarbeit",
+        "extent":"90 Minuten",
+        "weight":2
+      },
+      {
+        "name": "Klausurarbeit",
+        "extent":"90 Minuten",
+        "weight":2
+      },
+      {
+        "name": "Klausurarbeit",
+        "extent":"90 Minuten",
+        "weight":2
+      },
+      {
+        "name":"Testat",
+        "extent":"45 Minuten",
+        "weight":1
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-A",
+      "SLK-SEBS-ITA-A"
+    ],
+    "module_name":"Aufbaumodul",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalte sind exemplarische kanonische Bereiche italienischer Sprach-, Literatur- und Kulturwissenschaft: literarische Gattungen und repräsen-tative italienischsprachige Autoren, einschlägige Themen der diachronen oder synchronen italianistischen Sprachwissenschaft und methodische, historische Gegenstände der italianistischen Kulturwissenschaft. Mit Abschluss des Moduls besitzen die Studierenden eine erhöhte Kompetenz, exemplarische Texte bzw. Untersuchungsgegenstände der Bereiche italienischer Sprach-, Literatur- und Kulturwissenschaft zu analysieren.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar (S)",
+        "extent":"6 SWS"
+      },
+      {
+        "name":"Vorlesung (V)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Basismodul.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Es schafft die Voraussetzungen für das Modul Wissenschaftliche Vertiefung 1.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Kurzbeiträgen in den Bereichen Sprach-, Literatur- und Kulturwissenschaft im Umfang von jeweils 20 Stunden und einem Testat von 45 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 9 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 270 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 150 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":3,
+    "credit_points":9,
+    "required_modules":[
+      "SLK-SEGY-ITA-B"
+    ],
+    "assessments":[
+      {
+        "name":"Kurzbeitrag",
+        "extent":"20 Stunden"
+      },
+      {
+        "name":"Kurzbeitrag",
+        "extent":"20 Stunden"
+      },
+      {
+        "name":"Kurzbeitrag",
+        "extent":"20 Stunden"
+      },
+      {
+        "name":"Testat",
+        "extent":"45 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-W1"
+    ],
+    "module_name":"Wissenschaftliche Vertiefung 1",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalt des Moduls ist die Auseinandersetzung mit einem repräsentativen Forschungsgegenstand der Italianistik in Theorie und Praxis. Die Inhalte tangieren synchrone Fragestellungen der Italianistik. Mit Abschluss des Moduls kennen die Studierenden weitere repräsentative Spezialthemen und Überblicksthemen der Italianistik und sind in der Lage, deren Methoden und theoretische Konzepte auf ein exemplarisches Thema anzuwenden. Darüber hinaus können sie ein wissenschaftliches Thema wohlstrukturiert und argumentativ stringent vorstellen sowie sich eigenverantwortlich wissenschaftliche Fragestellungen erarbeiten, plausibel darstellen und diskutieren.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar (S)",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Vorlesung (V)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Aufbaumodul.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Höheres Lehramt an Gymnasienim Fach Italienisch. Es schafft die Voraussetzungen für das Modul Wissenschaftliche Vertiefung 2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 60 Stunden, einer Kombinierten Arbeit im Umfang von 120 Stunden und einem Testat von 45 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit vierfach, die Note des Referats zweifach und die Note des Testats einfach gewichtet wird.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":5,
+    "credit_points":12,
+    "required_modules":[
+      "SLK-SEGY-ITA-A"
+    ],
+    "assessments":[
+      {
+        "name": "Referat",
+        "extent": "60 Stunden",
+        "weight":2
+      },
+      {
+        "name":"Kombinierte Arbeit",
+        "extent":"120 Stunden",
+        "weight":4
+      },
+      {
+        "name":"Testat",
+        "extent":"45 Minuten",
+        "weight":1
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-W2"
+    ],
+    "module_name":"Wissenschaftliche Vertiefung 2",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalt des Moduls ist die Auseinandersetzung mit einem repräsentativen Forschungsgegenstand der Italianistik in Theorie und Praxis. Die Inhalte tangieren diachrone Fragestellungen. Mit Abschluss des Moduls kennen die Studierenden weitere repräsentative Spezialthemen der Italianistik und sind in der Lage, deren Methoden und theoretische Konzepte auf ein exemplarisches Thema anzuwenden und zu diskutieren. Sie sind in der Lage, eine eigenständige wissenschaftliche Untersuchung schriftlich darzulegen.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar (S)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Vorlesung (V)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Wissenschaftliche Vertiefung 1.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Höheres Lehramt an Gymnasien im Fach Italienisch. Es schafft die Voraussetzungen für das Modul Spezialisierung.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 120 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Prüfungsleistung.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistung.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":7,
+    "credit_points":8,
+    "required_modules":[
+      "SLK-SEGY-ITA-W1"
+    ],
+    "assessments":[
+      {
+        "name":"Kombinierte Arbeit",
+        "extent":"120 Stunden"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEBS-ITA-S",
+      "SLK-SEGY-ITA-S"
+    ],
+    "module_name":"Spezialisierung",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalt des Moduls ist die methodologische und theoretische Diskussion aktueller Forschungsparadigmen der Italianistik. Gegenstände sind Teilgebiete der Italianistik. Mit Abschluss des Moduls verfügen die Studie-enden über fundierte und weiterführende sprach-, literatur- bzw. kulturwissenschaftliche Kenntnisse des italienischen Sprachraumes und der damit verbundenen interkulturellen Beziehungen. Sie sind des Weiteren in der Lage, selbstständig und im Team fachwissenschaftliche Fragestellungen zu erkennen und zu bearbeiten.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar (S)",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Wissenschaftliche Vertiefung 2.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe im Umfang von 60 Stunden und einem Testat von 20 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der lektürebezogenen Aufgabe fünffach und die Note des Testates dreifach gewichtet wird.",
+    "frequency":"Das Modul wird jedes Semester angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 180 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"DasModul umfasst ein Semester.",
+    "study_semester":9,
+    "credit_points":8,
+    "required_modules":[
+      "SLK-SEGY-ITA-W2"
+    ],
+    "assessments":[
+      {
+        "name": "Lektürebezogene Aufgabe",
+        "extent":"60 Stunden",
+        "weight":5
+      },
+      {
+        "name": "Testat",
+        "extent":"20 Minuten",
+        "weight":3
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEBS-ITA-Spra1",
+      "SLK-SEGY-ITA-Spra1"
+    ],
+    "module_name":"Sprachausbildung 1",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Gegenstand des Moduls sind die vier Grundfertigkeiten Hörverstehen, Sprechen, Leseverstehen und Schreiben zur Anwendung in allgemein sprachlichen und studienbezogenen Kontexten. Mit Abschluss des Moduls sind die Studierenden in der Lage, die wesentlichen Inhalte eines Textes oder Gesprächs zu verstehen, wenn klare Standardsprache, also Hochsprache ohne regionale oder dialektale Färbung verwendet wird. Ferner beherrschen sie grammatische Strukturen und Anteile der Lexik, die es ihnen ermöglichen, einen schnellen Zugang zu literarischen und wissenschaftlichen Texten zu finden, welche auf Italienisch verfasst sind. Zudem können die Studierenden die meisten Situationen bewältigen, denen man auf Reisen im Sprachgebiet begegnet, und haben die Fähigkeit erlangt, sich einfach und zusammenhängend über vertraute Themen, persönliche Interessengebiete, Ideen, Ziele und Pläne zu äußern sowie über Erfahrungen und Ereignisse zu berichten. Sie verfügen über die fremdsprachlichen Kompetenzen des Italienischen auf Niveau B1.1 des Gemeinsamen Europäischen Referenzrahmens.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar (SLS)",
+        "extent":"8 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Vorausgesetzt werden Kenntnisse der italienischen Sprache auf dem Niveau A 1 des Gemeinsamen Europäischen Referenzrahmens. Sofern diese nicht vorhanden sind, können sie durch die Absolvierung eines Sprachkurses bei TUDIAS (vor Semesterbeginn) oder durch ein Zusatzangebot des Instituts für Romanistik im ersten Semester erworben werden.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Das Modul schafft die Voraussetzungen für die Module Sprachausbildung 2 und Fachdidaktik 1.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei kombinierten Sprachprüfungen von jeweils 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":1,
+    "credit_points":8,
+    "required_modules":[
+
+    ],
+    "assessments":[
+      {
+        "name": "Kombinierte Sprachprüfung",
+        "extent":"90 Minuten"
+      },
+      {
+        "name": "Kombinierte Sprachprüfung",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEBS-ITA-Spra2",
+      "SLK-SEGY-ITA-Spra2"
+    ],
+    "module_name":"Sprachausbildung 2",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Das Modul umfasst die vier Grundfertigkeiten Hörverstehen, Sprechen, Leseverstehen und Schreiben zur Anwendung in allgemeinsprachlichen und studienbezogenen Kontexten unter besonderer Berücksichtigung der unterschiedlichen Sprachregister. Die Studierenden sind in der Lage, die vier sprachlichen Grundfertigkeiten gegenstands- und situationsangemessen anzuwenden, insbesondere in längeren, authentischen Lese- bzw. Hörtexten, die wesentlichen Informationen sowie eine Vielzahl von Details zu verstehen. Sie verfügen über die fremdsprachlichen Kompetenzen des Italienischen auf Niveau B1.2 des Gemeinsamen Europäischen Referenzrahmens.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar (SLS)",
+        "extent":"8 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 1.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Das Modul schafft die Voraussetzungen für die Module Sprachausbildung 3 und Fachdidaktik 2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer kombinierten Sprachprüfung von 90 Minuten Dauer und zwei Sprachtests von jeweils 45 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 240 Stunden. Davon entfallen 120 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":3,
+    "credit_points":8,
+    "required_modules":[
+      "SLK-SEBS-ITA-Spra1"
+    ],
+    "assessments":[
+      {
+        "name": "Kombinierte Sprachprüfung",
+        "extent":"90 Minuten"
+      },
+      {
+        "name":"Sprachtest",
+        "extent":"45 Minuten"
+      },
+      {
+        "name":"Sprachtest",
+        "extent":"45 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEBS-ITA-Spra3",
+      "SLK-SEGY-ITA-Spra3"
+    ],
+    "module_name":"Sprachausbildung 3",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Das Modul umfasst komplexere grammatische Strukturen und spezifische Textsorten (mündlich und schriftlich) sowie Grundbegriffe der Wissenschaften bzw. des universitären Lebens. Im Vordergrund steht die Einübung sowohl mündlicher als auch schriftlicher Fertigkeiten in akademischen sowie berufsorientierten Kontexten. Die Studierenden sind in der Lage, komplexe Sachverhalte ausführlich und kommunikativ angemessen in mündlicher und schriftlicher Form darzustellen. Sie verfügen über die fremdsprachlichen Kompetenzen des Italienischen auf Niveau B2 des Gemeinsamen Europäischen Referenzrahmens.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar (SLS)",
+        "extent":"4 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 2.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Es schafft die Voraussetzungen für das Modul Sprachausbildung 4.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem mündlichen Sprachtest von 15 Minuten Dauer und einer Sprachklausur von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 5 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 150 Stunden. Davon entfallen 60 Stunden auf die Präsenz und 90 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":5,
+    "credit_points":5,
+    "required_modules":[
+      "SLK-SEBS-ITA-Spra2"
+    ],
+    "assessments":[
+      {
+        "name":"Mündlicher Sprachtest",
+        "extent":"15 Minuten"
+      },
+      {
+        "name":"Sprachklausur",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-Spra4"
+    ],
+    "module_name":"Sprachausbildung 4",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Das Modul umfasst die sprachliche Auseinandersetzung mit medialen Registern (Texte, Filme, kulturelle Phänomene, soziopolitische Effekte) im Sinne einer Schärfung interkultureller Kompetenzen und die Schulung transkulturell-mediativer Fertigkeiten. Die Studierenden sind in der Lage, komplexe Sachverhalte ausführlich und kommunikativ angemessen in mündlicher und schriftlicher Form darzustellen, sich zu einem breiten Themenspektrum spontan und fließend zu äußern sowie Stilunterschiede wahrzunehmen und Inhalte adäquat vom Italienischen ins Deutsche und vom Deutschen ins Italienische zu übertragen. Sie verfügen über die fremdsprachlichen Kompetenzen des Italienischen auf Niveau C1 des Gemeinsamen Europäischen Referenzrahmens.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Sprachlernseminar (SLS)",
+        "extent":"6 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 3.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Höheres Lehramt an Gymnasien im Fach Italienisch.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei mündlichen Sprachtests von jeweils 15 Minuten Dauer und einer Sprachklausur von 90 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 7 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem ungewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 210 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 120 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst drei Semester.",
+    "study_semester":7,
+    "credit_points":7,
+    "required_modules":[
+      "SLK-SEBS-ITA-Spra3"
+    ],
+    "assessments":[
+      {
+        "name": "Mündlicher Sprachtest",
+        "extent":"15 Minuten"
+      },
+      {
+        "name": "Mündlicher Sprachtest",
+        "extent":"15 Minuten"
+      },
+      {
+        "name": "Sprachklausur",
+        "extent":"90 Minuten"
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEBS-ITA-FD1",
+      "SLK-SEGY-ITA-FD1"
+    ],
+    "module_name":"Fachdidaktik 1",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalte des Moduls sind grundlegende fremdsprachendidaktische Themenstellungen zur Theorie und Praxis eines kommunikativen interkulturellen Italienischunterrichts sowie erste Unterrichtserfahrungen im Fach Italienisch. Mit Abschluss des Moduls besitzen die Studierenden Grundkenntnisse über fremdsprachendidaktische Konzepte/Theorien/Modelle und über Beispiele der praktischen Umsetzung eines kommunikativen interkulturellen Italienischunterrichts. Sie können auf der Grundlage der Fachliteratur ausgewählte fremdsprachendidaktische Themenkomplexe in Theorie und Praxis selbstständig erarbeiten und in wissenschaftlich angemessener Form darstellen. Sie sind in der Lage, ihre Kenntnisse zur Unterrichtsplanung in eigenen Unterrichtsversuchen anzuwenden sowie zu beobachteten und den eigenen Italienischunterricht zu reflektieren.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Einführungskurs (EK)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Seminar (S)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Schulpraktische Übung (SPÜ)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau des Moduls Sprachausbildung 1.",
+    "applicability":"Das Modul ist ein Pflichtmodul in den Studiengängen Höheres Lehramt an Gymnasien und Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch. Das Modul schafft die Voraussetzungen für das Modul Fachdidaktik 2.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Klausurarbeit von 90 Minuten Dauer, einer lektürebezogenen Aufgabe im Umfang von 60 Stunden, einem Portfolio im Umfang von 30 Stunden sowie zwei unbenoteten Unterrichtsversuchen von jeweils 45 Minuten Dauer.",
+    "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sichunter Berücksichtigung von § 14 Abs. 1 Satz 5 Ordnung für die Organisation und Durchführung der Modulprüfungen im Studiengang Höheres Lehramt an Gymnasien aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Klausurarbeit und die Note der lektürebezogenen Aufgabe jeweils dreifach und die Note des Portfolios sowie des Unterrichtsversuches einfach gewichtet wird.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst drei Semester.",
+    "study_semester":3,
+    "credit_points":12,
+    "required_modules":[
+      "SLK-SEBS-ITA-Spra1"
+    ],
+    "assessments":[
+      {
+        "name":"Klausurarbeit",
+        "extent":"90 Minuten",
+        "weight":3
+      },
+      {
+        "name":"Lektürebezogene Aufgabe",
+        "extent":"60 Stunden",
+        "weight":3
+      },
+      {
+        "name":"Portfolio",
+        "extent":"30 Stunden",
+        "weight":1
+      },
+      {
+        "name":"Unbenoteter Unterrichtsversuch",
+        "extent":"45 Minuten",
+        "weight":1
+      },
+      {
+        "name":"Unbenoteter Unterrichtsversuch",
+        "extent":"45 Minuten",
+        "weight":1
+      }
+    ]
+  },
+  {
+    "module_numbers":[
+      "SLK-SEGY-ITA-FD2"
+    ],
+    "module_name":"Fachdidaktik 2",
+    "module_coordinator":"Geschäftsführende/r Direktor/in romanistik1@tu-dresden.de",
+    "involved_professorships":null,
+    "contents_and_qualification_targets":"Inhalte des Moduls sind die Vertiefung ausgewählter fremdsprachendidaktischer Themenkomplexe sowie das Sammeln vertiefter Erfahrung im Italienischunterricht. Mit Abschluss des Moduls können die Studierenden auf der Grundlage der Fachliteratur fremdsprachendidaktische Fragestellungen in Theorie, Empirie und Praxis selbstständig erarbeiten und in wissenschaftlich angemessener Form darstellen. Sie können Theorie und Praxis des Italienischunterrichts aufeinander beziehen. Sie sind in der Lage, theoriegeleitet Italienischunterricht unter einem fachdidaktischen Fokus zu analysieren, eigenen Unterricht in der Schule zu planen und durchzuführen sowie zu dokumentieren und zu reflektieren.",
+    "teaching_and_learning_methods":[
+      {
+        "name":"Seminar(S)",
+        "extent":"2 SWS"
+      },
+      {
+        "name":"Schulpraktikum (BP)",
+        "extent":"in Blockform, 4 Wochen"
+      },
+      {
+        "name":"Selbststudium"
+      }
+    ],
+    "requirements_for_participation":"Voraussetzungen sind die inhaltlichen Kenntnisse und anwendungsbezogenen Kompetenzen auf dem Niveau der Module Basismodul, Sprachausbildung 2 und Fachdidaktik 1.",
+    "applicability":"Das Modul ist ein Pflichtmodul im Studiengang Höheres Lehramt an berufsbildenden Schulen im Fach Italienisch.",
+    "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Kombinierten Arbeit im Umfang von 120 Stunden sowie einem Bericht im Umfang von 30 Stunden. Weitere Bestehensvoraussetzung ist die Absolvierung von begleitetem Unterricht im Umfang von 18 Stunden und Hospitationen im Umfang von 30 Stunden.",
+    "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten Durchschnitt der Noten der einzelnen Prüfungsleistungen, wobei die Note der Kombinierten Arbeit dreifach und die Note des Berichts zweifach gewichtet wird.",
+    "frequency":"Das Modul wird jedes Studienjahr, beginnend im Sommersemester, angeboten.",
+    "workload":"Der Arbeitsaufwand beträgt insgesamt 360 Stunden. Davon entfallen 90 Stunden auf die Präsenz und 270 Stunden auf das Selbststudium inklusive der Prüfungsvorbereitung und dem Erbringen der Prüfungsleistungen.",
+    "duration":"Das Modul umfasst zwei Semester.",
+    "study_semester":6,
+    "credit_points":12,
+    "required_modules":[
+      "SLK-SEGY-ITA-B",
+      "SLK-SEBS-ITA-Spra2",
+      "SLK-SEBS-ITA-FD1"
+    ],
+    "assessments":[
+      {
+        "name":"Kombinierte Arbeit",
+        "extent":"120 Stunden",
+        "weight":3
+      },
+      {
+        "name":"Bericht",
+        "extent":"30 Stunden",
+        "weight":2
+      },
+      {
+        "name":"Begleiteter Unterricht",
+        "extent":"18 Stunden",
+        "weight":0
+      },
+      {
+        "name":"Hospitationen",
+        "extent":"30 Stunden",
+        "weight":0
+      }
+    ]
+  }
+]}

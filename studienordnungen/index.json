@@ -40,5 +40,11 @@
     "file":"lehramt-bbs-franzoesisch-2018.json",
     "name":"Fach Französisch im Studiengang Höheres Lehramt an berufsbildenden Schulen",
     "date_of_issue":"2018-08-24"
+  },
+  {
+    "id":"lehramt-gym-italienisch-2018",
+    "file":"lehramt-gym-italienisch-2018,.json",
+    "name":"Studienordnung für das Fach Italienisch im Studiengang Höheres Lehramt an Gymnasien",
+    "date_of_issue":"2018-08-23"
   }
 ]
