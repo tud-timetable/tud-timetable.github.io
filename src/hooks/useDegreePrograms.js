@@ -42,6 +42,21 @@ const useDegreePrograms = create((set, get) => ({
         );
       })
       .then((programs) => {
+        programs.forEach((program) => {
+          useModules.setState((prevState) => ({
+            "items": {
+              ...prevState.items,
+              ...program.data.modules.reduce((accu, module) => ({
+                ...accu,
+                [module.module_numbers[0]]: {
+                  ...module,
+                  "degree_program_id": program.id,
+                },
+              }), {}),
+            },
+          }));
+        });
+
         const items = programs.reduce((accu, program) => ({
           ...accu,
           [program.id]: program.data,

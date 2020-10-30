@@ -6,4 +6,8 @@ const useModules = create((set, get) => ({
   },
 }));
 
+useModules.subscribe((data) => {
+  console.log("useModules", data);
+});
+
 export default useModules;

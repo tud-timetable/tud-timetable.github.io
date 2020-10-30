@@ -84616,6 +84616,17 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           });
         }));
       }).then(function (programs) {
+        programs.forEach(function (program) {
+          hooks_useModules__WEBPACK_IMPORTED_MODULE_1__["default"].setState(function (prevState) {
+            return {
+              "items": _objectSpread(_objectSpread({}, prevState.items), program.data.modules.reduce(function (accu, module) {
+                return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, module.module_numbers[0], _objectSpread(_objectSpread({}, module), {}, {
+                  "degree_program_id": program.id
+                })));
+              }, {}))
+            };
+          });
+        });
         var items = programs.reduce(function (accu, program) {
           return _objectSpread(_objectSpread({}, accu), {}, _defineProperty({}, program.id, program.data));
         }, {});
@@ -84667,6 +84678,9 @@ var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
       "asd";
     }
   };
+});
+useModules.subscribe(function (data) {
+  console.log("useModules", data);
 });
 /* harmony default export */ __webpack_exports__["default"] = (useModules);
 
@@ -84824,4 +84838,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.e8f6.js.map
+//# sourceMappingURL=main.4e6c.js.map
