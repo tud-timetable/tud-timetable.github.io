@@ -1,11 +1,12 @@
 import create from "zustand";
+import useModules from "hooks/useModules";
 
 const useDegreePrograms = create((set, get) => ({
   "items": {},
   "value": null,
   "status": "idle",
 
-  "read": () => {
+  "readAll": () => {
     const { value, status, items } = get();
 
     switch ( status ) {
@@ -72,5 +73,7 @@ const useDegreePrograms = create((set, get) => ({
     };
   },
 }));
+
+useDegreePrograms.subscribe(console.log);
 
 export default useDegreePrograms;

@@ -9,7 +9,7 @@ function InvolvedProfessorships({
   const {
     status,
     value
-  } = useProfessorships().read();
+  } = useProfessorships().readAll();
 
   function findProfessorship( name ) {
     return value.find(( prof ) => (

@@ -20,7 +20,7 @@ function sortDegreeProgrames( degreeProgrames ) {
 function ModuleSelect() {
   const { degreeProgramId = "", moduleId = "" } = useParams();
   const history = useHistory();
-  const { status, value } = useDegreePrograms().read();
+  const { status, value } = useDegreePrograms().readAll();
 
   function selectDegreeProgram( evt ) {
     history.push(

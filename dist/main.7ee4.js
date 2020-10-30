@@ -83251,7 +83251,7 @@ function ModuleSelect() {
 
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
 
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().read(),
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
@@ -83410,7 +83410,7 @@ function detectModulesByNumber(text, _ref) {
   }
 
   text.forEach(function (part) {
-    part.replace(/([A-ZÄÖÜ0-9]+-[A-ZÄÖÜ0-9]+(-[A-ZÄÖÜ0-9]+)+)|(.)/g, function (_1, number, _2, other) {
+    part.replace(/([A-ZÄÖÜ0-9]+-[A-ZÄÖÜ0-9]+(-[A-ZÄÖÜ0-9]+)+)|(.)/gi, function (_1, number, _2, other) {
       var lastIndex = elements.length - 1;
       var lastElement = elements[lastIndex];
 
@@ -83950,7 +83950,7 @@ function InvolvedProfessorships(_ref) {
   var _ref$items = _ref.items,
       items = _ref$items === void 0 ? [] : _ref$items;
 
-  var _useProfessorships$re = Object(hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"])().read(),
+  var _useProfessorships$re = Object(hooks_useProfessorships__WEBPACK_IMPORTED_MODULE_2__["default"])().readAll(),
       status = _useProfessorships$re.status,
       value = _useProfessorships$re.value;
 
@@ -84565,6 +84565,7 @@ var VisNetwork = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["forward
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
+/* harmony import */ var hooks_useModules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooks/useModules */ "./src/hooks/useModules.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
@@ -84572,12 +84573,13 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 
+
 var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(function (set, get) {
   return {
     "items": {},
     "value": null,
     "status": "idle",
-    "read": function read() {
+    "readAll": function readAll() {
       var _get = get(),
           value = _get.value,
           status = _get.status,
@@ -84643,7 +84645,30 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     }
   };
 });
+useDegreePrograms.subscribe(console.log);
 /* harmony default export */ __webpack_exports__["default"] = (useDegreePrograms);
+
+/***/ }),
+
+/***/ "./src/hooks/useModules.js":
+/*!*********************************!*\
+  !*** ./src/hooks/useModules.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
+
+var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(function (set, get) {
+  return {
+    "readAll": function readAll() {
+      "asd";
+    }
+  };
+});
+/* harmony default export */ __webpack_exports__["default"] = (useModules);
 
 /***/ }),
 
@@ -84663,7 +84688,7 @@ var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     "items": {},
     "value": null,
     "status": "idle",
-    "read": function read() {
+    "readAl": function readAl() {
       var _get = get(),
           value = _get.value,
           status = _get.status,
@@ -84799,4 +84824,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.6c4f.js.map
+//# sourceMappingURL=main.7ee4.js.map
