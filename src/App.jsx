@@ -97,7 +97,7 @@ function ModuleSelect() {
 
 function ModuleDependencies() {
   const { degreeProgramId } = useParams();
-  const { status, value } = useDegreePrograms().read();
+  const { status, value } = useDegreePrograms().readAll();
 
   if ( !degreeProgramId || status !== "resolved" ) {
     return null;

@@ -83314,7 +83314,7 @@ function ModuleDependencies() {
   var _useParams2 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
       degreeProgramId = _useParams2.degreeProgramId;
 
-  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().read(),
+  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
       status = _useDegreePrograms$re2.status,
       value = _useDegreePrograms$re2.value;
 
@@ -84824,4 +84824,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.7ee4.js.map
+//# sourceMappingURL=main.e8f6.js.map
