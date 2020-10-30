@@ -1,0 +1,964 @@
+{
+  "name":"Studienordnung für den konsekutiven Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft",
+  "id":"master-germ-spr-kult-wiss-2018",
+  "date_of_issue":"2018-06-23",
+  "file":"http://www.verw.tu-dresden.de/AmtBek/PDF-Dateien/2018-14/07soMG23.06.2018.pdf",
+  "modules":[
+    {
+      "module_numbers":[
+        "1S1-ALI"
+      ],
+      "module_name":"Unternehmenskommunikation",
+      "module_coordinator":"Prof. Satzger",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Grundlagen der Unternehmenskommunikation unter Einbeziehung technischer Aspekte. Die Studierenden beherrschen ökonomische, linguistische und informationstechnische Aspekte erfolgreicher Unternehmenskommunikation.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Angewandten Linguistik auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S1-AVS, 1S1-DAF, 1S1-GES. Das Modul schafft außerdem die Voraussetzungen für das Modul 2A-ALI.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit, einer Präsentation von 15 - 30 Minuten und einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":12,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Projektarbeit",
+          "weight":1
+        },
+        {
+          "name":"Präsentation",
+          "extent":"15 - 30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S2-ALI"
+      ],
+      "module_name":"Interne Unternehmenskommunikation",
+      "module_coordinator":"Prof. Satzger",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Die Studierenden sind in der Lage, kommunikationswissenschaftliche, betriebswirtschaftliche und sprachwissenschaftliche Aspekte der internen Unternehmenskommunikation sowie der sozialwissenschaftlichen Datenerhebung, der Unternehmenskultur und Unternehmenskommunikation aus kulturraumübergreifender Sicht zu betrachten. Die Studierenden verfügen über analytischkonzeptionelle Fähigkeiten sowie wissenschaftliche Sprach- und Darstellungskompetenzen.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Angewandten Linguistik auf dem Niveau eines einschlägigen Bachelorstudiengangs sowie ein mindestens vierwöchiges Praktikum in einem Unternehmen/einer Institution, welches im Projektkurs begleitet wird.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S2-AVS, 1S2-DAF, 1S2-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe und einer Klausurarbeit im Umfang von 90 Minuten.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Lektürebezogene Aufgabe"
+        },
+        {
+          "name":"Klausurarbeit",
+          "extent":"90 Minuten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2A-ALI"
+      ],
+      "module_name":"Externe Unternehmenskommunikation",
+      "module_coordinator":"Prof. Satzger",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Die Studierenden sind in der Lage, exemplarisch vertieft behandelte Themenkomplexe der externen Unternehmenskommunikation zu bearbeiten. Sie verfügen über die Fähigkeit, organisations-, kommunikations- und sprachwissenschaftliche Aspekte im semiotischen und interkulturellen Kontext in eigenständigen wissenschaftlichen Arbeiten zu behandeln.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Wissenschaftliches Kolloquium",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Grundlagen der Unternehmenskommunikation, wie sie im Modul 1S1-ALI erworben wurden.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2A-AVS, 2A-DAF, 2A-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 15 - 30 Minuten, einer Seminararbeit im Umfang von 20 - 25 Seiten sowie einer Präsentation von 15 - 30 Minuten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":12,
+      "required_modules":[
+        "1S1-ALI"
+      ],
+      "assessments":[
+        {
+          "name":"Referat",
+          "extent":"15 - 30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Präsentation",
+          "extent":"15 - 30 Minuten",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1E-ALI"
+      ],
+      "module_name":"Ergänzung Externe Unternehmenskommunikation",
+      "module_coordinator":"Prof. Satzger",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Grundlagen der Unternehmenskommunikation unter Einbeziehung technischer Aspekte. Die Studierenden beherrschen ökonomische, linguistische und informationstechnische Aspekte erfolgreicher Unternehmenskommunikation.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Wissenschaftliches Kolloquium",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Angewandten Linguistik auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1E-AVS, 1E-DAF, 1E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Projektarbeit, einer lektürebezogenen Aufgabe, einer Seminararbeit im Umfang von 20 - 25 Seiten und einer Präsentation.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 450 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":15,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Projektarbeit",
+          "weight":1
+        },
+        {
+          "name":"Lektürebezogene Aufgabe",
+          "weight":1
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Präsentation",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2E-ALI"
+      ],
+      "module_name":"Ergänzung Interne Unternehmenskommunikation",
+      "module_coordinator":"Prof. Satzger",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Die Studierenden sind in der Lage kommunikationswissenschaftliche, betriebswirtschaftliche und sprachwissenschaftliche Aspekte der internen Unternehmenskommunikation zu bearbeiten sowie sozialwissenschaftliche Datenerhebung zu praktizieren. Unternehmenskultur und -kommunikation werden ebenfalls aus kulturraumübergreifender Sicht betrachtet. Die Studierenden verfügen über analytischkonzeptionelle Fähig-keiten sowie wissenschaftliche Sprach- und Darstellungskompetenzen.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Angewandten Linguistik auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2E-AVS, 2E-DAF, 2E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe und einer Klausurarbeit im Umfang von 90 Minuten.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Lektürebezogene Aufgabe"
+        },
+        {
+          "name":"Klausurarbeit",
+          "extent":"90 Minuten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S1-AVS"
+      ],
+      "module_name":"Indogermanische Einzelsprachen",
+      "module_coordinator":"Prof. Tischler",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte des Moduls sind die für die historischvergleichende Sprachwissenschaft wichtigsten indogermanischen Sprachen. Die Studierenden verfügen über Kenntnisse wahlweise in Latein, Griechisch, Sanskrit und Hethitisch sowiein den „Kleineren Sprachen“.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Allgemeinen und Vergleichenden Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach-und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S1-ALI, 1S1-DAF, 1S1-GES. Das Modul schafft außerdem die Voraussetzungen für das Modul 2A-AVS.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Referaten im Umfang von je 30 Minuten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":12,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Referat",
+          "extent":"30 Minuten"
+        },
+        {
+          "name":"Referat",
+          "extent":"30 Minuten"
+        },
+        {
+          "name":"Referat",
+          "extent":"30 Minuten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S2-AVS"
+      ],
+      "module_name":"Theorie und Methoden",
+      "module_coordinator":"Prof. Tischler",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte des Moduls sind die für die historischvergleichende Sprachwissenschaft wesentlichen theoretischen und methodischen Grundlagen. Die Studierenden verfügen über vertiefte theoretische und methodische Kenntnisse und Kompetenzen der Allgemeinen und Vergleichenden Sprachwissenschaft.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Arbeitskreis",
+          "extent":"1 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Allgemeinen und Vergleichenden Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelor-studiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S2-ALI, 1S2-DAF, 1S2-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe und einem Bericht.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Lektürebezogene Aufgabe"
+        },
+        {
+          "name":"Bericht"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2A-AVS"
+      ],
+      "module_name":"Aspekte der Allgemeinen und Vergleichenden Sprachwissenschaft",
+      "module_coordinator":"Prof. Tischler",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst spezielle Aspekte der Allgemeinen und Vergleichenden Sprachwissenschaft, darunter die Hauptsprachen (Germanisch, Latein, Griechisch, Sanskrit oder Hethitisch) und die für die Historischvergleichende Sprachwissenschaft wesentlichen theoretischen Grundlagen. Die Studierenden verfügen über spezielle Kenntnisse sowie breitere Grundkenntnisse in einer bisher noch nicht studierten Sprache aus dem Modul 1S1-AVS.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und Kompetenzen im Fach Germanistik: Sprach- und Kulturwissenschaft, wie sie im Modul 1S1-AVS erworben wurden.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2A-ALI, 2A-DAF, 2A-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 30 Minuten sowie einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":12,
+      "required_modules":[
+        "1S1-AVS"
+      ],
+      "assessments":[
+        {
+          "name":"Referat",
+          "extent":"30 Minuten"
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1E-AVS"
+      ],
+      "module_name":"Ergänzung Indogermanische Einzelsprachen",
+      "module_coordinator":"Prof. Dr. Johann Tischler",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Inhalte des Moduls sind die für die historischvergleichende Sprachwissenschaft wichtigsten indogermanischen Sprachen. Die Studierenden verfügen über Kenntnisse wahlweise in Latein, Griechisch, Sanskrit und Hethitisch sowie in den „Kleineren Sprachen“.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen in der Allgemeinen und Vergleichenden Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1E-ALI, 1E-DAF, 1E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Referaten im Umfang von je 30 Minuten sowie einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 450 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":15,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Referat",
+          "extent":"30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Referat",
+          "extent":"30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Referat",
+          "extent":"30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2E-AVS"
+      ],
+      "module_name":"Ergänzung Aspekte der Allgemeinen und Vergleichenden Sprachwissenschaft",
+      "module_coordinator":"Prof. Tischler",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst spezielle Aspekte der Allgemeinen und Vergleichenden Sprachwissenschaft, darunter die Haupt-sprachen (Germanisch, Latein, Griechisch, Sanskrit oder Hethitisch) und die für die Historischvergleichende Sprachwissenschaft wesentlichen theoretischen Grundlagen. Die Studierenden verfügen wahlweise über spezielle Kenntnisse oder breitere Grundkenntnisse in einer bisher noch nicht studierten Sprache aus dem Modul 1S1-AVS.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und forschungs-orientierte Kompetenzen in der Allgemeinen und Vergleichenden Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudienganges.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2E-ALI, 2E-DAF, 2E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Seminararbeit.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S1-DAF"
+      ],
+      "module_name":"Sprache – Sprachvermittlung – Interkulturalität",
+      "module_coordinator":"N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Die Studierenden verfügen über theoretische und methodische Grundlagen des Deutschen als Fremdsprache auch unter Berücksichtigung kulturwissenschaftlicher Ansätze. Die Studierenden beherrschen vermittlungsrelevante Strukturen des Deutschen aus komparativer und interkultureller Perspektive, Aspekte der Sprachlernforschung im Hinblick auf didaktische und methodische Fragestellungen der Sprachvermittlung sowie Aspekte der interkulturellen Sprachdidaktik im Zusammenhang literarischer und landeskundlicher Vermittlungsgegenstände.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Deutsch als Fremdsprache auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S1-AVS, 1S1-ALI, 1S1-GES. Das Modul schafft außerdem die Voraussetzungen für das Modul 2A-DAF.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Präsentationen im Umfang von je 20 Minuten sowie aus einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus der Note der Seminararbeit (1fach) und der Note der drei Präsentationen (1fach).",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":12,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Präsentation",
+          "extent":"20 Minuten",
+          "weight":false
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":false
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S2-DAF"
+      ],
+      "module_name":"DaF-Spezialkompetenzen",
+      "module_coordinator":"N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Spezialkompetenzen u. a. im Bereich der interkulturellen Kommunikation, der interkulturellen Fach- und Wissenschaftskommunikation, der Sprachdidaktik auch im Hinblick auf Materialerstellung unter Einbeziehung neuer Medien, der Sprachstandsfeststellung und der Testtheorie.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Arbeitskreis",
+          "extent":"1 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Deutsch als Fremdsprache auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S2-ALI, 1S2-AVS, 1S2-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer lektürebezogenen Aufgabe und einer Präsentation.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Lektürebezogene Aufgabe"
+        },
+        {
+          "name":"Präsentation"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2A-DAF"
+      ],
+      "module_name":"Aspekte des Deutschen als Fremdsprache",
+      "module_coordinator":"N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst die Bereiche Linguistik des Deutschen aus der Fremdperspektive, Sprachlehr- und Sprachlernforschung und interkulturelle Sprachdidaktik unter Einbeziehung von literarischen und landeskundlichen Vermittlungsgegenständen, ggf. auch im Blick auf eines der Praxisfelder (Unterricht, Institutionen, Medien, Unternehmen). Die Studierenden verfügen über exemplarisch angeeignete Kompetenzen in der selbstständigen Forschungsorganisation sowie in Arbeitsverfahren aus der Forschungspraxis des Fachgebietes.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Wissenschaftliches Kolloquium",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und Kompetenzen im Fach Germanistik: Sprach- und Kulturwissenschaft, wie sie im Modul 1S1-DAF erworben wurden.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2A-AVS, 2A-ALI, 2A-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Referat im Umfang von 30 Minuten, einer Seminararbeit im Umfang von 20 - 25 Seiten sowie aus einem Bericht.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":12,
+      "required_modules":[
+        "1S1-DAF"
+      ],
+      "assessments":[
+        {
+          "name":"Referat",
+          "extent":"30 Minuten",
+          "weight":1
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Bericht",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1E-DAF"
+      ],
+      "module_name":"Ergänzung Sprache – Sprachvermittlung – Interkulturalität",
+      "module_coordinator":"N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Die Studierenden verfügen über theoretische und methodische Grundlagen des Deutschen als Fremdsprache auch unter Berücksichtigung kulturwissenschaftlicher Ansätze. Die Studierenden beherrschen vermittlungsrelevante Strukturen des Deutschen aus komparativer und interkultureller Perspektive, Aspekte der Sprachlernforschung im Hinblick auf didaktische und methodische Fragestellungen der Sprachvermittlung sowie auf Fragen der interkulturellen Sprachdidaktik im Zusammenhang literarischer und landeskundlicher Vermittlungsgegenstände.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Seminare",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Deutsch als Fremdsprache auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1E-AVS, 1E-ALI, 1E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus drei Präsentationen im Umfang von je 20 Minuten sowie aus zwei Seminararbeiten im Umfang von je 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus der Note aus den beiden Seminararbeiten (1fach) und der Note der drei Präsentationen (1fach).",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 450 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":15,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Präsentation",
+          "extent":"20 Minuten",
+          "weight":false
+        },
+        {
+          "name":"Präsentation",
+          "extent":"20 Minuten",
+          "weight":false
+        },
+        {
+          "name":"Präsentation",
+          "extent":"20 Minuten",
+          "weight":false
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":false
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":false
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2E-DAF"
+      ],
+      "module_name":"Ergänzung Aspekte des Deutschen als Fremdsprache",
+      "module_coordinator":"N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst einen der Bereiche Linguistik des Deutschen aus der Fremdperspektive, Sprachlehr- und Sprachlernforschung und interkulturelle Sprachdidaktik unter Einbeziehung von literarischen und landeskundlichen Gegenständen, ggf. auch im Blick auf eines der Praxisfelder (Unterricht, Institutionen, Medien, Unternehmen), wobei die Studierenden eigene Schwerpunkte setzen können. Die Studierenden verfügen über vertiefte Kenntnisse und Kompetenzen im Bereich Deutsch als Fremdsprache.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Deutsch als Fremdsprache auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2E-ALI, 2E-AVS, 2E-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Präsentation sowie einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Präsentation"
+        },
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S1-GES"
+      ],
+      "module_name":"Theoretische und systemlinguistische Grundlagen",
+      "module_coordinator":"Prof. Jakob",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Methoden und Theorien der germanistischen Sprachwissenschaft, insbesondere die Analyse von Grammatik und Kommunikation. Die Studierenden verfügen über vertiefte theorie-orientierte Kenntnisse und Kompetenzen in der Systemlinguistik.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Arbeitskreis",
+          "extent":"1 SWS"
+        },
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Germanistische Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S1-AVS, 1S1-ALI, 1S1-DAF. Das Modul schafft außerdem die Voraussetzungen für das Modul 2A-GES.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Seminararbeit im Umfang von 20 - 25 Seiten sowie einer lektürebezogenen Aufgabe.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":12,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Lektürebezogene Aufgabe",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1S2-GES"
+      ],
+      "module_name":"Geschichte und Kommunikation",
+      "module_coordinator":"Prof. Jakob",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst die Themenfelder Pragmatik, Textlinguistik, Gesprächsanalyse, Soziolinguistik mit einem Schwerpunkt auf theoretischen Konzepten zur Kommunikation sowie auf empirischanalytischen Ansätzen zur Kommunikation (Gegenwartssprache). Das Modul umfasst außerdem Methoden der sprachgeschichtlichen Analysen und Theorien des Sprachwandels. Die Studierenden können zwischen beiden Schwerpunkten wählen. Die Studierenden besitzen Kompetenzen im selbstständigen Umgang mit Forschungsansätzen und Forschungsliteratur zu den genannten Themenfeldern.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Lektürekurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Germanistische Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1S2-ALI, 1S2-AVS, 1S2-DAF.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus zwei lektürebezogenen Aufgaben.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Lektürebezogene Aufgabe"
+        },
+        {
+          "name":"Lektürebezogene Aufgabe"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2A-GES"
+      ],
+      "module_name":"Spezialbereiche der Germanistischen Sprachwissenschaft",
+      "module_coordinator":"Prof. Jakob",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst wahlweise Spezialthemen oder ergänzende Themen aus den Bereichen „Sprache als Mittel der Kommunikation“, „Geschichte der deutschen Sprache“, „Theoretische und systemlinguistische Grundlagen“. Die Studierenden verfügen über Kompetenzen in der Forschungspraxis, darunter Datenauswahl, Datenerhebung, Korpuserstellung, quantitative Auswertungsstrategien und Validitätstest.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Projektkurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und Kompetenzen im Fach Germanistik: Sprach- und Kulturwissenschaft, wie sie im Modul 1S1-GES erworben wurden.",
+      "applicability":"Das Modulist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2A-AVS, 2A-DAF, 2A-ALI.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Seminararbeit im Umfang von 20 - 25 Seiten sowie einer Präsentation im Umfang von 30 Minuten.",
+      "credit_points_and_grades":"Durch das Modul können 12 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 360 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":12,
+      "required_modules":[
+        "1S1-GES"
+      ],
+      "assessments":[
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Präsentation",
+          "extent":"30 Minuten",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "1E-GES"
+      ],
+      "module_name":"Ergänzung Theoretische und systemlinguistische Grundlagen",
+      "module_coordinator":"Prof. Jakob",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst Methoden und Theorien der germanistischen Sprachwissenschaft, insbesondere die Analyse von Grammatik und Kommunikation. Die Studierenden verfügen über vertiefte theorieorientierte Kenntnisse und Kompetenzen in der Systemlinguistik.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Vorlesung",
+          "extent":"2 SWS"
+        },
+        {
+          "name":"Arbeitskreis",
+          "extent":"1 SWS"
+        },
+        {
+          "name":"Lektürekurs",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzungen sind Kenntnisse und forschungsorientierte Kompetenzen im Bereich Germanistische Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudiengangs.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft sowie im Beifach Germanistik: Sprach- und Kulturwissenschaft der anderen Masterstudiengänge der Fakultät Sprach-, Literatur- und Kulturwissenschaften, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 1E-AVS, 1E-ALI, 1E-DAF.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Seminararbeit im Umfang von 20 - 25 Seiten, einem Bericht sowie einer lektürebezogenen Aufgabe.",
+      "credit_points_and_grades":"Durch das Modul können 15 Leistungspunkte erworben werden. Die Modulnote ergibt sich aus dem gewichteten arithmetischen Mittel der Noten der einzelnen Prüfungsleistungen, wobei die Note der Seminararbeit doppelt gewichtet wird.",
+      "frequency":"Das Modul wird jedes Studienjahr, beginnend im Wintersemester, angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 450 Stunden.",
+      "duration":"Das Modul umfasst zwei Semester.",
+      "study_semester":1,
+      "credit_points":15,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten",
+          "weight":2
+        },
+        {
+          "name":"Bericht",
+          "weight":1
+        },
+        {
+          "name":"Lektürebezogene Aufgabe",
+          "weight":1
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2E-GES"
+      ],
+      "module_name":"Ergänzung Spezialbereiche der Germanistischen Sprachwissenschaft",
+      "module_coordinator":"Prof. Jakob",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul umfasst wahlweise erweiterte oder spezialisierte Themen aus den Bereichen „Kommunikatikon“ oder „Sprachgeschichte“. Die Studierenden verfügen über vertiefte Kompetenzen in den genannten Bereichen.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Seminar",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und forschungsorientierte Kompetenzen im Bereich Germanistische Sprachwissenschaft auf dem Niveau eines einschlägigen Bachelorstudienganges.",
+      "applicability":"Das Modul ist eines von vier Wahlpflichtmodulen im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft, von denen eins gewählt werden muss. Die anderen drei Wahlpflichtmodule sind 2E-ALI, 2E-AVS, 2E-DAF.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einer Seminararbeit im Umfang von 20 - 25 Seiten.",
+      "credit_points_and_grades":"Durch das Modul können 8 Leistungspunkte erworben werden. Die Modulnote entspricht der Note der Seminararbeit.",
+      "frequency":"Das Modul wird jedes Studienjahr angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 240 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":3,
+      "credit_points":8,
+      "required_modules":[
+
+      ],
+      "assessments":[
+        {
+          "name":"Seminararbeit",
+          "extent":"20 - 25 Seiten"
+        }
+      ]
+    },
+    {
+      "module_numbers":[
+        "2P"
+      ],
+      "module_name":"Wissenschaftliche Präsentation",
+      "module_coordinator":"Prof. Dr. Karlheinz Jakob, Prof. Dr. Axel Satzger, Prof. Dr. Johann Tischler, N. N.",
+      "involved_professorships":null,
+      "contents_and_qualification_targets":"Das Modul unterstützt und begleitet die Abfassung der Masterarbeit. Qualifikationsziel ist die Fähigkeit, sich selbstständig wissenschaftliche Frage- und Problemstellungen zu erarbeiten und diese in einer wissenschaftlichen Arbeit umzusetzen. Die Studierenden verfügen über die Fähigkeit, vor Fachpublikum ein Forschungsvorhaben schriftlich und mündlich zu erläutern und zu diskutieren.",
+      "teaching_and_learning_methods":[
+        {
+          "name":"Wissenschaftliches Kolloquium",
+          "extent":"2 SWS"
+        }
+      ],
+      "requirements_for_participation":"Voraussetzung sind vertiefte Kenntnisse und Kompetenzen im Fach Germanistik: Sprach- und Kulturwissenschaft wie sie jeweils aus den Wahlpflichtmodulen 1S1-ALI, 1S1-AVS, 1S1-DAF, 1S1-GES, 1S2-ALI, 1S2-AVS, 1S2-DAF, 1S2-GES, 2A-ALI, 2A-AVS, 2A-DAF, 2A-GES erworben wurden.",
+      "applicability":"Das Modul ist ein Pflichtmodul im Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft.",
+      "requirements_for_assignment_of_credit_points":"Die Leistungspunkte werden erworben, wenn die Modulprüfung bestanden ist. Die Modulprüfung besteht aus einem Exposé und einem Kolloquium.",
+      "credit_points_and_grades":"Durch das Modul können 10 Leistungspunkte erworben werden. Die Modulprüfung wird mit \"bestanden/nicht bestanden\" bewertet.",
+      "frequency":"Das Modul wird jedes Semester angeboten.",
+      "workload":"Der Arbeitsaufwand beträgt 300 Stunden.",
+      "duration":"Das Modul umfasst ein Semester.",
+      "study_semester":4,
+      "credit_points":10,
+      "required_modules":[
+        "1S1-ALI",
+        "1S1-AVS",
+        "1S1-DAF",
+        "1S1-GES",
+        "1S2-ALI",
+        "1S2-AVS",
+        "1S2-DAF",
+        "1S2-GES",
+        "2A-ALI",
+        "2A-AVS",
+        "2A-DAF",
+        "2A-GES"
+      ],
+      "assessments":[
+        {
+          "name":"Exposé"
+        },
+        {
+          "name":"Kolloquium"
+        }
+      ]
+    }
+  ]
+}

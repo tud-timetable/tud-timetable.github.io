@@ -52,5 +52,11 @@
     "file":"master-lit-kult-ges-wandel-2020.json",
     "name":"Konsekutiver Masterstudiengang Literatur und Kultur im gesellschaftlichen Wandel",
     "date_of_issue":"2020-07-27"
+  },
+  {
+    "id":"master-germ-spr-kult-wiss-2018",
+    "file":"master-germ-spr-kult-wiss-2018.json",
+    "name":"Konsekutiver Masterstudiengang Germanistik: Sprach- und Kulturwissenschaft",
+    "date_of_issue":"2018-06-23"
   }
 ]
