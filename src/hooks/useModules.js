@@ -1,13 +1,11 @@
 import create from "zustand";
 
 const useModules = create((set, get) => ({
+  "items":{},
   "readAll": () => {
-    "asd"
+    const { items } = get();
+    return items;
   },
 }));
-
-useModules.subscribe((data) => {
-  console.log("useModules", data);
-});
 
 export default useModules;

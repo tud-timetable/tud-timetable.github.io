@@ -6,7 +6,7 @@ import useDegreePrograms from "hooks/useDegreePrograms";
 
 function ModuleDescriptionPage() {
   const { degreeProgramId, moduleId } = useParams();
-  const { status, value } = useDegreePrograms().read( degreeProgramId );
+  const { status, value } = useDegreePrograms().readAll( degreeProgramId );
 
   function findModule( number ) {
     if ( !value[ degreeProgramId ] ) {

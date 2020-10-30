@@ -84656,7 +84656,6 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     }
   };
 });
-useDegreePrograms.subscribe(console.log);
 /* harmony default export */ __webpack_exports__["default"] = (useDegreePrograms);
 
 /***/ }),
@@ -84674,13 +84673,14 @@ __webpack_require__.r(__webpack_exports__);
 
 var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(function (set, get) {
   return {
+    "items": {},
     "readAll": function readAll() {
-      "asd";
+      var _get = get(),
+          items = _get.items;
+
+      return items;
     }
   };
-});
-useModules.subscribe(function (data) {
-  console.log("useModules", data);
 });
 /* harmony default export */ __webpack_exports__["default"] = (useModules);
 
@@ -84808,7 +84808,7 @@ function ModuleDescriptionPage() {
       degreeProgramId = _useParams.degreeProgramId,
       moduleId = _useParams.moduleId;
 
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__["default"])().read(degreeProgramId),
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_3__["default"])().readAll(degreeProgramId),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
@@ -84838,4 +84838,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4e6c.js.map
+//# sourceMappingURL=main.ead9.js.map
