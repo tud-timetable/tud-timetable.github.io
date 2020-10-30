@@ -1,5 +1,3 @@
-import React from "react";
-
 function ModuleNumber({ children }) {
   return (
     <span className="text-nowrap">{ children }</span>

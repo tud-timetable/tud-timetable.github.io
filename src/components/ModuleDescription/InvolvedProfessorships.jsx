@@ -1,4 +1,4 @@
-import React, {
+import {
   Fragment
 } from "react";
 import useProfessorships from "hooks/useProfessorships";

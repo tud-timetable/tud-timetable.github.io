@@ -1,4 +1,4 @@
-import React, {
+import {
   Fragment
 } from "react";
 
@@ -60,7 +60,7 @@ function linkWebsites( parts ) {
 
         if ( url !== undefined ) {
           elements.push(
-            <a href={ url } target="_blank">{ url }</a>
+            <a href={ url } target="_blank" rel="noopener noreferrer">{ url }</a>
           );
           return;
         }
