@@ -84702,7 +84702,7 @@ var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
     "items": {},
     "value": null,
     "status": "idle",
-    "readAl": function readAl() {
+    "readAll": function readAll() {
       var _get = get(),
           value = _get.value,
           status = _get.status,
@@ -84838,4 +84838,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.ead9.js.map
+//# sourceMappingURL=main.3e05.js.map

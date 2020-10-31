@@ -5,7 +5,7 @@ const useProfessorships = create((set, get) => ({
   "value": null,
   "status": "idle",
 
-  "readAl": () => {
+  "readAll": () => {
     const { value, status, items } = get();
 
     switch ( status ) {
