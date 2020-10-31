@@ -4,13 +4,16 @@ import {
 import LinkedModuleNumbers from "components/LinkedModuleNumbers";
 
 function Applicability({
-  text
+  text,
+  modules
 }) {
   return (
     <Fragment>
       <dt className="col-12">Verwendbarkeit</dt>
       <dd className="col-12">
-        <LinkedModuleNumbers>{ text }</LinkedModuleNumbers>
+        <LinkedModuleNumbers
+          modules={ modules }
+        >{ text }</LinkedModuleNumbers>
       </dd>
     </Fragment>
   );

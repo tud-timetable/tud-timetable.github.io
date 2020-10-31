@@ -15,6 +15,23 @@ import RequirementsForParticipation from "./ModuleDescription/RequirementsForPar
 import TeachingAndLearningMethods from "./ModuleDescription/TeachingAndLearningMethods";
 import Workload from "./ModuleDescription/Workload";
 
+import useModules from "hooks/useModules";
+
+function getModulesByDegreeProgramId(modules, degreeProgramId) {
+  return (
+    Object.entries(modules).reduce((accu, [key, value]) => {
+      if ( value.degree_program_id !== degreeProgramId ) {
+        return accu;
+      }
+
+      return {
+        ...accu,
+        [key]: value,
+      };
+    }, {})
+  );
+}
+
 function ModuleDescription({
   data,
   degreeProgramId
@@ -22,6 +39,13 @@ function ModuleDescription({
   if ( data == null ) {
     return null;
   }
+
+  const modules = getModulesByDegreeProgramId(
+    useModules().readAll(),
+    degreeProgramId
+  );
+
+  console.log({ modules });
 
   return (
     <dl className="row">
@@ -51,6 +75,7 @@ function ModuleDescription({
       />
       <RequirementsForParticipation
         text={ data.requirements_for_participation }
+        modules={ modules }
       />
       <RequiredModules
         items={ data.required_modules }
@@ -58,6 +83,7 @@ function ModuleDescription({
       />
       <Applicability
         text={ data.applicability }
+        modules={ modules }
       />
       <RequirementsForAssignmentOfCreditPoints
         text={ data.requirements_for_assignment_of_credit_points }
