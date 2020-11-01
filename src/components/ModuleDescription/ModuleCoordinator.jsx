@@ -59,8 +59,10 @@ function linkWebsites( parts ) {
         const lastElement = elements[ lastIndex ];
 
         if ( url !== undefined ) {
+          const visibleUrl = url.replace(/^https?:\/\//, "");
+
           elements.push(
-            <a href={ url } target="_blank" rel="noopener noreferrer">{ url }</a>
+            <a href={ url } target="_blank" rel="noopener noreferrer">{ visibleUrl }</a>
           );
           return;
         }

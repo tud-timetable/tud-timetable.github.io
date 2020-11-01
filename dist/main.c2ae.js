@@ -84218,11 +84218,12 @@ function linkWebsites(parts) {
       var lastElement = elements[lastIndex];
 
       if (url !== undefined) {
+        var visibleUrl = url.replace(/^https?:\/\//, "");
         elements.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("a", {
           href: url,
           target: "_blank",
           rel: "noopener noreferrer",
-          children: url
+          children: visibleUrl
         }));
         return;
       }
@@ -84986,4 +84987,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.cf77.js.map
+//# sourceMappingURL=main.c2ae.js.map
