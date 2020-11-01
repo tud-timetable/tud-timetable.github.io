@@ -111,7 +111,7 @@ function getModuleMatchables(modules) {
   Object.values(modules).forEach((module) => {
     matchables.push(module.module_name);
 
-    matchables.module_numbers.forEach((number) => {
+    module.module_numbers.forEach((number) => {
       elements.push(number);
     });
   });
