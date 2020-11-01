@@ -1,3 +1,5 @@
+import { memo } from "react";
+
 import Applicability from "./ModuleDescription/Applicability";
 import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
 import Contents from "./ModuleDescription/Contents";
@@ -20,14 +22,11 @@ import useModules from "hooks/useModules";
 function getModulesByDegreeProgramId(modules, degreeProgramId) {
   return (
     Object.entries(modules).reduce((accu, [key, value]) => {
-      if ( value.degree_program_id !== degreeProgramId ) {
-        return accu;
+      if ( value.degree_program_id === degreeProgramId ) {
+        accu[key] = value;
       }
 
-      return {
-        ...accu,
-        [key]: value,
-      };
+      return accu;
     }, {})
   );
 }
@@ -44,8 +43,6 @@ function ModuleDescription({
     useModules().readAll(),
     degreeProgramId
   );
-
-  console.log({ modules });
 
   return (
     <dl className="row">
@@ -104,4 +101,18 @@ function ModuleDescription({
   );
 }
 
-export default ModuleDescription;
+function compare(prevProps, nextProps) {
+  const prevDegreeProgramId = prevProps.degreeProgramId;
+  const nextDegreeProgramId = nextProps.degreeProgramId;
+
+  const prevModuleNumbers = prevProps.data.module_numbers.join(",");
+  const nextModuleNumbers = nextProps.data.module_numbers.join(",");
+
+  return (
+    prevDegreeProgramId === nextDegreeProgramId
+      && prevModuleNumbers === nextModuleNumbers
+  );
+}
+
+export { ModuleDescription };
+export default memo(ModuleDescription, compare);
