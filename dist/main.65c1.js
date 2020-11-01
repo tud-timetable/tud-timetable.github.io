@@ -83500,7 +83500,7 @@ function getModuleMatchables(modules) {
   Object.values(modules).forEach(function (module) {
     matchables.push(module.module_name);
     module.module_numbers.forEach(function (number) {
-      elements.push(number);
+      matchables.push(number);
     });
   });
   return matchables;
@@ -84986,4 +84986,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.ec9e.js.map
+//# sourceMappingURL=main.65c1.js.map

@@ -112,7 +112,7 @@ function getModuleMatchables(modules) {
     matchables.push(module.module_name);
 
     module.module_numbers.forEach((number) => {
-      elements.push(number);
+      matchables.push(number);
     });
   });
 
