@@ -83400,7 +83400,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var PATTERN_NAMES = /([Mm]odul(?:e|s|en)?[ ])((?:(?!\. |\.$|ist |sind ).)+)|(.)/g;
+var PATTERN_NAMES = /([Mm]odul(?:e|s|en)?[ ])((?:bzw\.|(?!\. |\.$|ist |sind ).)+)|(.)/g;
 
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -84986,4 +84986,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.65c1.js.map
+//# sourceMappingURL=main.cf77.js.map

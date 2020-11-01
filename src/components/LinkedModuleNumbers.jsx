@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import ModuleNumber from "components/ModuleNumber";
 
-const PATTERN_NAMES = /([Mm]odul(?:e|s|en)?[ ])((?:(?!\. |\.$|ist |sind ).)+)|(.)/g;
+const PATTERN_NAMES = /([Mm]odul(?:e|s|en)?[ ])((?:bzw\.|(?!\. |\.$|ist |sind ).)+)|(.)/g;
 
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
