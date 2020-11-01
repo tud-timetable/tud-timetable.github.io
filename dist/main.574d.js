@@ -83531,6 +83531,7 @@ function toComponents(fragments, _ref) {
 
     return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
       to: "/".concat(module.degree_program_id, "/").concat(module.module_numbers[0]),
+      title: module.module_numbers[0],
       children: module.module_name
     });
   });
@@ -84987,4 +84988,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.c2ae.js.map
+//# sourceMappingURL=main.574d.js.map

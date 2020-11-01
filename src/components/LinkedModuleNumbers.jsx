@@ -6,7 +6,9 @@ import {
 } from "react-router-dom";
 import ModuleNumber from "components/ModuleNumber";
 
-const PATTERN_NAMES = /([Mm]odul(?:e|s|en)?[ ])((?:bzw\.|(?!\. |\.$|ist |sind ).)+)|(.)/g;
+const PATTERN_NAMES = (
+  /([Mm]odul(?:e|s|en)?[ ])((?:bzw\.|(?!\. |\.$|ist |sind ).)+)|(.)/g
+);
 
 function escapeRegExp(string) {
   return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
@@ -139,7 +141,10 @@ function toComponents(fragments, { modules }) {
     }
 
     return (
-      <Link to={ `/${ module.degree_program_id }/${ module.module_numbers[0] }`}>
+      <Link
+        to={ `/${ module.degree_program_id }/${ module.module_numbers[0] }`}
+        title={ module.module_numbers[0] }
+      >
         { module.module_name }
       </Link>
     );
