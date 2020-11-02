@@ -11,7 +11,6 @@ import InvolvedProfessorships from "./ModuleDescription/InvolvedProfessorships";
 import ModuleCoordinator from "./ModuleDescription/ModuleCoordinator";
 import ModuleName from "./ModuleDescription/ModuleName";
 import ModuleNumbers from "./ModuleDescription/ModuleNumbers";
-import RequiredModules from "./ModuleDescription/RequiredModules";
 import RequirementsForAssignmentOfCreditPoints from "./ModuleDescription/RequirementsForAssignmentOfCreditPoints";
 import RequirementsForParticipation from "./ModuleDescription/RequirementsForParticipation";
 import TeachingAndLearningMethods from "./ModuleDescription/TeachingAndLearningMethods";
@@ -73,10 +72,6 @@ function ModuleDescription({
       <RequirementsForParticipation
         text={ data.requirements_for_participation }
         modules={ modules }
-      />
-      <RequiredModules
-        items={ data.required_modules }
-        degreeProgramId={ degreeProgramId }
       />
       <Applicability
         text={ data.applicability }

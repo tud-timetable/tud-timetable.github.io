@@ -83737,12 +83737,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ModuleDescription_ModuleCoordinator__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ModuleDescription/ModuleCoordinator */ "./src/components/ModuleDescription/ModuleCoordinator.jsx");
 /* harmony import */ var _ModuleDescription_ModuleName__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./ModuleDescription/ModuleName */ "./src/components/ModuleDescription/ModuleName.jsx");
 /* harmony import */ var _ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ModuleDescription/ModuleNumbers */ "./src/components/ModuleDescription/ModuleNumbers.jsx");
-/* harmony import */ var _ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ModuleDescription/RequiredModules */ "./src/components/ModuleDescription/RequiredModules.jsx");
-/* harmony import */ var _ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForAssignmentOfCreditPoints */ "./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx");
-/* harmony import */ var _ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForParticipation */ "./src/components/ModuleDescription/RequirementsForParticipation.jsx");
-/* harmony import */ var _ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ModuleDescription/TeachingAndLearningMethods */ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx");
-/* harmony import */ var _ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ModuleDescription/Workload */ "./src/components/ModuleDescription/Workload.jsx");
-/* harmony import */ var hooks_useModules__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! hooks/useModules */ "./src/hooks/useModules.js");
+/* harmony import */ var _ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForAssignmentOfCreditPoints */ "./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx");
+/* harmony import */ var _ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ModuleDescription/RequirementsForParticipation */ "./src/components/ModuleDescription/RequirementsForParticipation.jsx");
+/* harmony import */ var _ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./ModuleDescription/TeachingAndLearningMethods */ "./src/components/ModuleDescription/TeachingAndLearningMethods.jsx");
+/* harmony import */ var _ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ModuleDescription/Workload */ "./src/components/ModuleDescription/Workload.jsx");
+/* harmony import */ var hooks_useModules__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! hooks/useModules */ "./src/hooks/useModules.js");
 
 
 
@@ -83757,7 +83756,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
 
 
 
@@ -83799,7 +83797,7 @@ function ModuleDescription(_ref3) {
     return null;
   }
 
-  var modules = getModulesByDegreeProgramId(Object(hooks_useModules__WEBPACK_IMPORTED_MODULE_18__["default"])().readAll(), degreeProgramId);
+  var modules = getModulesByDegreeProgramId(Object(hooks_useModules__WEBPACK_IMPORTED_MODULE_17__["default"])().readAll(), degreeProgramId);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("dl", {
     className: "row",
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_ModuleNumbers__WEBPACK_IMPORTED_MODULE_12__["default"], {
@@ -83816,24 +83814,21 @@ function ModuleDescription(_ref3) {
       text: data.qualification_targets
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Contents__WEBPACK_IMPORTED_MODULE_4__["default"], {
       text: data.contents
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_16__["default"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_TeachingAndLearningMethods__WEBPACK_IMPORTED_MODULE_15__["default"], {
       items: data.teaching_and_learning_methods
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_15__["default"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_RequirementsForParticipation__WEBPACK_IMPORTED_MODULE_14__["default"], {
       text: data.requirements_for_participation,
       modules: modules
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_RequiredModules__WEBPACK_IMPORTED_MODULE_13__["default"], {
-      items: data.required_modules,
-      degreeProgramId: degreeProgramId
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Applicability__WEBPACK_IMPORTED_MODULE_2__["default"], {
       text: data.applicability,
       modules: modules
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_14__["default"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_RequirementsForAssignmentOfCreditPoints__WEBPACK_IMPORTED_MODULE_13__["default"], {
       text: data.requirements_for_assignment_of_credit_points
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_CreditPointsAndGrades__WEBPACK_IMPORTED_MODULE_6__["default"], {
       text: data.credit_points_and_grades
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Frequency__WEBPACK_IMPORTED_MODULE_8__["default"], {
       text: data.frequency
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_17__["default"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Workload__WEBPACK_IMPORTED_MODULE_16__["default"], {
       text: data.workload
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModuleDescription_Duration__WEBPACK_IMPORTED_MODULE_7__["default"], {
       text: data.duration
@@ -84387,71 +84382,6 @@ function QualificationTargets(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/ModuleDescription/RequiredModules.jsx":
-/*!**************************************************************!*\
-  !*** ./src/components/ModuleDescription/RequiredModules.jsx ***!
-  \**************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var components_ModuleNumber__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/ModuleNumber */ "./src/components/ModuleNumber.jsx");
-
-
-
-
-
-
-function RequiredModules(_ref) {
-  var _ref$items = _ref.items,
-      items = _ref$items === void 0 ? [] : _ref$items,
-      degreeProgramId = _ref.degreeProgramId;
-
-  if (items.length === 0) {
-    return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
-        className: "col-12",
-        children: "Vorausgesetzte Module"
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
-        className: "col-12",
-        children: "\u2013"
-      })]
-    });
-  }
-
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
-      className: "col-12",
-      children: "Vorausgesetzte Module"
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
-      className: "col-12",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("ul", {
-        className: "mb-0",
-        children: items.map(function (item) {
-          return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("li", {
-            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-              to: "/".concat(degreeProgramId, "/").concat(item),
-              children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleNumber__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                children: item
-              })
-            })
-          }, item);
-        })
-      })
-    })]
-  });
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (RequiredModules);
-
-/***/ }),
-
 /***/ "./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx":
 /*!**************************************************************************************!*\
   !*** ./src/components/ModuleDescription/RequirementsForAssignmentOfCreditPoints.jsx ***!
@@ -84988,4 +84918,4 @@ function ModuleDescriptionPage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.574d.js.map
+//# sourceMappingURL=main.78e9.js.map
