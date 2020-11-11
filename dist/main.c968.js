@@ -86109,6 +86109,11 @@ function TimeFrame(_ref2) {
   var filtered = dates.filter(function (date) {
     date.weekday === weekday && date.block_period === block_period;
   });
+  console.log({
+    filtered: filtered,
+    weekday: weekday,
+    block_period: block_period
+  });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: filtered.map(function (date) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableDate, {
@@ -86290,4 +86295,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.30dc.js.map
+//# sourceMappingURL=main.c968.js.map

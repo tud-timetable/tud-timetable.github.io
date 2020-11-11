@@ -61,6 +61,12 @@ function TimeFrame({
     date.weekday === weekday && date.block_period === block_period
   });
 
+  console.log({
+    filtered,
+    weekday,
+    block_period,
+  });
+
   return (
     <Fragment>
       {
