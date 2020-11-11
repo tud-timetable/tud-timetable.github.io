@@ -86163,7 +86163,8 @@ function TimetableBody(_ref3) {
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("tbody", {
     children: BLOCK_PERIODS.map(function (block_period) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableRow, {
-        dates: dates
+        dates: dates,
+        block_period: block_period
       }, "block-".concat(block_period));
     })
   });
@@ -86182,7 +86183,8 @@ function TimetableRowLabel(_ref4) {
 var WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 function TimetableRow(_ref5) {
-  var dates = _ref5.dates;
+  var dates = _ref5.dates,
+      block_period = _ref5.block_period;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("tr", {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("th", {
       scope: "row",
@@ -86288,4 +86290,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.f9a6.js.map
+//# sourceMappingURL=main.290b.js.map

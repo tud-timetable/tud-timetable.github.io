@@ -113,6 +113,7 @@ function TimetableBody({
           <TimetableRow
             key={ `block-${ block_period }` }
             dates={ dates }
+            block_period={ block_period }
           />
         ))
       }
@@ -139,7 +140,8 @@ const WEEKDAYS = [
 ];
 
 function TimetableRow({
-  dates
+  dates,
+  block_period
 }) {
   return (
     <tr>
