@@ -3,7 +3,16 @@ import {
 } from "react";
 import Timetable from "./Timetable";
 
+import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
+
 function TimetablePage() {
+  const dates = data.map((date) => {
+    return date.dates.items.map((item) => ({
+      ...item,
+      ...date,
+    }));
+  });
+
   return (
     <Fragment>
       <div className="row">
@@ -18,7 +27,7 @@ function TimetablePage() {
       </div>
       <div className="row">
         <div className="col">
-          <Timetable dates={[]} />
+          <Timetable dates={ dates } />
         </div>
       </div>
     </Fragment>
