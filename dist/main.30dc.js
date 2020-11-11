@@ -86256,7 +86256,7 @@ function TimetablePage() {
     return date.dates.items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), date);
     });
-  });
+  }).flat();
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -86290,4 +86290,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.290b.js.map
+//# sourceMappingURL=main.30dc.js.map
