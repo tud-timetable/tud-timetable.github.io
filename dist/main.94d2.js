@@ -83223,132 +83223,26 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
 /* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
-/* harmony import */ var components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/ModuleDependencyGraph */ "./src/components/ModuleDependencyGraph.jsx");
-/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
-/* harmony import */ var scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! scenes/ModuleDescriptionPage */ "./src/scenes/ModuleDescriptionPage.jsx");
+/* harmony import */ var scenes_ModuleOverviewPage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! scenes/ModuleOverviewPage */ "./src/scenes/ModuleOverviewPage.jsx");
+/* harmony import */ var scenes_TimetablePage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! scenes/TimetablePage */ "./src/scenes/TimetablePage.jsx");
 
 
 
 
 
 
-
-
-function sortDegreeProgrames(degreeProgrames) {
-  return function (a, b) {
-    var nameA = degreeProgrames[a].name;
-    var nameB = degreeProgrames[b].name;
-    return nameA.localeCompare(nameB);
-  };
-}
-
-function ModuleSelect() {
-  var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
-      _useParams$degreeProg = _useParams.degreeProgramId,
-      degreeProgramId = _useParams$degreeProg === void 0 ? "" : _useParams$degreeProg,
-      _useParams$moduleId = _useParams.moduleId,
-      moduleId = _useParams$moduleId === void 0 ? "" : _useParams$moduleId;
-
-  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
-
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
-      status = _useDegreePrograms$re.status,
-      value = _useDegreePrograms$re.value;
-
-  function selectDegreeProgram(evt) {
-    history.push("/".concat(evt.target.value));
-  }
-
-  function selectModule(evt) {
-    history.push("/".concat(degreeProgramId, "/").concat(evt.target.value));
-  }
-
-  var isReady = status === "resolved";
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-    className: "row",
-    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
-      className: "col",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "form-group",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("select", {
-          className: "form-control",
-          onChange: selectDegreeProgram,
-          disabled: !isReady,
-          value: degreeProgramId,
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
-            disabled: true,
-            value: "",
-            children: "Studiengang ausw\xE4hlen"
-          }), isReady && Object.keys(value).sort(sortDegreeProgrames(value)).map(function (id) {
-            var program = value[id];
-            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
-              value: program.id,
-              children: program.name
-            }, program.id);
-          })]
-        })
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "form-group",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("select", {
-          className: "form-control",
-          disabled: !isReady || !degreeProgramId,
-          onChange: selectModule,
-          value: moduleId,
-          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
-            disabled: true,
-            value: "",
-            children: "Modul ausw\xE4hlen"
-          }), isReady && value[degreeProgramId] && value[degreeProgramId].modules.map(function (m) {
-            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
-              value: m.module_numbers[0],
-              children: m.module_name
-            }, m.module_numbers[0]);
-          })]
-        })
-      })]
-    })
-  });
-}
-
-function ModuleDependencies() {
-  var _useParams2 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
-      degreeProgramId = _useParams2.degreeProgramId;
-
-  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
-      status = _useDegreePrograms$re2.status,
-      value = _useDegreePrograms$re2.value;
-
-  if (!degreeProgramId || status !== "resolved") {
-    return null;
-  }
-
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__["default"], {
-    modules: value[degreeProgramId].modules,
-    degreeProgramId: degreeProgramId
-  });
-}
 
 function App() {
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-      className: "row",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "col",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h1", {
-          children: "Modul\xFCbersicht"
-        })
-      })
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-      path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId", "/"],
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleSelect, {})
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-      path: "/:degreeProgramId",
-      exact: true,
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleDependencies, {})
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-      path: "/:degreeProgramId/:moduleId",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_5__["default"], {})
-    })]
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], {
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+        path: "/timetable",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_TimetablePage__WEBPACK_IMPORTED_MODULE_4__["default"], {})
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+        path: "",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleOverviewPage__WEBPACK_IMPORTED_MODULE_3__["default"], {})
+      })]
+    })
   });
 }
 
@@ -83506,6 +83400,10 @@ function getModuleMatchables(modules) {
   return matchables;
 }
 
+function linkToModule(module) {
+  return "/".concat(module.degree_program_id, "/").concat(module.module_numbers[0]);
+}
+
 function toComponents(fragments, _ref) {
   var modules = _ref.modules;
 
@@ -83530,7 +83428,7 @@ function toComponents(fragments, _ref) {
     }
 
     return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: "/".concat(module.degree_program_id, "/").concat(module.module_numbers[0]),
+      to: linkToModule(module),
       title: module.module_numbers[0],
       children: module.module_name
     });
@@ -84915,7 +84813,185 @@ function ModuleDescriptionPage() {
 
 /* harmony default export */ __webpack_exports__["default"] = (ModuleDescriptionPage);
 
+/***/ }),
+
+/***/ "./src/scenes/ModuleOverviewPage.jsx":
+/*!*******************************************!*\
+  !*** ./src/scenes/ModuleOverviewPage.jsx ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
+/* harmony import */ var components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/ModuleDependencyGraph */ "./src/components/ModuleDependencyGraph.jsx");
+/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
+/* harmony import */ var scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! scenes/ModuleDescriptionPage */ "./src/scenes/ModuleDescriptionPage.jsx");
+
+
+
+
+
+
+
+
+function sortDegreeProgrames(degreeProgrames) {
+  return function (a, b) {
+    var nameA = degreeProgrames[a].name;
+    var nameB = degreeProgrames[b].name;
+    return nameA.localeCompare(nameB);
+  };
+}
+
+function ModuleSelect() {
+  var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+      _useParams$degreeProg = _useParams.degreeProgramId,
+      degreeProgramId = _useParams$degreeProg === void 0 ? "" : _useParams$degreeProg,
+      _useParams$moduleId = _useParams.moduleId,
+      moduleId = _useParams$moduleId === void 0 ? "" : _useParams$moduleId;
+
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
+
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
+      status = _useDegreePrograms$re.status,
+      value = _useDegreePrograms$re.value;
+
+  function selectDegreeProgram(evt) {
+    history.push("/".concat(evt.target.value));
+  }
+
+  function selectModule(evt) {
+    history.push("/".concat(degreeProgramId, "/").concat(evt.target.value));
+  }
+
+  var isReady = status === "resolved";
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+    className: "row",
+    children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+      className: "col",
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "form-group",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("select", {
+          className: "form-control",
+          onChange: selectDegreeProgram,
+          disabled: !isReady,
+          value: degreeProgramId,
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+            disabled: true,
+            value: "",
+            children: "Studiengang ausw\xE4hlen"
+          }), isReady && Object.keys(value).sort(sortDegreeProgrames(value)).map(function (id) {
+            var program = value[id];
+            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+              value: program.id,
+              children: program.name
+            }, program.id);
+          })]
+        })
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "form-group",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("select", {
+          className: "form-control",
+          disabled: !isReady || !degreeProgramId,
+          onChange: selectModule,
+          value: moduleId,
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+            disabled: true,
+            value: "",
+            children: "Modul ausw\xE4hlen"
+          }), isReady && value[degreeProgramId] && value[degreeProgramId].modules.map(function (m) {
+            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+              value: m.module_numbers[0],
+              children: m.module_name
+            }, m.module_numbers[0]);
+          })]
+        })
+      })]
+    })
+  });
+}
+
+function ModuleDependencies() {
+  var _useParams2 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+      degreeProgramId = _useParams2.degreeProgramId;
+
+  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_4__["default"])().readAll(),
+      status = _useDegreePrograms$re2.status,
+      value = _useDegreePrograms$re2.value;
+
+  if (!degreeProgramId || status !== "resolved") {
+    return null;
+  }
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    modules: value[degreeProgramId].modules,
+    degreeProgramId: degreeProgramId
+  });
+}
+
+function ModuleOverviewPage() {
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
+
+  var _useParams3 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+      moduleId = _useParams3.moduleId;
+
+  function selectProgram(evt) {
+    history.push("/".concat(evt.target.value));
+  }
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      className: "row",
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "col",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h1", {
+          children: "Modul\xFCbersicht"
+        })
+      })
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId", "/"],
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleSelect, {})
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      path: "/:degreeProgramId",
+      exact: true,
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleDependencies, {})
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+      path: "/:degreeProgramId/:moduleId",
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_5__["default"], {})
+    })]
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleOverviewPage);
+
+/***/ }),
+
+/***/ "./src/scenes/TimetablePage.jsx":
+/*!**************************************!*\
+  !*** ./src/scenes/TimetablePage.jsx ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function TimetablePage() {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h1", {
+    children: "Timetable"
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (TimetablePage);
+
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.78e9.js.map
+//# sourceMappingURL=main.94d2.js.map
