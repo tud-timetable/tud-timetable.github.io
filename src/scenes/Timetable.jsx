@@ -57,9 +57,9 @@ function TimeFrame({
   weekday,
   block_period
 }) {
-  const filtered = dates.filter(( date ) => {
+  const filtered = dates.filter(( date ) => (
     date.weekday === weekday && date.block_period === block_period
-  });
+  ));
 
   console.log({
     filtered,

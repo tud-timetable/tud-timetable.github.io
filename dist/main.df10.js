@@ -86107,7 +86107,7 @@ function TimeFrame(_ref2) {
       weekday = _ref2.weekday,
       block_period = _ref2.block_period;
   var filtered = dates.filter(function (date) {
-    date.weekday === weekday && date.block_period === block_period;
+    return date.weekday === weekday && date.block_period === block_period;
   });
   console.log({
     filtered: filtered,
@@ -86295,4 +86295,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.c968.js.map
+//# sourceMappingURL=main.df10.js.map
