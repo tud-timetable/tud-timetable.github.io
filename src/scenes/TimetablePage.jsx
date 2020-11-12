@@ -8,7 +8,7 @@ import Modal from "components/Modal";
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
 function FormattedText({ children }) {
-  const lines = children
+  let lines = children
     .replace(/\n\n+/, "\n\n")
     .split("\n\n");
 

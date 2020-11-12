@@ -86547,8 +86547,6 @@ function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToAr
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
 
-function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
-
 
 
 
@@ -86559,7 +86557,7 @@ function FormattedText(_ref) {
   var lines = children.replace(/\n\n+/, "\n\n").split("\n\n");
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: lines.map(function (p, index) {
-      lines = (_readOnlyError("lines"), p.split("\n"));
+      lines = p.split("\n");
       return lines.reduce(function (lines, line, index) {
         if (index === 0) {
           return [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
@@ -86679,4 +86677,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.d09b.js.map
+//# sourceMappingURL=main.433d.js.map
