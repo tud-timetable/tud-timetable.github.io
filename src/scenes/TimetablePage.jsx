@@ -34,7 +34,7 @@ function TimetablePage() {
         <div className="col">
           <Timetable
             dates={ dates }
-            onClickDate={ (date) => console.log({ date }) }
+            onClickDate={ (date) => selectedDate( date ) }
           />
         </div>
       </div>
