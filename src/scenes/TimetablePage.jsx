@@ -7,6 +7,20 @@ import Modal from "components/Modal";
 
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
+function FormattedText({ children }) {
+  const lines = children.split("\n");
+
+  return (
+    <Fragment>
+      {
+        lines.map((line, index) => (
+          <p key={ index }>{ line }</p>
+        ))
+      }
+    </Fragment>
+  );
+}
+
 function DateModal({ data, onClose }) {
   if ( !data ) {
     return null;
@@ -20,11 +34,15 @@ function DateModal({ data, onClose }) {
           <dt>Lehrkraft</dt>
           <dd>{ data.lecturers.join(", ") }</dd>
           <dt>Tag / Zeit / Ort</dt>
-          <dd>{ data.dates.text }</dd>
-          <dt>Beschreibung</dt>
-          <dd>{ data.description }</dd>
+          <dd>
+            <FormattedText>{ data.dates.text }</FormattedText>
+          </dd>
           <dt>Teilnahmevoraussetzung</dt>
           <dd>{ data.requirements_for_participation }</dd>
+          <dt>Beschreibung</dt>
+          <dd>
+            <FormattedText>{ data.description }</FormattedText>
+          </dd>
         </dl>
       </Modal.Body>
       <Modal.Footer>

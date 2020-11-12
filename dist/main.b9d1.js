@@ -86500,9 +86500,21 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function DateModal(_ref) {
-  var data = _ref.data,
-      onClose = _ref.onClose;
+function FormattedText(_ref) {
+  var children = _ref.children;
+  var lines = children.split("\n");
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+    children: lines.map(function (line, index) {
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+        children: line
+      }, index);
+    })
+  });
+}
+
+function DateModal(_ref2) {
+  var data = _ref2.data,
+      onClose = _ref2.onClose;
 
   if (!data) {
     return null;
@@ -86521,15 +86533,19 @@ function DateModal(_ref) {
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
           children: "Tag / Zeit / Ort"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
-          children: data.dates.text
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
-          children: "Beschreibung"
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
-          children: data.description
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(FormattedText, {
+            children: data.dates.text
+          })
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
           children: "Teilnahmevoraussetzung"
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
           children: data.requirements_for_participation
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
+          children: "Beschreibung"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(FormattedText, {
+            children: data.description
+          })
         })]
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Footer, {
@@ -86595,4 +86611,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.c9d1.js.map
+//# sourceMappingURL=main.b9d1.js.map
