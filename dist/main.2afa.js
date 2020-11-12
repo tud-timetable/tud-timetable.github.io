@@ -86091,14 +86091,18 @@ function TimetableDate(_ref) {
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(TimetableDateStyle, {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+      className: "mb-0",
       children: title
-    }), !!subtitles.length && subtitles.reduce(function (accu, val, index) {
-      if (index === 0) {
-        return [val];
-      }
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      className: "sr-only",
+      children: !!subtitles.length && subtitles.reduce(function (accu, val, index) {
+        if (index === 0) {
+          return [val];
+        }
 
-      return [].concat(_toConsumableArray(accu), [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), val]);
-    }, [])]
+        return [].concat(_toConsumableArray(accu), [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), val]);
+      }, [])
+    })]
   });
 }
 
@@ -86110,10 +86114,10 @@ function TimeFrame(_ref2) {
     return date.weekday === weekday && date.block_period === block_period;
   });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: filtered.map(function (date) {
+    children: filtered.map(function (date, index) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableDate, {
         value: date.title
-      });
+      }, index);
     })
   });
 }
@@ -86290,4 +86294,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.f5d1.js.map
+//# sourceMappingURL=main.2afa.js.map

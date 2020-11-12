@@ -31,7 +31,8 @@ function TimetableDate({ value }) {
 
   return (
     <TimetableDateStyle>
-      <p>{ title }</p>
+      <p className="mb-0">{ title }</p>
+      <div className="sr-only">
       {
         !!subtitles.length
           && (
@@ -48,6 +49,7 @@ function TimetableDate({ value }) {
             }, [])
           )
       }
+      </div>
     </TimetableDateStyle>
   );
 }
@@ -64,8 +66,11 @@ function TimeFrame({
   return (
     <Fragment>
       {
-        filtered.map(( date ) => (
-          <TimetableDate value={ date.title } />
+        filtered.map(( date, index ) => (
+          <TimetableDate
+            key={ index }
+            value={ date.title }
+          />
         ))
       }
     </Fragment>
