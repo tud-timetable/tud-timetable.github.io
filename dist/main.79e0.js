@@ -84528,10 +84528,10 @@ function Modal(_ref) {
       _ref$size = _ref.size,
       size = _ref$size === void 0 ? null : _ref$size,
       children = _ref.children;
-  var classNames = ["modal"];
+  var classNames = ["modal", "show"];
 
   if (!hidden) {
-    classNames.push("show");
+    classNames.push("d-block");
   }
 
   switch (size) {
@@ -84553,9 +84553,9 @@ function Modal(_ref) {
       className: classNames.join(" "),
       tabIndex: "-1",
       "aria-labelledby": "exampleModalLabel",
-      "aria-hidden": hidden ? "false" : "true",
+      "aria-hidden": hidden ? "true" : "false",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "modal-dialog",
+        className: "modal-dialog modal-dialog-scrollable",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
           className: "modal-content",
           children: children
@@ -86568,4 +86568,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.0cd7.js.map
+//# sourceMappingURL=main.79e0.js.map

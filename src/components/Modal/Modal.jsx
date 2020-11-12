@@ -11,10 +11,11 @@ function Modal({
 }) {
   const classNames = [
     "modal",
+    "show",
   ];
 
   if ( !hidden ) {
-    classNames.push( "show" );
+    classNames.push( "d-block" );
   }
 
   switch ( size ) {
@@ -37,9 +38,9 @@ function Modal({
         className={ classNames.join( " " ) }
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
-        aria-hidden={ hidden ? "false" : "true" }
+        aria-hidden={ hidden ? "true" : "false" }
       >
-        <div className="modal-dialog">
+        <div className="modal-dialog modal-dialog-scrollable">
           <div className="modal-content">
             { children }
           </div>
