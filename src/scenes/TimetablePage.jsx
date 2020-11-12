@@ -30,7 +30,7 @@ function TimetablePage() {
         <div className="col">
           <Timetable
             dates={ dates }
-            onClickDate={ console.log }
+            onClickDate={ (date) => console.log({ date }) }
           />
         </div>
       </div>
