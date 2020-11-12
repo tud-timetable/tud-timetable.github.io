@@ -86553,7 +86553,9 @@ function TimetablePage() {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
           type: "button",
           className: "btn btn-primary",
-          onClick: setSelectedDate(null),
+          onClick: function onClick() {
+            return setSelectedDate(null);
+          },
           children: "Close"
         })
       })]
@@ -86566,4 +86568,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.7e7c.js.map
+//# sourceMappingURL=main.0cd7.js.map

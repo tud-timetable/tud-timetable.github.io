@@ -50,7 +50,7 @@ function TimetablePage() {
             <Modal.Body>{ JSON.stringify( selectedDate ) }</Modal.Body>
             <Modal.Footer>
               <button type="button" className="btn btn-primary" onClick={
-                setSelectedDate( null )
+                () => setSelectedDate( null )
               }>Close</button>
             </Modal.Footer>
           </Modal>
