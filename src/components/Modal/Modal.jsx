@@ -3,10 +3,14 @@ import {
 } from "react";
 
 import ModalBackdrop from "./ModalBackdrop";
+import ModalContext from "./ModalContext";
+
+function noop() {}
 
 function Modal({
   hidden = false,
   size = null,
+  onClose = noop,
   children
 }) {
   const modalClassNames = [
@@ -39,19 +43,21 @@ function Modal({
 
   return (
     <Fragment>
-      <div
-        className={ modalClassNames.join( " " ) }
-        tabIndex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden={ hidden ? "true" : "false" }
-      >
-        <div className={ dialogClassNames.join( " " ) }>
-          <div className="modal-content">
-            { children }
+      <ModalContext.Provider value={{ onClose }}>
+        <div
+          className={ modalClassNames.join( " " ) }
+          tabIndex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden={ hidden ? "true" : "false" }
+        >
+          <div className={ dialogClassNames.join( " " ) }>
+            <div className="modal-content">
+              { children }
+            </div>
           </div>
         </div>
-      </div>
-      <ModalBackdrop hidden={ hidden } />
+      </ModalContext.Provider>
+      <ModalBackdrop hidden={ hidden } onClick={ onClose } />
     </Fragment>
   );
 }

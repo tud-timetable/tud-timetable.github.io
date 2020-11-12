@@ -27,7 +27,7 @@ function DateModal({ data, onClose }) {
   }
 
   return (
-    <Modal size="lg">
+    <Modal size="lg" onClose={onClose}>
       <Modal.Header title="Veranstaltung" />
       <Modal.Body>
         <dl>

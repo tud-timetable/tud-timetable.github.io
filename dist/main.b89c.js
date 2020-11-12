@@ -84517,16 +84517,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _ModalBackdrop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ModalBackdrop */ "./src/components/Modal/ModalBackdrop.jsx");
+/* harmony import */ var _ModalContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModalContext */ "./src/components/Modal/ModalContext.jsx");
 
 
 
 
+
+
+function noop() {}
 
 function Modal(_ref) {
   var _ref$hidden = _ref.hidden,
       hidden = _ref$hidden === void 0 ? false : _ref$hidden,
       _ref$size = _ref.size,
       size = _ref$size === void 0 ? null : _ref$size,
+      _ref$onClose = _ref.onClose,
+      onClose = _ref$onClose === void 0 ? noop : _ref$onClose,
       children = _ref.children;
   var modalClassNames = ["modal", "show"];
   var dialogClassNames = ["modal-dialog", "modal-dialog-scrollable"];
@@ -84550,20 +84556,26 @@ function Modal(_ref) {
   }
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-      className: modalClassNames.join(" "),
-      tabIndex: "-1",
-      "aria-labelledby": "exampleModalLabel",
-      "aria-hidden": hidden ? "true" : "false",
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModalContext__WEBPACK_IMPORTED_MODULE_3__["default"].Provider, {
+      value: {
+        onClose: onClose
+      },
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: dialogClassNames.join(" "),
+        className: modalClassNames.join(" "),
+        tabIndex: "-1",
+        "aria-labelledby": "exampleModalLabel",
+        "aria-hidden": hidden ? "true" : "false",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-          className: "modal-content",
-          children: children
+          className: dialogClassNames.join(" "),
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+            className: "modal-content",
+            children: children
+          })
         })
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModalBackdrop__WEBPACK_IMPORTED_MODULE_2__["default"], {
-      hidden: hidden
+      hidden: hidden,
+      onClick: onClose
     })]
   });
 }
@@ -84627,6 +84639,32 @@ function ModalBody(_ref) {
 
 /***/ }),
 
+/***/ "./src/components/Modal/ModalContext.jsx":
+/*!***********************************************!*\
+  !*** ./src/components/Modal/ModalContext.jsx ***!
+  \***********************************************/
+/*! exports provided: useModalContext, default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useModalContext", function() { return useModalContext; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function noop() {}
+
+var ModalContext = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_0__["createContext"])({
+  "onClose": noop
+});
+function useModalContext() {
+  return Object(react__WEBPACK_IMPORTED_MODULE_0__["useContext"])(ModalContext);
+}
+/* harmony default export */ __webpack_exports__["default"] = (ModalContext);
+
+/***/ }),
+
 /***/ "./src/components/Modal/ModalFooter.jsx":
 /*!**********************************************!*\
   !*** ./src/components/Modal/ModalFooter.jsx ***!
@@ -84663,11 +84701,17 @@ function ModalFooter(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _ModalContext__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ModalContext */ "./src/components/Modal/ModalContext.jsx");
+
 
 
 
 function ModalHeader(_ref) {
   var title = _ref.title;
+
+  var _useModalContext = Object(_ModalContext__WEBPACK_IMPORTED_MODULE_1__["useModalContext"])(),
+      onClose = _useModalContext.onClose;
+
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
     className: "modal-header",
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h5", {
@@ -84677,7 +84721,7 @@ function ModalHeader(_ref) {
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
       type: "button",
       className: "close",
-      "data-dismiss": "modal",
+      onClick: onClose,
       "aria-label": "Close",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
         "aria-hidden": "true",
@@ -86522,6 +86566,7 @@ function DateModal(_ref2) {
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
     size: "lg",
+    onClose: onClose,
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
       title: "Veranstaltung"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
@@ -86611,4 +86656,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b9d1.js.map
+//# sourceMappingURL=main.b89c.js.map
