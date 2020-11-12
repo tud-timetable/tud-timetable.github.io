@@ -3,9 +3,11 @@ import {
 } from "react";
 import styled from "styled-components";
 
-const TimetableDateStyle = styled.div`
+const TimetableDateStyle = styled.button`
   border-radius: 4px;
   border: 1px solid rgb(0, 125, 64);
+
+  width: 100%;
 
   padding: .5rem;
   margin-bottom: .25rem;
@@ -26,11 +28,16 @@ const TimetableHeader = styled.th`
   width: ${( props ) => props.size}%;
 `;
 
-function TimetableDate({ value }) {
+function noop() {}
+
+function TimetableDate({
+  value,
+  onClick = noop
+}) {
   const [ title, ...subtitles ] = value.split("\n");
 
   return (
-    <TimetableDateStyle>
+    <TimetableDateStyle onClick={ onClick }>
       <p className="mb-0">{ title }</p>
       <div className="sr-only">
       {
@@ -57,7 +64,8 @@ function TimetableDate({ value }) {
 function TimeFrame({
   dates,
   weekday,
-  block_period
+  block_period,
+  onClick
 }) {
   const filtered = dates.filter(( date ) => (
     date.weekday === weekday && date.block_period === block_period
@@ -70,6 +78,7 @@ function TimeFrame({
           <TimetableDate
             key={ index }
             value={ date.title }
+            onClick={ () => onClick( date ) }
           />
         ))
       }
@@ -109,7 +118,8 @@ const BLOCK_PERIODS = [
 ];
 
 function TimetableBody({
-  dates
+  dates,
+  onClickDate
 }) {
   return (
     <tbody>
@@ -119,6 +129,7 @@ function TimetableBody({
             key={ `block-${ block_period }` }
             dates={ dates }
             block_period={ block_period }
+            onClickDate={ onClickDate }
           />
         ))
       }
@@ -146,7 +157,8 @@ const WEEKDAYS = [
 
 function TimetableRow({
   dates,
-  block_period
+  block_period,
+  onClickDate
 }) {
   return (
     <tr>
@@ -163,6 +175,7 @@ function TimetableRow({
               dates={ dates }
               weekday={ weekday }
               block_period={ block_period }
+              onClick={ onClickDate }
             />
           </td>
         ))
@@ -172,13 +185,17 @@ function TimetableRow({
 }
 
 function Timetable({
-  dates
+  dates,
+  onClickDate = noop
 }) {
   return (
     <div className="table-responsive-sm">
       <table className="w-100 table-bordered">
         <TimetableHead />
-        <TimetableBody dates={ dates } />
+        <TimetableBody
+          dates={ dates }
+          onClickDate={ onClickDate }
+        />
       </table>
     </div>
   );

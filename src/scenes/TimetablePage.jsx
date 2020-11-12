@@ -28,7 +28,10 @@ function TimetablePage() {
       </div>
       <div className="row">
         <div className="col">
-          <Timetable dates={ dates } />
+          <Timetable
+            dates={ dates }
+            onClickDate={ console.log }
+          />
         </div>
       </div>
     </Fragment>

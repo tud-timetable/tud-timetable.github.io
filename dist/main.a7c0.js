@@ -86063,7 +86063,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n}\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n}\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -86076,13 +86076,17 @@ function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(
 
 
 
-var TimetableDateStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].div(_templateObject());
+var TimetableDateStyle = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].button(_templateObject());
 var TimetableHeader = styled_components__WEBPACK_IMPORTED_MODULE_2__["default"].th(_templateObject2(), function (props) {
   return props.size;
 });
 
+function noop() {}
+
 function TimetableDate(_ref) {
-  var value = _ref.value;
+  var value = _ref.value,
+      _ref$onClick = _ref.onClick,
+      onClick = _ref$onClick === void 0 ? noop : _ref$onClick;
 
   var _value$split = value.split("\n"),
       _value$split2 = _toArray(_value$split),
@@ -86090,6 +86094,7 @@ function TimetableDate(_ref) {
       subtitles = _value$split2.slice(1);
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(TimetableDateStyle, {
+    onClick: onClick,
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
       className: "mb-0",
       children: title
@@ -86109,14 +86114,18 @@ function TimetableDate(_ref) {
 function TimeFrame(_ref2) {
   var dates = _ref2.dates,
       weekday = _ref2.weekday,
-      block_period = _ref2.block_period;
+      block_period = _ref2.block_period,
+      _onClick = _ref2.onClick;
   var filtered = dates.filter(function (date) {
     return date.weekday === weekday && date.block_period === block_period;
   });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: filtered.map(function (date, index) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableDate, {
-        value: date.title
+        value: date.title,
+        onClick: function onClick() {
+          return _onClick(date);
+        }
       }, index);
     })
   });
@@ -86163,12 +86172,14 @@ function TimetableHead() {
 var BLOCK_PERIODS = [1, 2, 3, 4, 5, 6];
 
 function TimetableBody(_ref3) {
-  var dates = _ref3.dates;
+  var dates = _ref3.dates,
+      onClickDate = _ref3.onClickDate;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("tbody", {
     children: BLOCK_PERIODS.map(function (block_period) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableRow, {
         dates: dates,
-        block_period: block_period
+        block_period: block_period,
+        onClickDate: onClickDate
       }, "block-".concat(block_period));
     })
   });
@@ -86188,7 +86199,8 @@ var WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 function TimetableRow(_ref5) {
   var dates = _ref5.dates,
-      block_period = _ref5.block_period;
+      block_period = _ref5.block_period,
+      onClickDate = _ref5.onClickDate;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("tr", {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("th", {
       scope: "row",
@@ -86202,7 +86214,8 @@ function TimetableRow(_ref5) {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimeFrame, {
           dates: dates,
           weekday: weekday,
-          block_period: block_period
+          block_period: block_period,
+          onClick: onClickDate
         })
       }, "block-".concat(block_period, "-").concat(weekday));
     })]
@@ -86210,13 +86223,16 @@ function TimetableRow(_ref5) {
 }
 
 function Timetable(_ref6) {
-  var dates = _ref6.dates;
+  var dates = _ref6.dates,
+      _ref6$onClickDate = _ref6.onClickDate,
+      onClickDate = _ref6$onClickDate === void 0 ? noop : _ref6$onClickDate;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "table-responsive-sm",
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("table", {
       className: "w-100 table-bordered",
       children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableHead, {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetableBody, {
-        dates: dates
+        dates: dates,
+        onClickDate: onClickDate
       })]
     })
   });
@@ -86282,7 +86298,8 @@ function TimetablePage() {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          dates: dates
+          dates: dates,
+          onClickDate: console.log
         })
       })
     })]
@@ -86294,4 +86311,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.2afa.js.map
+//# sourceMappingURL=main.a7c0.js.map
