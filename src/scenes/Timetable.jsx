@@ -33,7 +33,7 @@ function TimetableDate({ value }) {
     <TimetableDateStyle>
       <p>{ title }</p>
       {
-        subtitles.length
+        !!subtitles.length
           && (
             subtitles.reduce((accu, val, index) => {
               if ( index === 0 ) {
@@ -60,12 +60,6 @@ function TimeFrame({
   const filtered = dates.filter(( date ) => (
     date.weekday === weekday && date.block_period === block_period
   ));
-
-  console.log({
-    filtered,
-    weekday,
-    block_period,
-  });
 
   return (
     <Fragment>

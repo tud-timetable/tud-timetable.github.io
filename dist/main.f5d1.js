@@ -86092,7 +86092,7 @@ function TimetableDate(_ref) {
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(TimetableDateStyle, {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
       children: title
-    }), subtitles.length && subtitles.reduce(function (accu, val, index) {
+    }), !!subtitles.length && subtitles.reduce(function (accu, val, index) {
       if (index === 0) {
         return [val];
       }
@@ -86108,11 +86108,6 @@ function TimeFrame(_ref2) {
       block_period = _ref2.block_period;
   var filtered = dates.filter(function (date) {
     return date.weekday === weekday && date.block_period === block_period;
-  });
-  console.log({
-    filtered: filtered,
-    weekday: weekday,
-    block_period: block_period
   });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: filtered.map(function (date) {
@@ -86295,4 +86290,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.df10.js.map
+//# sourceMappingURL=main.f5d1.js.map
