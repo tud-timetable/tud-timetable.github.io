@@ -86505,6 +86505,9 @@ function TimetablePage() {
       selectedDate = _useState2[0],
       setSelectedDate = _useState2[1];
 
+  console.log({
+    selectedDate: selectedDate
+  });
   var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4__.map(function (date) {
     return date.dates.items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), date);
@@ -86533,7 +86536,10 @@ function TimetablePage() {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
           dates: dates,
           onClickDate: function onClickDate(date) {
-            return setSelectedDate(date);
+            setSelectedDate(date);
+            console.log({
+              date: date
+            });
           }
         })
       })
@@ -86560,4 +86566,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.ef59.js.map
+//# sourceMappingURL=main.7e7c.js.map
