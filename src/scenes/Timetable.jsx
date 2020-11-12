@@ -8,6 +8,7 @@ const TimetableDateStyle = styled.button`
   border: 1px solid rgb(0, 125, 64);
 
   width: 100%;
+  text-align: left;
 
   padding: .5rem;
   margin-bottom: .25rem;

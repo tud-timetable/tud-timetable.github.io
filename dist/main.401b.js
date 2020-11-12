@@ -84503,6 +84503,220 @@ function LinkedModuleNumbers(_ref3) {
 
 /***/ }),
 
+/***/ "./src/components/Modal/Modal.jsx":
+/*!****************************************!*\
+  !*** ./src/components/Modal/Modal.jsx ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _ModalBackdrop__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ModalBackdrop */ "./src/components/Modal/ModalBackdrop.jsx");
+
+
+
+
+
+function Modal(_ref) {
+  var _ref$hidden = _ref.hidden,
+      hidden = _ref$hidden === void 0 ? false : _ref$hidden,
+      _ref$size = _ref.size,
+      size = _ref$size === void 0 ? null : _ref$size,
+      children = _ref.children;
+  var classNames = ["modal"];
+
+  if (!hidden) {
+    classNames.push("show");
+  }
+
+  switch (size) {
+    case "sm":
+      classNames.push("modal-sm");
+      break;
+
+    case "lg":
+      classNames.push("modal-lg");
+      break;
+
+    case "xl":
+      classNames.push("modal-xl");
+      break;
+  }
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+      className: classNames.join(" "),
+      tabIndex: "-1",
+      "aria-labelledby": "exampleModalLabel",
+      "aria-hidden": hidden ? "false" : "true",
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+        className: "modal-dialog",
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+          className: "modal-content",
+          children: children
+        })
+      })
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModalBackdrop__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      hidden: hidden
+    })]
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Modal);
+
+/***/ }),
+
+/***/ "./src/components/Modal/ModalBackdrop.jsx":
+/*!************************************************!*\
+  !*** ./src/components/Modal/ModalBackdrop.jsx ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModalBackdrop(_ref) {
+  var _ref$hidden = _ref.hidden,
+      hidden = _ref$hidden === void 0 ? false : _ref$hidden;
+
+  if (hidden) {
+    return null;
+  }
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+    className: "modal-backdrop show"
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalBackdrop);
+
+/***/ }),
+
+/***/ "./src/components/Modal/ModalBody.jsx":
+/*!********************************************!*\
+  !*** ./src/components/Modal/ModalBody.jsx ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModalBody(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+    className: "modal-body",
+    children: children
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalBody);
+
+/***/ }),
+
+/***/ "./src/components/Modal/ModalFooter.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/Modal/ModalFooter.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function ModalFooter(_ref) {
+  var children = _ref.children;
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+    className: "modal-footer",
+    children: children
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalFooter);
+
+/***/ }),
+
+/***/ "./src/components/Modal/ModalHeader.jsx":
+/*!**********************************************!*\
+  !*** ./src/components/Modal/ModalHeader.jsx ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
+
+
+
+function ModalHeader(_ref) {
+  var title = _ref.title;
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
+    className: "modal-header",
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("h5", {
+      className: "modal-title",
+      id: "exampleModalLabel",
+      children: title
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
+      type: "button",
+      className: "close",
+      "data-dismiss": "modal",
+      "aria-label": "Close",
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("span", {
+        "aria-hidden": "true",
+        children: "\xD7"
+      })
+    })]
+  });
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (ModalHeader);
+
+/***/ }),
+
+/***/ "./src/components/Modal/index.js":
+/*!***************************************!*\
+  !*** ./src/components/Modal/index.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Modal__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Modal */ "./src/components/Modal/Modal.jsx");
+/* harmony import */ var _ModalHeader__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ModalHeader */ "./src/components/Modal/ModalHeader.jsx");
+/* harmony import */ var _ModalBody__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ModalBody */ "./src/components/Modal/ModalBody.jsx");
+/* harmony import */ var _ModalFooter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ModalFooter */ "./src/components/Modal/ModalFooter.jsx");
+
+
+
+
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Header = _ModalHeader__WEBPACK_IMPORTED_MODULE_1__["default"];
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Body = _ModalBody__WEBPACK_IMPORTED_MODULE_2__["default"];
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Footer = _ModalFooter__WEBPACK_IMPORTED_MODULE_3__["default"];
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Header.displayName = "Modal.Header";
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Body.displayName = "Modal.Body";
+_Modal__WEBPACK_IMPORTED_MODULE_0__["default"].Footer.displayName = "Modal.Footer";
+/* harmony default export */ __webpack_exports__["default"] = (_Modal__WEBPACK_IMPORTED_MODULE_0__["default"]);
+
+/***/ }),
+
 /***/ "./src/components/ModuleDependencyGraph.jsx":
 /*!**************************************************!*\
   !*** ./src/components/ModuleDependencyGraph.jsx ***!
@@ -86063,7 +86277,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n}\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n}\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -86256,8 +86470,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Timetable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Timetable */ "./src/scenes/Timetable.jsx");
-/* harmony import */ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json");
-var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json", 1);
+/* harmony import */ var components_Modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/Modal */ "./src/components/Modal/index.js");
+/* harmony import */ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json");
+var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json", 1);
 
 
 
@@ -86267,12 +86482,30 @@ function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { va
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
 
 
 
 
 function TimetablePage() {
-  var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_3__.map(function (date) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+      _useState2 = _slicedToArray(_useState, 2),
+      selectedDate = _useState2[0],
+      setSelectedDate = _useState2[1];
+
+  var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4__.map(function (date) {
     return date.dates.items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), date);
     });
@@ -86306,6 +86539,20 @@ function TimetablePage() {
           }
         })
       })
+    }), selectedDate && /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+      size: "lg",
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
+        title: "Veranstaltung"
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
+        children: JSON.stringify(selectedDate)
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Footer, {
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
+          type: "button",
+          className: "btn btn-primary",
+          onClick: setSelectedDate(null),
+          children: "Close"
+        })
+      })]
     })]
   });
 }
@@ -86315,4 +86562,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.7fba.js.map
+//# sourceMappingURL=main.401b.js.map

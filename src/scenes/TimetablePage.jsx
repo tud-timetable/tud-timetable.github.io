@@ -1,11 +1,15 @@
 import {
-  Fragment
+  Fragment,
+  useState
 } from "react";
 import Timetable from "./Timetable";
+import Modal from "components/Modal";
 
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
 function TimetablePage() {
+  const [ selectedDate, setSelectedDate ] = useState( null );
+
   const dates = data.map((date) => {
       return date.dates.items.map((item) => ({
         ...item,
@@ -34,6 +38,19 @@ function TimetablePage() {
           />
         </div>
       </div>
+      {
+        selectedDate && (
+          <Modal size="lg">
+            <Modal.Header title="Veranstaltung" />
+            <Modal.Body>{ JSON.stringify( selectedDate ) }</Modal.Body>
+            <Modal.Footer>
+              <button type="button" className="btn btn-primary" onClick={
+                setSelectedDate( null )
+              }>Close</button>
+            </Modal.Footer>
+          </Modal>
+        )
+      }
     </Fragment>
   );
 }
