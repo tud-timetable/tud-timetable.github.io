@@ -86533,7 +86533,7 @@ function TimetablePage() {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
           dates: dates,
           onClickDate: function onClickDate(date) {
-            return selectedDate(date);
+            return setSelectedDate(date);
           }
         })
       })
@@ -86560,4 +86560,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4f3a.js.map
+//# sourceMappingURL=main.ef59.js.map
