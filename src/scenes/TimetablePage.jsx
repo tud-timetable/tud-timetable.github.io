@@ -7,10 +7,35 @@ import Modal from "components/Modal";
 
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
+function DateModal({ data, onClose }) {
+  if ( !data ) {
+    return null;
+  }
+
+  return (
+    <Modal size="lg">
+      <Modal.Header title="Veranstaltung" />
+      <Modal.Body>
+        <dl>
+          <dt>Lehrkraft</dt>
+          <dd>{ data.lecturers.join(", ") }</dd>
+          <dt>Tag / Zeit / Ort</dt>
+          <dd>{ data.dates.text }</dd>
+          <dt>Beschreibung</dt>
+          <dd>{ data.description }</dd>
+          <dt>Teilnahmevoraussetzung</dt>
+          <dd>{ data.requirements_for_participation }</dd>
+        </dl>
+      </Modal.Body>
+      <Modal.Footer>
+        <button type="button" className="btn btn-primary" onClick={onClose}>Close</button>
+      </Modal.Footer>
+    </Modal>
+  );
+}
+
 function TimetablePage() {
   const [ selectedDate, setSelectedDate ] = useState( null );
-
-  console.log({ selectedDate });
 
   const dates = data.map((date) => {
       return date.dates.items.map((item) => ({
@@ -36,26 +61,14 @@ function TimetablePage() {
         <div className="col">
           <Timetable
             dates={ dates }
-            onClickDate={(date) => {
-              setSelectedDate( date );
-              console.log({ date });
-            }}
+            onClickDate={(date) => setSelectedDate( date )}
           />
         </div>
       </div>
-      {
-        selectedDate && (
-          <Modal size="lg">
-            <Modal.Header title="Veranstaltung" />
-            <Modal.Body>{ JSON.stringify( selectedDate ) }</Modal.Body>
-            <Modal.Footer>
-              <button type="button" className="btn btn-primary" onClick={
-                () => setSelectedDate( null )
-              }>Close</button>
-            </Modal.Footer>
-          </Modal>
-        )
-      }
+      <DateModal
+        data={ selectedDate }
+        onClose={ () => setSelectedDate( null ) }
+      />
     </Fragment>
   );
 }

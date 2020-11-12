@@ -84528,34 +84528,35 @@ function Modal(_ref) {
       _ref$size = _ref.size,
       size = _ref$size === void 0 ? null : _ref$size,
       children = _ref.children;
-  var classNames = ["modal", "show"];
+  var modalClassNames = ["modal", "show"];
+  var dialogClassNames = ["modal-dialog", "modal-dialog-scrollable"];
 
   if (!hidden) {
-    classNames.push("d-block");
+    modalClassNames.push("d-block");
   }
 
   switch (size) {
     case "sm":
-      classNames.push("modal-sm");
+      dialogClassNames.push("modal-sm");
       break;
 
     case "lg":
-      classNames.push("modal-lg");
+      dialogClassNames.push("modal-lg");
       break;
 
     case "xl":
-      classNames.push("modal-xl");
+      dialogClassNames.push("modal-xl");
       break;
   }
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-      className: classNames.join(" "),
+      className: modalClassNames.join(" "),
       tabIndex: "-1",
       "aria-labelledby": "exampleModalLabel",
       "aria-hidden": hidden ? "true" : "false",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
-        className: "modal-dialog modal-dialog-scrollable",
+        className: dialogClassNames.join(" "),
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
           className: "modal-content",
           children: children
@@ -86499,15 +86500,55 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
+function DateModal(_ref) {
+  var data = _ref.data,
+      onClose = _ref.onClose;
+
+  if (!data) {
+    return null;
+  }
+
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+    size: "lg",
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
+      title: "Veranstaltung"
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("dl", {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
+          children: "Lehrkraft"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
+          children: data.lecturers.join(", ")
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
+          children: "Tag / Zeit / Ort"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
+          children: data.dates.text
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
+          children: "Beschreibung"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
+          children: data.description
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
+          children: "Teilnahmevoraussetzung"
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dd", {
+          children: data.requirements_for_participation
+        })]
+      })
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Footer, {
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
+        type: "button",
+        className: "btn btn-primary",
+        onClick: onClose,
+        children: "Close"
+      })
+    })]
+  });
+}
+
 function TimetablePage() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
       selectedDate = _useState2[0],
       setSelectedDate = _useState2[1];
 
-  console.log({
-    selectedDate: selectedDate
-  });
   var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4__.map(function (date) {
     return date.dates.items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), date);
@@ -86536,29 +86577,15 @@ function TimetablePage() {
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
           dates: dates,
           onClickDate: function onClickDate(date) {
-            setSelectedDate(date);
-            console.log({
-              date: date
-            });
+            return setSelectedDate(date);
           }
         })
       })
-    }), selectedDate && /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      size: "lg",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
-        title: "Veranstaltung"
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
-        children: JSON.stringify(selectedDate)
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Footer, {
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-          type: "button",
-          className: "btn btn-primary",
-          onClick: function onClick() {
-            return setSelectedDate(null);
-          },
-          children: "Close"
-        })
-      })]
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(DateModal, {
+      data: selectedDate,
+      onClose: function onClose() {
+        return setSelectedDate(null);
+      }
     })]
   });
 }
@@ -86568,4 +86595,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.79e0.js.map
+//# sourceMappingURL=main.c9d1.js.map

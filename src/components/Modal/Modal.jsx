@@ -9,38 +9,43 @@ function Modal({
   size = null,
   children
 }) {
-  const classNames = [
+  const modalClassNames = [
     "modal",
     "show",
   ];
 
+  const dialogClassNames = [
+    "modal-dialog",
+    "modal-dialog-scrollable",
+  ];
+
   if ( !hidden ) {
-    classNames.push( "d-block" );
+    modalClassNames.push( "d-block" );
   }
 
   switch ( size ) {
     case "sm":
-      classNames.push( "modal-sm" );
+      dialogClassNames.push( "modal-sm" );
       break;
 
     case "lg":
-      classNames.push( "modal-lg" );
+      dialogClassNames.push( "modal-lg" );
       break;
 
     case "xl":
-      classNames.push( "modal-xl" );
+      dialogClassNames.push( "modal-xl" );
       break;
   }
 
   return (
     <Fragment>
       <div
-        className={ classNames.join( " " ) }
+        className={ modalClassNames.join( " " ) }
         tabIndex="-1"
         aria-labelledby="exampleModalLabel"
         aria-hidden={ hidden ? "true" : "false" }
       >
-        <div className="modal-dialog modal-dialog-scrollable">
+        <div className={ dialogClassNames.join( " " ) }>
           <div className="modal-content">
             { children }
           </div>
