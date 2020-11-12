@@ -86539,6 +86539,8 @@ function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
+function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
+
 
 
 
@@ -86546,12 +86548,24 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function FormattedText(_ref) {
   var children = _ref.children;
-  var lines = children.split("\n");
+  var lines = children.replace(/\n\n+/, "\n\n").split("\n\n");
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: lines.map(function (line, index) {
+    children: lines.map(function (p, index) {
+      lines = (_readOnlyError("lines"), p.split("\n"));
+      return lines.reduce(function (lines, line, index) {
+        if (index !== 0) {
+          lines.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}, "break-".concat(index - 1)));
+        }
+
+        lines.push( /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+          children: line
+        }, "line-".concat(index)));
+        return lines;
+      }, []);
+    }).map(function (lines, index) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
-        children: line
-      }, index);
+        children: lines
+      }, "paragraph-".concat(index));
     })
   });
 }
@@ -86656,4 +86670,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b89c.js.map
+//# sourceMappingURL=main.3a75.js.map

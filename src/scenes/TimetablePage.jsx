@@ -8,14 +8,34 @@ import Modal from "components/Modal";
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
 function FormattedText({ children }) {
-  const lines = children.split("\n");
+  const lines = children
+    .replace(/\n\n+/, "\n\n")
+    .split("\n\n");
 
   return (
     <Fragment>
       {
-        lines.map((line, index) => (
-          <p key={ index }>{ line }</p>
-        ))
+        lines
+          .map((p, index) => {
+            lines = p.split("\n");
+
+            return lines.reduce((lines, line, index) => {
+              if ( index !== 0 ) {
+                lines.push(
+                  <br key={ `break-${index - 1}` } />
+                );
+              }
+
+              lines.push(
+                <Fragment key={ `line-${index}` }>{ line }</Fragment>
+              );
+
+              return lines;
+            }, []);
+          })
+          .map((lines, index) => (
+            <p key={ `paragraph-${index}` }>{ lines }</p>
+          ))
       }
     </Fragment>
   );
