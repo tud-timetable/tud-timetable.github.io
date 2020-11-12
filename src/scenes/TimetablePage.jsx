@@ -20,17 +20,17 @@ function FormattedText({ children }) {
             lines = p.split("\n");
 
             return lines.reduce((lines, line, index) => {
-              if ( index !== 0 ) {
-                lines.push(
-                  <br key={ `break-${index - 1}` } />
-                );
+              if ( index === 0 ) {
+                return [
+                  <Fragment key={ `line-${index}` }>{ line }</Fragment>
+                ];
               }
 
-              lines.push(
+              return [
+                ...lines,
+                <br key={ `break-${index - 1}` } />,
                 <Fragment key={ `line-${index}` }>{ line }</Fragment>
-              );
-
-              return lines;
+              ];
             }, []);
           })
           .map((lines, index) => (
