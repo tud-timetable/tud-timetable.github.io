@@ -1,5 +1,7 @@
 import {
-  Fragment
+  Fragment,
+  useEffect,
+  useRef
 } from "react";
 
 import ModalBackdrop from "./ModalBackdrop";
@@ -13,6 +15,8 @@ function Modal({
   onClose = noop,
   children
 }) {
+  const onCloseRef = useRef();
+
   const modalClassNames = [
     "modal",
     "show",
@@ -40,6 +44,34 @@ function Modal({
       dialogClassNames.push( "modal-xl" );
       break;
   }
+
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [ onClose ]);
+
+  useEffect(() => {
+    function onKeyDown(event) {
+      if ( event.key === "Escape" ) {
+        if ( onCloseRef.current ) {
+          onCloseRef.current();
+        }
+      }
+    }
+
+    document.addEventListener(
+      "keydown",
+      onKeyDown,
+      false
+    );
+
+    return () => {
+      document.removeEventListener(
+        "keydown",
+        onKeyDown,
+        false
+      );
+    };
+  }, []);
 
   return (
     <Fragment>

@@ -41,14 +41,19 @@ function FormattedText({ children }) {
   );
 }
 
-function DateModal({ data, onClose }) {
+function DateModal({
+  data,
+  onClose
+}) {
   if ( !data ) {
     return null;
   }
 
+  const [ title, ...subtitles ] = data.title.split("\n");
+
   return (
     <Modal size="lg" onClose={onClose}>
-      <Modal.Header title="Veranstaltung" />
+      <Modal.Header title={ title } />
       <Modal.Body>
         <dl>
           <dt>Lehrkraft</dt>
@@ -65,9 +70,6 @@ function DateModal({ data, onClose }) {
           </dd>
         </dl>
       </Modal.Body>
-      <Modal.Footer>
-        <button type="button" className="btn btn-primary" onClick={onClose}>Close</button>
-      </Modal.Footer>
     </Modal>
   );
 }

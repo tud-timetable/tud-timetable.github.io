@@ -84534,6 +84534,7 @@ function Modal(_ref) {
       _ref$onClose = _ref.onClose,
       onClose = _ref$onClose === void 0 ? noop : _ref$onClose,
       children = _ref.children;
+  var onCloseRef = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
   var modalClassNames = ["modal", "show"];
   var dialogClassNames = ["modal-dialog", "modal-dialog-scrollable"];
 
@@ -84555,6 +84556,23 @@ function Modal(_ref) {
       break;
   }
 
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    function onKeyDown(event) {
+      if (event.key === "Escape") {
+        if (onCloseRef.current) {
+          onCloseRef.current();
+        }
+      }
+    }
+
+    document.addEventListener("keydown", onKeyDown, false);
+    return function () {
+      document.removeEventListener("keydown", onKeyDown, false);
+    };
+  }, []);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_ModalContext__WEBPACK_IMPORTED_MODULE_3__["default"].Provider, {
       value: {
@@ -86529,9 +86547,11 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
 function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
@@ -86585,11 +86605,16 @@ function DateModal(_ref2) {
     return null;
   }
 
+  var _data$title$split = data.title.split("\n"),
+      _data$title$split2 = _toArray(_data$title$split),
+      title = _data$title$split2[0],
+      subtitles = _data$title$split2.slice(1);
+
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
     size: "lg",
     onClose: onClose,
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
-      title: "Veranstaltung"
+      title: title
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("dl", {
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
@@ -86613,13 +86638,6 @@ function DateModal(_ref2) {
             children: data.description
           })
         })]
-      })
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Footer, {
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("button", {
-        type: "button",
-        className: "btn btn-primary",
-        onClick: onClose,
-        children: "Close"
       })
     })]
   });
@@ -86677,4 +86695,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.433d.js.map
+//# sourceMappingURL=main.6f13.js.map
