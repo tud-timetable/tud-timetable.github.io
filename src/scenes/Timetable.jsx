@@ -183,8 +183,8 @@ function TimetableRowLabel({
     <Fragment>
       { `${ number }. ` }<abbr title="Doppelstunde">DS</abbr>
       <br />
-      <span>
-        <time>{ timeStart }</time> Uhr bis <time>{ timeEnd }</time> Uhr
+      <span className="font-weight-normal">
+        <span><time>{ timeStart }</time>&nbsp;Uhr</span> bis <span><time>{ timeEnd }</time>&nbsp;Uhr</span>
       </span>
     </Fragment>
   )

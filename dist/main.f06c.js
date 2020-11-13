@@ -86493,11 +86493,16 @@ function TimetableRowLabel(_ref4) {
       title: "Doppelstunde",
       children: "DS"
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("span", {
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
-        children: timeStart
-      }), " Uhr bis ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
-        children: timeEnd
-      }), " Uhr"]
+      className: "font-weight-normal",
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("span", {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
+          children: timeStart
+        }), "\xA0Uhr"]
+      }), " bis ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("span", {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
+          children: timeEnd
+        }), "\xA0Uhr"]
+      })]
     })]
   });
 }
@@ -86725,4 +86730,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.b3a7.js.map
+//# sourceMappingURL=main.f06c.js.map
