@@ -86340,7 +86340,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n  line-height: normal;\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(106,176,35,.25);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(106, 176, 35);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106, 176, 35);\n  line-height: normal;\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(106, 176, 35, .5);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -86696,4 +86696,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.d525.js.map
+//# sourceMappingURL=main.c2f7.js.map

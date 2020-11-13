@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 const TimetableDateStyle = styled.button`
   border-radius: 4px;
-  border: 1px solid rgb(0, 125, 64);
+  border: 1px solid rgb(106, 176, 35);
 
   width: 100%;
   text-align: left;
@@ -13,12 +13,12 @@ const TimetableDateStyle = styled.button`
   padding: .5rem;
   margin-bottom: .25rem;
   margin-top: .25rem;
-  background: rgb(106,176,35);
+  background: rgb(106, 176, 35);
   line-height: normal;
 
   &:focus {
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(106,176,35,.25);
+    box-shadow: 0 0 0 .2rem rgba(106, 176, 35, .5);
   }
 
   &:first-child {
