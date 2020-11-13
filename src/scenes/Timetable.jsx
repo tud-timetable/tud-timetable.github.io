@@ -14,6 +14,11 @@ const TimetableDateStyle = styled.button`
   margin-bottom: .25rem;
   margin-top: .25rem;
   background: rgb(106,176,35);
+  line-height: normal;
+
+  &:focus {
+    border-color: rgb(106,176,35,0.25);
+  }
 
   &:first-child {
     margin-top: 0;
@@ -38,7 +43,7 @@ function TimetableDate({
   const [ title, ...subtitles ] = value.split("\n");
 
   return (
-    <TimetableDateStyle onClick={ onClick }>
+    <TimetableDateStyle onClick={ onClick } className="btn">
       <p className="mb-0">{ title }</p>
       <div className="sr-only">
       {

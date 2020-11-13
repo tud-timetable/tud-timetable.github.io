@@ -86340,7 +86340,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n}\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 125, 64);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106,176,35);\n  line-height: normal;\n}\n\n  &&:focus {\n    border-color: rgb(106,176,35,0.25);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -86372,6 +86372,7 @@ function TimetableDate(_ref) {
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(TimetableDateStyle, {
     onClick: onClick,
+    className: "btn",
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
       className: "mb-0",
       children: title
@@ -86695,4 +86696,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.6f13.js.map
+//# sourceMappingURL=main.90a6.js.map
