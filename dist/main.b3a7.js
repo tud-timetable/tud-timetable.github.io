@@ -86463,12 +86463,41 @@ function TimetableBody(_ref3) {
   });
 }
 
+var BLOCK_PERIOD_TIMES = [{
+  "start": "7:30",
+  "end": "9:00"
+}, {
+  "start": "9:20",
+  "end": "10:50"
+}, {
+  "start": "11:10",
+  "end": "12:40"
+}, {
+  "start": "13:00",
+  "end": "14:30"
+}, {
+  "start": "14:50",
+  "end": "16:20"
+}, {
+  "start": "16:40",
+  "end": "17:10"
+}];
+
 function TimetableRowLabel(_ref4) {
   var number = _ref4.number;
+  var _BLOCK_PERIOD_TIMES = BLOCK_PERIOD_TIMES[number - 1],
+      timeStart = _BLOCK_PERIOD_TIMES.start,
+      timeEnd = _BLOCK_PERIOD_TIMES.end;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: ["".concat(number, ". "), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("abbr", {
       title: "Doppelstunde",
       children: "DS"
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("br", {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("span", {
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
+        children: timeStart
+      }), " Uhr bis ", /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("time", {
+        children: timeEnd
+      }), " Uhr"]
     })]
   });
 }
@@ -86696,4 +86725,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.c2f7.js.map
+//# sourceMappingURL=main.b3a7.js.map
