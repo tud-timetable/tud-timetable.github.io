@@ -17,7 +17,8 @@ const TimetableDateStyle = styled.button`
   line-height: normal;
 
   &:focus {
-    border-color: rgb(106,176,35,0.25);
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(106,176,35,.25);
   }
 
   &:first-child {
