@@ -5,32 +5,25 @@ import {
 } from "react-router-dom";
 import Layout from "components/Layout";
 import ModuleDependencyGraph from "components/ModuleDependencyGraph";
+import DegreeProgrameSelect from "components/DegreeProgrameSelect";
+import ModuleSelect from "components/ModuleSelect";
 import useDegreePrograms from "hooks/useDegreePrograms";
 import ModuleDescriptionPage from "scenes/ModuleDescriptionPage";
 
-function sortDegreeProgrames( degreeProgrames ) {
-  return (a, b) => {
-    const nameA = degreeProgrames[ a ].name;
-    const nameB = degreeProgrames[ b ].name;
-
-    return nameA.localeCompare( nameB );
-  };
-}
-
-function ModuleSelect() {
+function ModuleFilter() {
   const { degreeProgramId = "", moduleId = "" } = useParams();
   const history = useHistory();
   const { status, value } = useDegreePrograms().readAll();
 
-  function selectDegreeProgram( evt ) {
+  function selectDegreeProgram( degreeProgramId ) {
     history.push(
-      `/${ evt.target.value }`
+      `/${ degreeProgramId }`
     );
   }
 
-  function selectModule( evt ) {
+  function selectModule( moduleId ) {
     history.push(
-      `/${ degreeProgramId }/${ evt.target.value }`
+      `/${ degreeProgramId }/${ moduleId }`
     );
   }
 
@@ -41,55 +34,18 @@ function ModuleSelect() {
   return (
     <div className="row">
       <div className="col">
-        <div className="form-group">
-          <select
-            className="form-control"
-            onChange={ selectDegreeProgram }
-            disabled={ !isReady }
-            value={ degreeProgramId }
-          >
-            <option disabled value="">Studiengang auswählen</option>
-            {
-              isReady && (
-                Object
-                  .keys( value )
-                  .sort( sortDegreeProgrames( value ) )
-                  .map((id) => {
-                    const program = value[ id ];
-
-                    return (
-                      <option
-                        value={ program.id }
-                        key={ program.id }
-                      >{ program.name }</option>
-                    );
-                  })
-              )
-            }
-          </select>
-        </div>
-        <div className="form-group">
-          <select
-            className="form-control"
-            disabled={ !isReady || !degreeProgramId }
-            onChange={ selectModule }
-            value={ moduleId }
-          >
-            <option disabled value="">Modul auswählen</option>
-            {
-              (isReady && value[ degreeProgramId ]) && (
-                value[ degreeProgramId ].modules.map((m) => (
-                  <option
-                    value={m.module_numbers[0]}
-                    key={m.module_numbers[0]}
-                  >
-                    {m.module_name}
-                  </option>
-                ))
-              )
-            }
-          </select>
-        </div>
+        <DegreeProgrameSelect
+          disabled={ !isReady }
+          onChange={ selectDegreeProgram }
+          currentItemId={ degreeProgramId }
+          items={ value }
+        />
+        <ModuleSelect
+          disabled={ !isReady || !degreeProgramId }
+          onChange={ selectModule }
+          currentItemId={ moduleId }
+          items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
+        />
       </div>
     </div>
   );
@@ -133,7 +89,7 @@ function ModuleOverviewPage() {
         "/:degreeProgramId",
         "/"
       ]}>
-        <ModuleSelect />
+        <ModuleFilter />
       </Route>
       <Route path="/:degreeProgramId" exact>
         <ModuleDependencies />

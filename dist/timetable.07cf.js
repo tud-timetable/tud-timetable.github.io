@@ -706,15 +706,15 @@ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_5___names
 
 
 
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
-function _iterableToArrayLimit(arr, i) { if (typeof Symbol === "undefined" || !(Symbol.iterator in Object(arr))) return; var _arr = []; var _n = true; var _d = false; var _e = undefined; try { for (var _i = arr[Symbol.iterator](), _s; !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _toArray(arr) { return _arrayWithHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableRest(); }
 
@@ -811,25 +811,34 @@ function DateModal(_ref2) {
   });
 }
 
+function toEvents(courses) {
+  return courses.map(function (course) {
+    var courseId = md5__WEBPACK_IMPORTED_MODULE_4___default()(course.title + course.description);
+    return course.dates.items.map(function (item) {
+      return _objectSpread(_objectSpread(_objectSpread({}, item), date), {}, {
+        courseId: courseId
+      });
+    });
+  }).flat();
+}
+
 function TimetablePage() {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
-      selectedDate = _useState2[0],
-      setSelectedDate = _useState2[1];
+      selectedEvent = _useState2[0],
+      setSelectedEvent = _useState2[1];
 
   var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState4 = _slicedToArray(_useState3, 2),
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
-  var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_5__.map(function (date) {
-    var id = md5__WEBPACK_IMPORTED_MODULE_4___default()(date.title + date.description);
-    return date.dates.items.map(function (item) {
-      return _objectSpread(_objectSpread(_objectSpread({}, item), date), {}, {
-        id: id
-      });
-    });
-  }).flat();
+  var events = toEvents(data);
+
+  function isActive(date) {
+    return hoveredEvent === null || date.courseId === hoveredEvent.courseId;
+  }
+
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -851,17 +860,17 @@ function TimetablePage() {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          children: dates.map(function (date, index) {
+          children: events.map(function (event, index) {
             return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"].Event, {
-              weekday: date.weekday,
-              block_period: date.block_period,
-              title: date.title,
-              active: hoveredEvent === null || date.id === hoveredEvent.id,
+              weekday: event.weekday,
+              block_period: event.block_period,
+              title: event.title,
+              active: isActive(event),
               onClick: function onClick() {
-                return setSelectedDate(date);
+                return setSelectedEvent(event);
               },
               onMouseOver: function onMouseOver() {
-                return setHoveredEvent(date);
+                return setHoveredEvent(event);
               },
               onMouseOut: function onMouseOut() {
                 return setHoveredEvent(null);
@@ -871,9 +880,9 @@ function TimetablePage() {
         })
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(DateModal, {
-      data: selectedDate,
+      data: selectedEvent,
       onClose: function onClose() {
-        return setSelectedDate(null);
+        return setSelectedEvent(null);
       }
     })]
   });
@@ -884,4 +893,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.7e90.js.map
+//# sourceMappingURL=timetable.07cf.js.map

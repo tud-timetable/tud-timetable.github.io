@@ -6,7 +6,7 @@ import Timetable from "components/Timetable";
 import Modal from "components/Modal";
 import md5 from "md5";
 
-import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
+import courses from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
 function FormattedText({ children }) {
   let lines = children
@@ -75,20 +75,33 @@ function DateModal({
   );
 }
 
-function TimetablePage() {
-  const [ selectedDate, setSelectedDate ] = useState( null );
-  const [ hoveredEvent, setHoveredEvent ] = useState( null );
+function toEvents( courses ) {
+  return (
+    courses.map((course) => {
+      const courseId = md5( course.title + course.description );
 
-  const dates = data.map((date) => {
-      const id = md5( date.title + date.description );
-
-      return date.dates.items.map((item) => ({
+      return course.dates.items.map((item) => ({
         ...item,
         ...date,
-        id,
+        courseId,
       }));
     })
-    .flat();
+    .flat()
+  );
+}
+
+function TimetablePage() {
+  const [ selectedEvent, setSelectedEvent ] = useState( null );
+  const [ hoveredEvent, setHoveredEvent ] = useState( null );
+
+  const events = toEvents( data );
+
+  function isActive( date ) {
+    return (
+      hoveredEvent === null
+        || date.courseId === hoveredEvent.courseId
+    );
+  }
 
   return (
     <Fragment>
@@ -106,15 +119,15 @@ function TimetablePage() {
         <div className="col">
           <Timetable>
             {
-              dates.map((date, index) => (
+              events.map((event, index) => (
                 <Timetable.Event
                   key={ index }
-                  weekday={ date.weekday }
-                  block_period={ date.block_period }
-                  title={ date.title }
-                  active={ hoveredEvent === null || date.id === hoveredEvent.id }
-                  onClick={() => setSelectedDate( date )}
-                  onMouseOver={ () => setHoveredEvent( date ) }
+                  weekday={ event.weekday }
+                  block_period={ event.block_period }
+                  title={ event.title }
+                  active={ isActive( event )  }
+                  onClick={() => setSelectedEvent( event )}
+                  onMouseOver={ () => setHoveredEvent( event ) }
                   onMouseOut={ () => setHoveredEvent( null ) }
                 />
               ))
@@ -123,8 +136,8 @@ function TimetablePage() {
         </div>
       </div>
       <DateModal
-        data={ selectedDate }
-        onClose={ () => setSelectedDate( null ) }
+        data={ selectedEvent }
+        onClose={ () => setSelectedEvent( null ) }
       />
     </Fragment>
   );
