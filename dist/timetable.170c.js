@@ -854,7 +854,7 @@ function TimetablePage() {
       value = _useDegreePrograms$re.value;
 
   var modules = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return value[degreeProgrameId] && value[degreeProgrameId].modules || {};
+    return value[degreeProgrameId] && value[degreeProgrameId].modules || [];
   }, [degreeProgrameId]);
   var events = toEvents(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__);
   var isReady = status === "resolved";
@@ -867,8 +867,14 @@ function TimetablePage() {
   function isActive(event) {
     return hoveredEvent === null || event.courseId === hoveredEvent.courseId;
   }
+  /*
+    const filteredEvents = events.filter((event) => {
+      return event.applicability.some((appl) => (
+        appl.module_number === module
+      ));
+    });*/
 
-  var filteredEvents = events.filter(function (event) {});
+
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -932,4 +938,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.e631.js.map
+//# sourceMappingURL=timetable.170c.js.map

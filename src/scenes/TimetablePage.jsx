@@ -102,7 +102,7 @@ function TimetablePage() {
   const { status, value } = useDegreePrograms().readAll();
 
   const modules = useMemo(() => (
-    (value[ degreeProgrameId ] && value[ degreeProgrameId ].modules) || {}
+    (value[ degreeProgrameId ] && value[ degreeProgrameId ].modules) || []
   ), [ degreeProgrameId ]);
 
   const events = toEvents( courses );
@@ -122,10 +122,12 @@ function TimetablePage() {
         || event.courseId === hoveredEvent.courseId
     );
   }
-
+/*
   const filteredEvents = events.filter((event) => {
-
-  });
+    return event.applicability.some((appl) => (
+      appl.module_number === module
+    ));
+  });*/
 
   return (
     <Fragment>
