@@ -47,6 +47,29 @@ module.exports = {
       },
     ],
   },
+  "optimization": {
+    "splitChunks": {
+      "cacheGroups": {
+        "vendor": {
+          "name": "vendor",
+          "chunks": "all",
+          "priority": 20,
+          "test": /[\\/]node_modules[\\/]/,
+        },
+        "common": {
+          "name": "common",
+          "chunks": "async",
+          "priority": 10,
+          "minChunks": 2,
+          "reuseExistingChunk": true,
+          "enforce": true,
+        },
+      },
+    },
+    "runtimeChunk": {
+      "name": "manifest",
+    },
+  },
   "resolve": {
     "extensions": [".js", ".jsx", ".json"],
     "alias": {
