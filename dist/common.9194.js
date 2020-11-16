@@ -36,7 +36,13 @@ function DegreeProgrameSelect(_ref) {
       _ref$items = _ref.items,
       items = _ref$items === void 0 ? {} : _ref$items;
   var handleChange = Object(react__WEBPACK_IMPORTED_MODULE_1__["useCallback"])(function (event) {
-    onChange(event.target.value);
+    var value = event.target.value;
+
+    if (!value) {
+      onChange(null);
+    } else {
+      onChange(event.target.value);
+    }
   }, [onChange]);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "form-group",
@@ -44,7 +50,7 @@ function DegreeProgrameSelect(_ref) {
       className: "form-control",
       onChange: handleChange,
       disabled: disabled,
-      value: currentItemId,
+      value: currentItemId || "",
       children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
         disabled: true,
         value: "",
@@ -92,7 +98,13 @@ function ModuleSelect(_ref) {
       _ref$items = _ref.items,
       items = _ref$items === void 0 ? [] : _ref$items;
   var handleChange = Object(react__WEBPACK_IMPORTED_MODULE_1__["useCallback"])(function (event) {
-    onChange(event.target.value);
+    var value = event.target.value;
+
+    if (!value) {
+      onChange(null);
+    } else {
+      onChange(event.target.value);
+    }
   }, [onChange]);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "form-group",
@@ -100,11 +112,14 @@ function ModuleSelect(_ref) {
       className: "form-control",
       disabled: disabled,
       onChange: handleChange,
-      value: currentItemId,
+      value: currentItemId || "",
       children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
         disabled: true,
         value: "",
         children: "Modul ausw\xE4hlen"
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+        value: "all",
+        children: "(Alle)"
       }), (items || []).map(function (m) {
         return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
           value: m.module_numbers[0],
@@ -251,4 +266,4 @@ var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
 /***/ })
 
 }]);
-//# sourceMappingURL=common.ccd6.js.map
+//# sourceMappingURL=common.9194.js.map

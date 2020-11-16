@@ -11,7 +11,13 @@ function ModuleSelect({
   items = []
 }) {
   const handleChange = useCallback((event) => {
-    onChange( event.target.value );
+    const value = event.target.value;
+
+    if ( !value ) {
+      onChange( null );
+    } else {
+      onChange( event.target.value );
+    }
   }, [ onChange ]);
 
   return (
@@ -20,9 +26,10 @@ function ModuleSelect({
         className="form-control"
         disabled={ disabled }
         onChange={ handleChange }
-        value={ currentItemId }
+        value={ currentItemId || "" }
       >
         <option disabled value="">Modul auswählen</option>
+        <option value="all">(Alle)</option>
         {
           (items || []).map((m) => (
             <option

@@ -20,7 +20,13 @@ function DegreeProgrameSelect({
   items = {}
 }) {
   const handleChange = useCallback(( event ) => {
-    onChange( event.target.value );
+    const value = event.target.value;
+
+    if ( !value ) {
+      onChange( null );
+    } else {
+      onChange( event.target.value );
+    }
   }, [ onChange ]);
 
   return (
@@ -29,7 +35,7 @@ function DegreeProgrameSelect({
         className="form-control"
         onChange={ handleChange }
         disabled={ disabled }
-        value={ currentItemId }
+        value={ currentItemId || "" }
       >
         <option disabled value="">Studiengang auswählen</option>
         {

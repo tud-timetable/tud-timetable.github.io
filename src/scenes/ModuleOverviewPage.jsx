@@ -43,7 +43,7 @@ function ModuleFilter() {
         <ModuleSelect
           disabled={ !isReady || !degreeProgramId }
           onChange={ selectModule }
-          currentItemId={ moduleId }
+          currentItemId={ moduleId || "all" }
           items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
         />
       </div>

@@ -97,8 +97,8 @@ function toEvents( courses ) {
 function TimetablePage() {
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
-  const [ degreeProgrameId, setDegreeProgrameId ] = useState( "" );
-  const [ moduleId, setModuleId ] = useState( "" );
+  const [ degreeProgrameId, setDegreeProgrameId ] = useState( null );
+  const [ moduleId, setModuleId ] = useState( null );
   const { status, value } = useDegreePrograms().readAll();
 
   const modules = useMemo(() => (
@@ -113,7 +113,7 @@ function TimetablePage() {
 
   function onChangeDegreePrograme( nextDegreeProgrameId ) {
     setDegreeProgrameId( nextDegreeProgrameId );
-    setModuleId( "" );
+    setModuleId( null );
   }
 
   function isActive( event ) {
@@ -124,7 +124,7 @@ function TimetablePage() {
   }
 
   const filteredEvents = events.filter((event) => {
-    if ( !moduleId ) {
+    if ( !moduleId || moduleId === "all" ) {
       return true;
     }
 

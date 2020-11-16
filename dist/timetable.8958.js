@@ -839,12 +839,12 @@ function TimetablePage() {
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState6 = _slicedToArray(_useState5, 2),
       degreeProgrameId = _useState6[0],
       setDegreeProgrameId = _useState6[1];
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState8 = _slicedToArray(_useState7, 2),
       moduleId = _useState8[0],
       setModuleId = _useState8[1];
@@ -861,7 +861,7 @@ function TimetablePage() {
 
   function onChangeDegreePrograme(nextDegreeProgrameId) {
     setDegreeProgrameId(nextDegreeProgrameId);
-    setModuleId("");
+    setModuleId(null);
   }
 
   function isActive(event) {
@@ -869,7 +869,7 @@ function TimetablePage() {
   }
 
   var filteredEvents = events.filter(function (event) {
-    if (!moduleId) {
+    if (!moduleId || moduleId === "all") {
       return true;
     }
 
@@ -940,4 +940,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.da88.js.map
+//# sourceMappingURL=timetable.8958.js.map
