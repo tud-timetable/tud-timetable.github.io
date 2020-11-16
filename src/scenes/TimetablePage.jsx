@@ -96,7 +96,7 @@ function TimetablePage() {
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
 
-  const events = toEvents( data );
+  const events = toEvents( courses );
 
   function isActive( date ) {
     return (

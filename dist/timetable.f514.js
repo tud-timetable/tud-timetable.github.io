@@ -837,7 +837,7 @@ function TimetablePage() {
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
-  var events = toEvents(data);
+  var events = toEvents(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_7__);
 
   function isActive(date) {
     return hoveredEvent === null || date.courseId === hoveredEvent.courseId;
@@ -893,4 +893,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.b2a7.js.map
+//# sourceMappingURL=timetable.f514.js.map
