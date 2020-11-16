@@ -4,6 +4,7 @@ import {
 } from "react";
 import Timetable from "components/Timetable";
 import Modal from "components/Modal";
+import md5 from "md5";
 
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
 
@@ -79,9 +80,12 @@ function TimetablePage() {
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
 
   const dates = data.map((date) => {
+      const id = md5( date.title + date.description );
+
       return date.dates.items.map((item) => ({
         ...item,
         ...date,
+        id,
       }));
     })
     .flat();
@@ -108,7 +112,7 @@ function TimetablePage() {
                   weekday={ date.weekday }
                   block_period={ date.block_period }
                   title={ date.title }
-                  active={ hoveredEvent === null || date === hoveredEvent }
+                  active={ hoveredEvent === null || date.id === hoveredEvent.id }
                   onClick={() => setSelectedDate( date )}
                   onMouseOver={ () => setHoveredEvent( date ) }
                   onMouseOut={ () => setHoveredEvent( null ) }
