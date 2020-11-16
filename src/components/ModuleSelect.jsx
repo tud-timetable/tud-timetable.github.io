@@ -35,3 +35,5 @@ function ModuleSelect({
     </div>
   );
 }
+
+export default ModuleSelect;

@@ -1255,7 +1255,7 @@ function ModuleNumber(_ref) {
 /*!*****************************************!*\
   !*** ./src/components/ModuleSelect.jsx ***!
   \*****************************************/
-/*! no exports provided */
+/*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1296,6 +1296,8 @@ function ModuleSelect(_ref) {
     })
   });
 }
+
+/* harmony default export */ __webpack_exports__["default"] = (ModuleSelect);
 
 /***/ }),
 
@@ -1740,4 +1742,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.b452.js.map
+//# sourceMappingURL=modules.50f5.js.map
