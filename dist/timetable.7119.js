@@ -867,14 +867,12 @@ function TimetablePage() {
   function isActive(event) {
     return hoveredEvent === null || event.courseId === hoveredEvent.courseId;
   }
-  /*
-    const filteredEvents = events.filter((event) => {
-      return event.applicability.some((appl) => (
-        appl.module_number === module
-      ));
-    });*/
 
-
+  var filteredEvents = events.filter(function (event) {
+    return event.applicability.some(function (appl) {
+      return appl.module_number === moduleId;
+    });
+  });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -890,7 +888,7 @@ function TimetablePage() {
         className: "col",
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__["default"], {
           disabled: !isReady,
-          onChange: setDegreeProgrameId,
+          onChange: onChangeDegreePrograme,
           currentItemId: degreeProgrameId,
           items: value
         }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -905,7 +903,7 @@ function TimetablePage() {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          children: events.map(function (event, index) {
+          children: filteredEvents.map(function (event, index) {
             return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"].Event, {
               weekday: event.weekday,
               block_period: event.block_period,
@@ -938,4 +936,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.170c.js.map
+//# sourceMappingURL=timetable.7119.js.map

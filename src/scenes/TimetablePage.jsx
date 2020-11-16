@@ -122,12 +122,12 @@ function TimetablePage() {
         || event.courseId === hoveredEvent.courseId
     );
   }
-/*
+
   const filteredEvents = events.filter((event) => {
     return event.applicability.some((appl) => (
-      appl.module_number === module
+      appl.module_number === moduleId
     ));
-  });*/
+  });
 
   return (
     <Fragment>
@@ -140,7 +140,7 @@ function TimetablePage() {
         <div className="col">
           <DegreeProgrameSelect
             disabled={ !isReady }
-            onChange={ setDegreeProgrameId }
+            onChange={ onChangeDegreePrograme }
             currentItemId={ degreeProgrameId }
             items={ value }
           />
@@ -156,7 +156,7 @@ function TimetablePage() {
         <div className="col">
           <Timetable>
             {
-              events.map((event, index) => (
+              filteredEvents.map((event, index) => (
                 <Timetable.Event
                   key={ index }
                   weekday={ event.weekday }
