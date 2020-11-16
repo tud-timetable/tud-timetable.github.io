@@ -1,10 +1,4 @@
-import {
-  Fragment,
-  cloneElement
-} from "react";
-
-function TimeFrame({
-  children,
+function TimeSlot({
   weekday,
   block_period
 }) {
@@ -13,10 +7,12 @@ function TimeFrame({
   ));
 
   return (
-    <Fragment>
+    <td
+      className="p-1 align-top"
+    >
       { filtered }
-    </Fragment>
+    </td>
   );
 }
 
-export default TimeFrame;
+export default TimeSlot;

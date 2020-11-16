@@ -1,5 +1,5 @@
 import TableRowLabel from "./TableRowLabel";
-import TimeFrame from "./TimeFrame";
+import TimeSlot from "./TimeSlot";
 
 const WEEKDAYS = [
   "monday",
@@ -22,16 +22,12 @@ function TableRow({
       </th>
       {
         WEEKDAYS.map(( weekday ) => (
-          <td
-            className="p-1 align-top"
-            key={`block-${ block_period }-${ weekday }`}
-          >
-            <TimeFrame
-              children={ children }
-              weekday={ weekday }
-              block_period={ block_period }
-            />
-          </td>
+          <TimeSlot
+            key={`time-slot-${ block_period }-${ weekday }`}
+            weekday={ weekday }
+            block_period={ block_period }
+            children={ children }
+          />
         ))
       }
     </tr>

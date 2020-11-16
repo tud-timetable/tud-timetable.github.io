@@ -86359,7 +86359,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _TableRowLabel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./TableRowLabel */ "./src/components/Timetable/TableRowLabel.jsx");
-/* harmony import */ var _TimeFrame__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TimeFrame */ "./src/components/Timetable/TimeFrame.jsx");
+/* harmony import */ var _TimeSlot__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./TimeSlot */ "./src/components/Timetable/TimeSlot.jsx");
 
 
 
@@ -86377,14 +86377,11 @@ function TableRow(_ref) {
         number: block_period
       })
     }), WEEKDAYS.map(function (weekday) {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("td", {
-        className: "p-1 align-top",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TimeFrame__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          children: children,
-          weekday: weekday,
-          block_period: block_period
-        })
-      }, "block-".concat(block_period, "-").concat(weekday));
+      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TimeSlot__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        weekday: weekday,
+        block_period: block_period,
+        children: children
+      }, "time-slot-".concat(block_period, "-").concat(weekday));
     })]
   });
 }
@@ -86459,10 +86456,10 @@ function TableRowLabel(_ref) {
 
 /***/ }),
 
-/***/ "./src/components/Timetable/TimeFrame.jsx":
-/*!************************************************!*\
-  !*** ./src/components/Timetable/TimeFrame.jsx ***!
-  \************************************************/
+/***/ "./src/components/Timetable/TimeSlot.jsx":
+/*!***********************************************!*\
+  !*** ./src/components/Timetable/TimeSlot.jsx ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -86470,25 +86467,22 @@ function TableRowLabel(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
 
-
-function TimeFrame(_ref) {
-  var children = _ref.children,
-      weekday = _ref.weekday,
+function TimeSlot(_ref) {
+  var weekday = _ref.weekday,
       block_period = _ref.block_period;
   var filtered = children.filter(function (_ref2) {
     var props = _ref2.props;
     return props.weekday === weekday && props.block_period === block_period;
   });
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("td", {
+    className: "p-1 align-top",
     children: filtered
   });
 }
 
-/* harmony default export */ __webpack_exports__["default"] = (TimeFrame);
+/* harmony default export */ __webpack_exports__["default"] = (TimeSlot);
 
 /***/ }),
 
@@ -87249,4 +87243,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.7e9e.js.map
+//# sourceMappingURL=main.5375.js.map
