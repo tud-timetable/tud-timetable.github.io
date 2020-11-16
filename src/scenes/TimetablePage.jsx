@@ -3,6 +3,8 @@ import {
   useState
 } from "react";
 import Timetable from "components/Timetable";
+import DegreeProgrameSelect from "components/DegreeProgrameSelect";
+import ModuleSelect from "components/ModuleSelect";
 import Modal from "components/Modal";
 import md5 from "md5";
 
@@ -111,9 +113,8 @@ function TimetablePage() {
         </div>
       </div>
       <div className="row">
-        <select>
-          <option>Studiengang ...</option>
-        </select>
+        <DegreeProgrameSelect />
+        <ModuleSelect />
       </div>
       <div className="row">
         <div className="col">

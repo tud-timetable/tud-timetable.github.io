@@ -2,10 +2,12 @@ import {
   useCallback
 } from "react";
 
+function noop() {}
+
 function ModuleSelect({
-  onChange,
+  onChange = noop,
   currentItemId,
-  disabled,
+  disabled = false,
   items = []
 }) {
   const handleChange = useCallback((event) => {
@@ -22,7 +24,7 @@ function ModuleSelect({
       >
         <option disabled value="">Modul auswählen</option>
         {
-          items.map((m) => (
+          (items || []).map((m) => (
             <option
               value={m.module_numbers[0]}
               key={m.module_numbers[0]}

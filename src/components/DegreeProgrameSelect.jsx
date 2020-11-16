@@ -2,6 +2,8 @@ import {
   useCallback
 } from "react";
 
+function noop() {}
+
 function sortDegreeProgrames( degreeProgrames ) {
   return (a, b) => {
     const nameA = degreeProgrames[ a ].name;
@@ -12,10 +14,10 @@ function sortDegreeProgrames( degreeProgrames ) {
 }
 
 function DegreeProgrameSelect({
-  onChange,
+  onChange = noop,
   currentItemId,
-  disabled,
-  items
+  disabled = false,
+  items = {}
 }) {
   const handleChange = useCallback(( event ) => {
     onChange( event.target.value );
@@ -32,7 +34,7 @@ function DegreeProgrameSelect({
         <option disabled value="">Studiengang auswählen</option>
         {
           Object
-            .keys( items )
+            .keys( items || {} )
             .sort( sortDegreeProgrames( items ) )
             .map((id) => {
               const program = items[ id ];

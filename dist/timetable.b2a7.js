@@ -698,11 +698,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var components_Timetable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Timetable */ "./src/components/Timetable/index.js");
-/* harmony import */ var components_Modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/Modal */ "./src/components/Modal/index.js");
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! md5 */ "./node_modules/md5/md5.js");
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json");
-var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_5___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json", 1);
+/* harmony import */ var components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/DegreeProgrameSelect */ "./src/components/DegreeProgrameSelect.jsx");
+/* harmony import */ var components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/ModuleSelect */ "./src/components/ModuleSelect.jsx");
+/* harmony import */ var components_Modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/Modal */ "./src/components/Modal/index.js");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! md5 */ "./node_modules/md5/md5.js");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json");
+var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_7___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json", 1);
 
 
 
@@ -733,6 +735,8 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.it
 function _arrayWithoutHoles(arr) { if (Array.isArray(arr)) return _arrayLikeToArray(arr); }
 
 function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+
 
 
 
@@ -778,12 +782,12 @@ function DateModal(_ref2) {
       title = _data$title$split2[0],
       subtitles = _data$title$split2.slice(1);
 
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"], {
     size: "lg",
     onClose: onClose,
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Header, {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Header, {
       title: title
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_3__["default"].Body, {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Body, {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("dl", {
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
           children: "Lehrkraft"
@@ -813,7 +817,7 @@ function DateModal(_ref2) {
 
 function toEvents(courses) {
   return courses.map(function (course) {
-    var courseId = md5__WEBPACK_IMPORTED_MODULE_4___default()(course.title + course.description);
+    var courseId = md5__WEBPACK_IMPORTED_MODULE_6___default()(course.title + course.description);
     return course.dates.items.map(function (item) {
       return _objectSpread(_objectSpread(_objectSpread({}, item), date), {}, {
         courseId: courseId
@@ -848,13 +852,9 @@ function TimetablePage() {
           children: "Stundenplan"
         })
       })
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
       className: "row",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("select", {
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
-          children: "Studiengang ..."
-        })
-      })
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
@@ -893,4 +893,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.07cf.js.map
+//# sourceMappingURL=timetable.b2a7.js.map
