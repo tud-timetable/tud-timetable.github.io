@@ -86158,7 +86158,6 @@ __webpack_require__.r(__webpack_exports__);
 
 function Timetable(_ref) {
   var children = _ref.children;
-  console.log(children);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "table-responsive-sm",
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("table", {
@@ -86826,6 +86825,11 @@ function TimetablePage() {
       selectedDate = _useState2[0],
       setSelectedDate = _useState2[1];
 
+  var _useState3 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+      _useState4 = _slicedToArray(_useState3, 2),
+      hoveredEvent = _useState4[0],
+      setHoveredEvent = _useState4[1];
+
   var dates = _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_4__.map(function (date) {
     return date.dates.items.map(function (item) {
       return _objectSpread(_objectSpread({}, item), date);
@@ -86857,8 +86861,15 @@ function TimetablePage() {
               weekday: date.weekday,
               block_period: date.block_period,
               title: date.title,
+              active: hoveredEvent === null || date === hoveredEvent,
               onClick: function onClick() {
                 return setSelectedDate(date);
+              },
+              onMouseOver: function onMouseOver() {
+                return setHoveredEvent(date);
+              },
+              onMouseOut: function onMouseOut() {
+                return setHoveredEvent(null);
               }
             }, index);
           })
@@ -86878,4 +86889,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4a10.js.map
+//# sourceMappingURL=main.4f99.js.map

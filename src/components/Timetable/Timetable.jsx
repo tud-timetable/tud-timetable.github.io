@@ -4,8 +4,6 @@ import TimetableBody from "./TableBody";
 function Timetable({
   children
 }) {
-  console.log(children);
-
   return (
     <div className="table-responsive-sm">
       <table className="w-100 table-bordered">

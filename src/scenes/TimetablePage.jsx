@@ -76,6 +76,7 @@ function DateModal({
 
 function TimetablePage() {
   const [ selectedDate, setSelectedDate ] = useState( null );
+  const [ hoveredEvent, setHoveredEvent ] = useState( null );
 
   const dates = data.map((date) => {
       return date.dates.items.map((item) => ({
@@ -107,7 +108,10 @@ function TimetablePage() {
                   weekday={ date.weekday }
                   block_period={ date.block_period }
                   title={ date.title }
+                  active={ hoveredEvent === null || date === hoveredEvent }
                   onClick={() => setSelectedDate( date )}
+                  onMouseOver={ () => setHoveredEvent( date ) }
+                  onMouseOut={ () => setHoveredEvent( null ) }
                 />
               ))
             }
