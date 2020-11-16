@@ -1,6 +1,7 @@
 import {
   Fragment,
-  useState
+  useState,
+  useMemo
 } from "react";
 import Timetable from "components/Timetable";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
@@ -96,9 +97,13 @@ function toEvents( courses ) {
 function TimetablePage() {
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
-  const [ degreeProgrameId, setDegreeProgrameId ] = useState( null );
-  const [ moduleId, setModuleId ] = useState( null );
+  const [ degreeProgrameId, setDegreeProgrameId ] = useState( "" );
+  const [ moduleId, setModuleId ] = useState( "" );
   const { status, value } = useDegreePrograms().readAll();
+
+  const modules = useMemo(() => (
+    (value[ degreeProgrameId ] && value[ degreeProgrameId ].modules) || {}
+  ), [ degreeProgrameId ]);
 
   const events = toEvents( courses );
 
@@ -106,12 +111,21 @@ function TimetablePage() {
     status === "resolved"
   );
 
+  function onChangeDegreePrograme( nextDegreeProgrameId ) {
+    setDegreeProgrameId( nextDegreeProgrameId );
+    setModuleId( "" );
+  }
+
   function isActive( event ) {
     return (
       hoveredEvent === null
         || event.courseId === hoveredEvent.courseId
     );
   }
+
+  const filteredEvents = events.filter((event) => {
+
+  });
 
   return (
     <Fragment>
@@ -132,7 +146,7 @@ function TimetablePage() {
             disabled={ !isReady || !degreeProgrameId }
             onChange={ setModuleId }
             currentItemId={ moduleId }
-            items={ value[ degreeProgrameId ] && value[ degreeProgrameId ].modules }
+            items={ modules }
           />
         </div>
       </div>
@@ -148,8 +162,8 @@ function TimetablePage() {
                   title={ event.title }
                   active={ isActive( event )  }
                   onClick={() => setSelectedEvent( event )}
-                  onMouseOver={ () => setHoveredEvent( event ) }
-                  onMouseOut={ () => setHoveredEvent( null ) }
+                  onMouseOver={() => setHoveredEvent( event )}
+                  onMouseOut={() => setHoveredEvent( null )}
                 />
               ))
             }
@@ -158,7 +172,7 @@ function TimetablePage() {
       </div>
       <DateModal
         data={ selectedEvent }
-        onClose={ () => setSelectedEvent( null ) }
+        onClose={() => setSelectedEvent( null )}
       />
     </Fragment>
   );

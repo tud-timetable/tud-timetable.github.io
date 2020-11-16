@@ -839,12 +839,12 @@ function TimetablePage() {
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
       _useState6 = _slicedToArray(_useState5, 2),
       degreeProgrameId = _useState6[0],
       setDegreeProgrameId = _useState6[1];
 
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(""),
       _useState8 = _slicedToArray(_useState7, 2),
       moduleId = _useState8[0],
       setModuleId = _useState8[1];
@@ -853,13 +853,22 @@ function TimetablePage() {
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
+  var modules = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
+    return value[degreeProgrameId] && value[degreeProgrameId].modules || {};
+  }, [degreeProgrameId]);
   var events = toEvents(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__);
   var isReady = status === "resolved";
+
+  function onChangeDegreePrograme(nextDegreeProgrameId) {
+    setDegreeProgrameId(nextDegreeProgrameId);
+    setModuleId("");
+  }
 
   function isActive(event) {
     return hoveredEvent === null || event.courseId === hoveredEvent.courseId;
   }
 
+  var filteredEvents = events.filter(function (event) {});
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -882,7 +891,7 @@ function TimetablePage() {
           disabled: !isReady || !degreeProgrameId,
           onChange: setModuleId,
           currentItemId: moduleId,
-          items: value[degreeProgrameId] && value[degreeProgrameId].modules
+          items: modules
         })]
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
@@ -923,4 +932,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.8cd5.js.map
+//# sourceMappingURL=timetable.e631.js.map
