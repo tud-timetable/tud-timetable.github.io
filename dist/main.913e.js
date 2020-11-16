@@ -86470,7 +86470,8 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function TimeSlot(_ref) {
-  var weekday = _ref.weekday,
+  var children = _ref.children,
+      weekday = _ref.weekday,
       block_period = _ref.block_period;
   var filtered = children.filter(function (_ref2) {
     var props = _ref2.props;
@@ -87243,4 +87244,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.5375.js.map
+//# sourceMappingURL=main.913e.js.map

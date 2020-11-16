@@ -1,4 +1,5 @@
 function TimeSlot({
+  children,
   weekday,
   block_period
 }) {
