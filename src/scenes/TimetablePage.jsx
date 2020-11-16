@@ -2,7 +2,7 @@ import {
   Fragment,
   useState
 } from "react";
-import Timetable from "./Timetable";
+import Timetable from "components/Timetable";
 import Modal from "components/Modal";
 
 import data from "../../courses/2020-10-22-ws20-gsw-courses.json";
