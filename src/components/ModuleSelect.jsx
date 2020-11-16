@@ -7,6 +7,7 @@ function noop() {}
 function ModuleSelect({
   onChange = noop,
   currentItemId,
+  includeAllOption = true,
   disabled = false,
   items = []
 }) {
@@ -29,7 +30,7 @@ function ModuleSelect({
         value={ currentItemId || "" }
       >
         <option disabled value="">Modul auswählen</option>
-        <option value="all">(Alle)</option>
+        { includeAllOption && <option value="all">(Alle)</option> }
         {
           (items || []).map((m) => (
             <option

@@ -44,6 +44,7 @@ function ModuleFilter() {
           disabled={ !isReady || !degreeProgramId }
           onChange={ selectModule }
           currentItemId={ moduleId || "all" }
+          includeAllOption={ false }
           items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
         />
       </div>

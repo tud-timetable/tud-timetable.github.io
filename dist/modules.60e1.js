@@ -1440,6 +1440,7 @@ function ModuleFilter() {
         disabled: !isReady || !degreeProgramId,
         onChange: selectModule,
         currentItemId: moduleId || "all",
+        includeAllOption: false,
         items: value[degreeProgramId] && value[degreeProgramId].modules
       })]
     })
@@ -1502,4 +1503,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.69cb.js.map
+//# sourceMappingURL=modules.60e1.js.map

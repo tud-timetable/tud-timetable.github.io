@@ -93,6 +93,8 @@ function ModuleSelect(_ref) {
   var _ref$onChange = _ref.onChange,
       onChange = _ref$onChange === void 0 ? noop : _ref$onChange,
       currentItemId = _ref.currentItemId,
+      _ref$includeAllOption = _ref.includeAllOption,
+      includeAllOption = _ref$includeAllOption === void 0 ? true : _ref$includeAllOption,
       _ref$disabled = _ref.disabled,
       disabled = _ref$disabled === void 0 ? false : _ref$disabled,
       _ref$items = _ref.items,
@@ -117,7 +119,7 @@ function ModuleSelect(_ref) {
         disabled: true,
         value: "",
         children: "Modul ausw\xE4hlen"
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
+      }), includeAllOption && /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("option", {
         value: "all",
         children: "(Alle)"
       }), (items || []).map(function (m) {
@@ -266,4 +268,4 @@ var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
 /***/ })
 
 }]);
-//# sourceMappingURL=common.9194.js.map
+//# sourceMappingURL=common.0c31.js.map
