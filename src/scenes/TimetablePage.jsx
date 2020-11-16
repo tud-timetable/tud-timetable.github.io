@@ -113,8 +113,10 @@ function TimetablePage() {
         </div>
       </div>
       <div className="row">
-        <DegreeProgrameSelect />
-        <ModuleSelect />
+        <div className="col">
+          <DegreeProgrameSelect />
+          <ModuleSelect />
+        </div>
       </div>
       <div className="row">
         <div className="col">
