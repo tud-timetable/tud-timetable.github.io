@@ -132,7 +132,7 @@ function TimetablePage() {
             disabled={ !isReady || !degreeProgrameId }
             onChange={ setModuleId }
             currentItemId={ moduleId }
-            items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
+            items={ value[ degreeProgrameId ] && value[ degreeProgrameId ].modules }
           />
         </div>
       </div>

@@ -882,7 +882,7 @@ function TimetablePage() {
           disabled: !isReady || !degreeProgrameId,
           onChange: setModuleId,
           currentItemId: moduleId,
-          items: value[degreeProgramId] && value[degreeProgramId].modules
+          items: value[degreeProgrameId] && value[degreeProgrameId].modules
         })]
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
@@ -923,4 +923,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.b779.js.map
+//# sourceMappingURL=timetable.8cd5.js.map
