@@ -6,7 +6,7 @@ function ModuleSelect({
   onChange,
   currentItemId,
   disabled,
-  items
+  items = []
 }) {
   const handleChange = useCallback((event) => {
     onChange( event.target.value );

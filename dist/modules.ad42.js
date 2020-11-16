@@ -1272,7 +1272,8 @@ function ModuleSelect(_ref) {
   var onChange = _ref.onChange,
       currentItemId = _ref.currentItemId,
       disabled = _ref.disabled,
-      items = _ref.items;
+      _ref$items = _ref.items,
+      items = _ref$items === void 0 ? [] : _ref$items;
   var handleChange = Object(react__WEBPACK_IMPORTED_MODULE_1__["useCallback"])(function (event) {
     onChange(event.target.value);
   }, [onChange]);
@@ -1742,4 +1743,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.50f5.js.map
+//# sourceMappingURL=modules.ad42.js.map
