@@ -86161,6 +86161,7 @@ __webpack_require__.r(__webpack_exports__);
 
 function Timetable(_ref) {
   var children = _ref.children;
+  console.log(children);
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "table-responsive-sm",
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("table", {
@@ -86880,4 +86881,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.3f31.js.map
+//# sourceMappingURL=main.1c48.js.map
