@@ -869,6 +869,10 @@ function TimetablePage() {
   }
 
   var filteredEvents = events.filter(function (event) {
+    if (!moduleId) {
+      return true;
+    }
+
     return event.applicability.some(function (appl) {
       return appl.module_number === moduleId;
     });
@@ -936,4 +940,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.7119.js.map
+//# sourceMappingURL=timetable.da88.js.map

@@ -124,6 +124,10 @@ function TimetablePage() {
   }
 
   const filteredEvents = events.filter((event) => {
+    if ( !moduleId ) {
+      return true;
+    }
+
     return event.applicability.some((appl) => (
       appl.module_number === moduleId
     ));
