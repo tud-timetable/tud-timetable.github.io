@@ -84,7 +84,7 @@ function toEvents( courses ) {
 
       return course.dates.items.map((item) => ({
         ...item,
-        ...date,
+        ...course,
         courseId,
       }));
     })
@@ -98,10 +98,10 @@ function TimetablePage() {
 
   const events = toEvents( courses );
 
-  function isActive( date ) {
+  function isActive( event ) {
     return (
       hoveredEvent === null
-        || date.courseId === hoveredEvent.courseId
+        || event.courseId === hoveredEvent.courseId
     );
   }
 

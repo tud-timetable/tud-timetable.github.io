@@ -819,7 +819,7 @@ function toEvents(courses) {
   return courses.map(function (course) {
     var courseId = md5__WEBPACK_IMPORTED_MODULE_6___default()(course.title + course.description);
     return course.dates.items.map(function (item) {
-      return _objectSpread(_objectSpread(_objectSpread({}, item), date), {}, {
+      return _objectSpread(_objectSpread(_objectSpread({}, item), course), {}, {
         courseId: courseId
       });
     });
@@ -839,8 +839,8 @@ function TimetablePage() {
 
   var events = toEvents(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_7__);
 
-  function isActive(date) {
-    return hoveredEvent === null || date.courseId === hoveredEvent.courseId;
+  function isActive(event) {
+    return hoveredEvent === null || event.courseId === hoveredEvent.courseId;
   }
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
@@ -893,4 +893,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.f514.js.map
+//# sourceMappingURL=timetable.728e.js.map
