@@ -6,6 +6,7 @@ import Timetable from "components/Timetable";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
 import ModuleSelect from "components/ModuleSelect";
 import Modal from "components/Modal";
+import useDegreePrograms from "hooks/useDegreePrograms";
 import md5 from "md5";
 
 import courses from "../../courses/2020-10-22-ws20-gsw-courses.json";
