@@ -99,10 +99,18 @@ function TimetablePage() {
       </div>
       <div className="row">
         <div className="col">
-          <Timetable
-            dates={ dates }
-            onClickDate={(date) => setSelectedDate( date )}
-          />
+          <Timetable>
+            {
+              dates.map((date) => (
+                <Timetable.Event
+                  weekday={ date.weekday }
+                  block_period={ date.block_period }
+                  title={ date.title }
+                  onClick={() => setSelectedDate( date )}
+                />
+              ))
+            }
+          </Timetable>
         </div>
       </div>
       <DateModal

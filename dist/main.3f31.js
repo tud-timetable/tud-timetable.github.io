@@ -85845,7 +85845,7 @@ var EventStyle = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].butto
 function noop() {}
 
 function Event(_ref2) {
-  var value = _ref2.value,
+  var title = _ref2.title,
       _ref2$active = _ref2.active,
       active = _ref2$active === void 0 ? true : _ref2$active,
       _ref2$onClick = _ref2.onClick,
@@ -85855,10 +85855,10 @@ function Event(_ref2) {
       _ref2$onMouseOut = _ref2.onMouseOut,
       onMouseOut = _ref2$onMouseOut === void 0 ? noop : _ref2$onMouseOut;
 
-  var _value$split = value.split("\n"),
-      _value$split2 = _toArray(_value$split),
-      title = _value$split2[0],
-      subtitles = _value$split2.slice(1);
+  var _title$split = title.split("\n"),
+      _title$split2 = _toArray(_title$split),
+      primaryTitle = _title$split2[0],
+      subtitles = _title$split2.slice(1);
 
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(EventStyle, {
     onClick: onClick,
@@ -85868,7 +85868,7 @@ function Event(_ref2) {
     $inactive: !active,
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
       className: "mb-0",
-      children: title
+      children: primaryTitle
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "sr-only",
       children: !!subtitles.length && subtitles.reduce(function (accu, val, index) {
@@ -85903,14 +85903,12 @@ __webpack_require__.r(__webpack_exports__);
 var BLOCK_PERIODS = [1, 2, 3, 4, 5, 6];
 
 function TableBody(_ref) {
-  var dates = _ref.dates,
-      onClickDate = _ref.onClickDate;
+  var children = _ref.children;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("tbody", {
     children: BLOCK_PERIODS.map(function (block_period) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TableRow__WEBPACK_IMPORTED_MODULE_1__["default"], {
-        dates: dates,
-        block_period: block_period,
-        onClickDate: onClickDate
+        children: children,
+        block_period: block_period
       }, "block-".concat(block_period));
     })
   });
@@ -86015,9 +86013,8 @@ __webpack_require__.r(__webpack_exports__);
 var WEEKDAYS = ["monday", "tuesday", "wednesday", "thursday", "friday"];
 
 function TableRow(_ref) {
-  var dates = _ref.dates,
-      block_period = _ref.block_period,
-      onClickDate = _ref.onClickDate;
+  var children = _ref.children,
+      block_period = _ref.block_period;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("tr", {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("th", {
       scope: "row",
@@ -86029,10 +86026,9 @@ function TableRow(_ref) {
       return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("td", {
         className: "p-1 align-top",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TimeFrame__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          dates: dates,
+          children: children,
           weekday: weekday,
-          block_period: block_period,
-          onClick: onClickDate
+          block_period: block_period
         })
       }, "block-".concat(block_period, "-").concat(weekday));
     })]
@@ -86122,27 +86118,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Event__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Event */ "./src/components/Timetable/Event.jsx");
-
 
 
 
 function TimeFrame(_ref) {
-  var dates = _ref.dates,
+  var children = _ref.children,
       weekday = _ref.weekday,
-      block_period = _ref.block_period,
-      _onClick = _ref.onClick;
-  var filtered = dates.filter(function (date) {
-    return date.weekday === weekday && date.block_period === block_period;
+      block_period = _ref.block_period;
+  var filtered = children.filter(function (event) {
+    return event.weekday === weekday && event.block_period === block_period;
   });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: filtered.map(function (date, index) {
-      return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_Event__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        value: date.title,
-        onClick: function onClick() {
-          return _onClick(date);
-        }
-      }, index);
+    children: filtered.map(function (event, index) {
+      return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["cloneElement"])(event, {
+        "key": index
+      });
     })
   });
 }
@@ -86169,19 +86159,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function noop() {}
-
 function Timetable(_ref) {
-  var dates = _ref.dates,
-      _ref$onClickDate = _ref.onClickDate,
-      onClickDate = _ref$onClickDate === void 0 ? noop : _ref$onClickDate;
+  var children = _ref.children;
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
     className: "table-responsive-sm",
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("table", {
       className: "w-100 table-bordered",
       children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TableHead__WEBPACK_IMPORTED_MODULE_1__["default"], {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(_TableBody__WEBPACK_IMPORTED_MODULE_2__["default"], {
-        dates: dates,
-        onClickDate: onClickDate
+        children: children
       })]
     })
   });
@@ -86201,7 +86186,11 @@ function Timetable(_ref) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Timetable__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Timetable */ "./src/components/Timetable/Timetable.jsx");
+/* harmony import */ var _Event__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Event */ "./src/components/Timetable/Event.jsx");
 
+
+_Event__WEBPACK_IMPORTED_MODULE_1__["default"].displayName = "Timetable.Event";
+_Timetable__WEBPACK_IMPORTED_MODULE_0__["default"].Event = _Event__WEBPACK_IMPORTED_MODULE_1__["default"];
 /* harmony default export */ __webpack_exports__["default"] = (_Timetable__WEBPACK_IMPORTED_MODULE_0__["default"]);
 
 /***/ }),
@@ -86865,10 +86854,16 @@ function TimetablePage() {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          dates: dates,
-          onClickDate: function onClickDate(date) {
-            return setSelectedDate(date);
-          }
+          children: dates.map(function (date) {
+            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"].Event, {
+              weekday: date.weekday,
+              block_period: date.block_period,
+              title: date.title,
+              onClick: function onClick() {
+                return setSelectedDate(date);
+              }
+            });
+          })
         })
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(DateModal, {
@@ -86885,4 +86880,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.4dd8.js.map
+//# sourceMappingURL=main.3f31.js.map

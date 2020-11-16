@@ -1,19 +1,15 @@
 import TimetableHead from "./TableHead";
 import TimetableBody from "./TableBody";
 
-function noop() {}
-
 function Timetable({
-  dates,
-  onClickDate = noop
+  children
 }) {
   return (
     <div className="table-responsive-sm">
       <table className="w-100 table-bordered">
         <TimetableHead />
         <TimetableBody
-          dates={ dates }
-          onClickDate={ onClickDate }
+          children={ children }
         />
       </table>
     </div>

@@ -10,9 +10,8 @@ const WEEKDAYS = [
 ];
 
 function TableRow({
-  dates,
-  block_period,
-  onClickDate
+  children,
+  block_period
 }) {
   return (
     <tr>
@@ -28,10 +27,9 @@ function TableRow({
             key={`block-${ block_period }-${ weekday }`}
           >
             <TimeFrame
-              dates={ dates }
+              children={ children }
               weekday={ weekday }
               block_period={ block_period }
-              onClick={ onClickDate }
             />
           </td>
         ))

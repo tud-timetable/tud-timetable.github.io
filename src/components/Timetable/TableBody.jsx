@@ -5,8 +5,7 @@ const BLOCK_PERIODS = [
 ];
 
 function TableBody({
-  dates,
-  onClickDate
+  children
 }) {
   return (
     <tbody>
@@ -14,9 +13,8 @@ function TableBody({
         BLOCK_PERIODS.map(( block_period ) => (
           <TableRow
             key={ `block-${ block_period }` }
-            dates={ dates }
+            children={ children }
             block_period={ block_period }
-            onClickDate={ onClickDate }
           />
         ))
       }

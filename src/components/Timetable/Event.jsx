@@ -36,13 +36,13 @@ const EventStyle = styled.button`
 function noop() {}
 
 function Event({
-  value,
+  title,
   active = true,
   onClick = noop,
   onMouseOver = noop,
   onMouseOut = noop
 }) {
-  const [ title, ...subtitles ] = value.split("\n");
+  const [ primaryTitle, ...subtitles ] = title.split("\n");
 
   return (
     <EventStyle
@@ -52,7 +52,7 @@ function Event({
       className="btn"
       $inactive={ !active }
     >
-      <p className="mb-0">{ title }</p>
+      <p className="mb-0">{ primaryTitle }</p>
       <div className="sr-only">
       {
         !!subtitles.length

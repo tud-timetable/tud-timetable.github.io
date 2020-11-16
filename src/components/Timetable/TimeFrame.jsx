@@ -1,27 +1,22 @@
 import {
-  Fragment
+  Fragment,
+  cloneElement
 } from "react";
-import Event from "./Event";
 
 function TimeFrame({
-  dates,
+  children,
   weekday,
-  block_period,
-  onClick
+  block_period
 }) {
-  const filtered = dates.filter(( date ) => (
-    date.weekday === weekday && date.block_period === block_period
+  const filtered = children.filter(( event ) => (
+    event.weekday === weekday && event.block_period === block_period
   ));
 
   return (
     <Fragment>
       {
-        filtered.map(( date, index ) => (
-          <Event
-            key={ index }
-            value={ date.title }
-            onClick={ () => onClick( date ) }
-          />
+        filtered.map(( event, index ) => (
+          cloneElement( event, { "key": index } )
         ))
       }
     </Fragment>
