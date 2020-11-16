@@ -8,17 +8,13 @@ function TimeFrame({
   weekday,
   block_period
 }) {
-  const filtered = children.filter(( event ) => (
-    event.weekday === weekday && event.block_period === block_period
+  const filtered = children.filter(({ props }) => (
+    props.weekday === weekday && props.block_period === block_period
   ));
 
   return (
     <Fragment>
-      {
-        filtered.map(( event, index ) => (
-          cloneElement( event, { "key": index } )
-        ))
-      }
+      { filtered }
     </Fragment>
   );
 }

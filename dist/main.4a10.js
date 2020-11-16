@@ -86125,15 +86125,12 @@ function TimeFrame(_ref) {
   var children = _ref.children,
       weekday = _ref.weekday,
       block_period = _ref.block_period;
-  var filtered = children.filter(function (event) {
-    return event.weekday === weekday && event.block_period === block_period;
+  var filtered = children.filter(function (_ref2) {
+    var props = _ref2.props;
+    return props.weekday === weekday && props.block_period === block_period;
   });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Fragment"], {
-    children: filtered.map(function (event, index) {
-      return /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["cloneElement"])(event, {
-        "key": index
-      });
-    })
+    children: filtered
   });
 }
 
@@ -86855,7 +86852,7 @@ function TimetablePage() {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
         children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          children: dates.map(function (date) {
+          children: dates.map(function (date, index) {
             return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"].Event, {
               weekday: date.weekday,
               block_period: date.block_period,
@@ -86863,7 +86860,7 @@ function TimetablePage() {
               onClick: function onClick() {
                 return setSelectedDate(date);
               }
-            });
+            }, index);
           })
         })
       })
@@ -86881,4 +86878,4 @@ function TimetablePage() {
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.1c48.js.map
+//# sourceMappingURL=main.4a10.js.map

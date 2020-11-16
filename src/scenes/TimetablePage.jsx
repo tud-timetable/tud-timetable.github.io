@@ -101,8 +101,9 @@ function TimetablePage() {
         <div className="col">
           <Timetable>
             {
-              dates.map((date) => (
+              dates.map((date, index) => (
                 <Timetable.Event
+                  key={ index }
                   weekday={ date.weekday }
                   block_period={ date.block_period }
                   title={ date.title }
