@@ -837,7 +837,22 @@ function TimetablePage() {
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
+  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+      _useState6 = _slicedToArray(_useState5, 2),
+      degreeProgrameId = _useState6[0],
+      setDegreeProgrameId = _useState6[1];
+
+  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
+      _useState8 = _slicedToArray(_useState7, 2),
+      moduleId = _useState8[0],
+      setModuleId = _useState8[1];
+
+  var _useDegreePrograms$re = useDegreePrograms().readAll(),
+      status = _useDegreePrograms$re.status,
+      value = _useDegreePrograms$re.value;
+
   var events = toEvents(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_7__);
+  var isReady = status === "resolved";
 
   function isActive(event) {
     return hoveredEvent === null || event.courseId === hoveredEvent.courseId;
@@ -856,7 +871,17 @@ function TimetablePage() {
       className: "row",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
         className: "col",
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__["default"], {}), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {})]
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__["default"], {
+          disabled: !isReady,
+          onChange: setDegreeProgrameId,
+          currentItemId: degreeProgrameId,
+          items: value
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {
+          disabled: !isReady || !degreeProgrameId,
+          onChange: setModuleId,
+          currentItemId: moduleId,
+          items: value[degreeProgramId] && value[degreeProgramId].modules
+        })]
       })
     }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
@@ -896,4 +921,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.3751.js.map
+//# sourceMappingURL=timetable.b1c8.js.map

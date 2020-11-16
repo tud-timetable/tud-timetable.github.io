@@ -95,8 +95,15 @@ function toEvents( courses ) {
 function TimetablePage() {
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
+  const [ degreeProgrameId, setDegreeProgrameId ] = useState( null );
+  const [ moduleId, setModuleId ] = useState( null );
+  const { status, value } = useDegreePrograms().readAll();
 
   const events = toEvents( courses );
+
+  const isReady = (
+    status === "resolved"
+  );
 
   function isActive( event ) {
     return (
@@ -114,8 +121,18 @@ function TimetablePage() {
       </div>
       <div className="row">
         <div className="col">
-          <DegreeProgrameSelect />
-          <ModuleSelect />
+          <DegreeProgrameSelect
+            disabled={ !isReady }
+            onChange={ setDegreeProgrameId }
+            currentItemId={ degreeProgrameId }
+            items={ value }
+          />
+          <ModuleSelect
+            disabled={ !isReady || !degreeProgrameId }
+            onChange={ setModuleId }
+            currentItemId={ moduleId }
+            items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
+          />
         </div>
       </div>
       <div className="row">
