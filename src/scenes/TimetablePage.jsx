@@ -20,6 +20,8 @@ const courses = [
   ...courses3,
 ];
 
+console.log({ courses });
+
 function FormattedText({ children }) {
   let lines = children
     .replace(/\n\n+/, "\n\n")

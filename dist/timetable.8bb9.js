@@ -774,6 +774,9 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 var courses = [].concat(_toConsumableArray(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__), _toConsumableArray(_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__));
+console.log({
+  courses: courses
+});
 
 function FormattedText(_ref) {
   var children = _ref.children;
@@ -969,4 +972,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.4369.js.map
+//# sourceMappingURL=timetable.8bb9.js.map
