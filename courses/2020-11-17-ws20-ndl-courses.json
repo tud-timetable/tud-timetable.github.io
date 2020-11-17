@@ -1,0 +1,3493 @@
+[
+  {
+    "title":null,
+    "lecturers":null,
+    "description":"Stand der Aktualisierung:",
+    "dates":null,
+    "registration":null,
+    "applicability":[
+
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"Vorlesung:\nGrundlagen der Neueren deutschen Literaturwissenschaft",
+    "lecturers":[
+      "Bernhard Stricker"
+    ],
+    "description":"Kommentar:\nDie Vorlesung vermittelt grundlegende Begriffe und gibt einen Überblick über wesentliche Methoden der Neueren deutschen Literaturwissenschaft, angefangen bei der Frage, was ‚Literatur‘ eigentlich ist, was ‚neu‘ und ‚deutsch‘ an ihr ist und wozu es eine Wissenschaft zu ihrer Erforschung braucht. Nach einem Überblick über die Fach- und Literaturgeschichte sowie die Traditionen der Rhetorik und Poetik werden Formen und Funktionen literarischer Gattungen (Epik, Drama, Lyrik) sowie die Kategorien zur Analyse dieser unterschiedlichen Textformen im Mittelpunkt stehen. Nach der ausführlichen Beschäftigung mit gattungsspezifischen Fragestellungen werden wir uns schließlich anhand der für Literatur ganz allgemein bestimmenden Phänomene der Autorschaft, der Intertextualität und der Fiktionalität dem Feld der Literaturtheorie zuwenden. Die Vorlesung findet in einem digitalen Format (Live-Konferenzen, Lehrvideos und Selbstlernaufgaben) statt, sie wird von einer Übung und einem Tutorium begleitet und mit einer Online-Klausur abgeschlossen. Ein Reader mit Texten zur Vorlesung wird in OPAL zur Verfügung gestellt.",
+    "dates":{
+      "text":"Mi (2), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"wednesday",
+          "block_period":2,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 20.10.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-B-NDL",
+        "examination_number":"M0702-B5P02",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-1B-LIT-1",
+        "examination_number":"61110",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-1B-LIT-1-1ERW",
+        "examination_number":"62110",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-B1",
+        "examination_number":"165110",
+        "examination_type":"Klausur",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"Übung:\nGrundlagen der Neueren deutschen Literaturwissenschaft",
+    "lecturers":[
+      "Bernhard Stricker"
+    ],
+    "description":"Kommentar:\nDie Übung ist als Begleitung der Vorlesung „Grundlagen der Neueren deutschen Literaturwissenschaft“ Mi (2) konzipiert. Sie dient sowohl zur Anwendung und Vertiefung der Inhalte der Vorlesung als auch zur Vermittlung grundlegender Kompetenzen der literaturwissenschaftlichen Arbeit mit Texten. Dazu zählen neben einer Einführung in Grundbegriffe der Editionsphilologie und Grundlagen wissenschaft­lichen Arbeitens (Recherchieren, Zitieren, Bibliographien) vor allem die Fähigkeit zur Analyse und Interpretation von literarischen und literatur­theoretischen Texten. An exemplarischen Texten wird die Übung darüber hinaus zeigen, was text­ana­lytische Verfahren im Sinne einer kultur- und medien­wissen­schaftlichen Erweiterung der Literatur­wissenschaft zum Verständnis kultureller Prozesse und anderer Medien beitragen können. Der Kurs findet in einem digitalen Format (Live-Konferenzen, Studienbriefe mit Aufgaben) statt und wird zusammen mit der Vorlesung mit einer Online-Klausur abgeschlossen. Ein Reader mit Texten wird in OPAL zur Verfügung gestellt.",
+    "dates":{
+      "text":"Di (3)\nDi (5)\nMi (3)\nMi (5)\nDo (2)\nDo (4)\nDigitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":3,
+          "comment":null
+        },
+        {
+          "weekday":"tuesday",
+          "block_period":5,
+          "comment":null
+        },
+        {
+          "weekday":"wednesday",
+          "block_period":3,
+          "comment":null
+        },
+        {
+          "weekday":"wednesday",
+          "block_period":5,
+          "comment":null
+        },
+        {
+          "weekday":"thursday",
+          "block_period":2,
+          "comment":null
+        },
+        {
+          "weekday":"thursday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 20.10.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-B-NDL",
+        "examination_number":"M0702-B5P02",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-1B-LIT-1",
+        "examination_number":"61110",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-1B-LIT-1-1ERW",
+        "examination_number":"62110",
+        "examination_type":"Klausur",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-B1",
+        "examination_number":"20110",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-B1",
+        "examination_number":"165110",
+        "examination_type":"Klausur",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"Vorlesung:\nNarrative der Kultur",
+    "lecturers":[
+      "Prof. Dr. Lars Koch"
+    ],
+    "description":"Kommentar:\nDer Mensch als „homo narrans“ ist auf die Kulturtechnik des Erzählens angewiesen, um sich zur Wirklichkeit in ein Verhältnis zu setzen. Das Erzählen wird ihm dabei zu einem Medium, um sich aus dem Absolutismus der Wirklichkeit zu emanzipieren. Von dieser Grundüberlegung ausgehend, fragt die Vorlesung nach unterschiedlichen Narrationstypen und der Herstellung von sozialem Sinn in unterschiedlichen Narrativen. In einem methodenorientierten Teil wird es darum gehen, die Leistungsfähigkeit einer Narratologie der Kultur zu diskutieren. Daran anschließend rekonstruiert die Vorlesung materialorientiert zentrale Narrative der Kultur – allen voran das der Apokalypse, der Rettung, des Verfalls, des Fortschritts und der Feindschaft – und fragt nach den politischen Kontexten und Konsequenzen ihrer spektakulären (Re-)inszenierung in unterschiedlichen historischen Situationen und differierenden Medienkonstellationen.",
+    "dates":{
+      "text":"Do (3), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"thursday",
+          "block_period":3,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60410",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24120",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":null,
+        "examination_type":"Teilnahme",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":null,
+        "examination_type":"Teilnahme",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24120",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":null,
+        "examination_type":"Teilnahme",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24120",
+        "examination_type":"Klausur",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251320",
+        "examination_type":"Klausur",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":null,
+        "examination_type":"Teilnahme",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"Blockveranstaltung\nÜbung:\nSchreibwerkstatt Wissenschaftliches Arbeiten",
+    "lecturers":[
+      "Jakob Baur, M.A."
+    ],
+    "description":"Kommentar:\nDas angebotene Seminar zum wissenschaftlichen Arbeiten ist als Schreibwerkstatt in zwei Blockveranstaltungen geplant. Es richtet sich an Studierende, die bereits wissenschaftliche Arbeiten verfasst haben oder wissenschaftliche Schreibformen erstmals erproben möchten. In einem ersten Block werden gemeinsam Grundtechniken wissenschaftlichen Arbeitens erarbeitet (Recherche-, Bibliographier-, Lesetechniken, Strategien zur Planung und Konzeptualisierung sowie Schreib- und Zitiertechniken). Der zweite Block am Ende des Semesters dient der praxisbezogenen Arbeit an den über das Semester entstandenen und im Voraus verschickten Textproben. Der genaue Ablauf des Seminars und die Teilnahmevoraussetzungen werden in einer Vorbesprechung am Beginn des Semesters erklärt.\nZiel des Seminars ist das Kennenlernen und Einüben grundlegender Werkzeuge für das wissenschaftliche Schreiben.\nIn der Schreibwerkstatt werden die im Voraus eingereichten Texte in der Runde präsentiert und diskutiert, um außerdem Präsentations-, Argumentations- und Diskussionsformate kennenzulernen. Arbeitsgrundlage sind also vor allem die eigenen Texte. Die Bereitschaft, eigene Arbeiten (alternative Formate wie Bibliographien, Exposés, Essays, BA-Arbeiten etc. sind natürlich ebenfalls möglich) einzureichen ist daher Teilnahmebedingung des Seminars. Die Platzanzahl ist für eine offene und produktive Diskussion auf max. 20 Studierende begrenzt.",
+    "dates":{
+      "text":"In zwei Blöcken, Termine werden vereinbart; digitales Format.\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 20.10.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-B-EWA",
+        "examination_number":"M0702-B5P05",
+        "examination_type":"Portfolio",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-LIT-1-ERW",
+        "examination_number":"62120",
+        "examination_type":"Kurzüberprüfung (Portfolio)",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-AQUA-BÜ",
+        "examination_number":"62120",
+        "examination_type":"Portfolio",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"BA-Seminar:\nEinführung in die Filmanalyse",
+    "lecturers":[
+      "Dr. Annette Teufel"
+    ],
+    "description":"Kommentar:\nIn der Konkurrenz der Künste etablieren sich die audiovisuellen Medien zunehmend als Leitmedien unserer Kultur. Gerade der Film als Generator von Bildern erzählt Geschichten, die Welt deuten, Welt-Bilder und Mythen schaffen. Indem er dabei jedoch in der Regel seine eigene Materialität, seinen Inszenierungscharakter und die hinter ihm stehenden Institutionen unsichtbar zu machen bestrebt ist, gelingt es dem Film zugleich, den Eindruck zu schaffen, er zeige nicht Bilder der Wirklichkeit, sondern die Wirklichkeit selbst. In unserer medial geprägten Wirklichkeit treten filmische Wahrnehmungen darum zugleich zunehmend in eine Konkurrenzbeziehung zu anderen, nicht medial vermittelten Wahrnehmungsformen.\nZiel des Seminars ist eine Einführung in die Filmanalyse, die Kompetenzen im Umgang mit dem Zeichensystem der Filmkunst schulen soll. Es geht also zunächst um die Aneignung geeigneter Kategorien zur Beschreibung von filmischen Darstellungsstrategien; darauf aufbauend sollen Formen des filmischen ‚Erzählens’ – besonders auch im Vergleich zu literarischen Formen der Narration – analysiert und verglichen werden. Die Auswahl der Filme soll dabei zugleich einen Einblick in filmische Genres und in die Entwicklung des Mediums Film ermöglichen.\nVoraussetzung für die Teilnahme am Seminar ist die Bereitschaft zu aktiver Mitarbeit und zu intensiver Lektüre, unabhängig von der jeweiligen Prüfungsleistung. Insbesondere ist die Kenntnis der zu besprechenden Filme unerlässlich.\nAls einführende Lektüre, die im Semesterapparat finden ist, wird empfohlen:\n-    Knut Hickethier: Film- und Fernsehanalyse. 4., aktualis. u. erw. Aufl. Stuttgart/Weimar: Metzler\n2007.\n-    Michaela Krützen: Dramaturgie des Films. Wie Hollywood erzählt. Frankfurt a. Main: Fischer 2006.",
+    "dates":{
+      "text":"Fr (3), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"friday",
+          "block_period":3,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60220",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63120",
+        "examination_type":"Mündliche Prüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"BA-Seminar:\nKAFKA",
+    "lecturers":[
+      "Dr. Annette Teufel"
+    ],
+    "description":"Kommentar:\nDas Seminar beschäftigt sich mit einem der berühmtesten Autoren des 20. Jahrhunderts, Franz Kafka, dessen Werke in den vergangenen 100 Jahren eine derart exzessive Deutungsgeschichte erfahren haben, dass Susan Sonntag den Autor gar zum „Opfer einer Massenvergewaltigung“ durch eine Armee von Interpreten erklärten konnte.\nDas Seminar beginnt mit intensiven Lektüren ausgewählter Erzählungen und Romane, in denen exemplarisch die wichtigsten methodischen Zugänge der Forschung zu Kafkas Werk erprobt und bewertet werden. Der zweite Teil des Seminars widmet sich dem Autor und seinem Werk im Medienwechsel, anhand exemplarischer Adaptionen von Kafkas Werk und Biographie im Spielfilm und in Graphic Novels.\nVoraussetzung für die Teilnahme am Seminar ist die Bereitschaft zu aktiver Mitarbeit und zu intensiver Lektüre, unabhängig von der jeweiligen Prüfungsleistung. Insbesondere ist die Kenntnis der zu besprechenden Texte und Filme unerlässlich.\nBitte beachten Sie für Ihre Studienjahresplanung, dass dieses Seminar nur im Wintersemester 2020/21 angeboten wird, nicht aber im Sommersemester 2021.",
+    "dates":{
+      "text":"Di (3), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":3,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60220",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63120",
+        "examination_type":"Mündliche Prüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"BA-Seminar:\nKlänge, noise und Rauschen: Kunst, Literatur, Theater",
+    "lecturers":[
+      "Dr. Julia Prager"
+    ],
+    "description":"Kommentar:\nDie Geräuschtöner („Intonarumori”) der italienischen Futuristen, die präparierten Klaviere beim frühen John Cage, die rhythmisch schlagenden Eisenbahnschwellen in der „Étude aux chemins de fer“ Pierre Schaeffers oder das Überblasen, die Atmung und Klappengeräusche des Saxophons (die Musique Concrète Instrumental des Jazz), bei Albert Ayler sind nur wenige Beispiele für Klang- und Stille-Experimente der zahlreichen künstlerischen Bearbeitungen auditiver Dimensionen.\nAuch das Theater entdeckte das Geräusch, aber auch die Stille für sich und experimentierte im 20. Jh. mit Formen der ohrenbetäubenden Überforderung wie auch mit der schweigsamen Langeweile und stillen Störung. Im beginnenden 21. Jh. interessiert es sich vermehrt für technische, auch digitale Geräuschquellen sowie für fremdklingende Stimmen. Gemeinsam ist diesen Kunstformen, dass sie Rezeptionsweisen und Wahrnehmungsgewohnheiten auf die Probe stellen wollen.\nDen Fokus auf das Geräusch in den Künsten und ihren Medien zu setzen, ermöglicht aber auch jenseits von Klangkunst und konkreten Tönen bzw. Stimmen auf dem Theater eine andere Perspektive auf literarische Texte von der ausgehenden Moderne bis zum gegenwärtigen Kontext. Insbesondere lässt sich danach fragen, inwieweit die Aufmerksamkeit für klangliche Textstrukturen das zumeist dominante Paradigma des Visuellen konterkariert. Beispielsweise eröffnen Klang und Ton einen innovativen Zugang zum kanonischen Text „Berlin Alexanderplatz“, wenn dort etwa stotternde Figuren eingeführt werden oder der Tod - wie eine Säge singend - Franz Biberkopf ins Gewissen zu „reden“ sucht.\nAktuelle Texte wie jene von Yoko Tawada wiederum widmen sich dem Klang von Akzenten im Schreiben und Lesen und loten damit Übersetzungsprozesse zwischen Kulturräumen aus. Aber auch Elfriede Jelineks musikalische und rhythmische Textverfahren ermöglichen vielschichtige Rezeptionsprozesse, die über semantische Dimensionen eines inhaltlichen Geschehens weit hinausreichen.\nIn diesem Seminar wollen wir Interferenzen zwischen den Kunstformen ausloten und gemeinsam erarbeiten, wie sich Geräusche, Stimmen und Klänge medial jeweils unterschiedlich ausdrücken und emanzipieren, um erstaunliche Hörräume zu schaffen.\nDie obligatorischen Arbeitsleistungen dieses Seminars umfassen die regelmäßige und aktive Teilnahme, die Übernahme einer Textpatenschaft sowie (je nach Belegung) das Anfertigen einer Hausarbeit.",
+    "dates":{
+      "text":"Di (3+4), 14tägig, digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":3,
+          "comment":null
+        },
+        {
+          "weekday":"tuesday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60220",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"BA-Seminar:\nGeschichte(n) und Gefühle – Emotionen in der Erzählliteratur des 19. Jahrhunderts",
+    "lecturers":[
+      "Jakob Baur, M.A."
+    ],
+    "description":"Kommentar:\nDas Seminar beschäftigt sich mit dem kulturhistorischen Zusammenhang von Gefühlen und Erzählliteratur im deutschsprachigen Raum des 19 Jahrhunderts.\nWir nähern uns ausgehend von aktuellen Theorien literatur- wie geschichtswissenschaftlicher Emotionsforschung der kulturellen Semantik und ästhetischen Qualität sowie der Geschichtlichkeit von Emotionen in Romane und Erzählungen des 19. Jahrhunderts an. Mit Hilfe von Forschungspositionen zu spezifischen Emotionen (wie Liebe, Zorn, Angst etc.) wird in Perspektive auf (von den Teilnehmer*innen selbständig zu wählende) literarische Zeugnisse diskutiert werden, worin Wechselwirkungen von Literatur und historischer Emotionen bestehen könnten und wie und an welchem Material sich diese nachvollziehen lassen.\nZiel des Seminars ist es, eine Perspektive auf Emotionen als geschichtsträchtige Phänomene zu entwickeln und diese kreativ und selbständig in literaturwissenschaftlichen Textanalysen anzuwenden.\nVon den Teilnehmer*innen wird erwartet, sich mit anspruchsvollen Theoriekonzepten auseinanderzusetzen und darauf aufbauend zunächst selbständig und dann im differenzierten Austausch mit literarischen Primärtexten umzugehen. Die damit verbundene hohe Lektürequantität wird jedoch dadurch belohnt, dass Einblicke ein innovatives Feld aktueller Forschung gewonnen werden können.",
+    "dates":{
+      "text":"Mo (2), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"monday",
+          "block_period":2,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK/BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"BA-Seminar:\nLeichte Lektüren? Populäre Erzählliteratur im 19. Jahrhundert",
+    "lecturers":[
+      "Jakob Baur, M.A."
+    ],
+    "description":"Kommentar:\nDas Seminar beschäftigt sich mit dem kulturellen Phänomen ‚Populärliteratur ‘ im deutschsprachigen Raum des 19. Jahrhunderts. Soziale, technische, institutionelle und auch innerliterarische Entwicklungen an der Wende des 18. zum 19. Jahrhundert legen die Vermutung nahe, dass im Schatten sowohl der großen politischen Revolutionen der sogenannten Sattelzeit auch der hochliterarischen Weimarer Klassik eine stillere Revolution erfolgt ist: eine Leserevolution.\nWir werden uns dieser Entwicklung, die zu einer tiefgreifenden Veränderung des zeitgenössischen Literaturverständnisses geführt hat, auf unterschiedliche Weise nähern. Zu Beginn des Semesters werden erste Einblicke in Theorien und Konzepte der Populärliteraturforschung gewonnen. Anschließend werden verschiedene historische Positionen zu und literarische Institutionen im Kontext populärer Literatur kulturhistorisch perspektiviert. Den Abschluss bilden Betrachtungen und Diskussionen zu verschiedenen Genres populärer Literatur im 19. Jahrhundert, beispielsweise Schauer-, Kriminal- oder historische Literatur.\nZiel des Seminars ist es, den Blick auf Literatur jenseits des Kanons zu schärfen und die Bedingungen und Diskurskontexte, unter denen Literatur von einem Privileg der Eliten zu einem Allgemeingut werden konnte, zu erörtern.\nVon den Teilnehmer*innen wird erwartet, sich mit anspruchsvollen Theoriekonzepten auseinanderzusetzen und darauf aufbauend zunächst selbständig und dann im differenzierten Austausch mit literarischen und mediengeschichtlichen Primärtexten umzugehen. Der damit verbundene erhöhte Lektüreaufwand wird jedoch dadurch belohnt, dass Einblicke ein innovatives Feld aktueller Forschung gewonnen werden können.",
+    "dates":{
+      "text":"Mi (2), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"wednesday",
+          "block_period":2,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK/BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK/BAWP-DEU-V1LIT",
+        "examination_number":"165920",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      }
+    ],
+    "requirements_for_participation":null
+  },
+  {
+    "title":"BA-Seminar:\nKlassiker der deutschen Kinder- und Jugendliteratur",
+    "lecturers":[
+      "Prof. Dr. Frank Almai"
+    ],
+    "description":"Kommentar:\nDas Seminar versucht, in die deutsche Literatur für Kinder und Jugendliche einzuführen. Es zielt in einem ersten Schwerpunkt auf die Entfaltung einer historischen Perspektive, indem es die Geschichte der Kinder- und Jugendliteratur vom 18. bis zum 20. Jh. in den Blick nimmt. Dieser literaturgeschichtliche Ansatz wird mit einem pädagogisch-psychologischen zusammengeführt, da sich die Literatur für Kinder und Jugendliche in stetiger Abhängigkeit von den jeweils aktuellen Kindheitsbildern bzw. dem, was man unter Kindheit und Jugend verstanden hat, entwickelt und ausformt.\nIn einem zweiten Schwerpunkt wird eine analytisch-interpretatorische Perspektive eingenommen, indem kanonische Texte der Gattung einer detaillierten literaturwissenschaftlichen Analyse unterzogen werden. Hier liegt das Augenmerk auf entwicklungsgeschichtlichen Aspekten der Kinder- und Jugendliteratur, etwa literar-ästhetischen Innovationen, formalen Experimenten oder inhaltlichen wie stilistischen Neuerungen.\nDie Seminararbeit konzentriert sich zwar auf die klassischen Formen fiktionaler Texte (Roman, Erzählung), will aber auch Mischformen von Text und Bild (Bildergeschichte) mit einbeziehen.\n\nIm Zentrum des Seminars stehen folgende Texte, die seminarbegleitend zu lesen sind:\n\nJoachim Heinrich Campe: Robinson der Jüngere (1779); Jacob und Wilhelm Grimm: Kinder- und Hausmärchen (1812); Heinrich Hoffmann: Der Struwwelpeter (1845); Wilhelm Busch: Max und Moritz (1865); Johanna Spyri: Heidis Lehr- und Wanderjahre (1880); Erich Kästner: Emil und die Detektive (1929); Michael Ende: Momo (1973).\n\nZur einführenden Lektüre empfehle ich: Reiner Wild (Hg.): Geschichte der deutschen Kinder- und Jugendliteratur. 3., vollständig überarbeitete und erweiterte Auflage. Stuttgart / Weimar: Metzler 2008. – Bettina Kümmerling-Meibauer: Kinder- und Jugendliteratur. Eine Einführung. Darmstadt: WBG 2012.",
+    "dates":{
+      "text":"Di (2), digitales Format oder\nDi (5), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":2,
+          "comment":null
+        },
+        {
+          "weekday":"tuesday",
+          "block_period":5,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G_3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"BA-Seminar:\nMärchen",
+    "lecturers":[
+      "Prof. Dr. Frank Almai"
+    ],
+    "description":"Kommentar:\nDie Lehrveranstaltung stellt sich das Ziel, in die Gattung „Märchen“, wie sie sich im Umfeld der deutschen Romantik etabliert hat, einzuführen. Sie will einerseits gattungstypologische Merkmale der Märchen herausarbeiten und andererseits die gesellschaftliche Funktion der Märchen – etwa als Bildungs- und Erziehungsinstrument – kritisch hinterfragen.\nNeben den Kinder- und Hausmärchen der Brüder Grimm sollen auch Märchen aus Sammlungen von Ludwig Bechstein (Deutsches Märchenbuch) und Wilhelm Hauff (Märchenalmanach) sowie eine Reihe von Kunstmärchen aus dem Umkreis der romantischen Autoren (u.a. Tieck, Novalis) einbezogen werden. Gesondert wird dabei auf Goethes Das Märchen als – politisch intendierter und symbolisch verschlüsselter – Gegenentwurf zur Konzeption der frühromantischen Kunstmärchen eingegangen.\nEin besonderer Schwerpunkt der Seminararbeit besteht in der Schulung der interpretatorischen Fähigkeiten der Studierenden. So sollen anhand von ausgewählten Einzelmärchen unterschiedliche Deutungsmethoden auf ihre Funktionalität und Plausibilität hin erprobt werden: neben mythologischen und psychoanalytischen Ansätzen sollen auch anthropologische, pädagogische und literaturwissenschaftliche Zugänge behandelt werden.\nDas Seminar wendet sich vor allem an Lehramtsstudierende.\n\nFolgende Primärtexte stehen im Zentrum der Seminararbeit und sind seminarbegleitend zu lesen:\n\nKinder- und Hausmärchen der Brüder Grimm (Auswahl) (1812/15)\nJohann Wolfgang von Goethe: Das Märchen (1795)\nLudwig Tieck: Der blonde Eckbert, Der Runenberg (1797/1802)\nNovalis: Hyacinth und Rosenblüthe (1802)\nWilhelm Hauff: Das kalte Herz (1828)\nLudwig Bechstein: Vom Zornbraten und andere Märchen (1845).\n\nZur einführenden Lektüre empfehle ich:\n\nMax Lüthi: Märchen. 10., aktualisierte Auflage. Stuttgart / Weimar: Metzler 2004.\nStefan Neuhaus: Märchen. 2., überarbeitete Auflage. Tübingen: Francke 2017.\nHeinz Rölleke: Die Märchen der Brüder Grimm. Eine Einführung. Stuttgart: Reclam 2004.",
+    "dates":{
+      "text":"Mo (5), digitales Format oder\nDo (2), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"monday",
+          "block_period":5,
+          "comment":null
+        },
+        {
+          "weekday":"thursday",
+          "block_period":2,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G_3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"BA-Seminar\nLiteratur des Expressionismus",
+    "lecturers":[
+      "Prof. Dr. Frank Almai"
+    ],
+    "description":"Kommentar:\nDer Expressionismus gilt als ‚Oppositionskultur‘, die auf die vielfältigen Prozesse der Modernisierung und des sozialen Wandels in der Zeit nach 1900 antwortet. Er entwickelt dabei nicht nur ein eigenes – durchaus heterogenes – Stil- und Kunstprogramm, das sich sowohl vom Naturalismus als auch von der Literatur des Fin de Siècle abgrenzt, sondern etabliert zugleich neue Formen von Autorschaft und Gemeinschaftsbildung, die den veränderten Bedingungen literarischer Kommunikation nach der Jahrhundertwende Rechnung tragen.\nDie Lehrveranstaltung will zum einen anhand ausgewählter Textbeispiele die inhaltlichen wie stilistischen Neuansätze expressionistischer Literatur zwischen 1910 und 1920 aufzeigen (Themen, Motive, ästhetische Konzepte); zum anderen aber auch Facetten einer aktivistischen Literaturpolitik berücksichtigen, die gezielt auf politische Verhältnisse, Marktmechanismen, Medienkonstellationen und Rezeptionsumstände der Zeit einzuwirken versuchte.\nEin besonderer Schwerpunkt des Seminars liegt in der Schulung der interpretatorischen Fähigkeiten der Studierenden. In diesem Zusammenhang werden unterschiedliche methodische Zugänge (u.a. sozialgeschichtliche, intertextuelle, kommunikationstheoretische und hermeneutische) erprobt.\n\nFolgende Primärtexte stehen im Zentrum der Seminararbeit und sind seminarbegleitend zu lesen:\n\nLyrik: Jakob van Hoddis: Weltende; Gottfried Benn: Morgue und andere Gedichte; Johannes R. Becher: Vorbereitung;\nProsa: Walter Rheiner: Kokain; Gottfried Benn: Gehirne;\nDramatik: Walter Hasenclever: Der Sohn; Georg Kaiser: Von morgens bis mitternachts\n\nZur einführenden Lektüre empfehle ich: Thomas Anz: Literatur des Expressionismus. Stuttgart: Metzler 2010; Ralf Georg Bogner: Einführung in die Literatur des Expressionismus. Darmstadt: WBG 2005.",
+    "dates":{
+      "text":"Mo (2), digitales Format oder\nMi (2), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"monday",
+          "block_period":2,
+          "comment":null
+        },
+        {
+          "weekday":"wednesday",
+          "block_period":2,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G_3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"BA-Seminar:\nSchlüsseltexte der deutschen Literatur des 19. Jh.",
+    "lecturers":[
+      "Prof. Dr. Frank Almai"
+    ],
+    "description":"Kommentar:\nDas Seminar will Schlüsseltexte der deutschen Literatur des 19. Jahrhunderts genauer in den Blick nehmen.\nEs zielt auf die detaillierte Analyse exemplarisch ausgewählter Einzeltexte unter verschieden akzentuierten Fragestellungen. Dabei geht es in einem ersten Schwerpunkt um die funktionale Bestimmung von Umbrüchen und Neuansätzen, auch von Kontinuitäten literarischer Kommunikation, wie sie sich insbesondere anhand von ästhetischen Konzepten, programmatischen Verlautbarungen und werkkonstitutiven Stilinventaren nachweisen lassen. In einem zweiten Schwerpunkt soll diskutiert werden, inwiefern literar-ästhetische Innovationen, die sich oftmals als gezielte Normbrüche und Regelverstöße etablieren, zum einen verbunden sind mit neuartigen Strategien der Inszenierung von Autorschaft in der kulturellen Öffentlichkeit und zum anderen mit erfolgreichen Tradierungs- und Kanonisierungsprozessen.\nAuf der Grundlage von hermeneutischen, sozialgeschichtlichen und intertextuellen Methoden werden folgende Texte, die seminarbegleitend zu lesen sind, unter den genannten Gesichtspunkten analysiert:\n\nJ. W. Goethe: Die Wahlverwandtschaften (1809)\nJoseph von Eichendorff: Das Marmorbild (1818)\nGeorg Büchner: Woyzeck (1837)\nAdalbert Stifter: Bergkristall (1853)\nGottfried Keller: Romeo und Julia auf dem Dorfe (1856)\nGerhart Hauptmann: Bahnwärter Thiel (1888)\n\nAlle aufgeführten Texte sind in preiswerten Taschenbuchausgaben erhältlich.\nHinweise zur Sekundärliteratur erfolgen im ersten Seminar.",
+    "dates":{
+      "text":"Mi (4), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"wednesday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-2V-LIT",
+        "examination_number":"60210",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G_3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-V1LIT",
+        "examination_number":"20930",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-V1LIT",
+        "examination_number":"20910",
+        "examination_type":"kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"BA-Seminar:\nMedienkulturen des Hasses",
+    "lecturers":[
+      "Prof. Dr. Lars Koch"
+    ],
+    "description":"Kommentar:\nDas Seminar rekonstruiert aus medienkulturwissenschaftlicher Perspektive die Gefühlskultur des Hasses. Zentral ist die Frage, welche kulturellen Skripte der gesellschaftlichen Kommunikation von Hass zu Verfügung stehen, wie er also in kommunikativen Zusammenhängen als Aggressionsaffekt des Außerordentlichen erscheinen und gelesen werden kann. Es wird anhand zahlreicher Materialien zu diskutieren sein, wie Hass in der zeitgenössischen Medienkultur inszeniert, als Unterhaltung genossen, aber auch reflektiert und kritisiert wird. Grundlage hierfür ist eine Auseinandersetzung mit aktuellen Theorien medialer Affizierung und der kulturwissenschaftlichen Forschungslage zum Gefühlskomplex des Hasses.",
+    "dates":{
+      "text":"Di (3), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":3,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-BA-G-V-LMA",
+        "examination_number":"M0702-B5P06",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-A-LMGK",
+        "examination_number":"M0702-B5P09",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor SLK (ab WS 20/21)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-BAWP-DEU-V1LIT",
+        "examination_number":"165910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Bachelor Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"MA-Seminar:\nGeschichte und Geschichtlichkeit in Thomas Manns „Der Zauberberg“",
+    "lecturers":[
+      "Prof. Dr. Lars Koch"
+    ],
+    "description":"Kommentar:\nDer Zauberberg (1924) von Thomas Mann ist einer der großen deutschsprachigen Texte des 20. Jahrhunderts. In ihm finden sich zeitgenössische Diskurse der Medizin, Wissenschaft, Technologie, aber auch der Kunst und Philosophie verarbeitet und reflektiert. Nicht nur inhaltlich, auch ästhetisch und poetologisch markiert der Roman eine Zwischenzeit: Einerseits steht er noch in der Tradition des 19. Jahrhunderts und hat dabei deutliche Berührungspunkte zum realistischen Roman. Andererseits birgt er Momente des Fragmentarischen und der Erosion, die für die Moderne charakteristisch sind. Der Erste Weltkrieg unterbrach die Arbeit am Roman, so dass seine Entstehungszeit von 1912 bis 1924 reicht.\nIm Seminar wird es darum gehen, in einer genauen Lektüre des Gesamttextes seine inhaltlichen Konstellationen wie seine formale Anlage genau zu rekonstruieren. Es wird dabei ebenso um die zeitgenössische Beobachtungsdichte des Romans gehen wie um seine Zeitlichkeit, wobei sich das Seminar ebenso für geschichtliche Bezüge wie für die textinternen Darstellungen von Zeitlichkeit und die Beziehung von Zeit und Erzählen interessieren wird. Einzelne Aspekte des Romans sollen so vor dem Hintergrund einflussreicher und mittlerweile „klassischer“, aber auch aktueller Forschungsansätze und -methoden beleuchtet werden. Denn nicht nur „Der Zauberberg“, sondern auch seine Rezeption kann, ein gutes Jahrhundert später, „archäologisch“ erschlossen werden. Im Zentrum des Seminars steht also nicht nur der Ursprungstext, sondern auch ein exemplarischer Einblick in verschiedene literaturwissenschaftliche Deutungsansätze.",
+    "dates":{
+      "text":"Do (4), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"thursday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-MA-LiK-GuG",
+        "examination_number":"M0761-M1P03",
+        "examination_type":"Kombinierte Hausarbeit",
+        "degree_program":"Master „Literatur und Kultur im gesellschaftlichen Wandel“ (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MA-G-1S-LIT",
+        "examination_number":"233110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1-E-LIT",
+        "examination_number":"234110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-2-A-LIT",
+        "examination_number":"233310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234510",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"MA-Seminar:\nDystopie + Utopie = Prognose? Zukunftserzählungen zwischen Vision und Szenario",
+    "lecturers":[
+      "Dr. Solvejg Nitzke"
+    ],
+    "description":"Kommentar:\nWas hat Literatur über die Zukunft zu sagen? Zwischen Szenarien, Vorhersagen und Prognosen scheinen fiktionale Zukünfte eine etwas merkwürdige Sonderstellung einzunehmen. Die Freiheiten sind theoretisch unbegrenzt und trotzdem werden sie an Wahrscheinlichkeitskriterien gemessen, die jeder Wissenschaft gut anstünden. Dass es in Zeiten 'großer Transformationen' [aus global futures paper klauen] einen großen Bedarf für plausible Geschichten aus der Zukunft gibt, steht außer Frage, aber welchen politischen, peotologischen und kulturtheoretischen Kriterien müssen sie Genügen? Welche Auswirkungen hat der Zukunftsbedarf auf die Literatur? Sind Utopie, Dystopie, Sci-Fi und CliFi als Genres, Modi und Erzähltraditionen auf das Gewicht der Erwartung eingestellt? Welche Fragen stellen sie und welche Fragen lassen sich mit ihnen stellen?\nDas Seminar wird diese Fragen anhand deutschsprachiger Zukunftsfiktionen aus dem 20. Jahrhundert, theoretischen Texten und Ausblicken in andere Literaturen und Medien stellen. Ziel ist es, neben einem Überblick über die Literaturgeschichte der Zukunft, einen Einblick in die Beziehung von Fiktion und (Zukunfts-)Wissen sowie Genre-Theorie und Science Fiction zu gewinnen. Die titelgebende Gleichung - Dystopie + Utopie = Prognose? wird als Provokation die kritische Infragestellung von (Genre-)Konventionen und Erwartungen an \"engagierte\" Literatur im Seminar leiten.\n\nLektüren von Kurd Laßwitz, Thea von Harbou,  Alfred Döblin, Ernst Jünger (mit Gastvortrag), Dietmar Dath, Marlene Steruwitz - Karen Duve, Jakob Arjouni, Arno Schmidt, Sybille Berg und Valerie Fritsch werden zu Semesterbeginn zur Verfügung gestellt.",
+    "dates":{
+      "text":"Mi (4), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"wednesday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-MA-LiK-WuW",
+        "examination_number":"M0761-M1P04",
+        "examination_type":"kombinierte Hausarbeit",
+        "degree_program":"Master „Literatur und Kultur im gesellschaftlichen Wandel“ (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MA-G-1S-LIT",
+        "examination_number":"233110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1-E-LIT",
+        "examination_number":"234110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-2-A-LIT",
+        "examination_number":"233310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234510",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"MA-Seminar:\nKontrollgesellschaft",
+    "lecturers":[
+      "Dr. Tanja Prokić"
+    ],
+    "description":"Kommentar:\nMit seinem kleinen Text Postskriptum zu den Kontrollgesellschaften (1990) legte Gilles Deleuze eine Neujustierung seines Werks vor, sowie ein Fundament, um die gesellschaftliche Wende weg von der sogenannten Disziplinargesellschaft (Michel Foucault) begreiflich zu machen. Auf nur wenigen Seiten antizipiert Deleuze die toxische Verbindung von Digitalisierung und Neoliberalismus, die sich in den nächsten zehn Jahren vollziehen sollte. Die Kontrollgesellschaft, das ist jene Gesellschaft, die im Zeichen eines fortgestrittenen Neoliberalismus, das kybernetische Phantasma führerloser, aber auf Kontrolle basierter Steuerungsprozesse wahrmacht. Während in der Soziologie, der Politikwissenschaft und den Medienwissenschaften Deleuze’ Konzept von den „Kontrollgesellschaften“ mittlerweile zu einem gängigen Bezugspunkt geworden ist, bleibt in der Literaturwissenschaft bisher die Prüfung des Konzepts für die Literaturen der Gegenwart aus.\nZwar haben die Digital Humanities großflächig Berücksichtigung in den verschiedenen Philologien gefunden, nicht zuletzt im Hinblick auf eine Frage nach den Produktionsbedingungen auf dem Buchmarkt, auch der Archivierung, Distribution und der Innovation von Recherchemethoden wird große Aufmerksamkeit geschenkt. Die spezifische Frage nach der Gegenwartsliteratur, als eine, die uns nicht nur gegenwärtig ist, sondern nach der Beschaffenheit und Gegebenheit von Gegenwart im Kontext der Kontrollgesellschaft zum Gegenstand hat, wird bis dato in der deutschen Literaturwissenschaft geradezu stiefmütterlich behandelt. Allenfalls lassen sich Rückfälle in disziplinargesellschaftliches Vokabular finden. Ob diese Bestandsaufnahme, ein Phänomen der deutschen Literatur oder der deutschen Literaturwissenschaft ist, wollen wir gemeinsam in diesem Seminar herausfinden. Wir wollen die Literatur auf ihr Wissen von der Gegenwart in Bezug auf Digitalisierung, Neoliberalismus, und fluide Subjektentwürfe sowie alternative politische Modelle etc. befragen. Voraussichtlich werden zu den Primärtexten folgende Literaturen zählen: Tom McCarthy Satin Island; Benjamin Stein Replay; Juli Zeh Corpus Delicti; Sybille Berg GRM; Leif Randt Allegro Pastell.\nDas Seminar ist zunächst digital geplant: Jede zweite Woche sollen schriftliche Arbeitsaufgaben (angepasst an Ihre Prüfungsleistungen) eingereicht werden, alle zwei Wochen treffen wir uns zur Diskussion (Matrix, oder Zoom) und besprechen die Lektüre (Primärtext und Sekundärtext). Je nach Seminargröße wird es evtl. möglich sein, zwei Diskussionstermine in Präsenz durchzuführen, zu denen Sie sich auch digital zuschalten können.",
+    "dates":{
+      "text":"Do (3+4), 14-tägig, digitales Format\n\nDie Veranstaltung wird ausschließlich digital angeboten; Einzeltermine können nach Absprache in Präsenz stattfinden. Der Veranstaltungsraum für die Präsenztermine wird in einer zentralen Übersicht auf der Website der Fakultät bis Mitte September 2020 veröffentlicht.\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"thursday",
+          "block_period":3,
+          "comment":null
+        },
+        {
+          "weekday":"thursday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-MA-LiK-GuG",
+        "examination_number":"M0761-M1P03",
+        "examination_type":"Kombinierte Hausarbeit",
+        "degree_program":"Master „Literatur und Kultur im gesellschaftlichen Wandel“ (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-MA-G-1S-LIT",
+        "examination_number":"233110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1-E-LIT",
+        "examination_number":"234110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-2-A-LIT",
+        "examination_number":"233310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234510",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Kektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"MA-Seminar:\nDie heilige Familie",
+    "lecturers":[
+      "Dr. Tanja Prokić"
+    ],
+    "description":"Kommentar:\nIn Fortsetzung zu dem im Sommersemester abgehaltenen Seminar „Die Mutter“ soll in diesem Semester die Frage nach der strukturellen Überforderung der Kleinfamilie im Zeitalter des globalen Neoliberalismus thematisch werden. Wir wollen nach Modellen von Elternschaft, und Kindererziehung suchen, die Vorstellung vom klassischen Familienverbund, das Ideologem der (genetischen) Herkunft und Abstammung, die Idee vom Kind als Eigentum sowie die sillschweigende Übereinkunft der Privatisierung von Fürsorge und Bildung herausfordern und umdenken. Dabei sollen (literarische) Texte untersucht werden, die sich einer Erforschung der Überforderungszusammenhänge im Kontext neoliberaler Arbeitsverhältnisse, dem Scheitern von Glücksversprechen und der Dekonstruktion von Erfolgserzählungen von der (heiligen) Familie widmen. Außerdem wollen wir literarische und theoretische Texte lesen, die Alternativen ausloten oder vorstellen. Dabei wollen wir vor allem, wie schon im letzten Semester, eine globale Perspektive einnehmen und das Gefälle zwischen ausgefeilten Reproduktionstechnologien mit bis zu biologisch fünf Elternteilen im globalen Norden und mangelnder Geburtenkontrolle sowie hoher Kinder- und Müttersterblichkeit im globalen Süden im Blick behalten. Gerade dieser Big Divide soll uns als Korrektiv von radikalen ideologiekritischen wie akzelerationistischen Ansätzen dienen. Wir wollen fragen, inwiefern die Diversifikation von genetischer Abstammung und Familie gleichermaßen als Utopie und Dystopie funktionalisierbar ist.\n\nDas Seminar ist zunächst digital geplant: Jede zweite Woche sollen schriftliche Arbeitsaufgaben (angepasst an Ihre Prüfungsleistungen) eingereicht werden, alle zwei Wochen treffen wir uns zur Diskussion (Matrix, oder Zoom) und besprechen die Lektüre (Primärtext und Sekundärtext). Je nach Seminargröße wird es evtl. möglich sein, zwei Diskussionstermine in Präsenz durchzuführen, zu denen Sie sich auch digital zuschalten können.\nWICHTIG: Prinzipiell sollte die Bereitschaft und die Kompetenz bestehen, englischsprachige Texte zu lesen.",
+    "dates":{
+      "text":"Mi (3+4), 14-tägig, digitales Format\n\nDie Veranstaltung wird ausschließlich digital angeboten; Einzeltermine können nach Absprache in Präsenz stattfinden. Der Veranstaltungsraum für die Präsenztermine wird in einer zentralen Übersicht auf der Website der Fakultät bis Mitte September 2020 veröffentlicht.\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"wednesday",
+          "block_period":3,
+          "comment":null
+        },
+        {
+          "weekday":"wednesday",
+          "block_period":4,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-MA-LiK-GuG",
+        "examination_number":"M0761-M1P03",
+        "examination_type":"kombinierte Hausarbeit",
+        "degree_program":"Master „Literatur und Kultur im gesellschaftlichen Wandel“ (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-3A-LIT",
+        "examination_number":"60420",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-BA-G-3S-LIT",
+        "examination_number":"63120",
+        "examination_type":"Mündliche Prüfung",
+        "degree_program":"Fach-Bachelor Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-1S-LIT",
+        "examination_number":"233110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1S-LIT",
+        "examination_number":"233120",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1-E-LIT",
+        "examination_number":"234110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-1-E-LIT",
+        "examination_number":"234120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-2-A-LIT",
+        "examination_number":"233310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-A-LIT",
+        "examination_number":"233320",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234510",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234520",
+        "examination_type":"Exposé",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGS-DEU-KLIT",
+        "examination_number":"27010",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen Grundschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-ERLIT",
+        "examination_number":"24810",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-SLIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEMS-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Oberschule",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S1LIT",
+        "examination_number":"25110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-KLIT",
+        "examination_number":"26120",
+        "examination_type":"Kurzüberprüfung",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-EWLIT",
+        "examination_number":"24110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-ERLIT",
+        "examination_number":"24710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":3
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S1LIT",
+        "examination_number":"25210",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-KLIT",
+        "examination_number":"26110",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":4
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-EWLIT",
+        "examination_number":"251310",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-ERLIT",
+        "examination_number":"251710",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S1LIT",
+        "examination_number":"252110",
+        "examination_type":"Projektarbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-KLIT",
+        "examination_number":"252910",
+        "examination_type":"Kombinierte Arbeit",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  },
+  {
+    "title":"Forschungslaboratorium",
+    "lecturers":[
+      "Prof. Dr. Lars Koch"
+    ],
+    "description":"Kommentar:\nDas Forschungslaboratorium bietet Raum für gemeinsames Forschen. Hier können Abschlussarbeiten ebenso diskutiert werden wie theoretische Texte oder aktuelle Publikations- und Antragsvorhaben.",
+    "dates":{
+      "text":"Di (7), digitales Format\n\nAlle weiteren Informationen geben wir Ihnen rechtzeitig vor LV-Beginn im Zusammenhang mit der Einschreibung auf der entsprechenden OPAL-Kursseite bekannt.",
+      "items":[
+        {
+          "weekday":"tuesday",
+          "block_period":7,
+          "comment":null
+        }
+      ]
+    },
+    "registration":"Die Einschreibung ist über OPAL ab 29.09.20, 09:00 Uhr möglich.",
+    "applicability":[
+      {
+        "module_number":"SLK-MA-LiK-FL",
+        "examination_number":"M0761-M1P07",
+        "examination_type":"Lektürebezogene Aufgabe",
+        "degree_program":"Master „Literatur und Kultur im gesellschaftlichen Wandel“ (ab WS 20/21)",
+        "study_year":1
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234520",
+        "examination_type":"Exposé",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-MA-G-2-WP-LIT",
+        "examination_number":"234530",
+        "examination_type":"Kolloquium",
+        "degree_program":"Fach-Master Germanistik (auslaufend)",
+        "study_year":2
+      },
+      {
+        "module_number":"SLK-SEGY-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen Gymnasium",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-SEBS-DEU-S2LIT",
+        "examination_number":"25310",
+        "examination_type":"Exposé",
+        "degree_program":"Staatsexamen berufsbildende Schulen",
+        "study_year":5
+      },
+      {
+        "module_number":"SLK-MAWP-DEU-S2LIT",
+        "examination_number":"252510",
+        "examination_type":"Exposé",
+        "degree_program":"Master Wirtschaftspädagogik Qualifizierungsrichtung Deutsch (ab WS 14/15)",
+        "study_year":2
+      }
+    ],
+    "requirements_for_participation":"keine"
+  }
+]

@@ -12,10 +12,12 @@ import md5 from "md5";
 
 import courses1 from "../../courses/2020-10-22-ws20-gsw-courses.json";
 import courses2 from "../../courses/2020-09-21-ws20-aedl-courses.json";
+import courses3 from "../../courses/2020-11-17-ws20-ndl-courses.json";
 
 const courses = [
   ...courses1,
   ...courses2,
+  ...courses3,
 ];
 
 function FormattedText({ children }) {
