@@ -852,7 +852,10 @@ function DateModal(_ref2) {
 function toEvents(courses) {
   return courses.map(function (course) {
     var courseId = md5__WEBPACK_IMPORTED_MODULE_7___default()(course.title + course.description);
-    return course.dates.items.map(function (item) {
+    var dates = course.dates || {
+      "items": []
+    };
+    return (dates.items || []).map(function (item) {
       return _objectSpread(_objectSpread(_objectSpread({}, item), course), {}, {
         courseId: courseId
       });
@@ -972,4 +975,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.8bb9.js.map
+//# sourceMappingURL=timetable.a5e2.js.map

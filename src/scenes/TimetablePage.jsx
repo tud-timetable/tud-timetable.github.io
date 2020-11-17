@@ -93,8 +93,11 @@ function toEvents( courses ) {
   return (
     courses.map((course) => {
       const courseId = md5( course.title + course.description );
+      const dates = course.dates || {
+        "items": [],
+      };
 
-      return course.dates.items.map((item) => ({
+      return (dates.items || []).map((item) => ({
         ...item,
         ...course,
         courseId,
