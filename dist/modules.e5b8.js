@@ -125,10 +125,6 @@ function getModuleMatchables(modules) {
   return matchables;
 }
 
-function linkToModule(module) {
-  return "/".concat(module.degree_program_id, "/").concat(module.module_numbers[0]);
-}
-
 function toComponents(fragments, _ref) {
   var modules = _ref.modules;
 
@@ -153,7 +149,7 @@ function toComponents(fragments, _ref) {
     }
 
     return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
-      to: linkToModule(module),
+      to: "/".concat(module.degree_program_id, "/").concat(module.module_numbers[0]),
       title: module.module_numbers[0],
       children: module.module_name
     });
@@ -1503,4 +1499,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.60e1.js.map
+//# sourceMappingURL=modules.e5b8.js.map

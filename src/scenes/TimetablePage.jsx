@@ -10,7 +10,13 @@ import Modal from "components/Modal";
 import useDegreePrograms from "hooks/useDegreePrograms";
 import md5 from "md5";
 
-import courses from "../../courses/2020-10-22-ws20-gsw-courses.json";
+import courses1 from "../../courses/2020-10-22-ws20-gsw-courses.json";
+import courses2 from "../../courses/2020-09-21-ws20-aedl-courses.json";
+
+const courses = [
+  ...courses1,
+  ...courses2,
+];
 
 function FormattedText({ children }) {
   let lines = children
