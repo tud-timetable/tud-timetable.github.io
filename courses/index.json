@@ -1,5 +1,10 @@
 [
   {
-    "file": "2020-10-22-ws20-gsw-courses.json"
+    "file": "2020-10-22-ws20-gsw-courses.json",
+    "id": "2020-10-22-ws20-gsw",
+  },
+  {
+    "file": "2020-09-21-ws20-aedl-courses.json",
+    "id": "2020-09-21-ws20-aedl"
   }
 ]
