@@ -344,7 +344,7 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.it
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(106, 176, 35);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(0, 104, 180); /* HKS 44 */\n  line-height: normal;\n\n  opacity: ", ";\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(0, 104, 180, .5);\n  }\n\n  &&.type-lecture {\n    background: rgb(0, 129, 67); /* HKS 57 */\n  }\n\n  &&.type-lecture:focus {\n    box-shadow: 0 0 0 .2rem rgba(0, 129, 67, .5);\n  }\n\n  &&.type-tutorial {\n    background: rgb(100, 179, 44); /* HKS 65 */\n  }\n\n  &&.type-tutorial:focus {\n    box-shadow: 0 0 0 .2rem rgba(100, 179, 44, .5);\n  }\n\n  &&.type-seminar {\n    background: rgb(149, 25, 129); /* HKS 33 */\n  }\n\n  &&.type-seminar:focus {\n    box-shadow: 0 0 0 .2rem rgba(149, 25, 129, .5);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(0, 104, 180);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(0, 104, 180); /* HKS 44 */\n  line-height: normal;\n\n  opacity: ", ";\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(0, 104, 180, .5);\n  }\n\n  &&.type-lecture {\n    background: rgb(0, 129, 67); /* HKS 57 */\n    border: 1px solid rgb(0, 129, 67);\n  }\n\n  &&.type-lecture:focus {\n    box-shadow: 0 0 0 .2rem rgba(0, 129, 67, .5);\n  }\n\n  &&.type-tutorial {\n    background: rgb(100, 179, 44); /* HKS 65 */\n    border: 1px solid rgb(100, 179, 44);\n\n  }\n\n  &&.type-tutorial:focus {\n    box-shadow: 0 0 0 .2rem rgba(100, 179, 44, .5);\n  }\n\n  &&.type-seminar {\n    background: rgb(149, 25, 129); /* HKS 33 */\n    border: 1px solid rgb(149, 25, 129);\n  }\n\n  &&.type-seminar:focus {\n    box-shadow: 0 0 0 .2rem rgba(149, 25, 129, .5);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -986,4 +986,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.a125.js.map
+//# sourceMappingURL=timetable.bca7.js.map

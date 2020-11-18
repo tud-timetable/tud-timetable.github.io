@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const EventStyle = styled.button`
   border-radius: 4px;
-  border: 1px solid rgb(106, 176, 35);
+  border: 1px solid rgb(0, 104, 180);
 
   width: 100%;
   text-align: left;
@@ -26,6 +26,7 @@ const EventStyle = styled.button`
 
   &.type-lecture {
     background: rgb(0, 129, 67); /* HKS 57 */
+    border: 1px solid rgb(0, 129, 67);
   }
 
   &.type-lecture:focus {
@@ -34,6 +35,8 @@ const EventStyle = styled.button`
 
   &.type-tutorial {
     background: rgb(100, 179, 44); /* HKS 65 */
+    border: 1px solid rgb(100, 179, 44);
+
   }
 
   &.type-tutorial:focus {
@@ -42,6 +45,7 @@ const EventStyle = styled.button`
 
   &.type-seminar {
     background: rgb(149, 25, 129); /* HKS 33 */
+    border: 1px solid rgb(149, 25, 129);
   }
 
   &.type-seminar:focus {
