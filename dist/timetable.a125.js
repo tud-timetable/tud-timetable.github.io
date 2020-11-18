@@ -344,7 +344,7 @@ function _iterableToArray(iter) { if (typeof Symbol !== "undefined" && Symbol.it
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(106, 176, 35);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(106, 176, 35);\n  line-height: normal;\n\n  opacity: ", ";\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(106, 176, 35, .5);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n&& {\n  border-radius: 4px;\n  border: 1px solid rgb(106, 176, 35);\n\n  width: 100%;\n  text-align: left;\n\n  padding: .5rem;\n  margin-bottom: .25rem;\n  margin-top: .25rem;\n  background: rgb(0, 104, 180); /* HKS 44 */\n  line-height: normal;\n\n  opacity: ", ";\n}\n\n  &&:focus {\n    outline: 0;\n    box-shadow: 0 0 0 .2rem rgba(0, 104, 180, .5);\n  }\n\n  &&.type-lecture {\n    background: rgb(0, 129, 67); /* HKS 57 */\n  }\n\n  &&.type-lecture:focus {\n    box-shadow: 0 0 0 .2rem rgba(0, 129, 67, .5);\n  }\n\n  &&.type-tutorial {\n    background: rgb(100, 179, 44); /* HKS 65 */\n  }\n\n  &&.type-tutorial:focus {\n    box-shadow: 0 0 0 .2rem rgba(100, 179, 44, .5);\n  }\n\n  &&.type-seminar {\n    background: rgb(149, 25, 129); /* HKS 33 */\n  }\n\n  &&.type-seminar:focus {\n    box-shadow: 0 0 0 .2rem rgba(149, 25, 129, .5);\n  }\n\n  &&:first-child {\n    margin-top: 0;\n  }\n\n  &&:last-child {\n    margin-bottom: 0;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -381,11 +381,25 @@ function Event(_ref2) {
       primaryTitle = _title$split2[0],
       subtitles = _title$split2.slice(1);
 
+  var classNames = ["btn"];
+
+  if (type === "lecture") {
+    classNames.push("type-lecture");
+  }
+
+  if (type === "tutorial") {
+    classNames.push("type-tutorial");
+  }
+
+  if (type && type.indexOf("seminar") !== -1) {
+    classNames.push("type-seminar");
+  }
+
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(EventStyle, {
     onClick: onClick,
     onMouseOver: onMouseOver,
     onMouseOut: onMouseOut,
-    className: "btn",
+    className: classNames.join(" "),
     $inactive: !active,
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
       className: "mb-0",
@@ -776,9 +790,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 var courses = [].concat(_toConsumableArray(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__), _toConsumableArray(_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__));
-console.log({
-  courses: courses
-});
 
 function FormattedText(_ref) {
   var children = _ref.children;
@@ -946,6 +957,7 @@ function TimetablePage() {
               weekday: event.weekday,
               block_period: event.block_period,
               title: event.title,
+              type: event.type,
               active: isActive(event),
               onClick: function onClick() {
                 return setSelectedEvent(event);
@@ -974,4 +986,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.5320.js.map
+//# sourceMappingURL=timetable.a125.js.map

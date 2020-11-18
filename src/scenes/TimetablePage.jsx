@@ -20,8 +20,6 @@ const courses = [
   ...courses3,
 ];
 
-console.log({ courses });
-
 function FormattedText({ children }) {
   let lines = children
     .replace(/\n\n+/, "\n\n")
@@ -176,6 +174,7 @@ function TimetablePage() {
                   weekday={ event.weekday }
                   block_period={ event.block_period }
                   title={ event.title }
+                  type={ event.type }
                   active={ isActive( event )  }
                   onClick={() => setSelectedEvent( event )}
                   onMouseOver={() => setHoveredEvent( event )}

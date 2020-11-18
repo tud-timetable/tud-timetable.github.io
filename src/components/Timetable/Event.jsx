@@ -10,12 +10,12 @@ const EventStyle = styled.button`
   padding: .5rem;
   margin-bottom: .25rem;
   margin-top: .25rem;
-  background: rgb(106, 176, 35);
+  background: rgb(0, 104, 180); /* HKS 44 */
   line-height: normal;
 
   &:focus {
     outline: 0;
-    box-shadow: 0 0 0 .2rem rgba(106, 176, 35, .5);
+    box-shadow: 0 0 0 .2rem rgba(0, 104, 180, .5);
   }
 
   opacity: ${({ $inactive }) => (
@@ -23,6 +23,30 @@ const EventStyle = styled.button`
       ? "0.25"
       : "1"
   )};
+
+  &.type-lecture {
+    background: rgb(0, 129, 67); /* HKS 57 */
+  }
+
+  &.type-lecture:focus {
+    box-shadow: 0 0 0 .2rem rgba(0, 129, 67, .5);
+  }
+
+  &.type-tutorial {
+    background: rgb(100, 179, 44); /* HKS 65 */
+  }
+
+  &.type-tutorial:focus {
+    box-shadow: 0 0 0 .2rem rgba(100, 179, 44, .5);
+  }
+
+  &.type-seminar {
+    background: rgb(149, 25, 129); /* HKS 33 */
+  }
+
+  &.type-seminar:focus {
+    box-shadow: 0 0 0 .2rem rgba(149, 25, 129, .5);
+  }
 
   &:first-child {
     margin-top: 0;
@@ -44,13 +68,34 @@ function Event({
   onMouseOut = noop
 }) {
   const [ primaryTitle, ...subtitles ] = title.split("\n");
+  const classNames = [
+    "btn",
+  ];
+
+  if ( type === "lecture" ) {
+    classNames.push(
+      "type-lecture"
+    );
+  }
+
+  if ( type === "tutorial" ) {
+    classNames.push(
+      "type-tutorial"
+    );
+  }
+
+  if ( type && type.indexOf( "seminar" ) !== -1 ) {
+    classNames.push(
+      "type-seminar"
+    );
+  }
 
   return (
     <EventStyle
       onClick={ onClick }
       onMouseOver={ onMouseOver }
       onMouseOut={ onMouseOut }
-      className="btn"
+      className={ classNames.join( " " ) }
       $inactive={ !active }
     >
       <p className="mb-0">{ primaryTitle }</p>
