@@ -11,7 +11,8 @@
         {
           "weekday":"wednesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -88,32 +89,38 @@
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"tuesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"wednesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"wednesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"thursday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"thursday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         }
       ]
     },
@@ -190,7 +197,8 @@
         {
           "weekday":"thursday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -311,7 +319,8 @@
         {
           "weekday":"friday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -584,7 +593,8 @@
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -857,12 +867,14 @@
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         },
         {
           "weekday":"tuesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -1058,7 +1070,8 @@
         {
           "weekday":"monday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -1198,7 +1211,8 @@
         {
           "weekday":"wednesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -1345,12 +1359,14 @@
         {
           "weekday":"tuesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         },
         {
           "weekday":"tuesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -1588,12 +1604,14 @@
         {
           "weekday":"monday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         },
         {
           "weekday":"thursday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -1831,12 +1849,14 @@
         {
           "weekday":"monday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         },
         {
           "weekday":"wednesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -2074,7 +2094,8 @@
         {
           "weekday":"wednesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -2312,7 +2333,8 @@
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"bachelor seminar"
         }
       ]
     },
@@ -2515,7 +2537,8 @@
         {
           "weekday":"thursday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         }
       ]
     },
@@ -2718,7 +2741,8 @@
         {
           "weekday":"wednesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         }
       ]
     },
@@ -2935,12 +2959,14 @@
         {
           "weekday":"thursday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         },
         {
           "weekday":"thursday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         }
       ]
     },
@@ -3164,12 +3190,14 @@
         {
           "weekday":"wednesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         },
         {
           "weekday":"wednesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"master seminar"
         }
       ]
     },
@@ -3428,7 +3456,8 @@
         {
           "weekday":"tuesday",
           "block_period":7,
-          "comment":null
+          "comment":null,
+          "type":"laboratory"
         }
       ]
     },

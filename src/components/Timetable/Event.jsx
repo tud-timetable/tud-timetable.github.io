@@ -37,6 +37,7 @@ function noop() {}
 
 function Event({
   title,
+  type = null,
   active = true,
   onClick = noop,
   onMouseOver = noop,

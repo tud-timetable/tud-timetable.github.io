@@ -11,22 +11,26 @@
         {
           "weekday":"monday",
           "block_period":3,
-          "comment":"VL"
+          "comment":"VL",
+          "type":"lecture"
         },
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"wednesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"thursday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         }
       ]
     },
@@ -103,7 +107,8 @@
         {
           "weekday":"tuesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         }
       ]
     },
@@ -138,7 +143,8 @@
         {
           "weekday":"friday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -341,7 +347,8 @@
         {
           "weekday":"tuesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -453,7 +460,8 @@
         {
           "weekday":"monday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -565,7 +573,8 @@
         {
           "weekday":"thursday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -677,7 +686,8 @@
         {
           "weekday":"thursday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -992,7 +1002,8 @@
         {
           "weekday":"wednesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -1349,7 +1360,8 @@
         {
           "weekday":"thursday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"seminar"
         }
       ]
     },
@@ -1616,7 +1628,8 @@
         {
           "weekday":"wednesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         }
       ]
     },

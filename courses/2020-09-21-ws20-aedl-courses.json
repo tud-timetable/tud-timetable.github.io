@@ -11,7 +11,8 @@
         {
           "weekday":"thursday",
           "block_period":1,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -88,22 +89,26 @@
         {
           "weekday":"tuesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"tuesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"wednesday",
           "block_period":1,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         },
         {
           "weekday":"friday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         }
       ]
     },
@@ -180,7 +185,8 @@
         {
           "weekday":"wednesday",
           "block_period":2,
-          "comment":null
+          "comment":null,
+          "type":"tutorial"
         }
       ]
     },
@@ -215,12 +221,14 @@
         {
           "weekday":"monday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         },
         {
           "weekday":"monday",
           "block_period":6,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -321,7 +329,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Staffelvorlesung: Identität(-en)/ Identifikation(-en)",
+    "title":"Identität(-en)/ Identifikation(-en)\nStaffelvorlesung",
     "lecturers":[
       "Prof. Lars Koch (verantwortlich) und weitere Lehrende (u.a. Frau Prof. Marina Münkler) der literaturwissenschaftlichen Studiengänge SLK"
     ],
@@ -332,7 +340,8 @@
         {
           "weekday":"wednesday",
           "block_period":7,
-          "comment":null
+          "comment":null,
+          "type":"lecture"
         }
       ]
     },
@@ -349,7 +358,7 @@
     "requirements_for_participation":"keine"
   },
   {
-    "title":"Geschlechterrollen und Liebesmythos in der Lyrik des 12. und 13. Jahrhunderts Proseminar/Seminar",
+    "title":"Geschlechterrollen und Liebesmythos in der Lyrik des 12. und 13. Jahrhunderts\nProseminar/Seminar",
     "lecturers":[
       "Kay Malcher"
     ],
@@ -360,7 +369,8 @@
         {
           "weekday":"tuesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"proseminar"
         }
       ]
     },
@@ -461,7 +471,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Dr. Luther und die Bullen des Endchrist Proseminar/Seminar",
+    "title":"Dr. Luther und die Bullen des Endchrist\nProseminar/Seminar",
     "lecturers":[
       "Albrecht Dröse"
     ],
@@ -472,7 +482,8 @@
         {
           "weekday":"wednesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"proseminar"
         }
       ]
     },
@@ -573,7 +584,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Kleinheit und Bärtigkeit? Zwerge in der Literatur des Mittelalters Proseminar/Seminar",
+    "title":"Kleinheit und Bärtigkeit? Zwerge in der Literatur des Mittelalters\nProseminar/Seminar",
     "lecturers":[
       "Peter Somogyi"
     ],
@@ -584,7 +595,8 @@
         {
           "weekday":"tuesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"proseminar"
         }
       ]
     },
@@ -685,7 +697,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Wie entsteht eine weltliterarische Figur? Kontexte, Quellen und Komposition der Historia von D. Johann Fausten Proseminar/Seminar",
+    "title":"Wie entsteht eine weltliterarische Figur? Kontexte, Quellen und Komposition der Historia von D. Johann Fausten\nProseminar/Seminar",
     "lecturers":[
       "Martin Sablotny"
     ],
@@ -696,7 +708,8 @@
         {
           "weekday":"thursday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"proseminar"
         }
       ]
     },
@@ -797,7 +810,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Die Päpstin – Transformationen einer Legende Seminar/Hauptseminar",
+    "title":"Die Päpstin – Transformationen einer Legende\nSeminar/Hauptseminar",
     "lecturers":[
       "Albrecht Dröse"
     ],
@@ -808,7 +821,8 @@
         {
           "weekday":"tuesday",
           "block_period":4,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         }
       ]
     },
@@ -1063,7 +1077,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"Ein Ritter und seine etwas mehr als halbe Fee – Der „Meleranz“ des Pleier  Seminar/Hauptseminar",
+    "title":"Ein Ritter und seine etwas mehr als halbe Fee – Der „Meleranz“ des Pleier\nSeminar/Hauptseminar",
     "lecturers":[
       "Peter Somogyi"
     ],
@@ -1074,7 +1088,8 @@
         {
           "weekday":"tuesday",
           "block_period":5,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         }
       ]
     },
@@ -1322,7 +1337,7 @@
     "requirements_for_participation":"siehe entsprechende Modulbeschreibung"
   },
   {
-    "title":"'Kritik an Herrschern und Herrscherinnen'. Formen, Methoden und Möglichkeiten im Mittelalter Seminar / Hauptseminar",
+    "title":"'Kritik an Herrschern und Herrscherinnen'. Formen, Methoden und Möglichkeiten im Mittelalter\nSeminar / Hauptseminar",
     "lecturers":[
       "Cristina Andenna"
     ],
@@ -1333,7 +1348,8 @@
         {
           "weekday":"wednesday",
           "block_period":3,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         }
       ]
     },
@@ -1592,12 +1608,14 @@
         {
           "weekday":"tuesday",
           "block_period":7,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         },
         {
           "weekday":"tuesday",
           "block_period":8,
-          "comment":null
+          "comment":null,
+          "type":"advanced seminar"
         }
       ]
     },
@@ -1619,12 +1637,14 @@
         {
           "weekday":"tuesday",
           "block_period":7,
-          "comment":null
+          "comment":null,
+          "type":"colloquium"
         },
         {
           "weekday":"tuesday",
           "block_period":8,
-          "comment":null
+          "comment":null,
+          "type":"colloquium"
         }
       ]
     },
