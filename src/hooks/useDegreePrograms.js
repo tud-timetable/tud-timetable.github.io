@@ -24,12 +24,12 @@ const useDegreePrograms = create((set, get) => ({
         };
     }
 
-    const promise = fetch("/studienordnungen/index.json")
+    const promise = fetch("/data/degree-programs/index.json")
       .then((res) => res.json())
       .then((programs) => {
         return Promise.all(
           programs.map((program) => (
-            fetch(`/studienordnungen/${program.file}`)
+            fetch(`/data/degree-programs/${program.file}`)
               .then((res) => res.json())
               .then((data) => ({
                 "id": program.id,

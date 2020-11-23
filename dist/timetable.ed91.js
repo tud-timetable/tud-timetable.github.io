@@ -1,9 +1,9 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["timetable"],{
 
-/***/ "./courses/2020-09-21-ws20-aedl-courses.json":
-/*!***************************************************!*\
-  !*** ./courses/2020-09-21-ws20-aedl-courses.json ***!
-  \***************************************************/
+/***/ "./data/courses/2020-09-21-ws20-aedl-courses.json":
+/*!********************************************************!*\
+  !*** ./data/courses/2020-09-21-ws20-aedl-courses.json ***!
+  \********************************************************/
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, default */
 /***/ (function(module) {
 
@@ -11,10 +11,10 @@ module.exports = JSON.parse("[{\"title\":\"Grundlagen der Mediävistik /Ältere 
 
 /***/ }),
 
-/***/ "./courses/2020-10-22-ws20-gsw-courses.json":
-/*!**************************************************!*\
-  !*** ./courses/2020-10-22-ws20-gsw-courses.json ***!
-  \**************************************************/
+/***/ "./data/courses/2020-10-22-ws20-gsw-courses.json":
+/*!*******************************************************!*\
+  !*** ./data/courses/2020-10-22-ws20-gsw-courses.json ***!
+  \*******************************************************/
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, default */
 /***/ (function(module) {
 
@@ -22,10 +22,10 @@ module.exports = JSON.parse("[{\"title\":\"Einführung in die germanistische Spr
 
 /***/ }),
 
-/***/ "./courses/2020-11-17-ws20-ndl-courses.json":
-/*!**************************************************!*\
-  !*** ./courses/2020-11-17-ws20-ndl-courses.json ***!
-  \**************************************************/
+/***/ "./data/courses/2020-11-17-ws20-ndl-courses.json":
+/*!*******************************************************!*\
+  !*** ./data/courses/2020-11-17-ws20-ndl-courses.json ***!
+  \*******************************************************/
 /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, default */
 /***/ (function(module) {
 
@@ -742,12 +742,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
 /* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! md5 */ "./node_modules/md5/md5.js");
 /* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json");
-var _courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-10-22-ws20-gsw-courses.json */ "./courses/2020-10-22-ws20-gsw-courses.json", 1);
-/* harmony import */ var _courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../courses/2020-09-21-ws20-aedl-courses.json */ "./courses/2020-09-21-ws20-aedl-courses.json");
-var _courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-09-21-ws20-aedl-courses.json */ "./courses/2020-09-21-ws20-aedl-courses.json", 1);
-/* harmony import */ var _courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../courses/2020-11-17-ws20-ndl-courses.json */ "./courses/2020-11-17-ws20-ndl-courses.json");
-var _courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../courses/2020-11-17-ws20-ndl-courses.json */ "./courses/2020-11-17-ws20-ndl-courses.json", 1);
+/* harmony import */ var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json");
+var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json", 1);
+/* harmony import */ var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json");
+var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json", 1);
+/* harmony import */ var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json");
+var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json", 1);
 
 
 
@@ -789,7 +789,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
-var courses = [].concat(_toConsumableArray(_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__), _toConsumableArray(_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__));
+var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__));
 
 function FormattedText(_ref) {
   var children = _ref.children;
@@ -986,4 +986,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.bca7.js.map
+//# sourceMappingURL=timetable.ed91.js.map

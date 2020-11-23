@@ -181,11 +181,11 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           };
       }
 
-      var promise = fetch("/studienordnungen/index.json").then(function (res) {
+      var promise = fetch("/data/degree-programs/index.json").then(function (res) {
         return res.json();
       }).then(function (programs) {
         return Promise.all(programs.map(function (program) {
-          return fetch("/studienordnungen/".concat(program.file)).then(function (res) {
+          return fetch("/data/degree-programs/".concat(program.file)).then(function (res) {
             return res.json();
           }).then(function (data) {
             return {
@@ -268,4 +268,4 @@ var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
 /***/ })
 
 }]);
-//# sourceMappingURL=common.0c31.js.map
+//# sourceMappingURL=common.de81.js.map

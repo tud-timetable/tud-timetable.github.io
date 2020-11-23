@@ -23,7 +23,7 @@ const useProfessorships = create((set, get) => ({
         };
     }
 
-    const promise = fetch("/professorships.json")
+    const promise = fetch("/data/professorships.json")
       .then((res) => res.json())
       .then((professorships) => {
         set({

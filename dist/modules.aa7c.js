@@ -1291,7 +1291,7 @@ var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           };
       }
 
-      var promise = fetch("/professorships.json").then(function (res) {
+      var promise = fetch("/data/professorships.json").then(function (res) {
         return res.json();
       }).then(function (professorships) {
         set({
@@ -1499,4 +1499,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.e5b8.js.map
+//# sourceMappingURL=modules.aa7c.js.map
