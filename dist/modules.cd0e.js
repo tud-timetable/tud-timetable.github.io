@@ -1264,6 +1264,8 @@ var VisNetwork = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["forward
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./helpers */ "./src/hooks/helpers.js");
+
 
 var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(function (set, get) {
   return {
@@ -1291,9 +1293,7 @@ var useProfessorships = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           };
       }
 
-      var promise = fetch("/data/professorships.json").then(function (res) {
-        return res.json();
-      }).then(function (professorships) {
+      var promise = Object(_helpers__WEBPACK_IMPORTED_MODULE_1__["fetchJSON"])("/data/professorships.json").then(function (professorships) {
         set({
           "items": professorships,
           "status": "resolved",
@@ -1384,13 +1384,16 @@ function ModuleDescriptionPage() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
-/* harmony import */ var components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/ModuleDependencyGraph */ "./src/components/ModuleDependencyGraph.jsx");
-/* harmony import */ var components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/DegreeProgrameSelect */ "./src/components/DegreeProgrameSelect.jsx");
-/* harmony import */ var components_ModuleSelect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/ModuleSelect */ "./src/components/ModuleSelect.jsx");
-/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
-/* harmony import */ var scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! scenes/ModuleDescriptionPage */ "./src/scenes/ModuleDescriptionPage.jsx");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_Layout__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/Layout */ "./src/components/Layout.jsx");
+/* harmony import */ var components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/ModuleDependencyGraph */ "./src/components/ModuleDependencyGraph.jsx");
+/* harmony import */ var components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/DegreeProgrameSelect */ "./src/components/DegreeProgrameSelect.jsx");
+/* harmony import */ var components_ModuleSelect__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! components/ModuleSelect */ "./src/components/ModuleSelect.jsx");
+/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
+/* harmony import */ var scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! scenes/ModuleDescriptionPage */ "./src/scenes/ModuleDescriptionPage.jsx");
+
 
 
 
@@ -1402,15 +1405,15 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function ModuleFilter() {
-  var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+  var _useParams = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useParams"])(),
       _useParams$degreeProg = _useParams.degreeProgramId,
       degreeProgramId = _useParams$degreeProg === void 0 ? "" : _useParams$degreeProg,
       _useParams$moduleId = _useParams.moduleId,
       moduleId = _useParams$moduleId === void 0 ? "" : _useParams$moduleId;
 
-  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
 
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__["default"])().readAll(),
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_7__["default"])().readAll(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
@@ -1427,12 +1430,12 @@ function ModuleFilter() {
     className: "row",
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
       className: "col",
-      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_5__["default"], {
         disabled: !isReady,
         onChange: selectDegreeProgram,
         currentItemId: degreeProgramId,
         items: value
-      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_5__["default"], {
+      }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_6__["default"], {
         disabled: !isReady || !degreeProgramId,
         onChange: selectModule,
         currentItemId: moduleId || "all",
@@ -1444,10 +1447,10 @@ function ModuleFilter() {
 }
 
 function ModuleDependencies() {
-  var _useParams2 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+  var _useParams2 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useParams"])(),
       degreeProgramId = _useParams2.degreeProgramId;
 
-  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__["default"])().readAll(),
+  var _useDegreePrograms$re2 = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_7__["default"])().readAll(),
       status = _useDegreePrograms$re2.status,
       value = _useDegreePrograms$re2.value;
 
@@ -1455,23 +1458,23 @@ function ModuleDependencies() {
     return null;
   }
 
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleDependencyGraph__WEBPACK_IMPORTED_MODULE_4__["default"], {
     modules: value[degreeProgramId].modules,
     degreeProgramId: degreeProgramId
   });
 }
 
 function ModuleOverviewPage() {
-  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useHistory"])();
+  var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
 
-  var _useParams3 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["useParams"])(),
+  var _useParams3 = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useParams"])(),
       moduleId = _useParams3.moduleId;
 
   function selectProgram(evt) {
     history.push("/".concat(evt.target.value));
   }
 
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Layout__WEBPACK_IMPORTED_MODULE_3__["default"], {
     children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
       className: "row",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
@@ -1480,16 +1483,23 @@ function ModuleOverviewPage() {
           children: "Modul\xFCbersicht"
         })
       })
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
       path: ["/:degreeProgramId/:moduleId", "/:degreeProgramId", "/"],
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleFilter, {})
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-      path: "/:degreeProgramId",
-      exact: true,
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleDependencies, {})
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-      path: "/:degreeProgramId/:moduleId",
-      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_7__["default"], {})
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react__WEBPACK_IMPORTED_MODULE_1__["Suspense"], {
+      fallback: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
+        children: "Seite wird geladen ..."
+      }),
+      children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Switch"], {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/:degreeProgramId",
+          exact: true,
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleDependencies, {})
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+          path: "/:degreeProgramId/:moduleId",
+          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_8__["default"], {})
+        })]
+      })
     })]
   });
 }
@@ -1499,4 +1509,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.aa7c.js.map
+//# sourceMappingURL=modules.cd0e.js.map

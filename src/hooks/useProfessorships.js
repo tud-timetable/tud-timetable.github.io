@@ -1,4 +1,5 @@
 import create from "zustand";
+import { fetchJSON } from "./helpers";
 
 const useProfessorships = create((set, get) => ({
   "items": {},
@@ -23,8 +24,7 @@ const useProfessorships = create((set, get) => ({
         };
     }
 
-    const promise = fetch("/data/professorships.json")
-      .then((res) => res.json())
+    const promise = fetchJSON("/data/professorships.json")
       .then((professorships) => {
         set({
           "items": professorships,

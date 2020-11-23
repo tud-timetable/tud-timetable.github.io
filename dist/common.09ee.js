@@ -136,6 +136,24 @@ function ModuleSelect(_ref) {
 
 /***/ }),
 
+/***/ "./src/hooks/helpers.js":
+/*!******************************!*\
+  !*** ./src/hooks/helpers.js ***!
+  \******************************/
+/*! exports provided: fetchJSON */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "fetchJSON", function() { return fetchJSON; });
+function fetchJSON(url) {
+  return fetch(url).then(function (res) {
+    return res.json();
+  });
+}
+
+/***/ }),
+
 /***/ "./src/hooks/useDegreePrograms.js":
 /*!****************************************!*\
   !*** ./src/hooks/useDegreePrograms.js ***!
@@ -147,11 +165,13 @@ function ModuleSelect(_ref) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var zustand__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! zustand */ "./node_modules/zustand/index.js");
 /* harmony import */ var hooks_useModules__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooks/useModules */ "./src/hooks/useModules.js");
+/* harmony import */ var _helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./helpers */ "./src/hooks/helpers.js");
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 
@@ -181,13 +201,9 @@ var useDegreePrograms = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(
           };
       }
 
-      var promise = fetch("/data/degree-programs/index.json").then(function (res) {
-        return res.json();
-      }).then(function (programs) {
+      var promise = Object(_helpers__WEBPACK_IMPORTED_MODULE_2__["fetchJSON"])("/data/degree-programs/index.json").then(function (programs) {
         return Promise.all(programs.map(function (program) {
-          return fetch("/data/degree-programs/".concat(program.file)).then(function (res) {
-            return res.json();
-          }).then(function (data) {
+          return Object(_helpers__WEBPACK_IMPORTED_MODULE_2__["fetchJSON"])("/data/degree-programs/".concat(program.file)).then(function (data) {
             return {
               "id": program.id,
               "data": _objectSpread(_objectSpread({}, data), {}, {
@@ -268,4 +284,4 @@ var useModules = Object(zustand__WEBPACK_IMPORTED_MODULE_0__["default"])(functio
 /***/ })
 
 }]);
-//# sourceMappingURL=common.de81.js.map
+//# sourceMappingURL=common.09ee.js.map

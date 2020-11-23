@@ -1,5 +1,9 @@
 import {
+  Suspense
+} from "react";
+import {
   Route,
+  Switch,
   useHistory,
   useParams
 } from "react-router-dom";
@@ -92,12 +96,16 @@ function ModuleOverviewPage() {
       ]}>
         <ModuleFilter />
       </Route>
-      <Route path="/:degreeProgramId" exact>
-        <ModuleDependencies />
-      </Route>
-      <Route path="/:degreeProgramId/:moduleId">
-        <ModuleDescriptionPage />
-      </Route>
+      <Suspense fallback={<p>Seite wird geladen ...</p>}>
+        <Switch>
+          <Route path="/:degreeProgramId" exact>
+            <ModuleDependencies />
+          </Route>
+          <Route path="/:degreeProgramId/:moduleId">
+            <ModuleDescriptionPage />
+          </Route>
+        </Switch>
+      </Suspense>
     </Layout>
   );
 }

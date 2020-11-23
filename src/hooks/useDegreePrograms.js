@@ -1,5 +1,6 @@
 import create from "zustand";
 import useModules from "hooks/useModules";
+import { fetchJSON } from "./helpers";
 
 const useDegreePrograms = create((set, get) => ({
   "items": {},
@@ -24,13 +25,11 @@ const useDegreePrograms = create((set, get) => ({
         };
     }
 
-    const promise = fetch("/data/degree-programs/index.json")
-      .then((res) => res.json())
+    const promise = fetchJSON("/data/degree-programs/index.json")
       .then((programs) => {
         return Promise.all(
           programs.map((program) => (
-            fetch(`/data/degree-programs/${program.file}`)
-              .then((res) => res.json())
+            fetchJSON(`/data/degree-programs/${program.file}`)
               .then((data) => ({
                 "id": program.id,
                 "data": {
