@@ -735,19 +735,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var components_Timetable__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! components/Timetable */ "./src/components/Timetable/index.js");
-/* harmony import */ var components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/DegreeProgrameSelect */ "./src/components/DegreeProgrameSelect.jsx");
-/* harmony import */ var components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/ModuleSelect */ "./src/components/ModuleSelect.jsx");
-/* harmony import */ var components_Modal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/Modal */ "./src/components/Modal/index.js");
-/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! md5 */ "./node_modules/md5/md5.js");
-/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json");
-var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json", 1);
-/* harmony import */ var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json");
-var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json", 1);
-/* harmony import */ var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json");
-var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json", 1);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
+/* harmony import */ var components_Timetable__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/Timetable */ "./src/components/Timetable/index.js");
+/* harmony import */ var components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/DegreeProgrameSelect */ "./src/components/DegreeProgrameSelect.jsx");
+/* harmony import */ var components_ModuleSelect__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! components/ModuleSelect */ "./src/components/ModuleSelect.jsx");
+/* harmony import */ var components_Modal__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! components/Modal */ "./src/components/Modal/index.js");
+/* harmony import */ var hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! hooks/useDegreePrograms */ "./src/hooks/useDegreePrograms.js");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! md5 */ "./node_modules/md5/md5.js");
+/* harmony import */ var md5__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(md5__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json");
+var _data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-10-22-ws20-gsw-courses.json */ "./data/courses/2020-10-22-ws20-gsw-courses.json", 1);
+/* harmony import */ var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json");
+var _data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-09-21-ws20-aedl-courses.json */ "./data/courses/2020-09-21-ws20-aedl-courses.json", 1);
+/* harmony import */ var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json");
+var _data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11___namespace = /*#__PURE__*/__webpack_require__.t(/*! ../../data/courses/2020-11-17-ws20-ndl-courses.json */ "./data/courses/2020-11-17-ws20-ndl-courses.json", 1);
 
 
 
@@ -789,7 +790,14 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
-var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_8__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_10__));
+
+var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11__));
+
+function useTimetableParams() {
+  return Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useRouteMatch"])({
+    "path": ["/timetable/:degreeProgramId/:moduleId", "/timetable/:degreeProgramId", "/timetable"]
+  }) || {};
+}
 
 function FormattedText(_ref) {
   var children = _ref.children;
@@ -829,12 +837,12 @@ function DateModal(_ref2) {
       title = _data$title$split2[0],
       subtitles = _data$title$split2.slice(1);
 
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(components_Modal__WEBPACK_IMPORTED_MODULE_6__["default"], {
     size: "lg",
     onClose: onClose,
-    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Header, {
+    children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_6__["default"].Header, {
       title: title
-    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_5__["default"].Body, {
+    }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Modal__WEBPACK_IMPORTED_MODULE_6__["default"].Body, {
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("dl", {
         children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("dt", {
           children: "Lehrkraft"
@@ -864,7 +872,7 @@ function DateModal(_ref2) {
 
 function toEvents(courses) {
   return courses.map(function (course) {
-    var courseId = md5__WEBPACK_IMPORTED_MODULE_7___default()(course.title + course.description);
+    var courseId = md5__WEBPACK_IMPORTED_MODULE_8___default()(course.title + course.description);
     return course.dates.items.map(function (item) {
       return _objectSpread(_objectSpread(_objectSpread({}, item), course), {}, {
         courseId: courseId
@@ -874,6 +882,12 @@ function toEvents(courses) {
 }
 
 function TimetablePage() {
+  var _useTimetableParams = useTimetableParams(),
+      _useTimetableParams$d = _useTimetableParams.degreeProgramId,
+      degreeProgramId = _useTimetableParams$d === void 0 ? null : _useTimetableParams$d,
+      _useTimetableParams$m = _useTimetableParams.moduleId,
+      moduleId = _useTimetableParams$m === void 0 ? null : _useTimetableParams$m;
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
       selectedEvent = _useState2[0],
@@ -884,29 +898,22 @@ function TimetablePage() {
       hoveredEvent = _useState4[0],
       setHoveredEvent = _useState4[1];
 
-  var _useState5 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
-      _useState6 = _slicedToArray(_useState5, 2),
-      degreeProgrameId = _useState6[0],
-      setDegreeProgrameId = _useState6[1];
-
-  var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
-      _useState8 = _slicedToArray(_useState7, 2),
-      moduleId = _useState8[0],
-      setModuleId = _useState8[1];
-
-  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_6__["default"])().readAll(),
+  var _useDegreePrograms$re = Object(hooks_useDegreePrograms__WEBPACK_IMPORTED_MODULE_7__["default"])().readAll(),
       status = _useDegreePrograms$re.status,
       value = _useDegreePrograms$re.value;
 
   var modules = Object(react__WEBPACK_IMPORTED_MODULE_1__["useMemo"])(function () {
-    return value[degreeProgrameId] && value[degreeProgrameId].modules || [];
-  }, [degreeProgrameId]);
+    return value[degreeProgramId] && value[degreeProgramId].modules || [];
+  }, [degreeProgramId]);
   var events = toEvents(courses);
   var isReady = status === "resolved";
 
-  function onChangeDegreePrograme(nextDegreeProgrameId) {
-    setDegreeProgrameId(nextDegreeProgrameId);
-    setModuleId(null);
+  function selectDegreeProgram(nextDegreeProgramId) {
+    history.push("/timetable/".concat(nextDegreeProgramId));
+  }
+
+  function selectModule(nextModuleId) {
+    history.push("/timetable/".concat(degreeProgramId, "/").concat(nextModuleId));
   }
 
   function isActive(event) {
@@ -935,14 +942,14 @@ function TimetablePage() {
       className: "row",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])("div", {
         className: "col",
-        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_3__["default"], {
+        children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_DegreeProgrameSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {
           disabled: !isReady,
-          onChange: onChangeDegreePrograme,
-          currentItemId: degreeProgrameId,
+          onChange: selectDegreeProgram,
+          currentItemId: degreeProgramId,
           items: value
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          disabled: !isReady || !degreeProgrameId,
-          onChange: setModuleId,
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_5__["default"], {
+          disabled: !isReady || !degreeProgramId,
+          onChange: selectModule,
           currentItemId: moduleId,
           items: modules
         })]
@@ -951,9 +958,9 @@ function TimetablePage() {
       className: "row",
       children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
         className: "col",
-        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_3__["default"], {
           children: filteredEvents.map(function (event, index) {
-            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_2__["default"].Event, {
+            return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Timetable__WEBPACK_IMPORTED_MODULE_3__["default"].Event, {
               weekday: event.weekday,
               block_period: event.block_period,
               title: event.title,
@@ -986,4 +993,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.ed91.js.map
+//# sourceMappingURL=timetable.f5d7.js.map

@@ -3,6 +3,10 @@ import {
   useState,
   useMemo
 } from "react";
+import {
+  useRouteMatch,
+  useHistory
+} from "react-router-dom";
 import Timetable from "components/Timetable";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
 import ModuleSelect from "components/ModuleSelect";
@@ -19,6 +23,16 @@ const courses = [
   ...courses2,
   ...courses3,
 ];
+
+function useTimetableParams() {
+  return useRouteMatch({
+    "path": [
+      "/timetable/:degreeProgramId/:moduleId",
+      "/timetable/:degreeProgramId",
+      "/timetable",
+    ],
+  }) || {};
+}
 
 function FormattedText({ children }) {
   let lines = children
@@ -103,15 +117,18 @@ function toEvents( courses ) {
 }
 
 function TimetablePage() {
+  const {
+    degreeProgramId = null,
+    moduleId = null
+  } = useTimetableParams();
+
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
-  const [ degreeProgrameId, setDegreeProgrameId ] = useState( null );
-  const [ moduleId, setModuleId ] = useState( null );
   const { status, value } = useDegreePrograms().readAll();
 
   const modules = useMemo(() => (
-    (value[ degreeProgrameId ] && value[ degreeProgrameId ].modules) || []
-  ), [ degreeProgrameId ]);
+    (value[ degreeProgramId ] && value[ degreeProgramId ].modules) || []
+  ), [ degreeProgramId ]);
 
   const events = toEvents( courses );
 
@@ -119,9 +136,16 @@ function TimetablePage() {
     status === "resolved"
   );
 
-  function onChangeDegreePrograme( nextDegreeProgrameId ) {
-    setDegreeProgrameId( nextDegreeProgrameId );
-    setModuleId( null );
+  function selectDegreeProgram( nextDegreeProgramId ) {
+    history.push(
+      `/timetable/${ nextDegreeProgramId }`
+    );
+  }
+
+  function selectModule( nextModuleId ) {
+    history.push(
+      `/timetable/${ degreeProgramId }/${ nextModuleId }`
+    );
   }
 
   function isActive( event ) {
@@ -152,13 +176,13 @@ function TimetablePage() {
         <div className="col">
           <DegreeProgrameSelect
             disabled={ !isReady }
-            onChange={ onChangeDegreePrograme }
-            currentItemId={ degreeProgrameId }
+            onChange={ selectDegreeProgram }
+            currentItemId={ degreeProgramId }
             items={ value }
           />
           <ModuleSelect
-            disabled={ !isReady || !degreeProgrameId }
-            onChange={ setModuleId }
+            disabled={ !isReady || !degreeProgramId }
+            onChange={ selectModule }
             currentItemId={ moduleId }
             items={ modules }
           />
