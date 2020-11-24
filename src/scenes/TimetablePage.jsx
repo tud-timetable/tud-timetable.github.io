@@ -5,7 +5,8 @@ import {
 } from "react";
 import {
   useRouteMatch,
-  useHistory
+  useHistory,
+  useLocation
 } from "react-router-dom";
 import Timetable from "components/Timetable";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
@@ -118,6 +119,7 @@ function toEvents( courses ) {
 
 function TimetablePage() {
   const history = useHistory();
+  console.log({ location: useLocation() });
   const {
     degreeProgramId = null,
     moduleId = null

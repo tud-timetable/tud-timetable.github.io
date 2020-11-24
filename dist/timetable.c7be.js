@@ -883,6 +883,9 @@ function toEvents(courses) {
 
 function TimetablePage() {
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
+  console.log({
+    location: Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useLocation"])()
+  });
 
   var _useTimetableParams = useTimetableParams(),
       _useTimetableParams$d = _useTimetableParams.degreeProgramId,
@@ -1000,4 +1003,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.c510.js.map
+//# sourceMappingURL=timetable.c7be.js.map
