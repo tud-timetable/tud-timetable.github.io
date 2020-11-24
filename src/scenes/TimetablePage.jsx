@@ -29,13 +29,19 @@ const courses = [
 ];
 
 function useTimetableParams() {
-  return useRouteMatch({
+  const match = useRouteMatch({
     "path": [
       "/timetable/:degreeProgramId/:moduleId",
       "/timetable/:degreeProgramId",
       "/timetable",
     ],
-  }) || {};
+  });
+
+  if ( match ) {
+    return match.params;
+  }
+
+  return {};
 }
 
 function FormattedText({ children }) {

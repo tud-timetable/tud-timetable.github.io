@@ -795,9 +795,15 @@ window.matchPath = react_router_dom__WEBPACK_IMPORTED_MODULE_2__["matchPath"];
 var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11__));
 
 function useTimetableParams() {
-  return Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useRouteMatch"])({
+  var match = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useRouteMatch"])({
     "path": ["/timetable/:degreeProgramId/:moduleId", "/timetable/:degreeProgramId", "/timetable"]
-  }) || {};
+  });
+
+  if (match) {
+    return match.params;
+  }
+
+  return {};
 }
 
 function FormattedText(_ref) {
@@ -1004,4 +1010,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.9a6a.js.map
+//# sourceMappingURL=timetable.6fa2.js.map
