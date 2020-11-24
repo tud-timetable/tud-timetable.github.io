@@ -4,6 +4,7 @@ import {
   useMemo
 } from "react";
 import {
+  matchPath,
   useRouteMatch,
   useHistory,
   useLocation
@@ -18,6 +19,8 @@ import md5 from "md5";
 import courses1 from "../../data/courses/2020-10-22-ws20-gsw-courses.json";
 import courses2 from "../../data/courses/2020-09-21-ws20-aedl-courses.json";
 import courses3 from "../../data/courses/2020-11-17-ws20-ndl-courses.json";
+
+window.matchPath = matchPath;
 
 const courses = [
   ...courses1,

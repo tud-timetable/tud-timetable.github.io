@@ -791,6 +791,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
+window.matchPath = react_router_dom__WEBPACK_IMPORTED_MODULE_2__["matchPath"];
 var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11__));
 
 function useTimetableParams() {
@@ -1003,4 +1004,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.c7be.js.map
+//# sourceMappingURL=timetable.9a6a.js.map
