@@ -1,4 +1,8 @@
 import {
+  Fragment
+} from "react";
+import {
+  Link,
   useParams
 } from "react-router-dom";
 import ModuleDescription from "components/ModuleDescription";
@@ -25,12 +29,21 @@ function ModuleDescriptionPage() {
   }
 
   return (
-    <ModuleDescription
-      data={
-        findModule( moduleId )
-      }
-      degreeProgramId={ degreeProgramId }
-    />
+    <Fragment>
+      <div className="row">
+        <div className="col">
+          <Link to={`/timetable/${degreeProgramId}/${moduleId}`}>
+          Aktuelle Veranstaltungen für dieses Modul
+          </Link>
+        </div>
+      </div>
+      <ModuleDescription
+        data={
+          findModule( moduleId )
+        }
+        degreeProgramId={ degreeProgramId }
+      />
+    </Fragment>
   );
 }
 
