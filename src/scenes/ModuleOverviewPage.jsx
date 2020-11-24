@@ -4,6 +4,7 @@ import {
 import {
   Route,
   Switch,
+  Link,
   useHistory,
   useParams
 } from "react-router-dom";
@@ -102,6 +103,13 @@ function ModuleOverviewPage() {
             <ModuleDependencies />
           </Route>
           <Route path="/:degreeProgramId/:moduleId">
+            <div className="row">
+              <div className="col">
+                <Link to={`/timetable/${degreeProgramId}/${moduleId}`}>
+                Aktuelle Veranstaltungen für dieses Modul
+                </Link>
+              </div>
+            </div>
             <ModuleDescriptionPage />
           </Route>
         </Switch>

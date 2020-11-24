@@ -4,10 +4,8 @@ import {
   useMemo
 } from "react";
 import {
-  matchPath,
   useRouteMatch,
-  useHistory,
-  useLocation
+  useHistory
 } from "react-router-dom";
 import Timetable from "components/Timetable";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
@@ -19,8 +17,6 @@ import md5 from "md5";
 import courses1 from "../../data/courses/2020-10-22-ws20-gsw-courses.json";
 import courses2 from "../../data/courses/2020-09-21-ws20-aedl-courses.json";
 import courses3 from "../../data/courses/2020-11-17-ws20-ndl-courses.json";
-
-window.matchPath = matchPath;
 
 const courses = [
   ...courses1,
@@ -128,13 +124,10 @@ function toEvents( courses ) {
 
 function TimetablePage() {
   const history = useHistory();
-  console.log({ location: useLocation() });
   const {
     degreeProgramId = null,
     moduleId = null
   } = useTimetableParams();
-
-  console.log({ degreeProgramId, moduleId });
 
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );

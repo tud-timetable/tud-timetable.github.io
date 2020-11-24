@@ -1495,9 +1495,18 @@ function ModuleOverviewPage() {
           path: "/:degreeProgramId",
           exact: true,
           children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleDependencies, {})
-        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+        }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsxs"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
           path: "/:degreeProgramId/:moduleId",
-          children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_8__["default"], {})
+          children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+            className: "row",
+            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("div", {
+              className: "col",
+              children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+                to: "/timetable/".concat(degreeProgramId, "/").concat(moduleId),
+                children: "Aktuelle Veranstaltungen f\xFCr dieses Modul"
+              })
+            })
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(scenes_ModuleDescriptionPage__WEBPACK_IMPORTED_MODULE_8__["default"], {})]
         })]
       })
     })]
@@ -1509,4 +1518,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.cd0e.js.map
+//# sourceMappingURL=modules.ea83.js.map

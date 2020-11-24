@@ -1,5 +1,4 @@
 import { memo } from "react";
-
 import Applicability from "./ModuleDescription/Applicability";
 import ContentsAndQualificationTargets from "./ModuleDescription/ContentsAndQualificationTargets";
 import Contents from "./ModuleDescription/Contents";

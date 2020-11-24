@@ -791,7 +791,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
-window.matchPath = react_router_dom__WEBPACK_IMPORTED_MODULE_2__["matchPath"];
 var courses = [].concat(_toConsumableArray(_data_courses_2020_10_22_ws20_gsw_courses_json__WEBPACK_IMPORTED_MODULE_9__), _toConsumableArray(_data_courses_2020_09_21_ws20_aedl_courses_json__WEBPACK_IMPORTED_MODULE_10__), _toConsumableArray(_data_courses_2020_11_17_ws20_ndl_courses_json__WEBPACK_IMPORTED_MODULE_11__));
 
 function useTimetableParams() {
@@ -890,20 +889,12 @@ function toEvents(courses) {
 
 function TimetablePage() {
   var history = Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useHistory"])();
-  console.log({
-    location: Object(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["useLocation"])()
-  });
 
   var _useTimetableParams = useTimetableParams(),
       _useTimetableParams$d = _useTimetableParams.degreeProgramId,
       degreeProgramId = _useTimetableParams$d === void 0 ? null : _useTimetableParams$d,
       _useTimetableParams$m = _useTimetableParams.moduleId,
       moduleId = _useTimetableParams$m === void 0 ? null : _useTimetableParams$m;
-
-  console.log({
-    degreeProgramId: degreeProgramId,
-    moduleId: moduleId
-  });
 
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
@@ -1010,4 +1001,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.6fa2.js.map
+//# sourceMappingURL=timetable.f68a.js.map
