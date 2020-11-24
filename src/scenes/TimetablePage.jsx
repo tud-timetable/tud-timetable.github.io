@@ -117,6 +117,7 @@ function toEvents( courses ) {
 }
 
 function TimetablePage() {
+  const history = useHistory();
   const {
     degreeProgramId = null,
     moduleId = null
