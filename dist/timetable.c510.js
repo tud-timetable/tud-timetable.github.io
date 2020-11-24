@@ -890,6 +890,11 @@ function TimetablePage() {
       _useTimetableParams$m = _useTimetableParams.moduleId,
       moduleId = _useTimetableParams$m === void 0 ? null : _useTimetableParams$m;
 
+  console.log({
+    degreeProgramId: degreeProgramId,
+    moduleId: moduleId
+  });
+
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])(null),
       _useState2 = _slicedToArray(_useState, 2),
       selectedEvent = _useState2[0],
@@ -995,4 +1000,4 @@ function TimetablePage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=timetable.c3dd.js.map
+//# sourceMappingURL=timetable.c510.js.map

@@ -123,6 +123,8 @@ function TimetablePage() {
     moduleId = null
   } = useTimetableParams();
 
+  console.log({ degreeProgramId, moduleId });
+
   const [ selectedEvent, setSelectedEvent ] = useState( null );
   const [ hoveredEvent, setHoveredEvent ] = useState( null );
   const { status, value } = useDegreePrograms().readAll();
