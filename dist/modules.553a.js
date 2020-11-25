@@ -1453,7 +1453,7 @@ function ModuleFilter() {
       }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ModuleSelect__WEBPACK_IMPORTED_MODULE_6__["default"], {
         disabled: !isReady || !degreeProgramId,
         onChange: selectModule,
-        currentItemId: moduleId || "all",
+        currentItemId: moduleId,
         includeAllOption: false,
         items: value[degreeProgramId] && value[degreeProgramId].modules
       })]
@@ -1524,4 +1524,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.a037.js.map
+//# sourceMappingURL=modules.553a.js.map

@@ -1,11 +1,13 @@
 import {
   Suspense,
-  lazy
+  lazy,
+  useRef
 } from "react";
 import {
   Route,
   Switch
 } from "react-router-dom";
+import ErrorBoundary from "components/ErrorBoundary";
 import Layout from "components/Layout";
 const ModuleOverviewPage = lazy(() => import(
   /* webpackChunkName: "modules" */
@@ -17,18 +19,24 @@ const TimetablePage = lazy(() => import(
 ));
 
 function App() {
+  const error = useRef();
+
+  console.log({error});
+
   return (
     <Layout>
-      <Suspense fallback={<p>Seite wird geladen ...</p>}>
-        <Switch>
-          <Route path="/timetable">
-            <TimetablePage />
-          </Route>
-          <Route path="">
-            <ModuleOverviewPage />
-          </Route>
-        </Switch>
-      </Suspense>
+      <ErrorBoundary ref={error} fallback={<p>Es ist ein Fehler aufgetreten</p>}>
+        <Suspense fallback={<p>Seite wird geladen ...</p>}>
+          <Switch>
+            <Route path="/timetable">
+              <TimetablePage />
+            </Route>
+            <Route path="">
+              <ModuleOverviewPage />
+            </Route>
+          </Switch>
+        </Suspense>
+      </ErrorBoundary>
     </Layout>
   );
 }
