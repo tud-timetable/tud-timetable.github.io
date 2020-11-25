@@ -3,7 +3,10 @@ import {
   useEffect,
   forwardRef
 } from "react";
-import { Network } from "vis-network/peer";
+const { Network } = import(
+  /* webpackChunkName: "vis-network" */
+  "vis-network/peer"
+);
 
 const VisNetwork = forwardRef(function VisNetwork({
   children = null,

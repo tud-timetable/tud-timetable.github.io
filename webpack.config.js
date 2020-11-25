@@ -54,7 +54,7 @@ module.exports = {
           "name": "vendor",
           "chunks": "all",
           "priority": 20,
-          "test": /[\\/]node_modules[\\/]/,
+          "test": /[\\/]node_modules[\\/](?!vis-)/,
         },
         "common": {
           "name": "common",
@@ -63,6 +63,13 @@ module.exports = {
           "minChunks": 2,
           "reuseExistingChunk": true,
           "enforce": true,
+        },
+        "vis": {
+          "name": "vis",
+          "chunks": "all",
+          "priority": 20,
+          "enforce": true,
+          "test": /[\\/]node_modules[\\/]vis-/,
         },
       },
     },

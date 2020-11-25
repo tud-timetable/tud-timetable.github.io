@@ -6,7 +6,10 @@ import {
 import {
   useHistory
 } from "react-router-dom";
-import { DataSet } from "vis-data/peer";
+const { DataSet } = import(
+  /* webpackChunkName: "vis-data" */
+  "vis-data/peer"
+);
 import VisNetwork from "components/VisNetwork";
 
 function toNodes(modules) {
