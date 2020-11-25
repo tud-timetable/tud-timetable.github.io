@@ -1,7 +1,6 @@
 import {
   Suspense,
-  lazy,
-  useRef
+  lazy
 } from "react";
 import {
   Route,
@@ -19,13 +18,9 @@ const TimetablePage = lazy(() => import(
 ));
 
 function App() {
-  const error = useRef();
-
-  console.log({error});
-
   return (
     <Layout>
-      <ErrorBoundary ref={error} fallback={<p>Es ist ein Fehler aufgetreten</p>}>
+      <ErrorBoundary fallback={<p>Es ist ein Fehler aufgetreten</p>}>
         <Suspense fallback={<p>Seite wird geladen ...</p>}>
           <Switch>
             <Route path="/timetable">

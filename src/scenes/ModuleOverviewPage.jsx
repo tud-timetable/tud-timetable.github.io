@@ -1,5 +1,6 @@
 import {
-  Suspense
+  Suspense,
+  Fragment
 } from "react";
 import {
   Route,
@@ -7,7 +8,6 @@ import {
   useHistory,
   useParams
 } from "react-router-dom";
-import Layout from "components/Layout";
 import ModuleDependencyGraph from "components/ModuleDependencyGraph";
 import DegreeProgrameSelect from "components/DegreeProgrameSelect";
 import ModuleSelect from "components/ModuleSelect";
@@ -47,7 +47,7 @@ function ModuleFilter() {
         <ModuleSelect
           disabled={ !isReady || !degreeProgramId }
           onChange={ selectModule }
-          currentItemId={ moduleId || "all" }
+          currentItemId={ moduleId  }
           includeAllOption={ false }
           items={ value[ degreeProgramId ] && value[ degreeProgramId ].modules }
         />
@@ -83,7 +83,7 @@ function ModuleOverviewPage() {
   }
 
   return (
-    <Layout>
+    <Fragment>
       <div className="row">
         <div className="col">
           <h1>Modulübersicht</h1>
@@ -106,7 +106,7 @@ function ModuleOverviewPage() {
           </Route>
         </Switch>
       </Suspense>
-    </Layout>
+    </Fragment>
   );
 }
 

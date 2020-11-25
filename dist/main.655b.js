@@ -30,13 +30,8 @@ var TimetablePage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["lazy
 });
 
 function App() {
-  var error = Object(react__WEBPACK_IMPORTED_MODULE_1__["useRef"])();
-  console.log({
-    error: error
-  });
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
     children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_ErrorBoundary__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      ref: error,
       fallback: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])("p", {
         children: "Es ist ein Fehler aufgetreten"
       }),
@@ -223,4 +218,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/Object(rea
 /***/ })
 
 },[["./src/index.js","manifest","vendor"]]]);
-//# sourceMappingURL=main.6dbc.js.map
+//# sourceMappingURL=main.655b.js.map
