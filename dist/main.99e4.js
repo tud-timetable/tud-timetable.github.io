@@ -23,7 +23,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ModuleOverviewPage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["lazy"])(function () {
-  return Promise.all(/*! import() | modules */[__webpack_require__.e("vendor"), __webpack_require__.e("common"), __webpack_require__.e("modules")]).then(__webpack_require__.bind(null, /*! scenes/ModuleOverviewPage */ "./src/scenes/ModuleOverviewPage.jsx"));
+  return Promise.all(/*! import() | modules */[__webpack_require__.e("vendor"), __webpack_require__.e("vis"), __webpack_require__.e("common"), __webpack_require__.e("modules")]).then(__webpack_require__.bind(null, /*! scenes/ModuleOverviewPage */ "./src/scenes/ModuleOverviewPage.jsx"));
 });
 var TimetablePage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["lazy"])(function () {
   return Promise.all(/*! import() | timetable */[__webpack_require__.e("vendor"), __webpack_require__.e("common"), __webpack_require__.e("timetable")]).then(__webpack_require__.bind(null, /*! scenes/TimetablePage */ "./src/scenes/TimetablePage.jsx"));
@@ -218,4 +218,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/Object(rea
 /***/ })
 
 },[["./src/index.js","manifest","vendor"]]]);
-//# sourceMappingURL=main.655b.js.map
+//# sourceMappingURL=main.99e4.js.map

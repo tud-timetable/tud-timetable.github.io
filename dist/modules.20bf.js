@@ -191,7 +191,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/esm/react-router-dom.js");
-/* harmony import */ var components_VisNetwork__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! components/VisNetwork */ "./src/components/VisNetwork.jsx");
+/* harmony import */ var vis_data_peer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vis-data/peer */ "./node_modules/vis-data/peer/index.js");
+/* harmony import */ var components_VisNetwork__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! components/VisNetwork */ "./src/components/VisNetwork.jsx");
 
 
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
@@ -209,13 +210,10 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 
 
 
-var _import = __webpack_require__.e(/*! import() | vis-data */ "vis").then(__webpack_require__.bind(null, /*! vis-data/peer */ "./node_modules/vis-data/peer/index.js")),
-    DataSet = _import.DataSet;
-
 
 
 function toNodes(modules) {
-  return new DataSet(modules.map(function (m) {
+  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_3__["DataSet"](modules.map(function (m) {
     return {
       "id": m.module_numbers[0],
       "label": m.module_name,
@@ -236,7 +234,7 @@ function toEdges(modules) {
     return [].concat(_toConsumableArray(accu), _toConsumableArray(newEdges));
   }, []);
   edges = withoutRedundantEdges(edges);
-  return new DataSet(edges);
+  return new vis_data_peer__WEBPACK_IMPORTED_MODULE_3__["DataSet"](edges);
 } // @todo add support for relations with a distance
 // greater than 2
 
@@ -322,7 +320,7 @@ function ModuleDependencyGraph(_ref) {
       edges: edges
     };
   }, [modules]);
-  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_VisNetwork__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_VisNetwork__WEBPACK_IMPORTED_MODULE_4__["default"], {
     data: data,
     options: options,
     ref: network
@@ -1203,11 +1201,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vis_network_peer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vis-network/peer */ "./node_modules/vis-network/peer/index.js");
 
 
-
-var _import = __webpack_require__.e(/*! import() | vis-network */ "vis").then(__webpack_require__.bind(null, /*! vis-network/peer */ "./node_modules/vis-network/peer/index.js")),
-    Network = _import.Network;
 
 var VisNetwork = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["forwardRef"])(function VisNetwork(_ref, ref) {
   var _ref$children = _ref.children,
@@ -1237,7 +1233,7 @@ var VisNetwork = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["forward
       return;
     }
 
-    network.current = new Network(container.current, data, options);
+    network.current = new vis_network_peer__WEBPACK_IMPORTED_MODULE_2__["Network"](container.current, data, options);
     ref.current = network.current;
     return function () {
       if (!network.current) {
@@ -1526,4 +1522,4 @@ function ModuleOverviewPage() {
 /***/ })
 
 }]);
-//# sourceMappingURL=modules.fd03.js.map
+//# sourceMappingURL=modules.20bf.js.map
