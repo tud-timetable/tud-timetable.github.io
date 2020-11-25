@@ -28,6 +28,9 @@ var ModuleOverviewPage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__[
 var TimetablePage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["lazy"])(function () {
   return Promise.all(/*! import() | timetable */[__webpack_require__.e("vendor"), __webpack_require__.e("common"), __webpack_require__.e("timetable")]).then(__webpack_require__.bind(null, /*! scenes/TimetablePage */ "./src/scenes/TimetablePage.jsx"));
 });
+var AchievementsPage = /*#__PURE__*/Object(react__WEBPACK_IMPORTED_MODULE_1__["lazy"])(function () {
+  return __webpack_require__.e(/*! import() | achievements */ "achievements").then(__webpack_require__.bind(null, /*! scenes/AchievementsPage */ "./src/scenes/AchievementsPage.jsx"));
+});
 
 function App() {
   return /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(components_Layout__WEBPACK_IMPORTED_MODULE_4__["default"], {
@@ -43,6 +46,9 @@ function App() {
           children: [/*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
             path: "/timetable",
             children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(TimetablePage, {})
+          }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
+            path: "/achievements",
+            children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(AchievementsPage, {})
           }), /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Route"], {
             path: "",
             children: /*#__PURE__*/Object(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__["jsx"])(ModuleOverviewPage, {})
@@ -218,4 +224,4 @@ react_dom__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/Object(rea
 /***/ })
 
 },[["./src/index.js","manifest","vendor"]]]);
-//# sourceMappingURL=main.99e4.js.map
+//# sourceMappingURL=main.6b87.js.map

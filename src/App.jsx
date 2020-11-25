@@ -16,6 +16,10 @@ const TimetablePage = lazy(() => import(
   /* webpackChunkName: "timetable" */
   "scenes/TimetablePage"
 ));
+const AchievementsPage = lazy(() => import(
+  /* webpackChunkName: "achievements" */
+  "scenes/AchievementsPage"
+));
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
           <Switch>
             <Route path="/timetable">
               <TimetablePage />
+            </Route>
+            <Route path="/achievements">
+              <AchievementsPage />
             </Route>
             <Route path="">
               <ModuleOverviewPage />
